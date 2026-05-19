@@ -13,10 +13,38 @@ Cada sesión tiene un **menú de prompts por formato**. Antes de cada clase, Ana
 
 ---
 
+## ⭐ ESTRUCTURA OBLIGATORIA DEL DECK (léeme primero)
+
+Sí: **el formato y la estructura de las diapositivas se controlan desde el prompt**, no desde el script. Si pides explícitamente la agenda, las señales de ejercicio y el cierre, NotebookLM las genera. El script Python (`process_decks.py`) **solo** añade después el logo de AllWomen y las notas del formador — el contenido y el orden de las slides ya vienen del prompt.
+
+**Pega este bloque al final de CUALQUIER prompt de deck** (o usa el prompt estándar de abajo, que ya lo incluye):
+
+> Estructura obligatoria del deck, en este orden exacto:
+> 1. **PORTADA** — título de la sesión, "Día X de 17", módulo y nombre del curso.
+> 2. **AGENDA DEL DÍA** — una diapositiva con los bloques de la sesión y su duración: Apertura (15 min), Teórico-demostrativo (75 min), Descanso (15 min), Práctica guiada (95 min), Puesta en común (40 min). Junto a cada bloque, en una línea, los temas o actividades que se verán.
+> 3. **SLIDES DE CONTENIDO** — máximo 5 puntos cortos por slide, cada una con un elemento visual (diagrama, dato, comparativa o iconos).
+> 4. **SEÑAL DE EJERCICIO** — justo antes de cada actividad práctica de la sesión, inserta una diapositiva de transición con fondo distinto y el título "🛠 AHORA: PRÁCTICA". Debe indicar: el nombre de la actividad, su código de ejercicio (formato EJ-DXX-N si aparece en el documento), la modalidad (Individual / En parejas / En grupo), la duración en minutos y el objetivo en una sola frase. Esta diapositiva sirve a la formadora para saber con claridad cuándo parar la teoría y empezar la práctica.
+> 5. **CIERRE** — una diapositiva de recap titulada "Lo que hicimos hoy" con 3-4 puntos de lo trabajado en la sesión, seguida de "Mañana" con 2-3 puntos de lo que se verá en la sesión siguiente. (En D17, en lugar de "Mañana", usa "Tu plan de 30 días" y el cierre del curso.)
+>
+> Tono: directo, accesible, sin tecnicismos. Público: personal administrativo sin experiencia previa en IA.
+
+---
+
 ## Prompts reutilizables por formato
 
-### Deck / presentación
-> Genera una presentación visualmente rica sobre [TEMA DEL DÍA]. Usa títulos provocadores y narrativos. Cada slide incluye un elemento visual (diagrama, estadística, comparativa o iconos). Slide de portada + slides de contenido (máx. 5 puntos) + slide de cierre con misión para la próxima sesión. Tono accesible, sin tecnicismos. Público: personal administrativo sin experiencia en IA.
+### Deck / presentación (PROMPT ESTÁNDAR — usa este para cualquier sesión)
+> Genera una presentación visualmente rica sobre **[TEMA DEL DÍA]**. Usa títulos provocadores y narrativos, no descriptivos. Cada slide incluye un elemento visual (diagrama, estadística, comparativa o iconos).
+>
+> Estructura obligatoria del deck, en este orden exacto:
+> 1. **PORTADA** — título de la sesión, "Día X de 17", módulo y nombre del curso.
+> 2. **AGENDA DEL DÍA** — una diapositiva con los bloques de la sesión y su duración: Apertura (15 min), Teórico-demostrativo (75 min), Descanso (15 min), Práctica guiada (95 min), Puesta en común (40 min). Junto a cada bloque, los temas o actividades que se verán.
+> 3. **SLIDES DE CONTENIDO** — máximo 5 puntos cortos por slide, cada una con un elemento visual.
+> 4. **SEÑAL DE EJERCICIO** — justo antes de cada actividad práctica, una diapositiva de transición "🛠 AHORA: PRÁCTICA" que indique: nombre de la actividad, código (EJ-DXX-N si aparece en el documento), modalidad (Individual / En parejas / En grupo), duración en minutos y objetivo en una frase. Sirve a la formadora para saber cuándo parar la teoría y hacer la práctica.
+> 5. **CIERRE** — diapositiva "Lo que hicimos hoy" (3-4 puntos de recap) seguida de "Mañana" (2-3 puntos de la sesión siguiente).
+>
+> Tono: directo, accesible, sin tecnicismos. Público: personal administrativo sin experiencia previa en IA.
+
+*Las descripciones por sesión de más abajo son la línea **[TEMA DEL DÍA]** que se inserta en este prompt estándar; ya no hace falta repetir la estructura, basta con combinar el tema con el bloque de estructura.*
 
 ### Audio Overview / podcast
 > Genera un Audio Overview en español sobre los conceptos clave de esta sesión. Tono conversacional, con ejemplos concretos del entorno de oficina. Empieza con el problema que resuelve la sesión y termina con el mensaje más importante que debe recordar el oyente.
@@ -45,6 +73,8 @@ Cada sesión tiene un **menú de prompts por formato**. Antes de cada clase, Ana
 ---
 
 ## PROMPTS POR SESIÓN
+
+> **Cómo usar esta sección:** el prompt **Deck** de cada sesión es la versión rápida (tema concreto). Para obtener la **agenda del día**, las **señales de ejercicio** y el **cierre con recap + mañana**, añade el bloque ⭐ ESTRUCTURA OBLIGATORIA DEL DECK (arriba) al final del prompt Deck, o usa directamente el PROMPT ESTÁNDAR sustituyendo `[TEMA DEL DÍA]` por el tema de la sesión. Los demás formatos (podcast, cuestionario, etc.) se usan tal cual.
 
 ---
 

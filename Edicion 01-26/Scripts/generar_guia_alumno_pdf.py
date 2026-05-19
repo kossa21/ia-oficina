@@ -54,17 +54,19 @@ HTML_CONTENT = f"""<!DOCTYPE html>
   ══════════════════════════════════════ */
   .page {{
     width: 210mm;
-    min-height: 297mm;
     padding: 0;
     page-break-after: always;
     background: var(--white);
+  }}
+  .page:last-child {{
+    page-break-after: avoid;
   }}
 
   /* ── Cabecera / portada ── */
   .header {{
     background: var(--blue);
     color: white;
-    padding: 22pt 28pt 18pt;
+    padding: 16pt 26pt 14pt;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -79,7 +81,7 @@ HTML_CONTENT = f"""<!DOCTYPE html>
     margin-bottom: 6pt;
   }}
   .header h1 {{
-    font-size: 22pt;
+    font-size: 19pt;
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.5pt;
@@ -91,11 +93,15 @@ HTML_CONTENT = f"""<!DOCTYPE html>
     color: rgba(255,255,255,0.85);
   }}
   .header-logo {{
-    width: 54pt;
-    margin-left: 20pt;
+    width: 64pt;
+    margin-left: 18pt;
     flex-shrink: 0;
+    background: #FFFFFF;
+    border-radius: 9pt;
+    padding: 8pt 10pt;
+    box-shadow: 0 2pt 6pt rgba(0,0,0,0.15);
   }}
-  .header-logo img {{ width: 100%; }}
+  .header-logo img {{ width: 100%; display: block; }}
 
   /* ── Franja naranja ── */
   .stripe {{
@@ -106,7 +112,7 @@ HTML_CONTENT = f"""<!DOCTYPE html>
   /* ── Intro ── */
   .intro {{
     background: var(--cream);
-    padding: 12pt 28pt;
+    padding: 9pt 26pt;
     border-bottom: 1pt solid var(--cream2);
   }}
   .intro p {{
@@ -118,16 +124,16 @@ HTML_CONTENT = f"""<!DOCTYPE html>
 
   /* ── Paso 1: Cómo abrir ── */
   .section {{
-    padding: 14pt 28pt;
+    padding: 11pt 26pt;
   }}
   .section-title {{
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-weight: 800;
     color: var(--blue);
     text-transform: uppercase;
     letter-spacing: 0.8pt;
-    margin-bottom: 10pt;
-    padding-bottom: 5pt;
+    margin-bottom: 8pt;
+    padding-bottom: 4pt;
     border-bottom: 2pt solid var(--orange);
     display: inline-block;
   }}
@@ -143,22 +149,22 @@ HTML_CONTENT = f"""<!DOCTYPE html>
     min-width: 80pt;
     background: var(--light);
     border-radius: 6pt;
-    padding: 10pt 11pt;
+    padding: 8pt 10pt;
     position: relative;
     border: 1pt solid var(--cream2);
   }}
   .step-num {{
-    width: 20pt;
-    height: 20pt;
+    width: 18pt;
+    height: 18pt;
     background: var(--blue);
     color: white;
     border-radius: 50%;
-    font-size: 10pt;
+    font-size: 9pt;
     font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 6pt;
+    margin-bottom: 5pt;
   }}
   .step p {{
     font-size: 8.5pt;
@@ -171,12 +177,12 @@ HTML_CONTENT = f"""<!DOCTYPE html>
   .formats-grid {{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 9pt;
-    padding: 0 28pt 14pt;
+    gap: 7pt;
+    padding: 0 26pt 10pt;
   }}
   .format-card {{
     border-radius: 8pt;
-    padding: 10pt 12pt;
+    padding: 8pt 10pt;
     border: 1pt solid var(--cream2);
     background: var(--light);
     position: relative;
@@ -200,25 +206,25 @@ HTML_CONTENT = f"""<!DOCTYPE html>
   .fc-chat::before    {{ background: #EC4899; }}
 
   .format-icon {{
-    font-size: 18pt;
+    font-size: 15pt;
     line-height: 1;
-    margin-bottom: 5pt;
+    margin-bottom: 4pt;
     display: block;
   }}
   .format-name {{
-    font-size: 9.5pt;
+    font-size: 9pt;
     font-weight: 800;
     color: var(--dark);
     margin-bottom: 3pt;
   }}
   .format-desc {{
-    font-size: 8pt;
+    font-size: 7.5pt;
     color: var(--mid);
-    line-height: 1.4;
+    line-height: 1.35;
   }}
   .format-use {{
-    margin-top: 5pt;
-    font-size: 7.5pt;
+    margin-top: 4pt;
+    font-size: 7pt;
     color: var(--orange);
     font-weight: 700;
     font-style: italic;
@@ -621,14 +627,36 @@ HTML_CONTENT = f"""<!DOCTYPE html>
     </div>
   </div>
 
-  <div class="section-sep"></div>
+  <div class="footer">
+    <span>IA en la Oficina – Eficiencia y Productividad · Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital</span>
+    <strong>AllWomen · ananda@allwomen.tech</strong>
+  </div>
 
-  <!-- PREGUNTAS FRECUENTES RÁPIDAS -->
-  <div class="section" style="padding-bottom: 10pt;">
+</div>
+
+
+<!-- ════════════════════════════════════
+     PÁGINA 3
+════════════════════════════════════ -->
+<div class="page">
+
+  <!-- CABECERA PEQUEÑA -->
+  <div class="header" style="padding: 14pt 26pt;">
+    <div class="header-text">
+      <div class="header-tag">IA en la Oficina · Edición 01/26 · Guía del alumno</div>
+      <h1 style="font-size: 14pt;">Preguntas frecuentes</h1>
+    </div>
+    <div class="header-logo">
+      <img src="data:image/png;base64,{LOGO_B64}" alt="AllWomen">
+    </div>
+  </div>
+  <div class="stripe"></div>
+
+  <div class="section" style="padding-bottom: 8pt;">
     <div class="section-title">5 · Preguntas frecuentes</div>
   </div>
 
-  <div style="padding: 0 28pt 18pt; display: grid; grid-template-columns: 1fr 1fr; gap: 8pt;">
+  <div style="padding: 0 26pt 18pt; display: grid; grid-template-columns: 1fr 1fr; gap: 8pt;">
 
     <div style="background: var(--light); border-radius: 6pt; padding: 9pt 11pt; border: 1pt solid var(--cream2);">
       <div style="font-weight: 800; font-size: 8.5pt; color: var(--blue); margin-bottom: 4pt;">¿Necesito cuenta de pago?</div>
