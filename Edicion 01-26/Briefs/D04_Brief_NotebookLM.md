@@ -53,6 +53,11 @@ Los estudios sobre trabajo administrativo estiman que entre el 60 y el 70 % del 
 
 El criterio para decidir si vale la pena automatizar una tarea es sencillo: si la tarea tarda más de diez minutos y se repite al menos dos veces por semana, es candidata. Si además sigue siempre la misma estructura, pasa a ser prioritaria. La cuenta es fácil: una tarea de 20 minutos que se hace tres veces por semana supone una hora al día, cinco horas a la semana, y más de 50 horas al año. Si esa tarea se puede delegar a la IA en dos minutos dejando solo el tiempo de revisión y ajuste, el ahorro es enorme. Por otro lado, no toda tarea repetitiva merece automatizarse: si requiere un criterio personal genuino que cambia con cada caso, si tiene consecuencias graves en caso de error sin revisión, o si el tiempo de escribir el prompt supera el de hacerla directamente, entonces se hace a mano.
 
+> **Puntos clave:**
+> - Criterio de automatización: tarea >10 min + se repite ≥2 veces/semana + estructura fija = candidata prioritaria
+> - Cálculo rápido: 20 min × 3/semana = más de 50 horas anuales; con IA: 2 min de prompt + 3 de revisión
+> - No automatizar: si requiere criterio cambiante por caso, consecuencias graves sin revisión o es más rápido hacerlo a mano
+
 ### Generación en lote: cinco respuestas de un golpe
 
 La forma más habitual de usar la IA es pedir una cosa cada vez. Pero cuando se trata de tareas repetitivas, hay una técnica mucho más eficiente: pedir todas las variaciones de una vez. A esto se le llama generación en lote, y funciona igual que cuando en una panadería se decide hacer cien panes en vez de uno: el horno consume casi el mismo tiempo pero el resultado se multiplica.
@@ -65,6 +70,11 @@ El resultado es un banco de cinco respuestas que Marta puede guardar en un docum
 
 La generación en lote funciona igual para otros tipos de contenido: cinco versiones de un mismo correo para distintos destinatarios, diez asuntos de correo para elegir el mejor, cuatro formatos distintos del mismo informe, o tres variaciones de tono para una misma comunicación. La clave está en describir bien las variantes dentro del mismo prompt y dar todas las instrucciones de formato y restricciones de una sola vez.
 
+> **Puntos clave:**
+> - Un solo prompt puede generar 5 variaciones distintas en menos de 2 minutos
+> - Incluir todas las instrucciones de formato y restricciones en el mismo prompt es esencial
+> - Aplica a correos, asuntos, informes y variaciones de tono; no es solo para respuestas de clientes
+
 ### Gemini en Google Docs: las cinco funciones más útiles para tareas repetitivas
 
 Cuando se trabaja directamente en Google Docs, no hace falta salir al navegador para usar la IA. Gemini está integrado en Google Docs y permite trabajar dentro del propio documento sin copiar ni pegar. Esto cambia el flujo de trabajo de forma importante: en vez de ir de la herramienta al documento y volver, la asistencia ocurre donde ya se está trabajando. Para alguien como Marta, que tiene abiertos varios documentos a la vez, esto supone no perder el hilo entre pestaña y pestaña.
@@ -73,11 +83,57 @@ Las cinco funciones más útiles para tareas repetitivas son las siguientes. La 
 
 Es importante saber que la disponibilidad de Gemini dentro de Google Docs puede variar según la región y la versión de la cuenta. Si en el aula no estuviera disponible para algún alumno, el mismo flujo funciona perfectamente con ChatGPT o Claude usando la técnica del copiar y pegar: se copia el texto del documento, se pega en el chat con las instrucciones, y el resultado mejorado se vuelve a pegar en el documento. Es un paso más, pero el resultado es equivalente. Lo importante es no quedarse sin herramienta por dependencia de una sola opción.
 
+> **Puntos clave:**
+> - 5 funciones clave: redactar, reescribir, reformatear, completar y resumir, sin salir del documento
+> - Elimina el tiempo perdido entre pestaña y pestaña en flujos de trabajo intensivos
+> - Si Gemini no está disponible, ChatGPT o Claude con copiar/pegar dan el mismo resultado
+
 ### Guardar prompts favoritos: cuatro estrategias para no reescribir nunca lo que ya funciona
 
 Uno de los errores más frecuentes entre personas que empiezan a usar IA en su trabajo es escribir un prompt excelente, obtener un resultado muy bueno, y no guardarlo. Al día siguiente, cuando necesitan hacer lo mismo, tienen que volver a pensar cómo escribirlo y el resultado no es igual. Es como encontrar el punto exacto de sal en una receta y no anotarlo.
 
 Hay cuatro estrategias para evitar esto. La primera son las conversaciones guardadas en ChatGPT: cuando terminas una conversación que ha dado buenos resultados, puedes renombrarla con un nombre descriptivo como "Respuesta queja cliente" o "Convocatoria reunión mensual". Así las tienes organizadas y accesibles la próxima vez que las necesitas. La segunda es crear un Google Doc personal llamado "Mi biblioteca de prompts", organizado por categoría de tarea (correos, informes, resúmenes, convocatorias) y con una breve nota del contexto en que funciona mejor cada prompt. Este documento se convierte en la herramienta de trabajo diaria y puede compartirse con el equipo si se quiere. La tercera es guardar los prompts más usados como borradores en el correo electrónico: una carpeta de borradores con los tres o cuatro prompts más recurrentes, listos para copiar en cualquier momento desde el móvil o el ordenador sin tener que abrir otra aplicación. La cuarta son los Gemini Gems: los Gems son asistentes personalizados gratuitos dentro de Google Gemini que se configuran con instrucciones fijas. Se puede crear un Gem llamado "Atención al cliente distribución" que ya tenga incorporado el rol, el contexto de la empresa y las restricciones habituales, de modo que solo hay que escribir la tarea concreta sin repetir el marco cada vez. Los Gems son la alternativa gratuita a los GPTs personalizados de ChatGPT Plus, y funcionan con una cuenta de Gmail normal sin coste adicional. Si por alguna razón los Gems no estuvieran disponibles en la cuenta del alumno, el Google Doc de biblioteca de prompts cumple la misma función perfectamente.
+
+> **Puntos clave:**
+> - 4 estrategias: conversaciones guardadas (ChatGPT), Google Doc biblioteca, borradores de correo, Gemini Gems
+> - Los Gems son la alternativa gratuita a GPTs personalizados; funcionan con Gmail sin coste adicional
+> - Un prompt guardado hoy evita reescribirlo mañana; cada prompt guardado es tiempo recuperado
+
+### La revisión como paso no negociable
+
+Automatizar una tarea con IA no significa quitarse esa tarea de encima. Significa transformar el tiempo que se invertía en redactar en tiempo que se invierte en revisar. La revisión siempre existe; lo que cambia es su naturaleza: en vez de escribir desde cero, se lee lo que la herramienta ha generado, se ajusta lo que no encaja y se verifica que todos los campos variables están rellenados correctamente. Marta lo describía así: "Antes tardaba 10 minutos en escribir el correo. Ahora tardo 2 en revisarlo. Pero sigo leyendo cada correo antes de enviarlo, porque si hay un error es mío, no de la IA." Esa responsabilidad nunca desaparece. El modelo de confianza es siempre: la IA genera el borrador, la persona lo valida. Este paso de revisión es también el momento en que el criterio humano añade valor: si el tono no encaja con la situación concreta, si hay una variable que falta, si la respuesta es correcta pero no suficiente para ese caso particular.
+
+> **Puntos clave:**
+> - Automatizar no elimina la revisión; transforma redactar (10 min) en revisar (2 min)
+> - La responsabilidad del resultado es siempre del usuario; la IA genera borradores
+> - La revisión es el momento de añadir criterio propio: tono, contexto específico, ajustes
+
+### Adaptar el mismo mensaje a distintos destinatarios en un solo prompt
+
+Una variante especialmente útil de la generación en lote es pedir versiones del mismo mensaje para destinatarios o canales distintos. Esto va más allá de cambiar el nombre: implica adaptar el nivel de detalle, el tono y incluso la extensión según quién lee. Marta, por ejemplo, debe comunicar el mismo retraso en una entrega a tres personas distintas: al director general le bastará con tres líneas que mencionen el impacto y la solución; al gestor de logística le interesa el detalle operativo completo; y al cliente afectado le conviene un mensaje empático que priorice la disculpa. Las tres comunicaciones transmiten la misma información esencial pero cada una habla el idioma del destinatario. Con un único prompt bien construido, que describa los tres perfiles y pida el texto adaptado para cada uno, Marta obtiene los tres borradores en menos de dos minutos y solo tiene que rellenar los datos reales de cada caso.
+
+> **Puntos clave:**
+> - Un solo prompt puede generar versiones distintas para director, gestor operativo y cliente
+> - La adaptación no es solo de tono; incluye nivel de detalle, extensión y énfasis
+> - Describe cada perfil destinatario dentro del prompt para obtener resultados diferenciados
+
+### Construir el mapa personal de tareas automatizables
+
+Antes de empezar a automatizar, vale la pena dedicar 20 minutos a hacer un inventario. No un inventario de todas las tareas del puesto, sino solo de las que cumplen el criterio de automatización: más de 10 minutos, al menos dos veces por semana, estructura fija. Marta lo hizo al volver de la sesión anterior y encontró siete candidatas claras. Las ordenó por volumen de tiempo semanal y empezó por la que más tardaba. Este mapa es también el punto de partida del mini-entregable de hoy y del proyecto final: las mejores plantillas nacen de tareas reales y cuantificadas, no de ejemplos genéricos. Para construirlo, basta con una tabla de cuatro columnas: nombre de la tarea, tiempo promedio por ejecución, frecuencia semanal, total semanal estimado. Las filas con mayor tiempo total son las primeras candidatas. Las que además siguen siempre exactamente la misma estructura son las prioritarias.
+
+> **Puntos clave:**
+> - Tabla de 4 columnas: nombre de la tarea, tiempo/ejecución, frecuencia/semana, total/semana estimado
+> - Mayor tiempo total × estructura fija = candidata prioritaria para automatizar con IA
+> - El mapa se hace una vez y se revisa cada trimestre; es el punto de partida del proyecto final
+
+### Variables condicionales: plantillas que cubren más de una situación
+
+Una plantilla con corchetes simples cubre una situación fija con datos variables. Pero hay una variante más potente: la plantilla condicional, que con un pequeño cambio en el prompt de instrucción produce respuestas distintas según el estado del caso. Imagina que Marta tiene tres posibles estados para una incidencia: en curso, resuelta y escalada. En vez de tener tres plantillas separadas, puede tener una sola con una variable de estado que guía el tono y el contenido: si el estado es "en curso", el correo es informativo y promete seguimiento; si es "resuelta", es positivo y ofrece confirmación; si es "escalada", es más formal e incluye nombre del responsable nuevo. Para implementarlo no hace falta código: basta con añadir una instrucción al principio del prompt que diga "Si [ESTADO] es 'en curso', el tono es informativo; si es 'resuelta', el tono es positivo; si es 'escalada', el tono es formal y menciona [RESPONSABLE_NUEVO]". La IA procesa la condición y genera el texto adecuado cada vez.
+
+> **Puntos clave:**
+> - Una plantilla condicional cubre múltiples estados con un solo prompt bien estructurado
+> - La condición se describe en lenguaje natural dentro del prompt, sin necesidad de código
+> - Reduce el número de plantillas que hay que mantener actualizadas de tres a una sola
 
 ---
 
@@ -90,6 +146,7 @@ Hay cuatro estrategias para evitar esto. La primera son las conversaciones guard
 - Un banco de prompts guardados reduce el tiempo de configuración de cada tarea repetitiva a **menos del 10 %** del tiempo original.
 - **Gemini en Google Docs:** ahorra el tiempo de copiar/pegar entre herramientas, lo que en un flujo de trabajo intensivo puede suponer **15–20 minutos diarios**.
 - Tener una plantilla con [CORCHETES] para variables reduce los errores de personalización (olvidar cambiar el nombre del destinatario, la referencia, la fecha) a prácticamente cero.
+- Las **plantillas condicionales** (con instrucción "si estado X, tono Y") permiten cubrir 3 situaciones distintas con una sola plantilla, reduciendo el mantenimiento a la tercera parte.
 
 ---
 
@@ -134,6 +191,19 @@ Hay cuatro estrategias para evitar esto. La primera son las conversaciones guard
 
 ---
 
+### Caso 4: Adaptar el mismo comunicado a tres destinatarios distintos
+
+**Situación:** Marta necesita comunicar un retraso en la entrega de un pedido importante. Tiene que enviar tres mensajes: uno al director general, uno al responsable de logística y uno al cliente afectado. Cada perfil necesita información distinta y un tono diferente. Hacerlos uno a uno le llevaría 20–25 minutos.
+
+**Prompt exacto:**
+> "Actúa como responsable de comunicación en una empresa de distribución. Ha ocurrido un retraso de [DÍAS] días en la entrega del pedido [REFERENCIA] del cliente [CLIENTE]. La causa es [CAUSA]. La nueva fecha estimada es [NUEVA_FECHA]. Redacta tres mensajes distintos para: (1) Director general: máximo 5 líneas, enfoque en impacto y solución; (2) Responsable de logística: detalle operativo completo, acciones correctivas y seguimiento; (3) Cliente afectado: tono empático, disculpa genuina, nueva fecha confirmada, sin tecnicismos. No hagas promesas adicionales más allá de la fecha indicada."
+
+**Resultado comentado:** Los tres mensajes adaptan la misma información esencial al idioma de cada destinatario. El director ve el impacto y la solución. El logístico ve el detalle y las acciones. El cliente recibe la disculpa y la certeza de la fecha.
+
+**Cómo iterarlo:** Si el tono del mensaje al cliente resulta demasiado formal: "Reescribe el mensaje al cliente con un tono más cercano, como si lo enviara directamente la persona que gestiona su pedido, no el departamento corporativo." O para añadir un cuarto destinatario: "Añade un cuarto mensaje para el equipo interno de atención al cliente: instrucciones claras de qué responder si el cliente llama esta semana."
+
+---
+
 ## 9. GLOSARIO
 
 **Tarea repetitiva:** Tarea que sigue siempre la misma estructura con variaciones solo en los datos, y que por tanto es candidata a automatizarse con IA.
@@ -154,6 +224,12 @@ Hay cuatro estrategias para evitar esto. La primera son las conversaciones guard
 
 **Criterio de automatización:** Regla práctica para decidir si una tarea merece automatizarse: tarda más de 10 minutos y se repite al menos 2 veces por semana, y sigue una estructura fija.
 
+**Plantilla condicional:** Plantilla que incluye una instrucción del tipo "si [VARIABLE] es X, el tono es Y" para generar respuestas distintas según el estado del caso, con un único prompt en lugar de múltiples plantillas separadas.
+
+**Mapa de tareas automatizables:** Inventario personal de las tareas de un puesto que cumplen el criterio de automatización, organizado por tiempo total semanal estimado, que sirve de punto de partida para priorizar qué automatizar primero.
+
+**Anonimización de datos:** Proceso de sustituir datos reales identificables (nombres, DNI, importes, referencias) por variables genéricas (CLIENTE_A, IMPORTE_X) antes de usarlos en un prompt de IA, para proteger la privacidad de las personas.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -169,6 +245,8 @@ Hay cuatro estrategias para evitar esto. La primera son las conversaciones guard
 **Error 5 — No guardar los prompts que funcionan.** Escribir un prompt excelente y no guardarlo es uno de los errores más costosos. Cada prompt guardado es tiempo recuperado en el futuro. Aunque sea con una nota en el móvil, guarda siempre lo que ha dado buen resultado.
 
 **Buena práctica — Nombrar las conversaciones guardadas con claridad.** En ChatGPT, en vez de dejar el nombre automático, renombra cada conversación útil con el tipo de tarea: "Respuesta retraso entrega", "Convocatoria reunión coordinación", "Informe incidencias mensual". Localizar el prompt en segundos vale mucho cuando el tiempo aprieta.
+
+**Error 6 — Usar plantillas sin adaptarlas al contexto real.** Una plantilla generada en el aula con datos ficticios es un punto de partida, no un documento definitivo. Antes de usarla en el trabajo real hay que revisar que el tono encaja con la cultura de la empresa, que las restricciones reflejan las políticas internas y que el formato es el que se espera. Tratar la plantilla como si ya estuviera lista es uno de los errores que más confianza hace perder en la herramienta.
 
 **Buena práctica — Actualizar la biblioteca de prompts.** Los prompts evolucionan. Cuando encuentres una versión mejor de un prompt que ya tenías guardado, actualiza el Google Doc. Marca con fecha la última versión para saber cuál es la más reciente.
 
@@ -266,6 +344,27 @@ d) Solo con NotebookLM
 **11. ¿Qué diferencia hay entre redactar desde cero con Gemini en Google Docs y reescribir un texto existente?**
 *Respuesta abierta:* Redactar desde cero parte de una descripción en el panel de Gemini y genera el documento completo; reescribir parte de texto ya escrito que se selecciona y sobre el que Gemini aplica cambios de tono, extensión o formato indicados por el usuario.
 
+**12. ¿Qué es una plantilla condicional y en qué se diferencia de una plantilla con corchetes?**
+a) Una plantilla que detecta automáticamente los datos del destinatario
+b) Una plantilla que solo funciona con Gemini Gems
+c) Una plantilla con instrucciones del tipo "si el estado es X, el tono es Y", que genera respuestas distintas según el caso con un único prompt ✓
+d) Una plantilla que usa variables entre llaves {} en lugar de corchetes []
+
+**13. ¿Cuáles son las cuatro columnas del mapa personal de tareas automatizables?**
+a) Nombre, herramienta, dificultad y prioridad
+b) Nombre de la tarea, tiempo por ejecución, frecuencia semanal y total semanal estimado ✓
+c) Nombre, coste, beneficio y riesgo
+d) Nombre, tipo, canal y destinatario
+
+**14. Un mismo comunicado de retraso en una entrega se adapta para tres destinatarios distintos en un solo prompt. ¿Cuál de estas adaptaciones es correcta?**
+a) Director general: detalle operativo completo; cliente: 5 líneas con impacto; logístico: tono empático
+b) Director general: 5 líneas con impacto y solución; logístico: detalle operativo; cliente: disculpa empática y fecha ✓
+c) Los tres mensajes deben ser idénticos para no generar confusión
+d) Director general: el más largo; los otros dos: versión resumida del primero
+
+**15. Describe el flujo completo de Marta al usar una plantilla de respuesta tipo el lunes por la mañana.**
+*Respuesta abierta:* Marta abre su biblioteca de prompts, localiza el prompt correspondiente al tipo de incidencia, lo pega en la herramienta de IA con los datos del caso real (anonimizados si es necesario), revisa el resultado generado, rellena todos los [CORCHETES] con los datos reales del caso específico, verifica que no queda ningún campo sin rellenar y envía. El tiempo total es de 2–3 minutos frente a los 8–10 minutos originales.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -290,6 +389,15 @@ En las versiones gratuitas, cada conversación nueva empieza desde cero sin memo
 
 **¿Cuánto tiempo tarda en verse el ahorro real?**
 La mayoría de alumnos que han implementado sus primeras plantillas empiezan a notar el ahorro en la primera o segunda semana de uso. El mayor salto se produce cuando se completa el banco de 5–10 respuestas tipo para las incidencias más frecuentes: a partir de ese momento, responder a una consulta recurrente pasa de 8–10 minutos a 1–2 minutos de personalización y envío.
+
+**¿Puedo usar la generación en lote para mensajes en distintos idiomas?**
+Sí. El mismo principio de lote aplica a traducciones: describes el mensaje en español y pides también la versión en inglés, francés u otro idioma en el mismo prompt. La clave es indicar claramente las restricciones de tono y vocabulario para cada idioma. Si necesitas consistencia terminológica con documentos internos, incluye un glosario de términos clave en el prompt para que la IA los respete.
+
+**¿Las plantillas de un puesto sirven para otros puestos de la empresa?**
+Parcialmente. La estructura y la lógica de una plantilla (criterio de automatización, campos variables, instrucciones de tono) suele ser transferible. El contenido específico (terminología interna, nombres de departamentos, flujos de aprobación) hay que adaptarlo. Lo más eficiente es compartir la estructura del prompt y que cada persona complete el contexto propio de su puesto. Un Google Doc compartido con el equipo, donde cada uno aporta sus plantillas más útiles, crea rápidamente una biblioteca colectiva.
+
+**¿Qué hago si la IA genera un campo variable que no esperaba en el resultado?**
+Pídele que lo elimine en la iteración: "Elimina el campo [FIRMA_EMPRESA] de todas las respuestas; los alumnos añadirán la firma desde su cliente de correo." O mejor aún: anticipa en el prompt qué campos variables quieres exactamente, para no tener que corregir después. Especificar "usa solo los campos variables [NOMBRE_CLIENTE] y [REFERENCIA]" en el prompt evita que la IA introduzca campos que no necesitas.
 
 ---
 
@@ -338,6 +446,8 @@ Para tu proyecto final: lo de hoy te sirve para construir el banco de plantillas
 - Gemini en Google Docs trabaja dentro del documento, sin necesidad de copiar y pegar entre aplicaciones; si no está disponible, ChatGPT con copiar y pegar da el mismo resultado.
 - Un prompt guardado hoy es tiempo recuperado la semana que viene: la biblioteca de prompts es tan valiosa como la propia herramienta.
 - Nunca envíes una plantilla sin verificar que todos los [CORCHETES] han sido rellenados con los datos reales.
+- La revisión nunca desaparece: automatizar significa transformar 10 minutos redactando en 2 minutos revisando, con toda la responsabilidad puesta en esos 2 minutos.
+- Un mensaje para tres destinatarios distintos no es trabajo triple: un solo prompt bien construido genera el director, el técnico y el cliente en una sola consulta.
 
 ---
 
