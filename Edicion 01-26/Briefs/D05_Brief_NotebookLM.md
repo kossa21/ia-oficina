@@ -51,6 +51,11 @@ Marta ha preparado el informe de incidencias del trimestre. Son cuatro páginas 
 
 La IA es especialmente eficaz en tareas de adaptación de contenido, precisamente porque no tiene el problema que tenemos las personas: no le cuesta "olvidar" lo que ya sabe sobre el tema para explicarlo desde cero, ni le supone un esfuerzo extra ser más conciso de lo habitual, ni tarda más en escribir formal que informal. Para la IA, producir tres versiones del mismo contenido es casi la misma tarea que producir una, siempre que las instrucciones sean claras.
 
+> **Puntos clave:**
+> - La IA no tarda más en adaptar el nivel o el tono; el coste de producir 3 versiones es casi el de producir 1
+> - La pregunta clave antes de empezar: ¿quién lo va a leer y qué necesita saber para actuar?
+> - Una hora de reescritura manual se convierte en 5-8 minutos de prompts y revisión
+
 ### Los tres tipos de resumen según el destinatario
 
 El primer criterio a la hora de resumir no es la longitud del documento original, sino quién lo va a leer y para qué. Hay tres perfiles habituales en una empresa, y cada uno necesita un formato distinto.
@@ -69,6 +74,11 @@ El resumen divulgativo está pensado para destinatarios externos o para personas
 
 Estos tres prompts producen tres versiones del mismo contenido adaptadas al destinatario real, y juntas cubren el 90 % de los casos de comunicación en una empresa mediana.
 
+> **Puntos clave:**
+> - Ejecutivo: máx 5 puntos, decisiones y riesgos, lenguaje no técnico
+> - Operativo: lista numerada con Acción / Responsable / Plazo; sin narración
+> - Divulgativo: frases cortas, cero jerga interna, términos técnicos explicados al aparecer
+
 ### Conversión de formatos: los cinco más útiles en oficina
 
 Más allá de resumir, la IA puede transformar la forma en que está presentada la información sin cambiar el contenido. Esto es especialmente útil cuando se recibe información en un formato que no es el que necesitas para trabajar con ella, o cuando hay que preparar el mismo contenido para distintos soportes.
@@ -83,6 +93,11 @@ La cuarta, párrafo a checklist, va en sentido contrario: tienes un correo o un 
 
 La quinta, notas informales a documento formal, es especialmente valiosa para quienes toman apuntes rápidos en reuniones y luego tienen que convertirlos en actas o informes. "Reescribe estas notas de reunión como acta formal con las secciones: Asistentes / Puntos tratados / Decisiones adoptadas / Acciones acordadas (con responsable y plazo). Mantén toda la información pero corrija el estilo y elimina las abreviaturas y notas personales."
 
+> **Puntos clave:**
+> - Las 5 conversiones: texto→tabla, tabla→texto, lista→párrafo, párrafo→checklist, notas→acta formal
+> - Ninguna conversión cambia el contenido; solo cambia cómo se presenta
+> - La instrucción de conversión debe indicar el formato de salida deseado con precisión
+
 ### Extracción de campos: información estructurada en segundos
 
 Una de las tareas más tediosas del trabajo administrativo es procesar un lote de correos, contratos o actas para extraer siempre los mismos datos de cada uno: quién lo firma, qué fecha tiene, qué importe menciona, qué plazos establece. Si hay diez correos, son diez lecturas completas y diez apuntes manuales. Con IA, el mismo trabajo se hace con un prompt que se aplica a cada documento:
@@ -93,6 +108,11 @@ Este tipo de prompt de extracción de campos es especialmente potente porque pro
 
 La clave de los buenos prompts de extracción es ser muy concreto sobre los campos que necesitas y especificar qué escribir cuando el campo no aparece. Si no se da esta instrucción, la IA puede inventar datos que no están en el texto para no dejar celdas vacías, que es precisamente lo que hay que evitar.
 
+> **Puntos clave:**
+> - Define los campos exactos y su formato de salida dentro del prompt
+> - Especifica siempre qué escribir cuando un campo no aparece: "no se menciona"
+> - Aplica el mismo prompt a todos los documentos del lote para obtener una tabla consolidada
+
 ### Documentos largos: cómo procesarlos sin perder información
 
 Los modelos de IA tienen un límite de texto que pueden procesar en una sola consulta, lo que se llama ventana de contexto. Para la mayoría de correos, notas y documentos de una o dos páginas, este límite no es un problema. Pero para contratos extensos, informes de muchas páginas o transcripciones largas de reuniones, hay que usar estrategias específicas.
@@ -100,6 +120,38 @@ Los modelos de IA tienen un límite de texto que pueden procesar en una sola con
 La estrategia más directa es dividir el documento en secciones lógicas (capítulos, páginas, bloques temáticos), procesar cada sección con el mismo prompt de resumen o extracción, y luego hacer un resumen final de los resúmenes: "Aquí tienes los resúmenes de las cuatro secciones del documento. Genera ahora un resumen global en máximo diez puntos, sin añadir información que no aparezca en los resúmenes." Este proceso de chunking, como se llama técnicamente, mantiene toda la información relevante y produce un resultado coherente.
 
 La alternativa más cómoda para documentos largos es usar directamente Claude o Google NotebookLM, que tienen ventanas de contexto significativamente más grandes que ChatGPT en su versión gratuita. Claude permite pegar documentos de hasta varias decenas de miles de palabras en una sola consulta, y NotebookLM está diseñado específicamente para trabajar con documentos de referencia extensos: se sube el documento entero y se hacen preguntas sobre él de forma natural, como si fuera una conversación. Para contratos, informes largos o documentación técnica extensa, NotebookLM es la herramienta más adecuada del curso.
+
+> **Puntos clave:**
+> - ChatGPT gratuito: ~8.000 tokens (~12-15 páginas); Claude: ~200.000 tokens (>150 páginas)
+> - Chunking: dividir en secciones lógicas, resumir cada una, luego hacer resumen de resúmenes
+> - NotebookLM: sube el documento entero y pregunta en chat; ideal para contratos e informes largos
+
+### Verificar la fidelidad del resumen: los datos numéricos como punto crítico
+
+Todos los resúmenes que genera la IA son, en general, muy fieles al contenido original. Pero hay una categoría de datos que merece revisión sistemática: los números. Fechas, importes, porcentajes, plazos en días o meses, cantidades de unidades o personas. Los modelos de IA a veces redondean cifras similares, confunden fechas próximas entre sí o interpolan datos que no aparecen explícitamente en el texto. En un correo de texto literario esto es anecdótico, pero en un acta de reunión con importes comprometidos o en un resumen de contrato con plazos de entrega, un número equivocado puede tener consecuencias reales. La verificación correcta es la siguiente: después de generar cualquier resumen, busca en el documento original cada número que aparezca en el resumen y verifica que coincide exactamente. Si hay discrepancia, corrige con una iteración: "El importe del punto 3 es 4.200 €, no 4.020 €. Corrige solo ese dato." Esta revisión de números es el único paso que no se puede delegar ni acortar.
+
+> **Puntos clave:**
+> - Los datos numéricos (fechas, importes, plazos) son los más propensos a errores en los resúmenes
+> - Verificación sistemática: busca cada número del resumen en el documento original
+> - Si hay error: itera con "El dato correcto es X; corrige solo ese punto"
+
+### Las plantillas de resumen como activo reutilizable
+
+Los tres prompts de resumen (ejecutivo, operativo, divulgativo) y el prompt de extracción de campos son, en realidad, plantillas que funcionan con cualquier documento de tipo similar. Una vez que Marta tiene el prompt de resumen ejecutivo bien ajustado para el tipo de informe que produce habitualmente, puede reutilizarlo semana tras semana sin tener que reescribirlo. La única variable es el documento que pega al final del prompt. Esto conecta directamente con lo que se aprendió en D04 sobre la biblioteca de prompts: los prompts de hoy deben guardarse en esa biblioteca, organizados como "Resumen ejecutivo — informes de incidencias", "Resumen operativo — actas de reunión", "Extracción de campos — correos de reclamación". Cada prompt guardado es un activo reutilizable que se amortiza con cada uso. Un grupo que construye y comparte una biblioteca colectiva de prompts de resumen y extracción multiplica la productividad del equipo entero, no solo de cada individuo.
+
+> **Puntos clave:**
+> - Los 3 prompts de resumen y el de extracción son plantillas reutilizables semana tras semana
+> - Guardarlos en la biblioteca de prompts de D04 con nombres descriptivos por tipo de documento
+> - Una biblioteca colectiva compartida multiplica la productividad del equipo, no solo de cada persona
+
+### Cuándo la longitud importa: adaptar la extensión al canal
+
+Hay una dimensión adicional a la adaptación de contenido que a veces se ignora: la extensión esperada según el canal. Un resumen divulgativo para enviar por correo puede tener 150 palabras, pero si se va a publicar como nota en la intranet quizás debe ser más breve; si se va a leer en voz alta en una reunión de cinco minutos, debe caber en tres párrafos cortos; si se va a imprimir en una hoja como comunicado, el formato cambia completamente. La IA puede adaptar la misma información a cada uno de estos canales añadiendo simplemente la instrucción de longitud y canal al prompt. Marta lo usa así: cuando tiene el resumen divulgativo ya generado, escribe "Ahora adapta este texto para leerlo en voz alta en 90 segundos: frases muy cortas, sin siglas, sin listas" y obtiene una versión oral del mismo contenido. Esto no es una tarea nueva desde cero: es una iteración sobre lo ya generado, que cuesta 10 segundos de prompt y produce un resultado calibrado para el formato final.
+
+> **Puntos clave:**
+> - El canal (correo, intranet, voz en reunión, comunicado impreso) define la extensión y el formato
+> - Adaptar al canal es una iteración sobre el resumen ya generado, no un nuevo prompt desde cero
+> - Instrucción de longitud: "máximo 90 segundos en voz alta" o "máximo 3 párrafos de 4 líneas"
 
 ---
 
@@ -112,6 +164,7 @@ La alternativa más cómoda para documentos largos es usar directamente Claude o
 - Claude (plan gratuito) admite documentos de hasta ~200.000 tokens (equivalente a más de 150 páginas) en una sola consulta, frente a los ~8.000 del ChatGPT gratuito estándar.
 - Los tres tipos de resumen (ejecutivo, operativo, divulgativo) cubren el **90 % de los casos** de comunicación habituales en una empresa mediana.
 - Usar el formato de resumen equivocado para el destinatario equivocado puede retrasar una decisión **hasta 48–72 horas** (la dirección no actúa sobre listas de 20 ítems; el equipo operativo no actúa sobre resúmenes de cinco puntos sin asignar responsable).
+- Adaptar el mismo resumen divulgativo a **canal oral** (reunión de 90 s) o **canal escrito** (intranet) es una iteración de 10 segundos sobre el resultado ya generado.
 
 ---
 
@@ -162,6 +215,19 @@ La alternativa más cómoda para documentos largos es usar directamente Claude o
 
 ---
 
+### Caso 4: Adaptar un comunicado al canal oral para una reunión de 5 minutos
+
+**Situación:** Marta ha generado el resumen divulgativo del informe trimestral de incidencias para enviarlo a los proveedores. Ahora la directora le pide que lo presente también en voz alta en la próxima reunión de proveedores, que dura exactamente 5 minutos y tiene a ocho personas en la sala, algunas conectadas por videoconferencia.
+
+**Prompt exacto (iteración sobre el resumen ya generado):**
+> "Adapta el siguiente resumen para presentarlo en voz alta en una reunión de 5 minutos (aproximadamente 600–700 palabras habladas). Requisitos: frases cortas de máximo 15 palabras, nada de listas con guiones (leer listas en voz alta suena mal), sustituye cualquier sigla o término técnico por su equivalente en lenguaje cotidiano, añade una frase de apertura que contextualice de qué va la presentación y una frase de cierre que invite a preguntas. Mantén toda la información del resumen original. RESUMEN: [PEGAR RESUMEN DIVULGATIVO YA GENERADO]"
+
+**Resultado comentado:** La versión oral tiene párrafos fluidos, transiciones naturales entre ideas, frases cortas y el cierre con invitación a preguntas. Es el mismo contenido que el resumen escrito, pero calibrado para la escucha y no para la lectura.
+
+**Cómo iterarlo:** Si la presentación queda demasiado larga: "Reduce la versión oral a 3 minutos (350–400 palabras habladas), manteniendo los puntos 1 y 3 completos y resumiendo los demás en una sola frase cada uno." Si el tono resulta demasiado formal para la reunión: "Reescribe la apertura con un tono más cercano, como si Marta hablara directamente con personas a las que conoce desde hace tiempo."
+
+---
+
 ## 9. GLOSARIO
 
 **Resumen ejecutivo:** Versión reducida de un documento pensada para quienes toman decisiones, con un máximo de 5 puntos que priorizan decisiones, riesgos y próximos pasos, sin detalles de proceso.
@@ -184,6 +250,10 @@ La alternativa más cómoda para documentos largos es usar directamente Claude o
 
 **Destinatario:** La persona o grupo específico para quien se escribe o adapta un documento, cuyas necesidades de información y nivel de conocimiento del tema determinan el tipo de resumen o formato adecuado.
 
+**Adaptación al canal:** Ajuste de la extensión, el formato y el estilo de un texto según el soporte en que se va a leer o escuchar: correo, intranet, presentación oral, impreso. Va más allá de adaptar el tono al destinatario.
+
+**Plantilla de extracción:** Prompt de extracción de campos guardado en la biblioteca de prompts para reutilizarlo sistemáticamente con documentos del mismo tipo, produciendo siempre la misma estructura de tabla como resultado.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -199,6 +269,8 @@ La alternativa más cómoda para documentos largos es usar directamente Claude o
 **Error 5 — Pegar documentos con datos personales reales sin anonimizar.** Antes de pegar cualquier correo, contrato o acta en una herramienta de IA, sustituye los datos reales: nombres por PERSONA_A, importes por IMPORTE_X, fechas sensibles por FECHA_Y, números de cuenta o referencia por REFERENCIA_Z. Este paso protege a las personas involucradas y cumple con las obligaciones de protección de datos.
 
 **Buena práctica — Guardar los tres prompts de resumen como plantilla.** Los tres prompts (ejecutivo, operativo, divulgativo) son los que más vas a usar en tu día a día. Guárdalos ya en tu Google Doc de biblioteca de prompts con un nombre claro para cada uno. La próxima vez que tengas un documento que resumir, solo tendrás que pegarlos.
+
+**Error 6 — No guardar los prompts de resumen y extracción en la biblioteca.** Los prompts de esta sesión (ejecutivo, operativo, divulgativo, extracción de campos) son de los más reutilizables del curso. Usarlos sin guardarlos obliga a reescribirlos cada vez, perdiendo el ajuste fino que se hizo en el aula. Al terminar la sesión, cada alumno debe añadirlos a su Google Doc de biblioteca con el nombre descriptivo del tipo de documento al que aplican.
 
 **Buena práctica — Hacer siempre una pasada de revisión antes de enviar.** La IA produce textos muy buenos pero no perfectos. En el resumen ejecutivo, verifica que los cinco puntos son los realmente más importantes. En el operativo, comprueba que los responsables y plazos son los que se acordaron. En el divulgativo, lee una vez más para asegurarte de que no hay jerga interna que haya quedado.
 
@@ -293,6 +365,27 @@ d) Extraer solo los datos numéricos del documento
 **11. ¿Cuál es el riesgo principal de usar el mismo resumen para todos los destinatarios?**
 *Respuesta abierta:* Que la información no sea útil para quien la recibe: la directora no puede tomar decisiones a partir de una lista de 12 acciones operativas; el equipo no sabe qué tiene que hacer leyendo solo cinco puntos sin asignar responsable ni plazo; el proveedor no entiende el documento si está lleno de jerga interna. Cada destinatario necesita el formato que le permite actuar sobre la información.
 
+**12. ¿Por qué los datos numéricos merecen verificación sistemática en los resúmenes generados por IA?**
+a) Porque la IA no puede procesar números, solo texto
+b) Porque los modelos pueden redondear, confundir fechas próximas o interpolar datos que no aparecen explícitamente en el texto ✓
+c) Porque los números cambian automáticamente durante el proceso de resumen
+d) Solo hay que verificarlos si el documento tiene más de 10 páginas
+
+**13. Marta quiere adaptar su resumen divulgativo escrito para leerlo en voz alta en una reunión de 5 minutos. ¿Cuál es la instrucción más adecuada?**
+a) "Reescribe el resumen en 5 párrafos"
+b) "Adapta el texto para presentación oral de 5 min: frases cortas, sin listas, sin siglas, con apertura y cierre" ✓
+c) "Traduce el resumen a lenguaje coloquial"
+d) "Reduce el resumen a la mitad"
+
+**14. ¿Qué debe hacerse con los prompts de resumen y extracción al terminar la sesión?**
+a) Borrarlos para no acumular archivos
+b) Enviarlos al formador para que los revise
+c) Guardarlos en la biblioteca de prompts con nombre descriptivo por tipo de documento ✓
+d) Copiarlos en el chat de NotebookLM
+
+**15. Describe el flujo completo para procesar 8 correos de reclamación en menos de 5 minutos usando extracción de campos.**
+*Respuesta abierta:* (1) Abrir el prompt de extracción guardado en la biblioteca (campos: cliente, tipo de reclamación, importe, plazo, tono). (2) Para cada correo, anonimizar si contiene datos personales reales. (3) Pegar el correo en el prompt y lanzarlo. (4) Copiar la fila resultante en un Excel o Google Sheets. (5) Repetir para los 8 correos. (6) Revisar que ninguna celda tenga datos inventados. El proceso completo para 8 correos: menos de 5 minutos, frente a 30-40 minutos leyendo y anotando manualmente.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -317,6 +410,15 @@ Sí, con precaución. La extracción de campos funciona bien para identificar fe
 
 **¿Por qué a veces la IA añade información que no estaba en el documento original?**
 Este comportamiento, llamado alucinación, ocurre cuando el modelo no tiene suficiente información en el texto de entrada y "completa" con conocimiento general. Se reduce al mínimo siendo muy específico en el prompt: "Solo usa la información que aparece explícitamente en el texto. Si un campo no está en el documento, escribe 'no se menciona'." Esta instrucción reduce drásticamente las alucinaciones en prompts de extracción y resumen.
+
+**¿Puedo adaptar el mismo resumen a un canal oral directamente, sin generar el escrito primero?**
+Sí. Puedes pedir la versión oral del documento original en un solo prompt: "Resume el siguiente informe en una presentación oral de 5 minutos: frases cortas, sin listas, con apertura y cierre para reunión presencial." Pero si ya tienes el resumen escrito generado, es más eficiente iterar sobre él que volver al documento original, porque el escrito ya tiene el filtro del nivel de lenguaje y la selección de puntos que quieres mantener.
+
+**¿Cuánto tiempo se amortiza un prompt de extracción bien construido?**
+Desde el primer uso. Un prompt de extracción que tarda 10 minutos en construir y ajustar hasta que produce la tabla correcta se amortiza la primera semana si lo usas con un lote de 5 correos o más. A partir del segundo uso, el tiempo de setup es cero: solo pegas el documento y lanzas. En un perfil administrativo que gestiona correos recurrentes, un solo prompt de extracción bien diseñado puede ahorrar 20-30 minutos semanales indefinidamente.
+
+**¿Puedo combinar resumen y extracción de campos en un solo prompt?**
+Sí, y a veces es la forma más eficiente. Por ejemplo: "Del siguiente informe: (1) genera un resumen ejecutivo de 5 puntos para la directora; (2) extrae en tabla separada las acciones acordadas con responsable y plazo." Los dos outputs llegan juntos en la misma respuesta. La condición para que funcione bien es que el documento sea suficientemente claro para que la IA diferencie sin ambigüedad qué pertenece al resumen y qué a la tabla de extracción.
 
 ---
 
@@ -364,6 +466,8 @@ Para tu proyecto final: lo de hoy te sirve para dominar la capa de presentación
 - La conversión de formato no cambia el contenido; cambia cómo se presenta, y eso puede marcar la diferencia entre que alguien actúe sobre la información o la archive.
 - Para documentos largos, usa Claude o NotebookLM; si no tienes opción, divide el documento en secciones y haz un resumen de resúmenes al final.
 - Nunca pegues datos personales reales en la IA: anonimiza siempre antes de procesar cualquier documento de trabajo.
+- Los datos numéricos son el punto crítico de revisión en cualquier resumen: verifica fechas, importes y plazos siempre antes de enviar.
+- Los prompts de hoy son plantillas reutilizables: guárdalos con nombre claro en tu biblioteca y úsalos cada semana sin reescribirlos.
 
 ---
 
