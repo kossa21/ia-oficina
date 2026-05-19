@@ -54,12 +54,21 @@ HTML_CONTENT = f"""<!DOCTYPE html>
   ══════════════════════════════════════ */
   .page {{
     width: 210mm;
+    min-height: 297mm;
     padding: 0;
     page-break-after: always;
     background: var(--white);
+    display: flex;
+    flex-direction: column;
   }}
   .page:last-child {{
     page-break-after: avoid;
+  }}
+  .page-content {{
+    flex: 1;
+  }}
+  .page-footer {{
+    margin-top: auto;
   }}
 
   /* ── Cabecera / portada ── */
@@ -380,6 +389,8 @@ HTML_CONTENT = f"""<!DOCTYPE html>
 ════════════════════════════════════ -->
 <div class="page">
 
+  <div class="page-content">
+
   <!-- CABECERA -->
   <div class="header">
     <div class="header-text">
@@ -503,6 +514,13 @@ HTML_CONTENT = f"""<!DOCTYPE html>
 
   </div>
 
+  </div>
+
+  <div class="page-footer footer">
+    <span>IA en la Oficina – Eficiencia y Productividad · Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital</span>
+    <strong>AllWomen · ananda@allwomen.tech</strong>
+  </div>
+
 </div>
 
 
@@ -510,6 +528,8 @@ HTML_CONTENT = f"""<!DOCTYPE html>
      PÁGINA 2
 ════════════════════════════════════ -->
 <div class="page">
+
+  <div class="page-content">
 
   <!-- CABECERA PEQUEÑA -->
   <div class="header" style="padding: 14pt 28pt;">
@@ -627,7 +647,9 @@ HTML_CONTENT = f"""<!DOCTYPE html>
     </div>
   </div>
 
-  <div class="footer">
+  </div>
+
+  <div class="page-footer footer">
     <span>IA en la Oficina – Eficiencia y Productividad · Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital</span>
     <strong>AllWomen · ananda@allwomen.tech</strong>
   </div>
@@ -639,6 +661,8 @@ HTML_CONTENT = f"""<!DOCTYPE html>
      PÁGINA 3
 ════════════════════════════════════ -->
 <div class="page">
+
+  <div class="page-content">
 
   <!-- CABECERA PEQUEÑA -->
   <div class="header" style="padding: 14pt 26pt;">
@@ -690,8 +714,10 @@ HTML_CONTENT = f"""<!DOCTYPE html>
 
   </div>
 
+  </div>
+
   <!-- FOOTER -->
-  <div class="footer">
+  <div class="page-footer footer">
     <span>IA en la Oficina – Eficiencia y Productividad · Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital</span>
     <strong>AllWomen · ananda@allwomen.tech</strong>
   </div>
