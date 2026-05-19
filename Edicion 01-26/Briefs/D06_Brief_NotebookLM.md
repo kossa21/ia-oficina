@@ -47,11 +47,16 @@ En la sesión de hoy el grupo aprende a escribir correos profesionales más ráp
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El coste real de un correo mal escrito
 
 Marta trabaja en administración desde hace ocho años. Cada semana redacta decenas de correos: confirmaciones de pedidos, respuestas a clientes insatisfechos, solicitudes de información a proveedores, recordatorios de pago y comunicados internos. Muchos de esos correos los escribe deprisa, entre una llamada y otra, y el resultado a veces no refleja bien lo que quería decir. Un correo ambiguo genera una llamada de aclaración. Esa llamada tarda diez minutos y puede derivar en otro correo de seguimiento. Lo que podría haberse resuelto en un mensaje bien escrito se convierte en un hilo de tres días. Según los datos disponibles, el 47 % de los correos profesionales no reciben respuesta en menos de 24 horas porque el asunto o el cierre no dejan claro qué se espera del destinatario. Un asunto bien formulado con ayuda de IA puede duplicar la tasa de respuesta. El tiempo invertido en escribir bien un correo no se pierde: se recupera multiplicado en el tiempo que no tendrás que dedicar a aclaraciones, reenvíos y seguimientos.
+
+> **Puntos clave:**
+> - Un correo ambiguo genera 2-5 intercambios de aclaración; uno bien escrito los elimina
+> - El 47 % de los correos no reciben respuesta en 24 h porque el asunto o el cierre son vagos
+> - El tiempo de escribir bien se recupera multiplicado en seguimientos y llamadas evitadas
 
 ### Los seis elementos de un correo profesional eficaz
 
@@ -71,6 +76,11 @@ El sexto elemento es la **despedida**, proporcional al tono del correo. Con un c
 
 La IA puede generar borradores que incorporan los seis elementos si se le da el contexto suficiente. El prompt clave no es "escríbeme un correo sobre X", sino "escríbeme un correo a [quién], sobre [qué], pidiendo que [próximo paso concreto], con tono [formal / cordial / neutro], en máximo [N] palabras". Esa especificidad marca la diferencia entre un borrador que se usa y uno que se reescribe entero.
 
+> **Puntos clave:**
+> - Los 6 elementos: asunto accionable, saludo ajustado, contexto breve, cuerpo claro, cierre con próximo paso, despedida proporcional
+> - El prompt eficaz especifica destinatario, tema, próximo paso, tono y longitud máxima
+> - Sin cierre que pida acción concreta y plazo, el correo no genera respuesta
+
 ### Situaciones difíciles: cómo aborda cada una la IA
 
 Hay cinco tipos de correo que resultan especialmente difíciles de escribir porque requieren equilibrar dos cosas en tensión: decir lo que hay que decir sin dañar la relación. Son los correos donde más tiempo se pierde dando vueltas a la redacción, y donde la IA aporta más valor.
@@ -84,6 +94,11 @@ La tercera situación es **rechazar una petición**. Decir no es necesario en mu
 La cuarta situación es el **seguimiento sin parecer pesado**. Cuando alguien no ha respondido a un correo importante, hay que insistir sin resultar cargante. La clave: brevedad máxima (tres o cuatro líneas), recordar el contexto en una sola frase, y pedir una confirmación muy concreta con plazo. "¿Podrías confirmarme antes del jueves si continúas con el pedido?" es mejor que cinco líneas recordando toda la historia.
 
 La quinta situación es **agradecer formalmente**. Un agradecimiento vago ("gracias por todo") no tiene el impacto de uno específico. El prompt debe incluir qué se agradece exactamente, por qué importó, y un máximo de sesenta palabras. La especificidad hace que el agradecimiento parezca genuino, no protocolo.
+
+> **Puntos clave:**
+> - 5 situaciones difíciles: reclamar, mala noticia, rechazar, seguimiento, agradecimiento formal
+> - Cada situación tiene una instrucción de tono distinta en el prompt: firme/cordial, empático, claro sin cerrar, breve/concreto, específico
+> - La IA genera el borrador difícil en minutos; la decisión de qué decir sigue siendo tuya
 
 ### Responder a clientes: el patrón de tres pasos
 
@@ -101,6 +116,11 @@ Este patrón puede incorporarse directamente al prompt: "Redacta la respuesta a 
 
 Marta aplica este patrón cuando un cliente reclama que su pedido lleva tres días de retraso. Con el prompt adecuado y los datos del caso (referencia del pedido, motivo del retraso, fecha estimada de entrega), la IA genera en segundos un borrador que Marta revisa y envía en menos de tres minutos. Sin IA, ese correo le habría llevado entre quince y veinte minutos, incluidas las dudas sobre qué decir exactamente.
 
+> **Puntos clave:**
+> - El patrón es: Reconoce (empatía sin admitir culpa) → Informa (qué pasó, sin excusas) → Actúa (acción concreta + plazo)
+> - "Reconoce" no es una disculpa incondicional; es mostrar que el impacto se ha entendido
+> - Un correo de reclamación gestionado bien convierte frustración en expectativa de solución
+
 ### Revisión con IA antes de enviar: cuándo y cómo
 
 Existe una función de la IA que se usa muy poco y que puede evitar muchos problemas: revisar el correo antes de enviarlo. No para corrección ortográfica básica, que ya hace el procesador de texto, sino para detectar tres tipos de problemas más sutiles.
@@ -113,6 +133,38 @@ El prompt de revisión estándar es:
 Hay un límite importante que conviene mencionar desde el principio: la IA no es infalible con los datos específicos. Fechas, importes, nombres de personas, referencias de pedidos o facturas deben verificarse siempre manualmente, independientemente de lo que diga la IA. Si el correo dice "el pedido número [REF] de [IMPORTE] con vencimiento [FECHA]", esos tres datos los comprueba Marta con el sistema, no la IA.
 
 Además, antes de pegar cualquier correo real en ChatGPT, Gemini o Claude para revisarlo, es obligatorio anonimizar los datos: sustituir el nombre del cliente por CLIENTE_A, el importe por IMPORTE_X, la referencia por REF_DOCUMENTO. El resultado de la revisión será igual de útil y Marta habrá protegido la información de su empresa.
+
+> **Puntos clave:**
+> - La revisión con IA detecta 3 problemas: errores ortotipográficos, frases ambiguas, tono inadecuado
+> - Los datos concretos (fechas, importes, referencias) siempre se verifican manualmente en la fuente
+> - Anonimizar antes de pegar es obligatorio: CLIENTE_A, IMPORTE_X, REF_DOCUMENTO
+
+### La brevedad como señal de respeto profesional
+
+En comunicación escrita de oficina, la brevedad no es pereza: es un acto de respeto hacia el tiempo del destinatario. Un correo de 400 palabras que podría haberse dicho en 80 consume el tiempo del lector, diluye el mensaje principal y reduce las probabilidades de respuesta. La IA tiende a generar borradores más largos de lo necesario si no se le indica la longitud. Por eso el parámetro de extensión máxima siempre debe aparecer en el prompt: "máximo 100 palabras" o "máximo 4 líneas". Marta aplica esta regla especialmente en los correos de seguimiento, donde la brevedad es incluso más crítica: un recordatorio de tres líneas al que es fácil responder en 30 segundos genera muchas más respuestas que uno de diez líneas que parece requerir preparación.
+
+> **Puntos clave:**
+> - La brevedad en correos profesionales es respeto, no descuido; especificar longitud máxima en el prompt
+> - Los correos de seguimiento: máximo 3-4 líneas con el contexto en una frase y la acción pedida
+> - La IA genera más texto del necesario si no se le pone límite explícito de palabras o líneas
+
+### El seguimiento estratégico: cuándo insistir y cuándo esperar
+
+Uno de los momentos más incómodos del trabajo de oficina es el segundo correo a alguien que no ha respondido. ¿A cuántos días se envía? ¿Cómo se escribe sin parecer impaciente ni pasivo-agresivo? La regla de Marta es la siguiente: si el asunto del primer correo era claro y tenía un plazo definido, el seguimiento se envía al día siguiente de ese plazo. Si no había plazo, a los tres o cinco días laborales. El seguimiento tiene siempre la misma estructura: una línea que sitúa el contexto ("En relación con mi correo del lunes sobre [tema]"), una línea que hace la petición concreta ("¿Podrías confirmarme antes del [día] si...?"), y nada más. La IA genera estos mensajes en segundos con el prompt: "Redacta un correo de seguimiento de máximo 4 líneas. Contexto: [referencia al primer correo y fecha]. Petición: [qué necesito saber y para cuándo]. Tono: cordial y no presionante." La brevedad y la concreción son lo que hace que el seguimiento funcione.
+
+> **Puntos clave:**
+> - Seguimiento: al día siguiente del plazo acordado; sin plazo previo, a los 3-5 días laborables
+> - Estructura: contexto en 1 línea + petición concreta con fecha + cierre; sin repetir toda la historia
+> - Tono cordial y no presionante: la brevedad proyecta profesionalidad, no impaciencia
+
+### Construir el banco de plantillas desde las situaciones reales del puesto
+
+Un banco de plantillas genéricas que se descarga de internet tiene poco valor: las situaciones de Marta no son las mismas que las de un alumno de otro sector, y las fórmulas que funcionan en una empresa de distribución no son las que funcionan en un organismo público. El valor real está en construir el banco de plantillas a partir de correos reales del propio puesto, anonimizados. El proceso que se practica en la Actividad 2 es exactamente ese: traer cinco correos propios, anominizarlos, mejorarlos con IA, y guardar el resultado como plantilla para la próxima vez que ocurra la misma situación. Con el tiempo, ese banco crece solo: cada correo difícil que se gestiona bien y se guarda es una plantilla más. Al cabo de dos meses, Marta tiene cubiertos el 80 % de sus situaciones recurrentes sin tener que pensar cómo responder: solo abre la plantilla correspondiente, rellena los corchetes y envía.
+
+> **Puntos clave:**
+> - Las plantillas útiles nacen de correos reales propios (anonimizados), no de ejemplos genéricos descargados
+> - El proceso: traer correo → anonimizar → mejorar con IA → guardar como plantilla con nombre descriptivo
+> - El banco crece solo: cada correo difícil bien gestionado añade una plantilla nueva al fondo
 
 ---
 
@@ -170,6 +222,19 @@ Además, antes de pegar cualquier correo real en ChatGPT, Gemini o Claude para r
 
 ---
 
+### Caso 4 — Correo de seguimiento cuando el destinatario lleva 5 días sin responder
+
+**Situación:** Marta envió el lunes un correo con documentación pendiente a un proveedor y una petición concreta de confirmación. Es viernes y no ha recibido respuesta. Necesita insistir sin sonar cargante ni quemar la relación.
+
+**Prompt exacto:**
+> "Redacta un correo de seguimiento de máximo 4 líneas para un proveedor que no ha respondido a un correo enviado el lunes sobre [TEMA_CORREO_ORIGINAL]. Necesito que confirme antes del [FECHA_LÍMITE] si va a poder atender la solicitud. Tono: cordial y profesional, sin expresar frustración. Incluye asunto del correo con referencia al correo original."
+
+**Resultado comentado:** El correo resultante tiene asunto con referencia, una sola frase de contexto que sitúa el correo anterior sin repetirlo entero, la petición concreta con la fecha límite, y una despedida neutral. No hay signos de frustración ni frases como "sigo esperando su respuesta", que generan defensividad en el destinatario.
+
+**Cómo iterarlo:** Si Marta quiere escalarlo levemente porque el tema es urgente: "Añade una línea que mencione que la falta de respuesta está bloqueando el proceso de nuestra parte, de forma informativa y sin tono de reproche. Mantenlo en 5 líneas máximo."
+
+---
+
 ## 9. GLOSARIO
 
 **Asunto accionable:** Línea de asunto de correo que indica claramente al destinatario qué se espera de él y cuándo, no solo el tema del correo.
@@ -192,6 +257,10 @@ Además, antes de pegar cualquier correo real en ChatGPT, Gemini o Claude para r
 
 **Banco de plantillas:** Colección personal de borradores reutilizables para las situaciones de correo más frecuentes del propio puesto, organizados por tipo de situación.
 
+**Correo de seguimiento:** Mensaje enviado cuando no se ha recibido respuesta a un correo anterior; siempre breve (máximo 4 líneas), con una frase de contexto y la petición concreta con plazo.
+
+**Brevedad accionable:** Principio según el cual un correo más breve es más efectivo si contiene la información necesaria para actuar, porque reduce la barrera cognitiva del destinatario para responder.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -207,6 +276,8 @@ Además, antes de pegar cualquier correo real en ChatGPT, Gemini o Claude para r
 **Error 5 — Usar el mismo tono para todos los destinatarios.** Un correo a dirección general, uno a un proveedor habitual y uno a un compañero de equipo requieren registros diferentes. Especificar siempre en el prompt quién es el destinatario y cuál es la relación previa.
 
 **Buena práctica — Guardar los prompts que funcionan.** Cuando un prompt genera un correo que realmente se usa, guardarlo. En la sesión D04 se construyó una biblioteca personal de prompts; los mejores prompts de hoy van directamente ahí.
+
+**Error 6 — Generar el correo sin dar el contexto de la relación previa.** La IA no sabe si Marta lleva 3 años trabajando con ese proveedor o si es el primer contacto. Si no se indica la relación, el tono puede ser inadecuado en cualquier dirección (demasiado formal con alguien conocido, demasiado familiar con un desconocido). Siempre añadir en el prompt: "relación: [primera vez / cliente habitual de X años / proveedor de confianza]".
 
 **Buena práctica — Usar el banco de plantillas desde hoy.** El mini-entregable de esta sesión no es un ejercicio académico: es un documento de trabajo real. Las cinco plantillas construidas hoy deben guardarse en un lugar accesible (Google Docs, carpeta del correo, bloc de notas) para usarlas desde mañana.
 
@@ -326,6 +397,21 @@ b) Porque el destinatario ya tiene el contexto y un texto largo parece una acusa
 c) Porque la IA no puede generar textos largos de seguimiento
 d) Porque el destinatario no leerá más de una frase
 
+**13. ¿Qué información de la relación con el destinatario debe incluirse en el prompt para obtener el tono correcto?**
+a) El número de teléfono del destinatario
+b) El historial de pagos del destinatario
+c) Si es el primer contacto, un cliente habitual o una relación de confianza consolidada ✓
+d) El cargo exacto del destinatario dentro de su empresa
+
+**14. ¿Cuándo es el momento correcto para enviar el segundo correo a alguien que no ha respondido?**
+a) Al día siguiente del primer correo
+b) A la semana siguiente, sin excepciones
+c) Al día siguiente del plazo acordado; o a los 3-5 días laborables si no había plazo ✓
+d) Solo cuando el asunto sea marcado como urgente
+
+**15. Describe el proceso completo de Marta para gestionar una queja de cliente usando IA, desde que recibe el correo hasta que envía la respuesta.**
+*Respuesta abierta:* (1) Leer el correo del cliente para identificar el tipo de incidencia y los datos del caso. (2) Anonimizar los datos personales del correo si va a pegarlos en el prompt. (3) Construir el prompt con el patrón Reconoce-Informa-Actúa, incluyendo: qué ocurrió, qué acción se va a tomar y qué plazo se puede comprometer. (4) Revisar el borrador generado: verificar que el "Reconoce" es empático sin admitir culpa incorrecta, que el "Informa" es claro, y que el "Actúa" tiene fecha real. (5) Sustituir las etiquetas genéricas del borrador con los datos reales del caso. (6) Enviar. Tiempo total: 2-4 minutos.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -353,6 +439,12 @@ Es una infracción de las normas de privacidad de datos (RGPD) si los datos son 
 
 **¿Puedo usar el banco de plantillas de hoy en mi trabajo real desde mañana?**
 Sí, es exactamente para eso. Las plantillas que construyes hoy con datos ficticios son el esqueleto de correos reales: cuando llegue una situación similar, abres la plantilla, sustituyes los corchetes con los datos reales, ajustas el tono si es necesario y envías. El tiempo ahorrado empieza desde el primer uso.
+
+**¿Cuántas plantillas necesito para que el banco sea útil de verdad?**
+Con 5 bien elegidas para las situaciones más recurrentes de tu puesto, el banco ya es valioso. Lo ideal es entre 8 y 12 plantillas que cubran el 80 % de los correos que redactas con más frecuencia o con más dificultad. Más de 15 empieza a ser difícil de mantener actualizado. La calidad y la relevancia de las plantillas importan más que la cantidad.
+
+**¿Sirve el patrón Reconoce-Informa-Actúa solo para quejas de clientes externos o también para comunicaciones internas?**
+Funciona igualmente bien para cualquier situación donde haya un impacto negativo o una expectativa no cumplida, sea con un cliente externo, un proveedor o un compañero de equipo. Incluso para comunicar internamente un retraso en una entrega o un cambio de plan inesperado, el patrón ayuda a estructurar el mensaje de forma que la persona que lo recibe se sienta escuchada y sepa qué va a pasar a continuación.
 
 ---
 
@@ -395,6 +487,8 @@ Para tu proyecto final: lo de hoy te sirve para demostrar cómo has automatizado
 - Antes de pegar cualquier correo real en una IA, anonimizar siempre: sustituir nombres, referencias e importes por etiquetas genéricas como CLIENTE_A o REF_DOCUMENTO.
 - La IA revisa ortografía, ambigüedades y tono, pero los datos concretos (fechas, importes, referencias) siempre los verifica el alumno en la fuente original.
 - El banco de plantillas construido hoy no es un ejercicio: es un documento de trabajo real que empieza a ahorrar tiempo desde mañana.
+- Un correo de seguimiento eficaz tiene máximo 4 líneas: contexto en una frase + petición concreta con fecha + cierre neutral.
+- Las plantillas de valor nacen de correos reales del propio puesto (anonimizados), no de ejemplos genéricos: el banco crece con cada situación difícil bien resuelta.
 
 ---
 
