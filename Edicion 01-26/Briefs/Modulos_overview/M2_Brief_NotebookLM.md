@@ -2,14 +2,16 @@
 ## Curso: IA en la Oficina – Eficiencia y Productividad
 ## Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital
 
+> **DOCUMENTO DE CONSULTA — no es fuente de NotebookLM.** Este M-brief es material de referencia para el formador. La fuente de cada notebook es el D-brief por sesión (`D02_Brief_NotebookLM.md`, `D03_Brief_NotebookLM.md`). Los D-briefs son los documentos actualizados y completos; este módulo-brief puede estar desactualizado.
+
 ---
 
 ## CONTEXTO DEL CURSO
 
 **Programa:** IA en la Oficina – Eficiencia y productividad (68 horas)
 **Público:** Personal administrativo y de oficina sin experiencia previa en IA generativa
-**Metodología:** 25% teoría + demostración · 65% práctica guiada · 10% puesta en común
-**Herramientas principales:** ChatGPT, Microsoft Copilot, Google Gemini, Claude, Canva con IA
+**Metodología:** ~40% teoría + demostración · ~50% práctica guiada · ~10% puesta en común
+**Herramientas principales:** ChatGPT, Google Gemini, Claude, NotebookLM, Canva (todas gratuitas con Gmail)
 
 ---
 
@@ -125,7 +127,8 @@ La estructura más efectiva y fácil de recordar para prompts de oficina:
 ### HERRAMIENTAS DE LA SESIÓN 1
 
 - ChatGPT (cuenta creada en el día 1)
-- Copilot en Word (si disponible)
+- Google Gemini (gratuito con Gmail)
+- Claude (gratuito, claude.ai)
 - Cuaderno de plantillas de prompts (PDF descargable, entregado en aula virtual)
 
 ---

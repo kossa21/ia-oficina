@@ -2,14 +2,16 @@
 ## Curso: IA en la Oficina – Eficiencia y Productividad
 ## Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital
 
+> **DOCUMENTO DE CONSULTA — no es fuente de NotebookLM.** Este M-brief es material de referencia para el formador. La fuente de cada notebook es el D-brief por sesión (`D04` a `D07`). Los D-briefs son los documentos actualizados y completos; este módulo-brief puede estar desactualizado.
+
 ---
 
 ## CONTEXTO DEL CURSO
 
 **Programa:** IA en la Oficina – Eficiencia y productividad (68 horas)
 **Público:** Personal administrativo y de oficina sin experiencia previa en IA generativa
-**Metodología:** 25% teoría + demostración · 65% práctica guiada · 10% puesta en común
-**Herramientas principales:** ChatGPT, Microsoft Copilot, Google Gemini, Claude, Canva con IA
+**Metodología:** ~40% teoría + demostración · ~50% práctica guiada · ~10% puesta en común
+**Herramientas principales:** ChatGPT, Google Gemini, Claude, NotebookLM, Canva (todas gratuitas con Gmail)
 
 ---
 
@@ -31,15 +33,15 @@ Este es el módulo más extenso del curso porque la redacción y comunicación e
 | Bloque | Duración | Contenido |
 |--------|----------|-----------|
 | Apertura | 15 min | Repaso M2 + objetivos del día |
-| Teórico-demostrativo | 75 min | Tareas repetitivas candidatas · Generación en lote · Copilot en Word |
+| Teórico-demostrativo | 75 min | Tareas repetitivas candidatas · Generación en lote · Gemini en Google Docs |
 | Descanso | 15 min | — |
-| Práctica guiada | 105 min | Automatizar una tarea propia + comparativa herramientas |
-| Puesta en común | 30 min | Plantillas creadas + mini-entregable |
+| Práctica guiada | 95 min | Automatizar una tarea propia + comparativa herramientas |
+| Puesta en común | 40 min | Plantillas creadas + mini-entregable |
 
 ### OBJETIVOS DE APRENDIZAJE
 
 1. Identificar qué tareas repetitivas de escritura merece la pena automatizar con IA.
-2. Usar ChatGPT y Copilot para generar contenido en lote (varias respuestas o documentos de golpe).
+2. Usar ChatGPT y Gemini para generar contenido en lote (varias respuestas o documentos de golpe).
 3. Combinar la IA con plantillas de Word propias para acelerar el trabajo recurrente.
 4. Guardar prompts favoritos para no tener que reescribirlos cada vez.
 
@@ -64,35 +66,34 @@ En lugar de pedir una respuesta para una situación, puedes pedir varias a la ve
 **Ejemplo — 5 respuestas tipo para incidencias frecuentes:**
 > "Actúa como responsable de atención al cliente de una empresa de servicios administrativos. Genera 5 respuestas tipo para las siguientes situaciones: (1) cliente que pregunta por el estado de su expediente, (2) cliente que reclama un retraso, (3) cliente que solicita cambio de datos, (4) cliente que pide una factura duplicada, (5) cliente que cancela un servicio. Cada respuesta: tono formal-empático, máximo 80 palabras, con hueco para [NOMBRE_CLIENTE] y [REFERENCIA]."
 
-#### Bloque 3 — Copilot en Word: redacción asistida
+#### Bloque 3 — Gemini en Google Docs: redacción asistida
 
-Funciones más útiles de Copilot en Word para tareas repetitivas:
-- **Redactar desde cero:** describe el documento que necesitas y Copilot genera un borrador completo.
-- **Reescribir un fragmento:** selecciona texto → Copilot → "Reescribe esto con tono más formal".
+Funciones más útiles de Gemini en Google Docs para tareas repetitivas (gratuito con Gmail):
+- **Redactar desde cero:** describe el documento que necesitas y Gemini genera un borrador completo.
+- **Reescribir un fragmento:** selecciona texto → menú Gemini → "Reescribe esto con tono más formal".
 - **Reformatear:** convierte una lista de puntos en párrafos o viceversa.
-- **Completar:** escribe el inicio de un documento y pide a Copilot que lo complete.
+- **Completar:** escribe el inicio de un documento y pide a Gemini que lo complete.
 - **Resumir:** en un documento largo, pide un resumen ejecutivo de N palabras.
-
-*Nota para el formador: si el aula no tiene Copilot activo, demostrar el mismo flujo con ChatGPT usando copy-paste.*
+- **Alternativa sin Google Docs:** copia el texto en ChatGPT o Claude (ambos gratuitos) con el prompt correspondiente.
 
 #### Bloque 4 — Guardar prompts favoritos
 
-Estrategias para no perder los mejores prompts:
-- **En ChatGPT:** crear conversaciones con nombre para prompts reutilizables.
-- **En Word/Notion/OneNote:** un documento personal de "mi biblioteca de prompts".
+Estrategias para no perder los mejores prompts (todas gratuitas):
+- **En ChatGPT o Claude:** crear conversaciones con nombre para prompts reutilizables.
+- **En Google Docs:** un documento personal "Mi biblioteca de prompts" en Google Drive.
+- **Gemini Gems** (gratuito con Gmail): crear un asistente preconfigurado con las instrucciones fijas de tu puesto.
 - **En el propio correo:** drafts guardados con los prompts más usados.
-- **GPTs personalizados** (versión Plus de ChatGPT): crear un asistente preconfigurado con las instrucciones fijas de tu puesto.
 
 ### ACTIVIDADES EN AULA — SESIÓN 1
 
-#### Actividad 1 — Demostración con Copilot en Word (25 min)
-Pasar de 5 bullet points desordenados a un documento formateado completo. El formador muestra el proceso en pantalla; los alumnos replican.
+#### Actividad 1 — Demostración con Gemini en Google Docs (25 min)
+Pasar de 5 bullet points desordenados a un documento formateado completo. El formador muestra el proceso en Google Docs con Gemini en pantalla; los alumnos replican.
 
 #### Actividad 2 — Automatiza tu tarea repetitiva (60 min)
 Cada alumno elige la tarea repetitiva que más le consume tiempo y la automatiza usando IA. Debe producir al menos una plantilla reutilizable lista para usar en su puesto.
 
 #### Actividad 3 — Comparativa en grupo (20 min)
-El mismo prompt se lanza en ChatGPT, Copilot y Gemini. El grupo compara los resultados y debate cuál es más útil para el caso concreto.
+El mismo prompt se lanza en ChatGPT, Gemini y Claude. El grupo compara los resultados y debate cuál es más útil para el caso concreto.
 
 ### MINI-ENTREGABLE — SESIÓN 1
 **Nombre:** Mi plantilla automatizada

@@ -2,14 +2,16 @@
 ## Curso: IA en la Oficina – Eficiencia y Productividad
 ## Edición 01/26 · Fundación ONCE · Inserta Empleo · Talento Digital
 
+> **DOCUMENTO DE CONSULTA — no es fuente de NotebookLM.** Este M-brief es material de referencia para el formador. La fuente de cada notebook es el D-brief por sesión (`D01_Brief_NotebookLM.md`, etc.). Los D-briefs son los documentos actualizados y completos; este módulo-brief puede estar desactualizado.
+
 ---
 
 ## CONTEXTO DEL CURSO
 
 **Programa:** IA en la Oficina – Eficiencia y productividad (68 horas)
 **Público:** Personal administrativo y de oficina sin experiencia previa en IA generativa
-**Metodología:** 25% teoría + demostración · 65% práctica guiada · 10% puesta en común
-**Herramientas principales:** ChatGPT, Microsoft Copilot, Google Gemini, Claude, Canva con IA
+**Metodología:** ~40% teoría + demostración · ~50% práctica guiada · ~10% puesta en común
+**Herramientas principales:** ChatGPT, Google Gemini, Claude, NotebookLM, Canva (todas gratuitas con Gmail)
 **Evaluación:** Mini-entregable al final de cada sesión + Proyecto Final individual el último día
 
 ---
@@ -39,7 +41,7 @@
 1. Conocer al grupo, sus expectativas y sus puestos de trabajo.
 2. Diferenciar IA, IA generativa y modelos de lenguaje (LLM) sin tecnicismos.
 3. Identificar 5 tareas del propio puesto donde la IA puede ayudar de forma realista.
-4. Crear y configurar las cuentas básicas necesarias para el curso (ChatGPT, Copilot, Gemini).
+4. Crear y configurar las cuentas básicas necesarias para el curso (ChatGPT, Gemini, Claude — todas gratuitas con Gmail).
 
 ---
 
@@ -57,13 +59,15 @@
 
 #### Bloque 2 — Panorama de herramientas (para qué sirve cada una)
 
-| Herramienta | Lo mejor para | Limitación principal |
-|-------------|--------------|----------------------|
-| ChatGPT (OpenAI) | Redacción, análisis, brainstorming | Datos confidenciales, versión gratuita limitada |
-| Microsoft Copilot | Integración con Word, Excel, Outlook | Requiere licencia M365 Copilot |
-| Google Gemini | Integración con Google Workspace, búsqueda | Menos potente en textos largos |
-| Claude (Anthropic) | Documentos muy largos, análisis preciso | Menos integrado con herramientas de oficina |
-| Canva con IA | Diseño visual rápido, presentaciones | No sustituye a diseñador para trabajo de marca |
+| Herramienta | Lo mejor para | Cuenta necesaria |
+|-------------|--------------|-----------------|
+| ChatGPT (OpenAI) | Redacción, análisis, brainstorming | Gmail o email (gratis) |
+| Google Gemini | Integración con Google Docs/Sheets, búsqueda | Gmail (gratis) |
+| Claude (Anthropic) | Documentos muy largos, análisis preciso | Gmail o email (gratis) |
+| NotebookLM (Google) | Preguntar a documentos propios | Gmail (gratis) |
+| Canva con IA | Diseño visual rápido, presentaciones | Gmail (gratis) |
+
+*Nota: Microsoft Copilot no se usa en este curso (requiere licencia M365). Si tu empresa ya te lo proporciona, úsalo como complemento, pero no es necesario para ninguna actividad del curso.*
 
 #### Bloque 3 — Buenas prácticas: privacidad, sesgos y límites
 
@@ -100,7 +104,8 @@
 ### HERRAMIENTAS DE LA SESIÓN
 
 - ChatGPT (versión gratuita, creada en aula)
-- Microsoft Copilot (si disponible en los equipos del aula)
+- Google Gemini (versión gratuita con Gmail)
+- Claude (versión gratuita, claude.ai)
 - Hoja informativa de privacidad y datos sensibles (entregada en papel)
 
 ---
