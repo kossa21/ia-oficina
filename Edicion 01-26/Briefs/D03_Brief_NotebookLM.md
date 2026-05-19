@@ -48,7 +48,7 @@ Hoy damos el salto del prompt suelto al flujo de trabajo: la técnica de encaden
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### Pensar la tarea como un flujo: divide antes de pedir
 
@@ -72,7 +72,10 @@ El resultado de este flujo es un informe de dos páginas, coherente, verificable
 
 La diferencia respecto a un prompt único no es solo de calidad. Es también de **verificabilidad**: en un flujo de cuatro pasos, si algo sale mal en el paso 2, Marta puede corregirlo antes de que ese error se propague a los pasos 3 y 4. Con un prompt único, el error aparece en el documento final y hay que rehacer todo.
 
----
+> **Puntos clave:**
+> - Divide antes de pedir: cada prompt hace una cosa; el resultado de uno alimenta al siguiente
+> - La verificabilidad es la ventaja clave: los errores se detectan en el paso donde ocurren, no al final
+> - Flujo mínimo de 3 pasos: clasificar → analizar → redactar (el orden respeta la lógica del documento)
 
 ### Cómo pegar contexto correctamente: información real, resultados reales
 
@@ -91,7 +94,10 @@ Cuando el documento que necesitas pegar es muy largo —más de cinco o seis pá
 
 Y la regla que nunca cambia, independientemente de la herramienta: **anonimiza siempre antes de pegar**. Los nombres reales, los datos bancarios, los expedientes internos, los datos de RRHH o las referencias de clientes no deben salir de la organización sin autorización explícita. La solución práctica es sencilla y tarda menos de dos minutos: sustituye NOMBRE_REAL por EMPLEADO_A, CLIENTE_B, PROVEEDOR_C; sustituye importes concretos por IMPORTE_X; sustituye fechas específicas de expedientes por FECHA_Y. El resultado es igualmente útil para la IA y tú cumples con el RGPD.
 
----
+> **Puntos clave:**
+> - Cuatro tipos de contexto útiles: correos recibidos, notas de reunión, tablas de datos, ejemplos de estilo propio
+> - Etiquetas de delimitación [INICIO] / [FIN]: separan el material de referencia de las instrucciones del prompt
+> - Documentos >5 páginas: cambiar a Claude o NotebookLM, que gestionan contextos más largos sin perder información
 
 ### Iteración: mejorar sin empezar de cero
 
@@ -118,7 +124,10 @@ La **regla práctica de la iteración** es esta: antes de regenerar desde cero, 
 
 Un matiz importante: la IA solo "recuerda" el contexto dentro de la misma conversación activa. Si cierras la ventana y abres una nueva, la IA no recuerda nada de lo anterior. Por eso, cuando trabajas en un flujo de varios prompts, hazlo siempre dentro de la misma conversación, sin cerrarla entre un paso y el siguiente.
 
----
+> **Puntos clave:**
+> - Itera antes de regenerar: si el contenido es correcto pero el tono o formato falla, un prompt breve basta
+> - Tabla de refinados: acortar / cambiar tono / añadir sección / cambiar formato / corregir un dato
+> - La conversación activa es la memoria de la IA: no la cierres hasta terminar el flujo completo
 
 ### Cuándo NO usar IA
 
@@ -134,6 +143,55 @@ La cuarta: cuando **necesitas información verificada y de última hora**. La IA
 
 La quinta: cuando **la tarea requiere juicio ético genuino o decisión humana**. Decidir si un expediente merece una sanción, evaluar el rendimiento de un empleado o gestionar un conflicto entre personas son tareas que requieren criterio humano, contexto relacional y responsabilidad. La IA puede ayudarte a preparar la información, pero la decisión debe ser tuya.
 
+> **Puntos clave:**
+> - 5 situaciones donde la IA no aplica: datos no anonimizables, consecuencias graves, tarea más rápida sin IA, info reciente, juicio ético
+> - La IA prepara la información; la decisión y la responsabilidad son siempre del profesional
+> - Saber cuándo NO usar IA es tan importante como saber cómo usarla
+
+### El diseño del flujo óptimo: cuántos pasos son suficientes
+
+Marta ha construido esta semana tres flujos distintos: uno de dos pasos para responder correos complejos, uno de cuatro para el informe de incidencias y uno de seis para preparar la presentación trimestral de logística. Una pregunta que se repite en el aula es: ¿cuántos pasos es lo correcto? La respuesta no es un número fijo sino un criterio: tantos pasos como sean necesarios para que cada uno produzca un resultado verificable y específico.
+
+Un flujo está mal diseñado si alguno de sus pasos hace demasiado (mezcla clasificar + analizar + redactar en un solo prompt, sacrificando verificabilidad) o si está innecesariamente fragmentado (separa en tres prompts lo que podría hacerse en uno con el contexto adecuado). La prueba práctica para saber si un paso está en el nivel correcto: ¿puedes leer el resultado de ese paso y decir "esto está bien" o "hay que corregir X" antes de avanzar? Si sí, el paso está bien dimensionado. Si el resultado del paso es tan intermedio que no puedes juzgarlo de forma independiente, probablemente necesita fusionarse con el siguiente.
+
+> **Puntos clave:**
+> - Criterio de granularidad: cada paso debe producir un resultado que puedas evaluar de forma independiente
+> - Flujo sobredimensionado: cada paso hace demasiado; los errores se propagan sin poder detectarlos
+> - Flujo subfragmentado: demasiados pasos simples que podrían fusionarse sin perder verificabilidad
+
+### Verificación en cada paso: el control de calidad dentro del flujo
+
+La verificación de cada paso del flujo es lo que convierte el encadenamiento en una técnica fiable en lugar de una cadena de errores acumulados. Funciona exactamente como los puntos de control en una línea de producción: si en el control de calidad del tercer paso detectas un defecto, lo corriges antes de que ese defecto se multiplique en los pasos siguientes. En el trabajo con prompts encadenados, la verificación de cada paso es tan importante como el diseño del prompt en sí.
+
+La técnica de verificación por paso es sencilla: antes de copiar el resultado de un prompt como contexto del siguiente, lee el resultado completo y comprueba tres cosas. Primero, que no hay datos inventados (nombres, cifras, normativas que la IA añadió por su cuenta). Segundo, que el contenido es completo y no le falta ninguna de las cosas que pediste. Tercero, que el formato es el que necesitas para que el siguiente prompt lo procese bien. Si algo no está bien, corrígelo con una iteración breve en el mismo paso antes de avanzar. Esta revisión tarda entre 30 segundos y 2 minutos por paso, y es la diferencia entre un flujo que produce un resultado confiable y uno que acumula errores imperceptibles hasta el final.
+
+> **Puntos clave:**
+> - Verifica cada paso antes de avanzar: datos correctos + contenido completo + formato adecuado para el siguiente paso
+> - Un error en el paso 2 no detectado llega multiplicado al paso 4 o 5
+> - La verificación tarda 1-2 min por paso; corregir el error en el resultado final puede costar horas
+
+### Elegir la herramienta adecuada según la escala de la tarea
+
+No todas las tareas encajan igual de bien en todas las herramientas del curso, y uno de los criterios más prácticos para elegir es la escala del texto a procesar. ChatGPT en su versión gratuita tiene una ventana de contexto limitada: puede procesar textos de extensión normal (un correo, unas notas de página y media, una tabla de datos) con plena fidelidad, pero si el documento supera las 5-6 páginas densas, puede empezar a perder información de las partes más alejadas del inicio del prompt. Para esas situaciones, hay dos alternativas gratuitas que gestionan contextos más largos con mayor fidelidad.
+
+Claude (claude.ai, gratuito con cuenta Google) maneja documentos mucho más extensos que ChatGPT en su nivel gratuito, lo que lo convierte en la herramienta ideal cuando necesitas pegar un informe completo, un contrato o un documento de varias decenas de páginas. Google NotebookLM es la otra alternativa: en lugar de pegar el documento en el chat, lo subes como fuente y haces preguntas sobre él; NotebookLM puede citar el párrafo exacto del documento donde está la respuesta, lo que es especialmente útil para documentos de referencia que necesitas consultar con frecuencia. La regla práctica: si el texto que vas a procesar ocupa más de 5-6 páginas impresas, cambia a Claude o NotebookLM antes de empezar el flujo.
+
+> **Puntos clave:**
+> - ChatGPT gratuito: óptimo hasta ~5 páginas de texto; después puede perder información del inicio
+> - Claude gratuito: mejor para documentos extensos que necesitan análisis preciso sin pérdidas
+> - NotebookLM: ideal para documentos de referencia que consultas varias veces (cita párrafos fuente)
+
+### Documentar los flujos para reutilizarlos y compartirlos
+
+Construir un buen flujo de prompts tarda entre 20 y 40 minutos la primera vez. Si no se documenta, la siguiente vez que se necesita hacer el mismo tipo de tarea hay que volver a diseñarlo desde cero. Documentar un flujo no significa redactar un manual: significa guardar en un Google Doc los cuatro o cinco prompts en orden, con una línea de título para cada paso y las instrucciones completas incluyendo las etiquetas de delimitación. Ese documento se convierte en un recurso que se puede reutilizar directamente, ajustando solo el contenido variable (las notas del mes, el correo recibido, los datos actuales).
+
+La documentación de flujos tiene además un valor colectivo: si Marta comparte su flujo de informe de incidencias con su compañera del equipo, esta puede usarlo directamente la siguiente vez que necesite hacer el mismo informe, sin tener que aprender a diseñarlo. Una empresa que empieza a acumular flujos documentados está construyendo un activo de productividad colectiva que crece con el tiempo. Para el proyecto final del curso (D16-D17), cada alumno presentará al menos un flujo documentado que sea directamente usable por cualquier persona del equipo sin experiencia previa en IA.
+
+> **Puntos clave:**
+> - Documenta el flujo la primera vez; la siguiente lo lanzas en 5 minutos en lugar de 30
+> - Formato mínimo: título del paso + prompt completo con etiquetas + nota del resultado esperado
+> - Un flujo documentado y compartido es un activo de productividad colectiva para todo el equipo
+
 ---
 
 ## 7. DATOS Y CIFRAS CLAVE
@@ -145,6 +203,7 @@ La quinta: cuando **la tarea requiere juicio ético genuino o decisión humana**
 - Antes / Después — resumir y estructurar notas de reunión (1 hora de reunión): antes 45-60 min; con flujo de prompts 8-12 min.
 - El 73 % del tiempo que los principiantes dedican a trabajar con IA se pierde regenerando respuestas desde cero cuando la iteración habría sido suficiente (estimación basada en observación de aula).
 - Claude gestiona documentos de hasta ~200 000 tokens de contexto en su versión gratuita, frente a los ~8 000 tokens por conversación del nivel gratuito de ChatGPT — para documentos largos, Claude o NotebookLM son la elección correcta.
+- Documentar un flujo de 4 prompts tarda unos 10 minutos; reutilizarlo las veces siguientes tarda menos de 5 minutos.
 
 ---
 
@@ -202,6 +261,25 @@ La quinta: cuando **la tarea requiere juicio ético genuino o decisión humana**
 
 ---
 
+### Caso 4 — Documentar y reutilizar un flujo: actas de reunión recurrentes
+
+**Situación:** Marta asiste todas las semanas a la reunión de coordinación de su equipo. Cada lunes tarda entre 45 y 60 minutos en convertir sus notas manuscritas en un acta formal estructurada. El formato del acta es siempre el mismo: asistentes, puntos tratados, acuerdos y responsables, próximos pasos.
+
+**Prompt 1 — Organizar las notas por puntos del orden del día:**
+> "Actúa como secretaria de reunión. Te paso notas informales de una reunión de coordinación de empresa de distribución. Organízalas en los puntos del orden del día que aparecen en las notas. Para cada punto: un título descriptivo y los contenidos en bullet points. No añadas información que no esté en las notas. [INICIO] Reunión FECHA_Y. Asistentes: PERSONA_A, PERSONA_B, PERSONA_C. Hablamos del pedido CLIENTE_X atrasado, PERSONA_A se encarga. También tema de facturación PROVEEDOR_Y duplicada, PERSONA_B revisa. Próxima reunión FECHA_Z. [FIN]"
+
+**Prompt 2 — Identificar acuerdos y responsables:**
+> "De los puntos organizados, extrae todos los acuerdos concretos con su responsable y plazo si se mencionó. Formato: lista numerada. Para cada acuerdo: (1) qué se acordó, (2) quién es responsable, (3) plazo o fecha si se menciona, (4) estado (pendiente/en curso/resuelto)."
+
+**Prompt 3 — Redactar el acta formal:**
+> "Con los puntos organizados y los acuerdos identificados, redacta el acta formal de la reunión. Estructura: cabecera con fecha y asistentes / apartados por punto del orden del día / tabla de acuerdos con responsable y plazo / fecha de próxima reunión. Tono: formal, neutro, sin juicios de valor. Máximo 400 palabras."
+
+**Resultado comentado:** El acta generada en tres pasos es verificable en cada etapa. Si en el Prompt 2 Marta ve que falta un acuerdo que sí se tomó (porque no estaba en las notas con suficiente detalle), puede añadirlo antes de pasar al Prompt 3. El acta final tarda 8-10 minutos en lugar de 45-60 y tiene la misma estructura siempre, lo que facilita archivarla y compartirla. Marta guardó los tres prompts en su biblioteca con el título "Flujo acta reunión coordinación".
+
+**Cómo iterarlo:** *"El segundo punto del acta tiene demasiado detalle técnico para el acta de coordinación. Reduce ese apartado a un máximo de 3 líneas, manteniendo el acuerdo y el responsable."*
+
+---
+
 ## 9. GLOSARIO
 
 **Flujo de prompts:** Secuencia de dos o más prompts encadenados en los que el resultado de cada uno se usa como contexto del siguiente, para resolver tareas que son demasiado complejas para un único prompt.
@@ -224,6 +302,10 @@ La quinta: cuando **la tarea requiere juicio ético genuino o decisión humana**
 
 **NotebookLM:** Herramienta de Google que permite subir documentos completos y hacer preguntas sobre ellos; ideal para documentos extensos que no caben en el contexto de un chat de IA convencional.
 
+**Granularidad del flujo:** El nivel de detalle o amplitud de cada paso del flujo; un paso bien granulado hace una sola cosa verificable; uno mal granulado mezcla demasiadas acciones o está innecesariamente fragmentado.
+
+**Flujo documentado:** Conjunto de prompts encadenados guardados en orden en un documento reutilizable, con instrucciones completas y etiquetas para el contenido variable; permite repetir el proceso en minutos sin rediseñarlo.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -241,6 +323,10 @@ La quinta: cuando **la tarea requiere juicio ético genuino o decisión humana**
 **Buena práctica — Documenta los flujos que funcionan.** Cuando construyas un flujo de prompts que produce un buen resultado, guárdalo completo: los cuatro prompts en orden, con sus instrucciones y etiquetas. La próxima vez que necesites hacer el mismo informe, el flujo ya está diseñado.
 
 **Buena práctica — Usa Claude para documentos largos.** Si necesitas pegar un documento de más de 5-6 páginas, cambia a Claude o NotebookLM. No es una limitación de tu capacidad: es usar la herramienta adecuada para cada escala de tarea.
+
+**Error 6 — Diseñar un flujo con pasos que no son verificables de forma independiente.** Si al terminar el paso 2 no puedes juzgar si está bien o mal sin leer el paso 3, el flujo está mal granulado. Cada paso debe producir algo que puedas evaluar de forma autónoma antes de avanzar al siguiente.
+
+**Buena práctica — Documenta el flujo la primera vez que lo construyes.** Copia los prompts en orden en un Google Doc con el nombre de la tarea como título. La próxima vez que necesites hacer el mismo informe o acta, no rediseñas nada: abres el documento, sustituyes el contenido variable y lanzas los pasos. Un flujo bien documentado hoy es tiempo recuperado todas las semanas siguientes.
 
 ---
 

@@ -48,7 +48,7 @@ Ayer descubrimos qué es la IA y para qué sirve; hoy aprendemos a hablar con el
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### Por qué fallan los prompts: los cinco errores del principiante
 
@@ -60,7 +60,10 @@ Los cinco errores más frecuentes que observamos en principiantes son los siguie
 
 La solución a los cinco errores no es saber más de tecnología. Es aplicar una estructura. Y esa estructura tiene nombre: R-C-T-F-R.
 
----
+> **Puntos clave:**
+> - Los 5 errores del principiante: vago, sin contexto, todo a la vez, sin formato, sin restricciones
+> - Todos los errores tienen la misma causa: la IA no adivina lo que no le dices
+> - La solución no es técnica, es estructural: la estructura R-C-T-F-R resuelve los cinco a la vez
 
 ### La estructura R-C-T-F-R: los cinco componentes de un prompt eficaz
 
@@ -86,11 +89,21 @@ El componente más subestimado es el **Contexto**. La IA trabaja con lo que le d
 
 El componente más práctico son las **Restricciones**. La IA tiende a ser educada, a dar más información de la que pediste y a añadir matices. Las restricciones son el modo de podarla: "no más de 80 palabras", "no menciones el precio", "no uses lenguaje técnico", "no empieces con 'Estimado cliente'". Unos segundos dedicados a pensar qué no quieres en la respuesta ahorran varias iteraciones posteriores.
 
----
+> **Puntos clave:**
+> - R-C-T-F-R: Rol / Contexto / Tarea / Formato / Restricciones — los cinco componentes del prompt profesional
+> - Rol: ajusta automáticamente el tono, el vocabulario y el enfoque de toda la respuesta
+> - Restricciones: el componente más olvidado y más eficaz para eliminar el ruido de la respuesta
 
 ### El "cinco de cinco": de prompts vagos a prompts con R-C-T-F-R
 
-La siguiente tabla muestra cinco situaciones habituales de oficina y cómo cambia la calidad del resultado al pasar de un prompt vago a uno estructurado. Estos son exactamente los tipos de prompts que los alumnos van a construir en la práctica de hoy.
+La siguiente tabla muestra cinco situaciones habituales de oficina y cómo cambia la calidad del resultado al pasar de un prompt vago a uno estructurado.
+
+> **Puntos clave:**
+> - Mismo objetivo, resultado radicalmente distinto: la estructura, no la herramienta, marca la diferencia
+> - El prompt vago genera respuestas que podrían ser de cualquier empresa del mundo
+> - El prompt R-C-T-F-R genera respuestas que parecen escritas por alguien que conoce el caso
+
+La siguiente tabla muestra cinco situaciones habituales de oficina y cómo cambia la calidad del resultado al pasar de un prompt vago a uno estructurado.
 
 | Prompt vago ❌ | Prompt R-C-T-F-R ✅ |
 |---------------|---------------------|
@@ -120,6 +133,55 @@ Una vez que dominas R-C-T-F-R, el siguiente paso es convertir los prompts que fu
 
 Marta guarda estas cuatro plantillas en un documento de Google Docs llamado "Mis prompts de trabajo". Cada vez que necesita redactar un correo, no empieza desde cero: abre el documento, elige la plantilla, rellena los corchetes y en treinta segundos tiene el prompt listo para lanzar.
 
+> **Puntos clave:**
+> - Una plantilla = prompt con partes fijas + placeholders [ENTRE CORCHETES] para los datos variables
+> - Google Doc "Mi biblioteca de prompts" organizado por tarea: la herramienta de productividad más valiosa del curso
+> - Convertir cualquier prompt que funcione en plantilla tarda 2 minutos y ahorra tiempo cada semana
+
+### El componente Rol en profundidad: por qué darle un papel a la IA transforma el resultado
+
+Marta lleva tres días usando ChatGPT y empieza a notar algo curioso: cuando añade un rol al inicio del prompt, la respuesta cambia de forma que va más allá del simple tono. Si pide un correo "como responsable de atención al cliente", la IA usa frases de empatía y propone soluciones concretas. Si pide el mismo correo "como abogada corporativa", la IA usa un registro más formal, evita compromisos sin respaldo documental y añade matices de precaución legal. Si pide el correo "como directora de comunicaciones", la IA equilibra la corrección de imagen de marca con el mensaje de fondo. El contenido del problema es el mismo, pero el punto de vista cambia radicalmente la forma de abordarlo.
+
+El Rol es el componente que programa el "modo de pensar" de la IA para esa respuesta concreta. Actúa como una plantilla mental que ajusta simultáneamente el vocabulario, el registro, las prioridades implícitas y el nivel de detalle. No necesita ser largo: "actúa como administrativa de RRHH" en cuatro palabras ya orienta a la IA hacia el tipo de respuesta que sirve en un departamento de RRHH. La regla práctica para elegir el rol es simple: piensa qué tipo de persona en tu organización redactaría este documento de forma ideal y usa ese perfil como rol.
+
+> **Puntos clave:**
+> - El rol ajusta vocabulario, registro, prioridades implícitas y nivel de detalle de toda la respuesta
+> - Mismo problema, tres roles distintos = tres perspectivas útiles distintas
+> - Regla: el rol ideal es la persona de tu organización que redactaría esto mejor que nadie
+
+### El componente Contexto en profundidad: la clave para respuestas específicas, no genéricas
+
+El Contexto es lo que convierte una respuesta genérica en una respuesta que parece escrita por alguien que conoce exactamente tu situación. Sin contexto, la IA tiene que asumir cosas: asume que el cliente es desconocido, que la empresa es de tamaño medio, que el plazo es el estándar del sector, que el tono habitual es formal pero no frío. Esas asunciones pueden ser razonables en abstracto y completamente incorrectas en tu caso concreto. La IA no miente cuando te da una respuesta que no encaja: simplemente inventó los datos que tú no le diste.
+
+Pegar contexto real es la técnica más poderosa para mejorar los resultados. En términos prácticos, esto significa copiar el correo del cliente que necesitas responder (anonimizado), las notas de la reunión que hay que convertir en acta, el párrafo del informe que necesitas reescribir, o los datos del mes que hay que analizar. La IA procesa ese material y produce una respuesta anclada a información real en lugar de a suposiciones estadísticas. Cuanta más información relevante y anonimizada le des, más específica y directamente usable será la respuesta. El límite es el mismo de siempre: nunca información que identifique a personas reales sin autorización.
+
+> **Puntos clave:**
+> - Sin contexto, la IA inventa asunciones razonables que pueden no encajar con tu caso
+> - Pegar contexto real (correo, notas, datos) anclados la respuesta a tu situación específica
+> - Regla: dale a la IA la misma información que darías a un compañero nuevo que empieza el trabajo hoy
+
+### El componente Restricciones en profundidad: decirle a la IA qué no hacer
+
+Las Restricciones son el componente más olvidado por los principiantes y uno de los más eficaces. La IA, por defecto, tiende a hacer varias cosas que no siempre convienen: añadir una introducción genérica antes de responder lo que pediste, extenderse más de lo necesario, ofrecer matices y alternativas cuando tú quieres una sola opción, usar frases de cierre como "espero que esta información le sea de utilidad" que nadie quiere en un correo interno, o mencionar cosas que son evidentes para quien conoce el contexto. Las restricciones son el mecanismo para podar todo eso antes de que aparezca en la respuesta.
+
+La forma más eficaz de incluir restricciones es pensar en "qué no quiero que haga" antes de lanzar el prompt. Treinta segundos de reflexión antes de escribir el prompt evitan varias iteraciones posteriores. Las restricciones más útiles en el contexto de oficina son: límites de extensión ("máximo 80 palabras"), restricciones de contenido ("no prometas fechas concretas", "no menciones el precio sin consultar"), restricciones de tono ("sin lenguaje técnico", "sin frases de cierre genéricas"), y restricciones de formato ("sin introducción, ve directo al punto", "sin bullet points, solo párrafos").
+
+> **Puntos clave:**
+> - Las restricciones eliminan el ruido antes de que aparezca; son más eficientes que corregirlo después
+> - Tipos más útiles: extensión, contenido prohibido, tono, formato
+> - 30 segundos pensando en "qué no quiero" ahorran varias iteraciones posteriores
+
+### Iteración desde R-C-T-F-R: el ciclo de mejora continua del prompt
+
+La estructura R-C-T-F-R no es solo para el primer prompt; es también el marco de diagnóstico cuando el resultado no es lo que esperabas. Si la respuesta es demasiado genérica, probablemente falta Contexto. Si el tono no encaja, probablemente el Rol no es el adecuado o no está definido con suficiente precisión. Si el resultado incluye cosas que no pediste, falta una Restricción. Si el formato no es el correcto, el componente Formato necesita más detalle. Este diagnóstico por componentes convierte el proceso de mejora en algo sistemático: en lugar de "no me gusta esta respuesta", puedes decir "falta el componente X" y añadirlo en la iteración.
+
+La iteración más eficiente no reescribe el prompt entero. Identifica el componente específico que falla y lo añade o ajusta en un prompt breve de refinado. "El tono es correcto pero está demasiado largo: reduce a la mitad manteniendo los tres puntos clave" es una iteración que ajusta el Formato. "Reescribe con un tono más cercano; el cliente es habitual y la relación lleva cinco años" es una iteración que enriquece el Contexto. "Añade al final que el plazo de respuesta es de 48 horas laborables" es una iteración que añade Contenido omitido. Cada iteración es un prompt corto, específico y directamente aplicable.
+
+> **Puntos clave:**
+> - Si el resultado falla, diagnostica qué componente R-C-T-F-R falta o está incompleto
+> - Resultado genérico = falta Contexto; tono incorrecto = Rol mal definido; demasiado largo = faltan Restricciones
+> - La iteración eficiente añade el componente que falta, no reescribe el prompt desde cero
+
 ---
 
 ## 7. DATOS Y CIFRAS CLAVE
@@ -131,6 +193,7 @@ Marta guarda estas cuatro plantillas en un documento de Google Docs llamado "Mis
 - Antes / Después — crear 5 respuestas tipo para preguntas frecuentes: antes 90 min; con un único prompt en lote 5-8 min.
 - Los usuarios principiantes necesitan una media de 3-5 iteraciones para obtener un resultado satisfactorio con un prompt vago; con R-C-T-F-R, el primer resultado es usable en el 70-80 % de los casos.
 - En un estudio de McKinsey (2023), los trabajadores del conocimiento que usaban herramientas de IA generativa completaban tareas de escritura hasta un 40 % más rápido que quienes no las usaban.
+- Un prompt con los 5 componentes R-C-T-F-R completos produce un resultado directamente usable en el 70-80 % de los casos; un prompt de una línea produce algo usable en menos del 20 % de los casos.
 
 ---
 
@@ -175,6 +238,19 @@ Marta guarda estas cuatro plantillas en un documento de Google Docs llamado "Mis
 
 ---
 
+### Caso 4 — Adaptar un correo para distintos niveles jerárquicos
+
+**Situación:** El departamento necesita comunicar el mismo retraso en la entrega de un pedido importante tanto al responsable de logística (interno) como al cliente final (externo). El mensaje debe ser coherente pero el registro y el nivel de detalle son completamente distintos.
+
+**Prompt exacto:**
+> "Actúa como responsable de comunicaciones de una empresa de distribución. Hay un retraso de 3 días hábiles en el pedido PEDIDO_X del cliente CLIENTE_C debido a un problema con el proveedor PROVEEDOR_D. Genera dos versiones del mensaje: (1) comunicación interna para el jefe de logística: técnica, con todos los detalles del problema y los pasos de gestión en curso; (2) comunicación externa para el cliente: empática, sin tecnicismos, enfocada en la solución y el nuevo plazo estimado. Máximo 100 palabras cada una. Interno: tono directo y operativo. Externo: tono cálido y tranquilizador. No incluyas el nombre del proveedor en la versión externa."
+
+**Resultado comentado:** La IA produce dos mensajes con el mismo núcleo informativo (retraso de 3 días, gestión en curso) pero registros completamente distintos. La versión interna incluye pasos técnicos; la externa se enfoca en "le mantendremos informado y el nuevo plazo es...". Marta solo tuvo que verificar que el plazo indicado en ambas versiones fuera el mismo (coherencia) antes de enviarlas.
+
+**Cómo iterarlo:** *"La versión externa está bien, pero empieza con la disculpa en lugar de con la explicación; el cliente prefiere escuchar 'lo sentimos' antes de 'ha ocurrido un problema'."*
+
+---
+
 ## 9. GLOSARIO
 
 **Prompt:** Instrucción o pregunta que escribes a la IA para que genere un resultado; la calidad del prompt determina directamente la calidad de la respuesta.
@@ -197,6 +273,10 @@ Marta guarda estas cuatro plantillas en un documento de Google Docs llamado "Mis
 
 **Anonimización:** Sustitución de datos personales o confidenciales por etiquetas genéricas (CLIENTE_A, IMPORTE_X) antes de pegarlos en cualquier herramienta de IA externa.
 
+**Componente Formato:** Parte de R-C-T-F-R que indica a la IA cómo quieres que sea la respuesta: correo con asunto, lista numerada, tabla, párrafo de N palabras; sin este componente la IA elige el formato que le parece más probable.
+
+**Componente Contexto:** Parte de R-C-T-F-R que proporciona a la IA la información de fondo de tu situación real (el correo recibido, los datos del cliente, el sector, la política de empresa); convierte la respuesta genérica en específica.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -214,6 +294,10 @@ Marta guarda estas cuatro plantillas en un documento de Google Docs llamado "Mis
 **Buena práctica — Guarda los prompts que funcionan.** Cuando obtengas un resultado que te guste, guarda el prompt en un documento personal. Esa colección es tu biblioteca privada de prompts y se convierte en una de las herramientas más valiosas de tu día a día.
 
 **Buena práctica — Etiqueta tus restricciones de privacidad.** Cada vez que uses un prompt con datos de la empresa, añade mentalmente la pregunta: ¿hay algún dato aquí que no debería salir de la organización? Si la respuesta es sí, anonimiza antes de pegar.
+
+**Error 6 — Usar el mismo prompt para destinatarios completamente distintos.** Un correo para un cliente externo habitual y uno para un cliente nuevo necesitan Contextos y Restricciones distintos. Si el resultado te parece "algo frío" o "algo informal", el problema suele ser que el Contexto no indica quién es el destinatario ni qué tipo de relación hay.
+
+**Buena práctica — Diagnostica el fallo antes de iterar.** Cuando el resultado no es el esperado, antes de escribir el siguiente prompt identifica qué componente R-C-T-F-R causó el fallo: ¿demasiado genérico? (falta Contexto), ¿tono incorrecto? (Rol impreciso), ¿demasiado largo? (sin Restricción de extensión). Este diagnóstico hace que la iteración sea eficiente en lugar de intuitiva.
 
 ---
 
@@ -332,6 +416,18 @@ b) No; siempre hay que leer el resultado completo, verificar los datos concretos
 c) Solo hay que revisar si el documento es muy largo
 d) No hace falta revisar si la IA es de pago
 
+**13. Marta recibe un resultado que tiene el contenido correcto pero el tono es demasiado frío para un cliente habitual. Según R-C-T-F-R, ¿qué componente faltaba en el prompt original?**
+a) Tarea — no especificó qué correo hacer
+b) Formato — no indicó la extensión
+c) Contexto — no indicó que el cliente es habitual y que la relación lleva años ✓
+d) Restricciones — no puso límite de palabras
+
+**14. ¿Qué ventaja tiene usar un rol específico como "actúa como jefa de administración de una empresa de logística" frente a no indicar rol?**
+Respuesta: El rol ajusta simultáneamente el vocabulario, el registro y las prioridades implícitas de la respuesta. Sin rol, la IA adopta un rol genérico de "asistente" que puede ser adecuado para muchas situaciones pero no para la tuya concretamente. Con un rol específico, la respuesta refleja el conocimiento práctico, el tono y las prioridades de ese tipo de puesto.
+
+**15. Si un prompt de R-C-T-F-R da un resultado demasiado extenso, ¿cómo lo corriges con una iteración mínima?**
+Respuesta: Con una iteración de Restricción: "Reduce esta respuesta a un máximo de [N] palabras manteniendo los [X] puntos clave." No hace falta reescribir el prompt entero. Se identifica que el componente Restricción no tenía límite de extensión, y se añade en la iteración.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -359,6 +455,12 @@ Añade restricciones más específicas: "no incluyas introducción", "responde s
 
 **¿Puedo pedir a la IA que me ayude a construir el prompt en sí?**
 Sí, es una técnica muy útil cuando no sabes por dónde empezar. Puedes escribir: "Necesito construir un prompt para [DESCRIBIR LA TAREA]. Ayúdame a formularlo con estructura R-C-T-F-R." La IA te propondrá un borrador de prompt que tú puedes ajustar. Es una forma excelente de aprender la estructura practicándola.
+
+**¿Qué diferencia hay entre un rol genérico y un rol específico? ¿Cuándo vale la pena ser preciso?**
+Un rol genérico ("actúa como asistente administrativo") mejora el resultado respecto a no poner rol, pero un rol específico ("actúa como jefa del departamento de facturación de una empresa de distribución mediana") produce resultados más ajustados al contexto real. Vale la pena ser preciso cuando el tipo de documento tiene un perfil profesional muy concreto (legal, RRHH, comunicación corporativa) o cuando el destinatario tiene expectativas específicas sobre el registro. Para correos sencillos, un rol genérico ya es suficiente.
+
+**¿El componente Formato solo sirve para indicar extensión o también para estructura?**
+Sirve para ambas cosas y más. Puedes indicar: extensión ("máximo 80 palabras"), estructura ("correo con asunto, saludo, cuerpo y despedida"), tipo de documento ("lista numerada", "tabla comparativa", "párrafo único"), y nivel de formalidad implícito en el formato ("informe ejecutivo de una página"). Cuanto más concreto sea el Formato, menos sorpresas habrá en el resultado.
 
 ---
 
@@ -396,11 +498,13 @@ Para tu proyecto final: los 5 prompts que construyes hoy son la materia prima de
 
 ## 20. IDEAS PARA RECORDAR
 
-- R-C-T-F-R (Rol, Contexto, Tarea, Formato, Restricciones) es la estructura que convierte un prompt vago en una instrucción profesional y reproducible.
+- R-C-T-F-R (Rol, Contexto, Tarea, Formato, Restricciones) convierte un prompt vago en una instrucción profesional y reproducible.
 - Más contexto siempre es mejor que menos, siempre que los datos estén anonimizados antes de pegarlos.
-- Las restricciones ("no hagas X") son el componente más olvidado y uno de los más eficaces para eliminar el ruido de las respuestas.
-- Guarda los prompts que funcionan: esa colección personal es una de las herramientas más valiosas de tu puesto de trabajo.
-- Antes de enviar cualquier resultado de la IA, léelo completo y verifica los datos concretos: la IA puede equivocarse con total confianza.
+- Las restricciones ("no hagas X") son el componente más olvidado y uno de los más eficaces para eliminar el ruido.
+- Si el resultado falla, diagnostica qué componente R-C-T-F-R causó el problema y añádelo en la iteración.
+- Guarda los prompts que funcionan: esa colección personal es una de las herramientas más valiosas del puesto.
+- Antes de enviar cualquier resultado, léelo completo y verifica los datos concretos: la IA puede equivocarse con confianza.
+- Convertir un prompt que funciona en plantilla con [CORCHETES] tarda 2 minutos y ahorra tiempo cada semana.
 
 ---
 

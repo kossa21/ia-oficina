@@ -20,7 +20,7 @@
 
 ## 3. RESUMEN DE LA SESIÓN
 
-Hoy empieza el curso y con él la primera pregunta que todo el mundo tiene: ¿qué es exactamente la inteligencia artificial y para qué me sirve a mí en mi trabajo? Esta sesión desmonta los mitos más comunes, hace un recorrido por las herramientas gratuitas que usaremos estas 17 sesiones, y establece las reglas de privacidad que protegen tanto al alumno como a su organización. No se asume ningún conocimiento técnico previo: si sabes escribir un correo electrónico, tienes todo lo que necesitas para empezar. Al final del día, cada alumno saldrá con un mapa personal de las cinco tareas de su propio puesto donde la IA puede ayudarle de verdad, y con las cuentas creadas para empezar mañana mismo.
+Hoy empieza el curso y con él la primera pregunta que todo el mundo tiene: ¿qué es exactamente la inteligencia artificial y para qué me sirve a mí en mi trabajo? Esta sesión desmonta los mitos más comunes, hace un recorrido por las herramientas gratuitas que usaremos estas 17 sesiones, y establece las reglas de privacidad que protegen tanto al alumno como a su organización. No se asume ningún conocimiento técnico previo: si sabes escribir un correo electrónico, tienes todo lo que necesitas para empezar. La sesión cubre también qué son las alucinaciones y cómo detectarlas, el flujo correcto de trabajo con IA (generar, revisar, ajustar, usar), y cómo NotebookLM convierte el brief del día en siete formatos de estudio distintos para que cada alumno aprenda a su manera. También abordamos cuándo la IA no es la herramienta adecuada, un criterio profesional tan importante como saber usarla. Al final del día, cada alumno saldrá con un mapa personal de las cinco tareas de su propio puesto donde la IA puede ayudarle de verdad, con las cuentas creadas para empezar mañana mismo, y con la regla de privacidad interiorizada para trabajar con seguridad desde el primer minuto.
 
 ---
 
@@ -47,7 +47,7 @@ Hoy empieza el curso y con él la primera pregunta que todo el mundo tiene: ¿qu
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### La IA generativa explicada sin tecnicismos
 
@@ -56,6 +56,11 @@ Marta lleva ocho años en el departamento de administración de una empresa de d
 La IA generativa es un tipo de software que, tras aprender patrones en cantidades enormes de texto, es capaz de generar texto nuevo, coherente y contextualizado. No piensa, no entiende ni tiene opiniones propias: calcula estadísticamente qué palabras o ideas encajan mejor con lo que le has pedido. La analogía más útil es la del **becario muy rápido y muy culto**: puede redactar un informe completo en segundos, traduce al inglés formal sin esfuerzo y resume veinte páginas en cinco puntos, pero no conoce tu empresa, puede equivocarse con datos concretos y, si le das instrucciones vagas, produce resultados mediocres. Tu papel no desaparece: sigues siendo tú quien decide qué pedir, cómo verificarlo y cómo usarlo.
 
 Antes de seguir, conviene desmontar cuatro mitos que suelen frenar a la gente en las primeras sesiones. El primero es que "la IA siempre tiene razón": falso, la IA puede afirmar datos incorrectos con total confianza (a esto se le llama alucinación) y verificar los resultados es siempre responsabilidad tuya. El segundo mito es que "es demasiado complicado para mí": si sabes escribir un mensaje de WhatsApp, sabes usar IA; la curva de aprendizaje es mínima. El tercer mito es que "va a reemplazar mi puesto": la IA automatiza las partes más repetitivas de tu trabajo, liberándote para las tareas que requieren tu criterio, tu relación con las personas y tu conocimiento del contexto. El cuarto mito es que "necesito pagar": todas las herramientas de este curso son gratuitas o tienen un nivel gratuito suficiente para las 17 sesiones.
+
+> **Puntos clave:**
+> - La IA genera texto nuevo a partir de patrones estadísticos; no busca ni recupera información guardada
+> - Analogía: becario muy rápido y culto, pero sin conocer tu empresa ni tus datos concretos
+> - Mitos desmontados: no requiere programación, no reemplaza el puesto, no cuesta dinero
 
 ### Panorama de herramientas gratuitas del curso
 
@@ -74,6 +79,11 @@ El curso usa exclusivamente herramientas accesibles con una cuenta personal de G
 
 La norma de oro sobre herramientas: en este curso nunca necesitarás pagar nada. Si en tu empresa tienes acceso a Microsoft Copilot o a otras herramientas de pago, todo lo que aprendas aquí es directamente aplicable allí, pero las prácticas se hacen con las herramientas gratuitas de esta lista.
 
+> **Puntos clave:**
+> - 7 herramientas gratuitas con Gmail: ChatGPT, Gemini, Claude, NotebookLM, Canva, Docs/Sheets, Perplexity
+> - Gemini: integrado con Gmail, Docs y Sheets — sin salir de las aplicaciones habituales
+> - Regla de oro: no se necesita pagar nada en ninguna de las 17 sesiones del curso
+
 ### Privacidad, sesgos y cuándo no usar IA
 
 La regla más importante del curso se aprende el primer día y se aplica en todos los demás: **nunca pegues en ninguna IA datos personales reales**. Nombres, DNI, números de cuenta, salarios, datos de clientes o expedientes internos son datos que no deben salir de tu organización sin autorización explícita. La solución es sencilla: antes de pegar cualquier texto en ChatGPT, Gemini o Claude, sustituye los datos reales por etiquetas genéricas. "Pedro García" se convierte en EMPLEADO_A; "3.200 euros" se convierte en IMPORTE_X; "Factura 2025-0847" se convierte en REF_DOCUMENTO. El resultado es igualmente útil para la IA y tú proteges los datos.
@@ -81,6 +91,66 @@ La regla más importante del curso se aprende el primer día y se aplica en todo
 Usar IA con datos de terceros sin anonimizar puede constituir una infracción del Reglamento General de Protección de Datos (RGPD). En caso de duda, consulta siempre con el responsable de privacidad de tu organización antes de procesar información de clientes, empleados o proveedores.
 
 Más allá de la privacidad, hay situaciones donde la IA simplemente no es la herramienta adecuada: decisiones que requieren juicio ético genuino, información de última hora que no puedes verificar, comunicaciones donde un error tendría consecuencias graves sin revisión humana, o tareas tan sencillas que escribir el prompt tarda más que hacerlas directamente.
+
+> **Puntos clave:**
+> - Regla de oro: nunca datos personales reales en la IA; anonimiza siempre antes de pegar
+> - Técnica práctica: Pedro García → EMPLEADO_A; 3.200 € → IMPORTE_X; nº factura → REF_DOC
+> - Tres situaciones donde la IA no aplica: juicio ético, información urgente sin verificar, tareas de 30 segundos
+
+### La IA como asistente, no como sustituto: tu criterio sigue siendo la clave
+
+Marta recuerda que cuando en su empresa llegaron los primeros ordenadores personales, varios compañeros temieron que "las máquinas" les quitarían el trabajo. No ocurrió así: los ordenadores transformaron los puestos, automatizando los cálculos más mecánicos y liberando tiempo para tareas que requerían juicio. Con la IA generativa está ocurriendo algo muy similar. La IA puede redactar un borrador de correo en segundos, pero no sabe si ese cliente merece un tono especialmente empático por la relación que lleváis años construyendo. Puede resumir un informe, pero no sabe si una cifra concreta va a levantar preguntas en la reunión de dirección de la próxima semana.
+
+La analogía más precisa no es la del robot que te reemplaza, sino la de un asistente que trabaja muy rápido y necesita supervisión. El asistente prepara la documentación, redacta los borradores y organiza la información; tú revisas, decides y firmas. Lo que cambia con la IA es que ese asistente está disponible en todo momento, sin coste adicional en el nivel gratuito, y es capaz de trabajar con cualquier tipo de texto que le des. Tu valor profesional no disminuye; se desplaza hacia donde la tecnología no llega: el criterio relacional, la interpretación del contexto y la responsabilidad sobre el resultado final.
+
+> **Puntos clave:**
+> - La IA prepara borradores; tú revisas, decides y firmas — el criterio sigue siendo humano
+> - Tu valor se desplaza de la ejecución mecánica al juicio, la relación y la supervisión
+> - Analogía: asistente disponible 24h, sin coste extra, que necesita instrucciones claras
+
+### Las alucinaciones: cómo reconocerlas y verificarlas antes de usar un resultado
+
+Marta generó ayer su primer informe con IA y quedó satisfecha. Hoy, antes de enviarlo a dirección, lo lee despacio y encuentra algo extraño: la IA ha citado una "regulación comunitaria 2023/4281" sobre tiempos de pago a proveedores. Marta no recuerda esa normativa. La busca y no existe. Lo que ha pasado se llama alucinación: la IA ha generado un dato que suena plausible y está formulado con total confianza, pero es inventado. No es un fallo técnico deliberado; es la consecuencia de cómo funcionan los modelos de lenguaje: predicen la secuencia de palabras más probable, y a veces esa secuencia incluye datos que nunca existieron pero son estadísticamente coherentes con el contexto.
+
+Las alucinaciones son más frecuentes con referencias legales o normativas específicas, cifras y estadísticas concretas, nombres propios, fechas de eventos pasados y citas literales atribuidas a personas reales. La probabilidad aumenta cuando el tema es muy especializado o muy reciente. La técnica de verificación más útil para el trabajo diario es simple: antes de usar un resultado que contenga datos concretos, identifica todos los datos verificables (fechas, cifras, nombres, normativas) y comprueba al menos los tres más críticos para la decisión que vas a tomar. Esta comprobación tarda menos de dos minutos y protege tanto al profesional como a la organización de usar información incorrecta con confianza.
+
+> **Puntos clave:**
+> - Alucinación: dato incorrecto afirmado con confianza total; efecto de predicción estadística, no mentira
+> - Mayor riesgo en: normativas específicas, cifras exactas, nombres propios, citas literales
+> - Verificación rápida: identifica datos concretos y comprueba los tres más críticos antes de usar
+
+### El flujo de trabajo correcto: generar, revisar, ajustar y usar
+
+Trabajar con IA de forma profesional no es lo mismo que hacer una búsqueda en Google donde el resultado se usa tal cual. Existe un flujo de cuatro etapas que minimiza los errores y maximiza la utilidad: generar, revisar, ajustar y usar. La primera etapa es lanzar el prompt con la estructura adecuada y obtener el borrador. La segunda es leer el resultado completo, verificar los datos concretos y valorar si el tono y la estructura son correctos para el destinatario real. La tercera es ajustar: si algo no es exactamente lo que se necesita, se itera con un prompt de refinado breve en lugar de empezar desde cero. La cuarta etapa —usar— llega solo cuando el texto ha pasado la revisión y los ajustes necesarios.
+
+Marta aplica este flujo desde el primer día y comprueba que cambia su relación con la herramienta. Ya no espera que la IA produzca el resultado perfecto a la primera; espera que produzca un borrador sólido que ella puede revisar en un minuto. La mentalidad de "esto es un punto de partida" elimina la frustración de los primeros intentos y convierte cada iteración en aprendizaje. Un correo enviado con datos incorrectos puede requerir un seguimiento de disculpa de cuarenta minutos; revisar ese mismo correo antes de enviarlo habría costado dos.
+
+> **Puntos clave:**
+> - Flujo correcto: Generar → Revisar → Ajustar → Usar (nunca saltarse la etapa de revisión)
+> - La revisión incluye: datos verificados + tono correcto + sin información incorrecta o inventada
+> - Un error no detectado antes de usar cuesta diez veces más que la revisión previa
+
+### NotebookLM como plataforma de aprendizaje multiformato
+
+Cada día del curso, la formadora sube el brief de la sesión a Google NotebookLM y comparte el enlace del notebook con el grupo antes de las 15:00. Ese notebook es mucho más que una versión digital de las diapositivas: es un entorno interactivo que los alumnos pueden usar tanto durante la sesión como después, para repasar, profundizar o reforzar lo aprendido en el formato que mejor se adapte a cada persona.
+
+Los siete formatos que ofrece NotebookLM a partir del brief son: el Audio Overview (un pódcast de 8-15 minutos en el que dos "voces" debaten los conceptos clave, ideal para repasar yendo al trabajo); el Video Overview (vídeo corto con voz y texto en pantalla); la infografía o mapa mental (resumen visual en una página); la guía de estudio (contenido organizado en secciones); el documento informativo (resumen ejecutivo breve); las flashcards (tarjetas de glosario con términos y definiciones); y el cuestionario (10-15 preguntas de opción múltiple con corrección automática). Además, el chat permite hacer preguntas directamente sobre el brief y recibir respuestas que citan el texto original como fuente. La norma de privacidad es la misma que en cualquier herramienta del curso: no escribir datos personales reales en el chat.
+
+> **Puntos clave:**
+> - 7 formatos + chat: audio, vídeo, infografía, guía, doc informativo, flashcards, cuestionario
+> - El chat responde solo sobre el brief del día: respuestas ancladas al material, no inventadas
+> - Privacidad: no escribir datos personales reales en el chat del notebook
+
+### Cómo construir la rutina de aprendizaje con IA desde el primer día
+
+El mayor obstáculo cuando se empieza a usar IA en el trabajo no es técnico, es de hábito. Las herramientas están disponibles, los prompts funcionan, los resultados son útiles, pero en el momento de la presión del trabajo diario es fácil volver al método conocido. Para superar este obstáculo, la clave no es la motivación sino la rutina. Marta decide desde el primer día aplicar una regla simple que llama "la prueba de los tres minutos": cada vez que va a hacer una tarea de más de diez minutos que ya hizo antes, se pregunta si podría obtener el borrador con un prompt en menos de tres minutos. Si la respuesta es sí, lo intenta. No siempre el resultado es perfecto, pero incluso un borrador del 70 % que necesita ajustes le ahorra tiempo.
+
+La segunda parte de la rutina es la biblioteca de prompts: anotar lo que funciona. Cada vez que un prompt da un resultado especialmente bueno, Marta lo copia a su Google Doc de prompts antes de cerrar la conversación. Al final de la primera semana tiene ocho prompts guardados. Al final del curso tendrá más de cuarenta. Esa biblioteca personal es la acumulación de semanas de práctica convertida en un recurso inmediato. Nadie puede quitársela: es conocimiento del puesto, igual que el historial de contactos o el archivo de documentos de referencia.
+
+> **Puntos clave:**
+> - Regla de los 3 minutos: si la tarea dura >10 min y ya la has hecho antes, prueba el prompt
+> - El hábito supera la motivación: una rutina pequeña y constante produce más que el esfuerzo ocasional
+> - Biblioteca de prompts: anota lo que funciona; es tu acumulación de práctica profesional
 
 ---
 
@@ -93,6 +163,8 @@ Más allá de la privacidad, hay situaciones donde la IA simplemente no es la he
 - El 47 % de los trabajadores de oficina en España reconoce haber probado alguna herramienta de IA generativa, pero solo el 18 % la usa de forma habitual en su trabajo.
 - Antes / Después: redactar un correo de disculpa a un cliente → antes: 15-25 min; con IA: 2-3 min (incluida revisión).
 - Antes / Después: resumir un informe de 10 páginas en 5 puntos clave → antes: 30-40 min; con IA: 3-5 min.
+- El 73 % del tiempo de generación de texto en entornos administrativos puede mejorar significativamente con IA generativa según estimaciones de McKinsey (2023).
+- NotebookLM convierte el brief del día en 7 formatos distintos (audio, vídeo, infografía, guía, doc, flashcards, quiz); el alumno elige el formato con el que mejor aprende.
 
 ---
 
@@ -133,6 +205,30 @@ Más allá de la privacidad, hay situaciones donde la IA simplemente no es la he
 
 **Resultado comentado:** La IA señala qué información es propia y qué inventó. Cualquier dato normativo que la IA "añadió por su cuenta" debe verificarse manualmente antes de usarlo.
 
+**Cómo iterarlo:** *"Para el dato X que dices que añadiste por tu cuenta, ¿en qué fuente se basa? Si no puedes citarla con seguridad, elimínalo del texto."*
+
+---
+
+### Caso 4 — Adaptar un texto para dos destinatarios distintos
+
+**Situación:** Marta tiene que comunicar la misma novedad operativa (cambio en el sistema de pedidos) tanto al equipo interno como a los clientes externos. El contenido es el mismo pero el tono y el nivel de detalle deben ser muy distintos.
+
+**Prompt exacto:**
+> "Actúa como comunicadora corporativa de una empresa de distribución. Tengo que comunicar el siguiente cambio operativo: a partir de FECHA_Y, el sistema de pedidos cambiará a la plataforma SISTEMA_X. El proceso antiguo quedará inactivo. Genera dos versiones del comunicado: (1) versión interna para el equipo de atención al cliente, con todos los detalles técnicos y pasos del proceso nuevo; (2) versión externa para clientes, con lenguaje sencillo, sin tecnicismos, enfocada en que no afecta a sus plazos de entrega. Máximo 120 palabras cada versión."
+
+**Resultado comentado:** La IA produce dos comunicados con el mismo contenido esencial pero registros completamente distintos: el interno con listas numeradas de pasos técnicos y el externo con párrafos breves y lenguaje tranquilizador. Marta revisó que ambos mencionaran la misma fecha de cambio (FECHA_Y) y ajustó el nombre real del sistema antes de distribuirlos.
+
+**Cómo iterarlo:** *"La versión externa está bien, pero la versión interna necesita incluir el nombre del responsable técnico al que dirigir las dudas. Añade al final: 'Para consultas técnicas, contacta con [NOMBRE_RESPONSABLE], extensión [EXT]'."*
+
+---
+
+**Situación:** La IA ha generado un párrafo sobre normativa de facturación. Antes de enviarlo, hay que verificar que no hay datos inventados.
+
+**Prompt exacto:**
+> "En el texto que acabas de generar, identifica todos los datos específicos que has incluido (fechas, plazos legales, nombres de leyes o reglamentos, porcentajes). Para cada uno, dime si lo tomaste de la información que te proporcioné o si lo añadiste por tu cuenta a partir de tu entrenamiento."
+
+**Resultado comentado:** La IA señala qué información es propia y qué inventó. Cualquier dato normativo que la IA "añadió por su cuenta" debe verificarse manualmente antes de usarlo.
+
 ---
 
 ## 9. GLOSARIO
@@ -157,6 +253,10 @@ Más allá de la privacidad, hay situaciones donde la IA simplemente no es la he
 
 **Token:** Unidad básica con la que la IA procesa texto; aproximadamente una palabra o parte de una palabra; los modelos tienen un límite de tokens por conversación.
 
+**Ventana de contexto:** La cantidad máxima de texto que la IA puede "leer y recordar" dentro de una misma conversación; cuando se supera, la IA puede olvidar información de los primeros mensajes.
+
+**RGPD:** Reglamento General de Protección de Datos de la Unión Europea; establece que los datos personales de ciudadanos europeos deben protegerse y no pueden enviarse a servicios externos sin base legal; es la razón principal por la que anonimizamos antes de usar la IA.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -171,7 +271,13 @@ Más allá de la privacidad, hay situaciones donde la IA simplemente no es la he
 
 **Error 5 — Abandonar porque el primer resultado no fue bueno.** Un mal primer resultado casi siempre significa que el prompt necesita más contexto o instrucciones más específicas. No es un fallo de la herramienta: es una oportunidad de mejorar el prompt.
 
+**Error 6 — Usar la IA para información de última hora sin verificar.** La IA tiene una fecha de corte en su entrenamiento y no conoce novedades recientes. Para normativas actualizadas, precios actuales o noticias recientes, usa Perplexity (que cita fuentes verificables) o comprueba directamente en la fuente oficial.
+
+**Error 7 — No indicar el idioma de la respuesta.** Si escribes el prompt en español y quieres la respuesta en español, la IA normalmente responde en español, pero si el texto que pegas está en otro idioma, puede cambiar de idioma sin avisar. Si necesitas la respuesta en un idioma específico, indícalo explícitamente: "Responde siempre en español formal".
+
 **Buena práctica — Anota los prompts que funcionan.** Cuando obtengas un resultado que te guste, guarda el prompt. En la sesión D04 aprenderás a construir una biblioteca personal de prompts.
+
+**Buena práctica — Comprueba la privacidad antes de pegar.** Antes de copiar cualquier texto en una herramienta de IA, hazte una pregunta rápida: ¿hay algún dato aquí que no debería salir de la organización? Si la respuesta es sí, sustituye primero, pega después. Este hábito tarda diez segundos y protege a personas reales.
 
 ---
 
@@ -275,6 +381,33 @@ b) Generar borrador → revisar → iterar hasta que esté listo para usar ✓
 c) Pedir a la IA que revise su propio texto
 d) Usar solo los primeros 3 resultados que genera
 
+**11. ¿Por qué no debes cerrar la ventana de la herramienta entre pasos de un flujo de trabajo?**
+a) Porque la IA cobra más si se interrumpe la conversación
+b) Porque la IA no recuerda conversaciones anteriores: al abrir una nueva, pierdes todo el contexto del trabajo previo ✓
+c) Porque el historial de conversaciones tiene un límite de mensajes guardados
+d) Solo importa en herramientas de pago, no en las gratuitas
+
+**12. ¿Qué herramienta del curso es especialmente útil para procesar documentos de más de cinco páginas?**
+a) Canva
+b) ChatGPT (versión gratuita)
+c) Claude o NotebookLM, porque gestionan contextos más largos con mayor fidelidad ✓
+d) Google Sheets
+
+**13. Marta quiere comunicar el mismo cambio operativo al equipo interno y a los clientes externos. ¿Cuál es el enfoque correcto con IA?**
+a) Escribir un único prompt que produzca las dos versiones a la vez, con dos tonos distintos ✓
+b) Hacer una sola versión y distribuirla a todos
+c) Pedir a la IA que traduzca el comunicado interno al inglés para los clientes
+d) No se puede usar IA para comunicaciones externas
+
+**14. ¿Qué formato de NotebookLM es más útil para repasar el material del día durante el trayecto al trabajo?**
+a) El documento informativo
+b) El cuestionario
+c) El Audio Overview (pódcast generado por la IA) ✓
+d) Las flashcards
+
+**15. ¿Cuándo es adecuado pedirle a la IA que señale qué datos de su respuesta son de su propia invención?**
+Respuesta abierta: Siempre que el resultado contenga datos verificables como cifras, fechas, referencias normativas o nombres propios que la IA podría haber añadido sin que estuvieran en la información que proporcionaste. Pide: "Identifica qué datos específicos tomaste de la información que te di y cuáles añadiste tú." Así puedes verificar exactamente los datos que la IA generó de forma autónoma.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -302,6 +435,12 @@ La IA no conoce tu empresa. Eso es precisamente lo que tú aportas con el prompt
 
 **¿Qué es NotebookLM y cómo lo voy a usar en el curso?**
 Es la herramienta de Google que el formador usa para preparar el material de cada sesión. Cada día recibirás un enlace al notebook del día. Puedes pedirle que te genere un pódcast, un vídeo, una infografía, fichas de estudio o un cuestionario sobre el tema de la sesión, o puedes hacerle preguntas directamente en el chat.
+
+**¿Cuántas preguntas puedo hacerle al chat de NotebookLM por día?**
+En el plan gratuito de Google, el límite es de aproximadamente 50 preguntas de chat por día y por usuario. Es suficiente para el uso habitual del curso. Si en algún momento lo superas, simplemente espera hasta el día siguiente o usa el material del notebook en otro formato (guía de estudio, documento informativo) en lugar del chat.
+
+**¿Qué hago si un prompt me da un resultado que no tiene nada que ver con lo que pedí?**
+Primero revisa si el prompt tenía suficiente contexto: ¿indicaste el rol, la situación, el tipo de documento y las restricciones? Si te falta alguno de esos elementos, añádelos en el siguiente prompt. Si el resultado sigue siendo incorrecto, es más eficiente empezar una conversación nueva con un prompt más completo que seguir iterando sobre una respuesta que tomó la dirección equivocada desde el inicio.
 
 ---
 
@@ -340,10 +479,12 @@ Hoy plantamos la semilla. El **Mapa de oportunidades** que cada alumno construye
 
 ## 20. IDEAS PARA RECORDAR
 
-- La IA generativa genera texto nuevo a partir de patrones: no piensa, predice. Por eso puede equivocarse.
-- Todas las herramientas del curso son gratuitas con tu cuenta Gmail personal; no necesitas pagar nada.
-- Regla de oro: nunca pegues datos personales reales en ninguna IA. Anonimiza siempre primero.
+- La IA genera texto nuevo a partir de patrones estadísticos: no piensa ni sabe, predice. Por eso puede equivocarse.
+- Todas las herramientas del curso son gratuitas con tu cuenta Gmail personal; no necesitas pagar nada en las 17 sesiones.
+- Regla de oro: nunca pegues datos personales reales en ninguna IA; anonimiza siempre antes de pegar.
 - Un resultado mediocre casi siempre significa que el prompt necesita más contexto, no que la herramienta falla.
+- El flujo correcto es siempre: generar → revisar → ajustar → usar. Nunca se salta la revisión.
+- Las alucinaciones son reales: verifica los datos concretos (cifras, normativas, fechas) antes de usar cualquier resultado.
 - El mapa de oportunidades que creas hoy es la semilla de tu proyecto final en D16–D17.
 
 ---
