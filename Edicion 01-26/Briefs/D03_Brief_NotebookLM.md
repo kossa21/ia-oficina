@@ -442,6 +442,21 @@ Respuesta: Un flujo mínimo de 3 pasos sería: Prompt 1: organizar las notas por
 **12. ¿Qué ventaja tiene guardar un flujo de prompts completo (no solo los prompts sueltos)?**
 Respuesta: Un flujo completo con los prompts en orden, las etiquetas de delimitación y las instrucciones de cada paso es directamente reutilizable la próxima vez que se necesita la misma tarea. No hay que rediseñar el proceso, solo sustituir el contenido (las notas, el correo, los datos del mes) y lanzar los pasos en orden.
 
+**13. ¿Cómo sabes si un paso de tu flujo está bien granulado o si hace demasiado?**
+a) Si el paso tiene más de 50 palabras de instrucciones, hace demasiado
+b) Si el resultado del paso no puedes evaluarlo de forma independiente antes de avanzar, el paso está mal granulado ✓
+c) El número correcto de pasos es siempre 4
+d) Los pasos siempre deben ser del mismo tamaño
+
+**14. Marta ha construido un flujo de 4 prompts para el informe de incidencias. El mes siguiente necesita hacer el mismo informe. ¿Cuánto tiempo tardará si tiene el flujo documentado?**
+a) El mismo tiempo que la primera vez, porque la IA no recuerda el trabajo anterior
+b) Unos 5-10 minutos: abre el documento, sustituye las notas del mes nuevo y lanza los pasos en orden ✓
+c) No puede reutilizarlo porque los datos son distintos cada mes
+d) Tiene que rediseñar el flujo porque las herramientas cambian constantemente
+
+**15. Explica en qué situación conviene usar NotebookLM en lugar de ChatGPT para trabajar con un documento.**
+Respuesta: Cuando el documento es extenso (más de 5-6 páginas) y necesitas consultarlo varias veces o hacerle preguntas específicas. NotebookLM te permite subir el documento completo como fuente y hacer preguntas que cita respondiendo con el párrafo exacto del documento donde está la información, sin riesgo de que pierda datos de las partes más largas del texto como puede ocurrir con ChatGPT en su versión gratuita.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -469,6 +484,12 @@ No son obligatorias, pero sí muy recomendables cuando el texto que pegas es lar
 
 **¿Existe alguna forma de guardar un flujo de prompts para reutilizarlo?**
 La forma más sencilla es guardar los prompts en orden en un Google Doc personal, con el nombre de la tarea como título. También puedes crear un Gemini Gem (asistente personalizado) con las instrucciones fijas del flujo, de modo que solo tengas que pegar el contenido variable en cada uso. En D04 aprenderás más formas de organizar y reutilizar tus prompts.
+
+**¿Cómo sé cuántos pasos necesita mi flujo antes de construirlo?**
+Empieza por describir el resultado final que necesitas (el informe, el acta, el comunicado). Luego hazte la pregunta: ¿qué información hay que procesar o generar antes de que ese resultado sea posible? Cada respuesta a esa pregunta es un paso. Un informe que requiere primero clasificar, luego analizar y luego redactar necesita mínimo 3 pasos. Si descubres que el primer paso depende de otro paso previo, añades uno. No hace falta planificar el flujo perfecto desde el inicio: puedes construirlo paso a paso y añadir pasos intermedios si ves que uno está haciendo demasiado.
+
+**¿Qué pasa si en medio de un flujo la IA da un resultado completamente equivocado?**
+Depende de cuánto se ha desviado. Si el contenido está completamente mal (la IA interpretó la tarea de forma incorrecta), es más eficiente empezar ese paso desde cero con un prompt más detallado que iterar sobre un resultado equivocado. Puedes reusar el contexto de los pasos anteriores (copiándolo en el nuevo inicio) para no perder el trabajo ya hecho. Si solo hay un dato incorrecto o un aspecto que corregir, una iteración de corrección específica es suficiente.
 
 ---
 
@@ -506,11 +527,13 @@ Para tu proyecto final: lo de hoy te sirve para pasar de prompts sueltos a flujo
 
 ## 20. IDEAS PARA RECORDAR
 
-- Divide antes de pedir: una tarea compleja resuelta en 4 prompts verificables es más fiable que el mismo trabajo pedido en un único prompt gigante.
+- Divide antes de pedir: una tarea compleja resuelta en 4 prompts verificables es más fiable que el mismo trabajo en un único prompt gigante.
 - Anonimiza siempre antes de pegar: nombre, DNI, datos bancarios y expedientes nunca deben llegar a la IA sin sustituir por etiquetas genéricas.
 - Itera antes de regenerar: si el contenido es correcto pero algo falla en tono, formato o extensión, un prompt breve de iteración es más rápido que empezar desde cero.
 - Verifica cada paso del flujo antes de avanzar: los errores en los pasos intermedios se propagan al resultado final si no los detectas a tiempo.
 - Saber cuándo NO usar IA es tan importante como saber cómo usarla: hay tareas que requieren juicio humano y otras que son más rápidas sin IA.
+- Documentar el flujo la primera vez tarda 10 minutos; reutilizarlo las siguientes veces tarda 5 — el retorno de inversión es inmediato.
+- Criterio de herramienta: texto <5 páginas → ChatGPT; texto largo o consulta frecuente → Claude o NotebookLM.
 
 ---
 
