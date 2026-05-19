@@ -22,7 +22,7 @@ from pptx.dml.color import RGBColor
 # ── CONFIGURACIÓN ────────────────────────────────────────────────────────────
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGO_PATH = os.path.join(SCRIPT_DIR, "00_FULL COLOR (1).png")
+LOGO_PATH = os.path.join(SCRIPT_DIR, "..", "Logos", "00_FULL COLOR (1).png")
 
 # Posición logo AllWomen (aprobada por Daniela, no cambiar)
 LOGO_WIDTH  = Inches(1.2)
@@ -101,6 +101,109 @@ NOTES = {
         "Actividad 1 — Transcripción → acta + plan de acción (40 min). Proporciona la transcripción ficticia. El grupo trabaja en grupos de 2-3. Compara las actas resultantes: ¿coinciden en las decisiones y responsables?",
         "Actividad 2 — Mi kanban (35 min). Cada alumno crea un tablero para una iniciativa real. Circula y ayuda a definir qué va en cada columna.",
         "Actividad 3 — 3 delegaciones reales (30 min) y mini-entregable: el kit de organización (acta + kanban + delegación). Cierra M4: '¿Qué vais a hacer diferente la próxima semana?'",
+    ],
+
+    "D10": [
+        "Arranca el módulo M5 — Análisis de datos. Conecta con M4: ya organizan y delegan. Ahora aprenden a extraer valor de sus propias hojas de datos sin necesidad de ser expertos en fórmulas.",
+        "Dato de impacto: el 80% del tiempo dedicado a análisis de datos en oficinas se va en limpiar y formatear, no en interpretar. La IA invierte esa proporción. Pregunta: '¿Cuánto tardáis en sacar conclusiones de una hoja de datos?'",
+        "Principio de anonimización antes de análisis: SIEMPRE. Muestra en tiempo real cómo cambiar nombres por CLIENTE_A, CLIENTE_B y cifras por DATOS_VENTAS. El grupo ve que el análisis funciona igual con datos ficticios.",
+        "Google Sheets + Gemini: demuestra cómo escribir en lenguaje natural lo que necesitas. 'Añade una columna que calcule el porcentaje de variación entre enero y febrero' → Gemini escribe la fórmula. El grupo ve que no hace falta saber la sintaxis.",
+        "Hallazgos en lenguaje natural: copia la tabla (anonimizada) en ChatGPT y pide 3 hallazgos. Muestra cómo la IA identifica patrones, anomalías y tendencias. Insiste en la regla de verificación: comprueba manualmente el dato más llamativo.",
+        "Gráficos: explica qué tipo de gráfico va con qué tipo de dato (barras=comparativas, línea=evolución, dispersión=correlaciones). Demuestra con el prompt 'Sugiere el gráfico más adecuado para estos datos y explica por qué'.",
+        "Alucinaciones numéricas: este es el punto de seguridad más crítico de la sesión. La IA puede inventar números. Muestra el prompt de verificación: 'Lista todos los datos concretos que has usado para llegar a estas conclusiones'. El alumno coteja con la fuente.",
+        "Actividad 1 — Demo: tabla → 3 hallazgos + gráfico (demo formador, 15 min). El grupo ve el flujo completo de principio a fin antes de practicarlo.",
+        "Actividad 2 — Dataset ficticio en parejas (50 min): 5 preguntas de negocio sobre un dataset de ejemplo. Circula, ayuda con los prompts de anonimización y con la interpretación de los hallazgos.",
+        "Actividad 3 — Hoja propia anonimizada (30 min individual). El entregable real: mini-análisis con 5 hallazgos + 1 gráfico + 1 recomendación. Que cada alumno comparta el hallazgo más útil que encontró.",
+    ],
+
+    "D11": [
+        "Arranca M5 sesión 2. Conecta con D10: ya analizan datos propios. Hoy aprenden a buscar e investigar con IA para sintetizar información externa y producir informes de mercado o proveedores.",
+        "El problema de la búsqueda sin IA: miles de resultados, tiempo perdido triangulando fuentes, difícil comparar opciones. La IA actúa como un investigador junior: hace el barrido inicial y presenta las opciones organizadas.",
+        "Perplexity vs Google: muestra en tiempo real la misma búsqueda en ambas herramientas. Perplexity cita sus fuentes; Google devuelve links. Para investigación profesional, Perplexity ahorra pasos. Ambas son gratuitas.",
+        "Verificación de fuentes: regla del día. Antes de incluir un dato en un informe, verifica la fuente original. Demuestra el prompt 'Cita las fuentes exactas de este dato' y muestra cómo la IA a veces admite que no puede verificarlo.",
+        "Síntesis comparativa: el prompt de comparativa de proveedores con tabla de criterios (precio, calidad, plazo, referencias). Demuestra que en 3 prompts se genera lo que antes llevaba 2 horas de búsqueda manual.",
+        "NotebookLM para investigación documental: sube 2-3 PDFs o artículos y haz preguntas al notebook. Muestra cómo la IA responde basándose solo en los documentos cargados, sin inventar datos externos.",
+        "Estructura del informe de mercado: portada + resumen ejecutivo + tabla comparativa + fuentes + recomendación. Demuestra con el prompt de 'informe de 2 páginas sobre [tema del grupo]'.",
+        "Actividad 1 — Demo investigación de proveedores (formador, 15 min): búsqueda → síntesis → tabla → conclusión. El grupo ve el flujo completo.",
+        "Actividad 2 — Grupo de 3: comparativa de 3 opciones reales (50 min). Cada grupo elige un tema de su sector y produce la tabla de criterios con fuentes verificadas. El formador circula y ayuda con los prompts de verificación.",
+        "Actividad 3 — Mini-informe individual (30 min) y mini-entregable: informe de mercado de 1-2 págs con fuentes verificadas. Que cada alumno comparta la fuente más útil que encontró.",
+    ],
+
+    "D12": [
+        "Arranca el módulo M6 — Creatividad y diseño. Conecta con M5: ya analizan e investigan. Ahora aprenden a comunicar visualmente lo que saben. Canva es la herramienta: gratis, sin instalación, con IA integrada.",
+        "El miedo al diseño: '¿No es eso para diseñadores?' Ese es el mito a romper. Los 4 principios básicos (contraste, alineación, repetición, proximidad) funcionan incluso sin saber nada de diseño. Son las reglas que Canva aplica automáticamente con Magic Design.",
+        "Magic Design: demuestra el flujo completo. Selecciona un tema, sube una imagen o escribe el contenido, y Magic Design propone 8 plantillas en 10 segundos. El grupo elige la mejor y la personaliza.",
+        "Magic Write: el asistente de texto dentro de Canva. Demuestra: selecciona un cuadro de texto vacío → Magic Write → escribe el brief del contenido. Canva redacta el texto en el estilo de la plantilla.",
+        "Generación de imágenes con IA: cuotas del plan gratuito (varían; actualmente ~50 generaciones/mes). Muestra el prompt de imagen con estilo profesional. Anticipa: si la cuota se acaba, usar imágenes de la biblioteca de Canva (gratis y sin derechos).",
+        "Derechos de uso: las imágenes generadas con IA en Canva free son de uso personal y comercial, pero verificar siempre las condiciones actuales. Para uso en empresa: avisar y revisar los términos de Canva.",
+        "Actividad 1 — Demo Canva Magic completo (formador, 15 min): de brief de texto a 5 slides con imagen en tiempo real. El grupo ve que no hace falta talento artístico.",
+        "Actividad 2 — En parejas: rehacer slide fea → buena (50 min). Proporciona una slide de ejemplo con mala maquetación. La pareja la rediseña aplicando los 4 principios. Comparan antes/después.",
+        "Actividad 3 — Individual: 5 slides de un tema de su puesto (30 min) y mini-entregable: 5 slides + 1 imagen IA. Que cada alumno muestre su slide favorita y explique qué principio aplicó.",
+    ],
+
+    "D13": [
+        "Arranca M6 sesión 2. Conecta con D12: ya saben diseñar slides. Hoy crean piezas de comunicación interna: carteles, infografías, posts de Teams, banners. Y aprenden a hacerlo accesible — crítico para Fundación ONCE.",
+        "Accesibilidad: este es el punto diferencial del día. Explicar que el diseño accesible no es un añadido, es mejor diseño para todos. Las 4 reglas: contraste mínimo 4.5:1, texto alternativo en imágenes, fuente mínima 16px, nunca el color como único diferenciador.",
+        "Alt text en Canva: demuestra cómo añadir texto alternativo a cada imagen. Paso a paso: selecciona imagen → clic derecho → 'Alt text' → escribe descripción concisa. El grupo lo hace con sus diseños de D12.",
+        "Contraste: usa el verificador online de contraste (WebAIM Contrast Checker, gratuito). Demuestra: copia el hex del color del texto y del fondo, pega en el verificador. El grupo ve si pasa o no el ratio 4.5:1.",
+        "Kit de comunicación interna: no son piezas sueltas, son una mini-campaña coherente. Misma paleta, mismo logotipo, mismo tono. Demuestra cómo crear un kit de marca en Canva: colores guardados, fuentes guardadas, plantilla reutilizable.",
+        "Video simple en Canva: usa una presentación de Canva y activa la opción de grabación de presentación (gratuita). 1-2 minutos de narración sobre las slides = vídeo de comunicación interna sin editar.",
+        "Actividad 1 — Demo infografía desde datos de D10 (formador, 15 min): los datos analizados el martes se convierten en una infografía visual. El grupo ve la conexión entre módulos.",
+        "Actividad 2 — Grupo: mini-campaña interna de 3 piezas coherentes (50 min): cartel + post de Teams + banner de email. El grupo elige el tema (bienvenida a nuevos compañeros, aviso de proceso, celebración, etc.).",
+        "Actividad 3 — Individual: 1 pieza accesible de su puesto (30 min) y mini-entregable: kit de 2-3 piezas visuales. Que cada alumno compruebe el contraste de su pieza con el verificador antes de entregar.",
+    ],
+
+    "D14": [
+        "Arranca el módulo M7 — Gestión documental. Conecta con M6: ya comunican visualmente. Ahora ordenan los procesos por escrito: naming, SOPs, checklists, flujos. El caos documental tiene solución.",
+        "El coste del caos documental: se estima que un trabajador de oficina pierde entre 30 min y 1h al día buscando documentos o repitiendo trabajo ya hecho. Pregunta: '¿Tenéis archivos que empiezan por 'final', 'final2', 'definitivo'?' El grupo sonríe.",
+        "Naming convention con IA: demuestra el prompt de nomenclatura de archivos. Proporciona una carpeta ficticia caótica y el resultado estandarizado. El grupo ve la diferencia en 2 minutos.",
+        "SOP en 3 prompts: contexto del proceso → pasos detallados → validación ('¿Qué podría salir mal?'). Demuestra con el proceso de alta de un nuevo proveedor. El resultado es un documento que cualquiera puede seguir.",
+        "Checklist desde el SOP: un prompt más convierte el SOP en una lista de verificación accionable. Muestra cómo la IA transforma las instrucciones en casillas de verificación ordenadas por fase.",
+        "Mapeo de flujo en texto: explica que no hace falta un diagrama de Visio para mapear un proceso. Un texto con INICIO → paso 1 → decisión (¿sí/no?) → paso 2 → FIN es suficiente para identificar cuellos de botella. La IA genera ese mapa desde una descripción libre.",
+        "Google Forms → Sheets → IA: demuestra el flujo: formulario de recepción de solicitudes → respuestas en Sheets → análisis con IA. Sin código, todo gratis con Gmail.",
+        "NotebookLM como base de conocimiento del equipo: sube los SOPs del equipo al notebook, comparte el enlace, y cualquier persona puede preguntar '¿Cuál es el proceso para X?' La IA responde basándose solo en los documentos del equipo.",
+        "Actividad 1 — Demo proceso caótico → SOP + checklist (formador, 15 min). El grupo ve el flujo completo de principio a fin.",
+        "Actividad 2 — En parejas: mapear un flujo real (50 min). Cada pareja elige un proceso de su área y lo mapea con texto + IA. Identifican 1 cuello de botella y proponen cómo aliviarlo.",
+        "Actividad 3 — Individual: documentar un procedimiento propio (30 min) y mini-entregable: 1 SOP + checklist + diagrama de flujo. Que cada alumno comparta el cuello de botella más inesperado que encontró.",
+    ],
+
+    "D15": [
+        "Arranca M7 sesión 2. Conecta con D14: ya tienen sus procesos documentados. Hoy aplican IA a la cara más visible del trabajo: la atención al cliente. Respuestas coherentes, rápidas y que no dependen de que el experto esté disponible.",
+        "El problema de las respuestas variables: cuando cada persona del equipo responde de forma diferente a la misma pregunta, el cliente recibe mensajes contradictorios. Un banco de FAQ resuelve esto. La IA lo construye en minutos.",
+        "Privacidad crítica en atención al cliente: NUNCA pegar nombres, DNIs, emails ni datos de contacto reales en ChatGPT. Demostración en vivo: sustituir CLIENTE: María García → CLIENTE_A, EMAIL: maria@empresa.com → EMAIL_OMITIDO. El análisis funciona igual.",
+        "FAQ desde tickets ficticios: demuestra el prompt de extracción de preguntas frecuentes desde un lote de consultas anonimizadas. El resultado es un banco de FAQ en tabla con pregunta, respuesta y canal.",
+        "El patrón RIA (Reconoce / Informa / Actúa): retoma el patrón de D06, ahora aplicado a atención al cliente. Muestra la diferencia entre una respuesta que ignora el problema, una que informa sin actuar, y una completa con RIA.",
+        "Guiones multicanal: el mismo mensaje tiene tono diferente según el canal. Demuestra cómo adaptar la respuesta de un ticket por email, un mensaje de Teams y un guion de llamada telefónica para la misma situación.",
+        "Escalado: cuándo NO responder con IA y escalar a un humano. Las 3 situaciones: queja legal, dato no verificable, situación emocional extrema. La IA puede preparar el contexto para el escalado, pero la decisión final es humana.",
+        "Actividad 1 — Demo FAQ desde tickets ficticios (formador, 15 min): 10 consultas → banco de 8 FAQ en tabla. El grupo ve el flujo completo.",
+        "Actividad 2 — Role-play en parejas (50 min): cliente/agente con IA en vivo. Una persona hace de cliente con queja difícil; la otra usa ChatGPT para preparar la respuesta en tiempo real. Luego cambian roles.",
+        "Actividad 3 — Individual: banco de respuestas de su área (30 min) y mini-entregable: banco FAQ + 3 guiones de situaciones difíciles. Que cada pareja comparta la situación de role-play más difícil y cómo la resolvió.",
+    ],
+
+    "D16": [
+        "Arranca el módulo M8 — Proyecto final. Hoy es el día de construcción individual. Cada alumno tiene una tarea/necesidad real recurrente de su puesto (sembrada en D01, fijada en D09) y hoy la convierte en una solución de IA de extremo a extremo.",
+        "Orientación inicial (15 min): recuerda la rúbrica del proyecto. 4 criterios: utilidad real (¿resuelve un problema que tienes esta semana?), dominio de la herramienta (¿funciona sin ayuda?), calidad (¿la salida es profesional?), presentación (¿explicas el impacto?).",
+        "El lienzo de proyecto: cada alumno completa los 4 bloques en 10 minutos antes de empezar a construir. PROBLEMA → HERRAMIENTA → PROMPT/FLUJO → RESULTADO ESPERADO. Sin lienzo, el sprint se pierde.",
+        "Sprint de construcción — tu rol: mentoría 1:1, rotando cada 8-10 minutos. Identifica quién está bloqueado (problema: no arranca el prompting), quién está en la dirección equivocada (problema: ha elegido una herramienta de pago), y quién va bien (refuerza).",
+        "Señales de alarma para intervenir: alguien que sigue en el lienzo después de 20 minutos, alguien que abre Canva cuando su proyecto es de texto, alguien que pega datos reales (nombre + empresa + email) en el prompt.",
+        "Ronda de feedback en parejas (mitad del sprint): cada alumno muestra su avance a un compañero durante 5 minutos. El compañero hace 1 pregunta y da 1 sugerencia. No es para juzgar, es para desbloquear.",
+        "Indicación de tiempo: a falta de 45 minutos para el cierre, avisa a todos: 'A partir de aquí, lo que no funcione lo simplificamos. El objetivo es tener algo que mostrar mañana, no perfecto sino funcionando.'",
+        "Borrador de presentación: los últimos 20 minutos se dedican al borrador. Estructura: 1 min problema → 2 min demo en vivo → 1 min impacto → 30 seg próximos pasos. El alumno que no llega puede usar las últimas slides del brief.",
+        "Cierre del sprint: ¿cuántos tienen una solución funcionando? ¿Cuántos tienen al menos la demo lista? El objetivo de mañana es presentar algo real. Recuerda: el foco es el impacto, no la complejidad.",
+        "Mini-entregable del día: solución de IA personal funcionando + borrador de presentación para D17. Que cada alumno comparta en 30 segundos cuál es su solución.",
+    ],
+
+    "D17": [
+        "El día de las presentaciones finales. Recuerda la estructura para el grupo antes de empezar: 5 minutos por persona, 2 minutos de preguntas. El formador toma nota de los puntos fuertes para el feedback colectivo al final.",
+        "Criterios de feedback entre pares (escríbelos en la pizarra): 2 cosas que funcionan bien + 1 pregunta sincera + 1 sugerencia de mejora. Que todos los observadores tengan su hoja de feedback lista antes de la primera presentación.",
+        "Mientras el alumno presenta: tú observas y tomas notas. No interrumpas. Solo interviene si hay un problema técnico grave. El protagonismo es del alumno. Tu feedback viene en la ronda colectiva.",
+        "Entre presentaciones: 30 segundos de transición. Agradece la presentación, anuncia el siguiente nombre, recuerda el tiempo. Mantén el ritmo: con 10 alumnos son 70 minutos de presentaciones.",
+        "Feedback del formador: al final de todas las presentaciones, dedica 15 minutos a un feedback colectivo. Señala patrones positivos del grupo ('Todos habéis aplicado la anonimización') y 1-2 áreas de mejora comunes.",
+        "Plan personal de 30 días: este es el entregable que los alumnos se llevan al trabajo. 3 acciones concretas para la semana 1, 3 para las semanas 2-3, 1 objetivo de mes. Que cada alumno lo comparta en 30 segundos.",
+        "Entrega del cheat-sheet: distribuye (físico o digital) el resumen de herramientas gratuitas. Recuerda que el banco de prompts del curso estará siempre disponible en el notebook.",
+        "Reflexión grupal (15 min): 3 preguntas para el grupo. ¿Qué herramienta vas a usar desde mañana? ¿Qué tarea te va a ahorrar más tiempo? ¿Qué le contarías a un compañero que no ha hecho el curso?",
+        "Cierre del curso: agradece el esfuerzo del grupo. Recuerda que aprender IA es un proceso continuo: en 6 meses las herramientas habrán evolucionado, pero las habilidades de prompting y pensamiento crítico permanecen.",
+        "Foto de grupo y despedida. Si el grupo lo permite, compartir los proyectos finales en un documento compartido para que todos puedan ver las soluciones de sus compañeros.",
     ],
 }
 

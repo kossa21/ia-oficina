@@ -47,14 +47,14 @@ SESIONES = [
     ("D07_Brief_NotebookLM.md",  "IA Oficina 01/26 — D07 Informes con IA",       "D07"),
     ("D08_Brief_NotebookLM.md",  "IA Oficina 01/26 — D08 Planificación Semanal", "D08"),
     ("D09_Brief_NotebookLM.md",  "IA Oficina 01/26 — D09 Actas y Delegación",    "D09"),
-    # ("D10_Brief_NotebookLM.md", "IA Oficina 01/26 — D10 ...",                   "D10"),
-    # ("D11_Brief_NotebookLM.md", "IA Oficina 01/26 — D11 ...",                   "D11"),
-    # ("D12_Brief_NotebookLM.md", "IA Oficina 01/26 — D12 ...",                   "D12"),
-    # ("D13_Brief_NotebookLM.md", "IA Oficina 01/26 — D13 ...",                   "D13"),
-    # ("D14_Brief_NotebookLM.md", "IA Oficina 01/26 — D14 ...",                   "D14"),
-    # ("D15_Brief_NotebookLM.md", "IA Oficina 01/26 — D15 ...",                   "D15"),
-    # ("D16_Brief_NotebookLM.md", "IA Oficina 01/26 — D16 ...",                   "D16"),
-    # ("D17_Brief_NotebookLM.md", "IA Oficina 01/26 — D17 ...",                   "D17"),
+    ("D10_Brief_NotebookLM.md", "IA Oficina 01/26 — D10 Análisis de Datos",     "D10"),
+    ("D11_Brief_NotebookLM.md", "IA Oficina 01/26 — D11 Búsqueda e Informes",   "D11"),
+    ("D12_Brief_NotebookLM.md", "IA Oficina 01/26 — D12 Canva con IA",          "D12"),
+    ("D13_Brief_NotebookLM.md", "IA Oficina 01/26 — D13 Comunicación Visual",   "D13"),
+    ("D14_Brief_NotebookLM.md", "IA Oficina 01/26 — D14 Gestión Documental",    "D14"),
+    ("D15_Brief_NotebookLM.md", "IA Oficina 01/26 — D15 Atención al Cliente",   "D15"),
+    ("D16_Brief_NotebookLM.md", "IA Oficina 01/26 — D16 Proyecto Personal",     "D16"),
+    ("D17_Brief_NotebookLM.md", "IA Oficina 01/26 — D17 Presentaciones Finales","D17"),
 ]
 
 # ──────────────────────────────────────────────────────────
