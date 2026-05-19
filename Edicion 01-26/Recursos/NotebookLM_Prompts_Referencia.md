@@ -25,6 +25,7 @@ Sí: **el formato y la estructura de las diapositivas se controlan desde el prom
 > 3. **SLIDES DE CONTENIDO** — máximo 5 puntos cortos por slide, cada una con un elemento visual (diagrama, dato, comparativa o iconos).
 > 4. **SEÑAL DE EJERCICIO** — justo antes de cada actividad práctica de la sesión, inserta una diapositiva de transición con fondo distinto y el título "🛠 AHORA: PRÁCTICA". Debe indicar: el nombre de la actividad, su código de ejercicio (formato EJ-DXX-N si aparece en el documento), la modalidad (Individual / En parejas / En grupo), la duración en minutos y el objetivo en una sola frase. Esta diapositiva sirve a la formadora para saber con claridad cuándo parar la teoría y empezar la práctica.
 > 5. **CIERRE** — una diapositiva de recap titulada "Lo que hicimos hoy" con 3-4 puntos de lo trabajado en la sesión, seguida de "Mañana" con 2-3 puntos de lo que se verá en la sesión siguiente. (En D17, en lugar de "Mañana", usa "Tu plan de 30 días" y el cierre del curso.)
+> 6. **GUION DEL FORMADOR** — añade las notas del orador (speaker notes) en cada diapositiva: 2-3 frases que indiquen cómo presentarla (qué preguntar al grupo, qué demostrar en vivo, cuánto detenerse, con qué conectar de la sesión anterior). Si la herramienta no permite notas del orador, genera al final una sección "Guion del formador" con esas indicaciones diapositiva por diapositiva.
 >
 > Tono: directo, accesible, sin tecnicismos. Público: personal administrativo sin experiencia previa en IA.
 
@@ -41,10 +42,13 @@ Sí: **el formato y la estructura de las diapositivas se controlan desde el prom
 > 3. **SLIDES DE CONTENIDO** — máximo 5 puntos cortos por slide, cada una con un elemento visual.
 > 4. **SEÑAL DE EJERCICIO** — justo antes de cada actividad práctica, una diapositiva de transición "🛠 AHORA: PRÁCTICA" que indique: nombre de la actividad, código (EJ-DXX-N si aparece en el documento), modalidad (Individual / En parejas / En grupo), duración en minutos y objetivo en una frase. Sirve a la formadora para saber cuándo parar la teoría y hacer la práctica.
 > 5. **CIERRE** — diapositiva "Lo que hicimos hoy" (3-4 puntos de recap) seguida de "Mañana" (2-3 puntos de la sesión siguiente).
+> 6. **GUION DEL FORMADOR** — notas del orador en cada diapositiva (2-3 frases: qué preguntar al grupo, qué demostrar en vivo, cuánto detenerse). Si no se pueden incrustar como notas del orador, añade al final una sección "Guion del formador" con esas indicaciones por diapositiva.
 >
 > Tono: directo, accesible, sin tecnicismos. Público: personal administrativo sin experiencia previa en IA.
 
 *Las descripciones por sesión de más abajo son la línea **[TEMA DEL DÍA]** que se inserta en este prompt estándar; ya no hace falta repetir la estructura, basta con combinar el tema con el bloque de estructura.*
+
+> **Nota sobre el logo:** el logo de AllWomen es lo único que NotebookLM no puede añadir. Tras generar el deck, descárgalo y pásalo una vez por `Scripts/process_decks.py` (solo añade el logo). La estructura, las señales de ejercicio y el guion del formador ya vienen del prompt.
 
 ### Audio Overview / podcast
 > Genera un Audio Overview en español sobre los conceptos clave de esta sesión. Tono conversacional, con ejemplos concretos del entorno de oficina. Empieza con el problema que resuelve la sesión y termina con el mensaje más importante que debe recordar el oyente.

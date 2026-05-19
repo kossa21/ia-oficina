@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Pipeline completo — IA en la Oficina 01/26
-Brief .md  →  NotebookLM (crea notebook + genera deck)  →  PPTX con logo y notas
+Brief .md  →  NotebookLM (crea notebook + genera deck)  →  PPTX con logo
 
 Uso:
   python pipeline_ia_oficina.py           # procesa todas las sesiones pendientes
@@ -44,6 +44,10 @@ PROMPT = (
     "cuándo parar la teoría y hacer la práctica. "
     "(5) CIERRE: una slide 'Lo que hicimos hoy' con 3-4 puntos de recap y una slide "
     "'Mañana' con 2-3 puntos de la sesión siguiente. "
+    "(6) GUION DEL FORMADOR: notas del orador en cada diapositiva (2-3 frases: qué "
+    "preguntar al grupo, qué demostrar en vivo, cuánto detenerse); si no se pueden "
+    "incrustar como notas del orador, añade al final una sección 'Guion del formador' "
+    "con esas indicaciones por diapositiva. "
     "Tono: directo, accesible, sin tecnicismos. "
     "Público: personal administrativo sin experiencia previa en IA."
 )
@@ -98,30 +102,10 @@ async def generar_deck(client, brief_md, notebook_name, codigo):
 
 
 # ──────────────────────────────────────────────────────────
-# FASE 2 — Añadir logo AllWomen y speaker notes al PPTX
+# FASE 2 — Añadir logo AllWomen al PPTX
+# La estructura del deck y el guion del formador ya vienen del
+# prompt de NotebookLM. Aquí solo se añade el logo corporativo.
 # ──────────────────────────────────────────────────────────
-
-def leer_brief(brief_md):
-    """Extrae líneas clave del brief para usar como base de las notas."""
-    path = BASE / "Briefs" / brief_md
-    if not path.exists():
-        return []
-    lines = path.read_text(encoding="utf-8").splitlines()
-    # Devuelve los bloques de contenido (líneas no vacías y no de cabecera)
-    return [l.strip() for l in lines if l.strip() and not l.startswith("#") and not l.startswith("|") and not l.startswith("-")]
-
-
-def nota_para_slide(i, lineas_brief, total_slides):
-    """Genera una nota contextual para cada slide."""
-    if i == 0:
-        return "PORTADA — Presenta el tema del día y conecta con lo que el grupo aprendió en la sesión anterior. Recuerda mencionar el mini-entregable al final."
-    if i == total_slides - 1:
-        return "CIERRE — Resume el mensaje clave de la sesión. Presenta el mini-entregable y anticipa brevemente el contenido de la próxima sesión."
-    # Para slides intermedios, rota por las líneas del brief
-    idx = ((i - 1) * 3) % max(len(lineas_brief), 1)
-    fragmento = " | ".join(lineas_brief[idx:idx+3]) if lineas_brief else "Desarrolla el contenido con ejemplos del puesto de trabajo del alumno."
-    return f"Slide {i+1}: {fragmento[:300]}"
-
 
 def procesar_pptx(raw_path, codigo, brief_md):
     output_path = BASE / "Decks" / f"{codigo}_procesado.pptx"
@@ -137,22 +121,17 @@ def procesar_pptx(raw_path, codigo, brief_md):
     left = Inches(slide_w_in - logo_w_in - 0.3)
     top = Inches(0.2)
 
-    lineas_brief = leer_brief(brief_md)
     total = len(prs.slides)
 
-    for i, slide in enumerate(prs.slides):
-        # Logo
+    for slide in prs.slides:
         slide.shapes.add_picture(
             str(LOGO), left, top,
             width=Inches(logo_w_in),
             height=Inches(logo_h_in)
         )
-        # Nota
-        nota = nota_para_slide(i, lineas_brief, total)
-        slide.notes_slide.notes_text_frame.text = nota
 
     prs.save(str(output_path))
-    print(f"  ✅ {output_path.name}  ({total} slides, logo + notas añadidos)")
+    print(f"  ✅ {output_path.name}  ({total} slides, logo añadido)")
     return output_path
 
 
@@ -166,7 +145,7 @@ async def main():
     print()
     print("=" * 56)
     print("  Pipeline IA en la Oficina 01/26")
-    print("  Brief → NotebookLM → PPTX con logo y notas")
+    print("  Brief → NotebookLM → PPTX con logo")
     print("=" * 56)
 
     # Filtrar sesiones si se pasan argumentos
@@ -192,8 +171,8 @@ async def main():
             except Exception as e:
                 print(f"  ❌ Error en {codigo}: {e}")
 
-    # ── Fase 2: Logo + notas ──
-    print("\n── Fase 2: Logo AllWomen + speaker notes ─────────\n")
+    # ── Fase 2: Logo ──
+    print("\n── Fase 2: Logo AllWomen ──────────────────────\n")
     procesados = []
     for raw_path, codigo, brief_md in raw_resultados:
         try:
