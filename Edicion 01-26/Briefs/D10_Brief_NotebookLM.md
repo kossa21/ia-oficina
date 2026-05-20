@@ -387,6 +387,30 @@ Respuesta: **Falso**. La IA puede cometer errores de cálculo (alucinaciones num
 **10. ¿Cómo pides a la IA una fórmula para calcular el promedio de ventas por mes cuando los datos están en las columnas A (mes) y B (ventas)?**
 Respuesta abierta: Un buen prompt sería: "Genera la fórmula de Google Sheets para calcular el promedio de los valores de la columna B (ventas) agrupados por el valor de la columna A (mes). Los datos van de la fila 2 a la fila 100."
 
+**11. ¿Por qué hay que limpiar los datos antes de calcular y no después?**
+a) Por estética del informe
+b) Porque la IA solo trabaja con datos limpios
+c) Porque los duplicados por mayúsculas o espacios producen totales falsos que después hay que recalcular ✓
+d) Porque la limpieza es opcional si se verifica el resultado
+
+**12. ¿Qué se busca al cruzar dos tablas por una columna común?**
+Respuesta abierta: Detectar tres tipos de desajustes: registros que están en la tabla A pero no en la B (faltantes, por ejemplo facturas impagas), registros en la B sin contraparte en la A (huérfanos, como pagos sin factura) y referencias duplicadas dentro de cualquiera de las dos tablas. Estos tres patrones se piden en una sola instrucción y la IA devuelve listas separadas.
+
+**13. ¿Qué tres patrones permite identificar una serie temporal?**
+a) Mínimo, máximo y media
+b) Tendencia, estacionalidad y picos anómalos ✓
+c) Suma, resta y porcentaje
+d) Días laborables, festivos y fines de semana
+
+**14. ¿Qué tipo de gráfico es más adecuado para comparar el gasto entre cinco departamentos en un mismo mes?**
+a) Gráfico de líneas
+b) Gráfico de dispersión
+c) Gráfico de barras ✓
+d) Gráfico de sectores con cinco porciones diminutas
+
+**15. Verdadero o falso: si una columna de fecha viene con cuatro formatos distintos en la misma hoja, no afecta a los totales mientras los demás datos sean correctos.**
+Respuesta: **Falso**. Los formatos de fecha heterogéneos rompen los agrupamientos por mes o por año, porque la IA o la fórmula tratará "15/03/2026" y "marzo 2026" como dos valores diferentes. Normaliza siempre el formato de fecha antes de agrupar por periodo.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -411,6 +435,15 @@ La IA puede indicarte qué tipo de gráfico es más adecuado y darte los pasos p
 
 **¿Qué hago si la IA me da una fórmula que no funciona?**
 Copia el mensaje de error de Sheets y pégalo en el chat: "Esta fórmula da el siguiente error: [PEGAR ERROR]. ¿Cómo la corrijo?" La IA suele resolver el problema en el segundo intento.
+
+**¿Cómo decido si una anomalía en los datos merece investigación?**
+Aplica dos filtros: magnitud (¿se aleja más del 25 % de la media o de la mediana del periodo?) y persistencia (¿es un caso puntual o se repite en meses contiguos?). Si las dos son altas, merece preguntas concretas; si solo es magnitud, puede ser estacionalidad; si solo es persistencia con baja magnitud, suele ser ruido. Pide a la IA que aplique esos dos filtros antes de marcar anomalías.
+
+**¿Qué hago si los datos vienen de varias hojas con formatos diferentes?**
+Pega una muestra de cada hoja en el chat y pide a la IA que sugiera un formato unificado y las reglas de transformación necesarias para alinearlas. Aplica esas reglas con Gemini en Sheets antes de cruzar las hojas.
+
+**¿Puede la IA detectar si una columna numérica tiene errores tipográficos (10 en vez de 100)?**
+Sí, pero hay que pedirlo explícitamente: "Busca en esta columna valores que parezcan desproporcionados respecto al resto (un orden de magnitud por debajo o por encima). Indica fila y posible error." Sin esa instrucción, la IA tomará todos los valores como correctos y los totales arrastrarán el error.
 
 ---
 
@@ -452,6 +485,8 @@ Para tu proyecto final: si tu solución implica analizar datos o generar informe
 - Las alucinaciones numéricas existen: verifica siempre 2–3 cálculos manualmente antes de presentar el análisis.
 - No es suficiente con tener los números: usa la IA también para interpretar qué significan y qué recomienda hacer.
 - Los prompts de análisis que funcionan se reutilizan cada mes con nuevos datos; guárdalos en tu biblioteca de prompts.
+- Limpia los datos antes de calcular: duplicados por mayúsculas o espacios producen totales falsos con apariencia de precisión.
+- Define la pregunta antes de elegir el gráfico; un gráfico legible filtra y agrupa, no muestra todos los datos a la vez.
 
 ---
 
