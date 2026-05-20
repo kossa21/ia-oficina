@@ -47,7 +47,7 @@ Comunicar bien en la oficina no es solo cuestión de redactar un buen correo: a 
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### Cuándo usar cada tipo de comunicación visual interna
 
@@ -56,6 +56,12 @@ Marta trabaja en el departamento de administración de una empresa distribuidora
 La comunicación visual interna abarca varios formatos con propósitos distintos. El **cartel de anuncio** es ideal cuando el mensaje es puntual, urgente y breve: "El viernes no habrá servicio de comedor" o "Nueva política de accesos desde el lunes". Su fortaleza es que puede colocarse físicamente en espacios de paso o enviarse como imagen en un canal de equipo, y se lee en segundos. La **infografía de datos** convierte números en narrativa visual: permite explicar los resultados de una encuesta de satisfacción, los indicadores de un trimestre o el comparativo de incidencias entre departamentos sin necesidad de que el lector interprete tablas. El **boletín interno** (newsletter) es adecuado para comunicaciones periódicas con más contenido: noticias del mes, logros del equipo, recordatorios de beneficios. Los **materiales de incorporación** (onboarding) —guías visuales, presentaciones de bienvenida, fichas de procedimiento— ayudan a que las personas nuevas en un puesto entiendan los procesos básicos sin depender de que alguien se los explique de palabra.
 
 Conocer cuándo usar cada formato es tan importante como saber crearlo. Una infografía densa no es el vehículo adecuado para un anuncio urgente. Un correo de texto largo no es el mejor canal para explicar un proceso con muchos pasos. La IA puede ayudar a tomar esa decisión: si describes la situación al asistente de IA, este puede sugerirte qué formato y longitud se ajustan mejor al objetivo.
+
+> **Puntos clave:**
+> - Cada formato visual sirve a un propósito comunicativo distinto.
+> - El cartel es para mensajes urgentes y breves; la infografía, para datos.
+> - El boletín y el onboarding son para contenidos periódicos o estructurados.
+> - La IA puede sugerir qué formato encaja mejor con cada situación.
 
 ### De los datos de D10 a una infografía: el flujo completo
 
@@ -67,6 +73,12 @@ La tercera fase es **seleccionar y adaptar la plantilla en Canva**: buscar en la
 
 Marta aplica este flujo con los datos de incidencias de su departamento: los cuatro hallazgos principales se convierten en cuatro bloques visuales con icono, titular y cifra. El resultado es un documento de una página que puede enviarse por correo, imprimir y colgar en el tablón o compartir en el canal de Teams. Lo que antes habría requerido que Marta supiera maquetar en PowerPoint o contratar a alguien de diseño, ahora sale en unos veinte minutos.
 
+> **Puntos clave:**
+> - Seleccionar tres o cuatro hallazgos clave antes de empezar.
+> - Pedir a la IA titulares cortos y frases de contexto medidas.
+> - Adaptar una plantilla gratuita de Canva con iconos y paleta coherente.
+> - Exportar en PNG o PDF para múltiples canales.
+
 ### El kit de comunicación interna coordinado
 
 Uno de los principios más potentes de la comunicación efectiva es la coherencia: cuando un mismo mensaje llega a través de varios canales con la misma imagen, el mismo tono y los mismos puntos clave, la probabilidad de que se recuerde aumenta considerablemente. A esto se llama comunicación multicanal coordinada.
@@ -77,6 +89,12 @@ La IA facilita enormemente la creación de estas tres piezas porque permite adap
 
 La ventaja de crear el kit completo de una sola vez con IA, en lugar de hacerlo en momentos distintos, es que la coherencia de mensaje y tono está garantizada desde el principio. Después solo hay que asegurarse de que el diseño visual también sea coherente, lo que se logra usando la misma plantilla de Canva o la misma paleta de colores para las tres piezas.
 
+> **Puntos clave:**
+> - El kit mínimo son tres piezas: correo, cartel y banner.
+> - La coherencia visual y de tono multiplica el impacto del mensaje.
+> - Un solo prompt puede generar los tres textos a la vez.
+> - Misma plantilla y paleta para todas las piezas garantizan coherencia.
+
 ### Canva y la creación de múltiples formatos
 
 Una de las funciones más prácticas de Canva gratuito para equipos de oficina es la posibilidad de **redimensionar un diseño para distintos formatos**. En el plan gratuito, esto se hace manualmente: una vez diseñada la pieza principal (por ejemplo, el cartel en formato A4 horizontal), se crea una nueva página con las dimensiones del banner (por ejemplo, 1200 × 300 px) y se reorganizan los elementos. No es automático como en el plan de pago, pero el proceso es rápido porque los elementos —colores, tipografías, imágenes— ya están elegidos.
@@ -84,6 +102,12 @@ Una de las funciones más prácticas de Canva gratuito para equipos de oficina e
 La clave es empezar siempre por la pieza más grande o más compleja (normalmente el cartel) y después adaptar los elementos al formato más pequeño. Reducir es más fácil que ampliar porque hay que simplificar el mensaje, no inventar elementos nuevos. Para el banner de Teams, por ejemplo, puede bastar con el titular del cartel y el logo del equipo.
 
 Canva también permite crear **presentaciones vídeo sencillas** desde sus plantillas de vídeo. Un vídeo de 30 a 60 segundos con texto sobre fondo, imágenes o iconos animados y música de biblioteca (gratuita en Canva) puede ser muy útil para anuncios de incorporación, recordatorios de formaciones o bienvenidas al equipo. No requiere edición de vídeo ni locución: basta con las diapositivas animadas y los textos. Este tipo de vídeo corto funciona especialmente bien cuando se comparte en un canal de Teams, ya que se reproduce directamente en el chat y tiene mucho más impacto visual que un PDF adjunto.
+
+> **Puntos clave:**
+> - El redimensionado manual en Canva gratuito es rápido y factible.
+> - Empezar por la pieza más grande y simplificar al adaptar formatos.
+> - Los vídeos cortos con plantillas de Canva no requieren edición.
+> - Un vídeo de 30–60 segundos tiene gran impacto en Teams.
 
 ### Accesibilidad en el diseño visual: más que un requisito, una oportunidad
 
@@ -103,6 +127,12 @@ Que este curso esté vinculado a Fundación ONCE añade una dimensión adicional
 
 En resumen: aplicar criterios de accesibilidad no añade trabajo significativo si se integra desde el principio del proceso de diseño. La decisión de los colores, el tamaño de la fuente y la revisión del contraste se toman una sola vez para la plantilla base y luego se replican automáticamente en todas las piezas del kit. El texto alternativo se añade en dos minutos por imagen. Y el resultado es un material que funciona mejor para todos, no solo para quienes tienen alguna discapacidad.
 
+> **Puntos clave:**
+> - El diseño accesible es mejor diseño para todas las personas.
+> - El contraste mínimo accesible es 4,5:1 según WCAG nivel AA.
+> - Añadir alt text a imágenes informativas y dejar vacías las decorativas.
+> - Nunca usar solo el color como diferenciador de estado o categoría.
+
 ### Prompts para comunicación accesible y clara con IA
 
 La IA puede actuar como una especie de revisor de accesibilidad lingüística. Estos son algunos de los prompts más útiles para este fin:
@@ -112,6 +142,32 @@ Para simplificar: "Reescribe este párrafo con frases de máximo 15 palabras, el
 Para verificar la legibilidad: "¿Este texto es comprensible para alguien con un nivel de lectura básico? ¿Qué palabras o frases cambiarías para hacerlo más accesible? [PEGAR TEXTO]"
 
 Para reescribir con inclusión: "Este texto usa el género masculino por defecto. Reescríbelo con lenguaje inclusivo sin usar la barra (a/o) ni el lenguaje neutro marcado. Usa reestructuración de frases donde sea posible."
+
+> **Puntos clave:**
+> - La IA actúa como revisora de accesibilidad lingüística.
+> - Pedir frases cortas, voz activa y sin lenguaje técnico.
+> - Verificar legibilidad para nivel de lectura básico antes de publicar.
+> - Reestructurar frases para lograr lenguaje inclusivo sin marcas visibles.
+
+### La revisión humana imprescindible del kit antes de publicarlo
+
+Por muy bien construido que esté el prompt y por muy coherente que sea el resultado visual en Canva, ningún kit de comunicación interna debería enviarse sin una revisión humana final. La IA conoce el lenguaje general pero no conoce el contexto interno de la empresa: cómo se llaman los equipos realmente, qué fórmulas de cortesía se usan, qué referencias internas pueden malinterpretarse o qué nombres de personas o departamentos aparecen en los mensajes. Marta, antes de enviar el correo sobre el nuevo sistema de pedidos, lee el texto en voz alta y verifica tres cosas: que el tono encaja con la cultura de su empresa, que los nombres y siglas internas son correctos, y que no hay errores factuales en fechas, horarios o nombres de salas. En general, dedicar cinco minutos a esta revisión evita reenvíos correctivos o malentendidos posteriores que cuestan mucho más tiempo.
+
+> **Puntos clave:**
+> - La IA escribe; la revisión humana valida el contexto interno.
+> - Leer en voz alta ayuda a detectar tono extraño o fórmulas raras.
+> - Verificar siempre nombres, fechas y siglas internas antes de enviar.
+> - Cinco minutos de revisión evitan reenvíos correctivos posteriores.
+
+### Reutilizar el kit: plantillas propias para futuras campañas
+
+Crear un kit de comunicación interna desde cero requiere tiempo, aunque sea menos del que se invertía antes. La forma de rentabilizar esa inversión es convertir el kit que funciona en una plantilla reutilizable. En Canva, cualquier diseño puede guardarse como plantilla del equipo y duplicarse en futuras campañas: la paleta, las tipografías, la disposición de elementos y el espacio para el logo ya están definidos. Para una nueva campaña, Marta solo necesita cambiar los textos, las cifras y, si procede, una imagen central; el resto se mantiene. Según experiencia del sector, los equipos que estandarizan sus kits reducen drásticamente el tiempo de producción de comunicaciones internas a partir de la tercera o cuarta campaña, porque la plantilla ya está depurada y revisada en accesibilidad. Además, la coherencia visual a lo largo del tiempo refuerza la identidad de la marca interna del equipo.
+
+> **Puntos clave:**
+> - Guardar el kit como plantilla propia ahorra tiempo en campañas futuras.
+> - La paleta y tipografía ya están elegidas y revisadas en accesibilidad.
+> - Solo hay que cambiar textos, cifras e imagen central.
+> - La coherencia visual sostenida refuerza la identidad interna del equipo.
 
 ---
 
@@ -169,6 +225,19 @@ Para reescribir con inclusión: "Este texto usa el género masculino por defecto
 
 ---
 
+### Caso 4 — Vídeo de bienvenida para nuevas incorporaciones
+
+**Situación:** Marta quiere preparar un vídeo corto de bienvenida (45 segundos) para personas nuevas en el departamento, con los hitos del primer día y un saludo del equipo. Necesita un guion sencillo y una pieza visual que pueda compartirse por correo o por Teams.
+
+**Prompt exacto:**
+> "Escríbeme un guion de vídeo de bienvenida para nuevas incorporaciones a un departamento de administración. Duración objetivo: 45 segundos. Estructura: saludo cálido, tres hitos del primer día (acogida y café con el equipo, recorrido por la oficina, sesión introductoria con la responsable), cierre con invitación a preguntar. Tono cercano y profesional, frases cortas. Devuélvelo como una secuencia de cinco diapositivas con un titular breve y una línea de texto cada una."
+
+**Resultado comentado:** La IA devuelve cinco bloques de texto numerados que Marta pega directamente en una plantilla de vídeo de Canva (sección "Vídeo · Bienvenida"). Añade música de la biblioteca gratuita, ajusta el contraste del texto al fondo y exporta el vídeo en MP4. El resultado es una pieza de 45 segundos lista para compartir en el correo de incorporación.
+
+**Cómo iterarlo:** Si el tono resulta demasiado formal, pedir a la IA "reescribe el mismo guion con un tono más cálido y un toque de humor amable". Si el vídeo se va a compartir en Teams, pedir también una versión con un titular de máximo 10 palabras para acompañar el mensaje del chat. Tras la primera incorporación real, recoger un par de comentarios y ajustar el guion para la próxima persona; así la plantilla mejora con cada uso.
+
+---
+
 ## 9. GLOSARIO
 
 **Kit de comunicación:** Conjunto de piezas visuales y textuales coordinadas que transmiten un mismo mensaje a través de distintos canales (correo, cartel, banner), con coherencia visual y de tono.
@@ -195,6 +264,12 @@ Para reescribir con inclusión: "Este texto usa el género masculino por defecto
 
 **Legibilidad:** Facilidad con la que un texto puede ser leído y comprendido; depende del tamaño de la fuente, el contraste, el interlineado, la longitud de las frases y el vocabulario utilizado.
 
+**Ratio de contraste:** Valor numérico que expresa la diferencia de luminosidad entre dos colores; se calcula con una fórmula estándar y se expresa como X:1 (por ejemplo 4,5:1); cuanto mayor es el ratio, mayor el contraste.
+
+**Código hexadecimal:** Notación de seis caracteres precedida de una almohadilla (por ejemplo #595959) que identifica de forma única un color en pantalla; en Canva aparece al hacer clic sobre cualquier color del diseño.
+
+**Plantilla reutilizable:** Diseño base guardado en Canva que mantiene paleta, tipografía y disposición, y que se duplica para campañas posteriores cambiando solo los textos y datos.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -212,6 +287,10 @@ Para reescribir con inclusión: "Este texto usa el género masculino por defecto
 **Error 6 — Pedir a la IA un texto único y usarlo en todos los canales sin adaptar.** Un correo y un banner de Teams son formatos radicalmente distintos en extensión y estructura. Pedir a la IA los tres formatos en un mismo prompt, especificando la longitud y el propósito de cada uno.
 
 **Buena práctica — Guardar la plantilla del kit como plantilla propia en Canva.** Una vez creado un kit que funciona bien, guardarlo como plantilla del equipo para reutilizarlo en próximas campañas. Solo hay que cambiar los textos y el tema.
+
+**Error 7 — Olvidar la revisión humana del texto generado por la IA antes de enviarlo.** La IA no conoce los nombres internos, las siglas del equipo ni las fórmulas de cortesía propias de la empresa. En general, basta con cinco minutos de revisión final (leer el texto en voz alta, comprobar nombres, fechas y siglas) para evitar reenvíos correctivos.
+
+**Buena práctica — Mantener un repositorio compartido de prompts que funcionan bien.** Cuando un prompt produce un resultado especialmente útil (kit completo, infografía clara, revisión de accesibilidad), guardarlo en un documento compartido del equipo con una breve nota sobre cuándo usarlo. Según experiencia del sector, este repositorio reduce el tiempo de arranque de futuras campañas y eleva la calidad media de las comunicaciones internas.
 
 ---
 
@@ -329,6 +408,21 @@ Respuesta abierta: Identificar los códigos hexadecimales del color del texto y 
 **12. ¿Qué prompt usarías para pedir a la IA que simplifique un texto para que sea más accesible?**
 Respuesta abierta: Un ejemplo válido: "Reescribe este texto con frases de máximo 15 palabras, eliminando el lenguaje técnico y usando voz activa. El público es personal administrativo sin formación especializada. [PEGAR TEXTO]"
 
+**13. ¿Cuál de estas afirmaciones describe mejor el orden correcto al diseñar un kit multicanal?**
+a) Diseñar primero el banner, después el correo y por último el cartel
+b) Empezar por la pieza más grande o compleja (cartel) y adaptar los elementos a los formatos más pequeños ✓
+c) Crear cada pieza por separado, en días distintos, para no influirse entre sí
+d) Empezar por el vídeo y derivar el resto a partir del guion
+
+**14. ¿Por qué conviene guardar el kit como plantilla propia en Canva tras la primera campaña?**
+Respuesta abierta: Porque la paleta, las tipografías, la disposición y los criterios de accesibilidad ya están elegidos y revisados; en campañas futuras solo hay que cambiar los textos, las cifras y, si procede, una imagen central. Según experiencia del sector, esta reutilización reduce drásticamente el tiempo de producción a partir de la tercera o cuarta campaña y refuerza la coherencia visual a lo largo del tiempo.
+
+**15. ¿Qué información mínima debe contener un buen texto alternativo para un gráfico de barras de gasto por departamento?**
+a) Solo la palabra "gráfico"
+b) El tipo de gráfico y las cifras o porcentajes principales por categoría, por ejemplo "gráfico de barras del gasto por departamento: Administración 32 %, Logística 28 %, Ventas 25 %, Otros 15 %" ✓
+c) Una descripción estética de los colores y el tamaño
+d) El nombre del archivo de la imagen
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -356,6 +450,12 @@ El banner de Teams es simplemente el ejemplo del curso. Si tu empresa usa Slack,
 
 **¿Por qué es importante el accesibilidad en materiales de comunicación interna si los envío solo a mis compañeros?**
 Porque entre tus compañeros puede haber personas con baja visión, daltonismo, dislexia u otras condiciones que afectan a cómo perciben los materiales. Además, los materiales internos a veces se reenvían, se imprimen o se proyectan en condiciones distintas a las que imaginaste al crearlos. Un material accesible funciona bien en todos esos contextos.
+
+**¿Puedo usar la misma plantilla de Canva en sucesivas campañas sin que se note repetitiva?**
+Sí, siempre que mantengas la estructura base (paleta, tipografía, disposición) y vayas cambiando los elementos que sí dependen de cada campaña: titular, imagen central, cifras, llamada a la acción y, si procede, un acento de color secundario. La coherencia visual a lo largo del tiempo, en general, refuerza la identidad interna del equipo y ayuda a que las personas reconozcan al primer vistazo que se trata de una comunicación oficial.
+
+**¿Qué hago si la IA me devuelve un correo demasiado formal o demasiado coloquial para el tono de mi empresa?**
+Iterar el prompt es la solución más rápida. Puedes pedir "reescríbelo con un tono más cercano, manteniendo el respeto profesional" o "reescríbelo con un tono más formal, sin perder claridad". También funciona dar ejemplos: pegar un correo previo de tu empresa que sí tenga el tono adecuado y pedir a la IA que imite ese registro. Según experiencia del sector, dos o tres iteraciones suelen ser suficientes para encontrar el tono correcto.
 
 ---
 
@@ -400,6 +500,8 @@ Para tu proyecto final: si tu solución implica comunicar algo a tu equipo o a l
 - La IA escribe los textos; Canva crea las piezas visuales; tú revisas la coherencia, el tono y la adecuación al contexto de tu empresa. Los tres son necesarios.
 - Verificar el contraste de color lleva menos de dos minutos con herramientas gratuitas en línea. No hay excusa para no hacerlo.
 - Antes de reducir el tamaño de la fuente para encajar más texto, pregúntate si el problema es la fuente o el exceso de contenido. Casi siempre es el exceso de contenido.
+- Guardar el kit que funciona como plantilla propia de Canva convierte la inversión inicial en una palanca de eficiencia para campañas futuras.
+- Nunca uses solo el color para diferenciar estados o categorías: añade siempre un segundo indicador (icono, etiqueta o trama) que funcione también para personas con daltonismo.
 
 ---
 
