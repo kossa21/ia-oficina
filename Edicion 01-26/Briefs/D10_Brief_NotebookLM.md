@@ -221,6 +221,21 @@ El otro consejo importante es **no sobrecargar el gráfico**. Si la tabla tiene 
 
 ---
 
+### Caso 4 — Cruce de facturas emitidas y pagos recibidos
+
+**Situación:** Marta tiene dos hojas: facturas emitidas en mayo (40 registros, con columna "Referencia" como identificador) y pagos recibidos en mayo (35 registros, con la misma columna "Referencia"). Necesita saber qué facturas no se han cobrado, si hay pagos sin factura correspondiente y si hay duplicados antes de la reunión de cierre de mes.
+
+**Paso 1 — Anonimizar:** Marta sustituye los nombres de cliente reales por CLIENTE_A, CLIENTE_B, etc. Las referencias de factura las mantiene tal cual (son códigos internos sin información personal). Verifica que ninguna columna tenga datos sensibles antes de pegar.
+
+**Paso 2 — Prompt exacto en ChatGPT (con las dos tablas pegadas):**
+> "Te pego dos tablas. La primera son facturas emitidas en mayo (columnas: Referencia, Fecha, Cliente, Importe). La segunda son pagos recibidos en mayo (columnas: Referencia, Fecha, Cliente, Importe). Cruza ambas por la columna 'Referencia' y dime: (1) qué facturas emitidas no tienen pago registrado (impagos), (2) qué pagos no se corresponden con ninguna factura (pagos huérfanos), (3) si hay alguna referencia duplicada en cualquiera de las dos tablas, (4) si los importes de las facturas y los pagos coinciden cuando ambas referencias existen."
+
+**Resultado comentado:** La IA devuelve cuatro listas separadas. Detecta 5 facturas impagas, 1 pago huérfano (probablemente un anticipo) y una referencia duplicada en la tabla de facturas. Marta verifica manualmente 2 impagos (consulta la hoja original) y confirma que coinciden. Ahorra una hora frente al BUSCARV manual.
+
+**Cómo iterarlo:** "Para las 5 facturas impagas, redacta el texto de un correo cordial pero firme para recordar el pago, pidiendo confirmación de la fecha estimada. Tono profesional, máximo 4 frases por correo."
+
+---
+
 ## 9. GLOSARIO
 
 **Tabla dinámica:** Herramienta de hoja de cálculo que resume grandes volúmenes de datos agrupándolos por categorías; con IA, se puede crear con una instrucción en lenguaje natural.
@@ -241,6 +256,16 @@ El otro consejo importante es **no sobrecargar el gráfico**. Si la tabla tiene 
 
 **Tendencia:** Dirección general que siguen los datos a lo largo del tiempo (crecimiento, descenso, estacionalidad); uno de los análisis más valiosos que la IA puede extraer automáticamente.
 
+**Limpieza de datos:** Proceso de normalizar formatos, eliminar duplicados y rellenar huecos antes de calcular; se hace pegando una muestra en el chat y pidiendo reglas de normalización.
+
+**Serie temporal:** Conjunto de datos ordenados por momento (mes, semana, día) que permite detectar tendencia, estacionalidad y picos anómalos.
+
+**Estacionalidad:** Patrón que se repite con periodicidad fija (por ejemplo, ventas que siempre suben en diciembre); explica anomalías aparentes y evita conclusiones erróneas.
+
+**Cruce de tablas:** Comparación de dos tablas por una columna común para identificar registros faltantes (impagos), huérfanos o duplicados; se hace en una sola instrucción a la IA.
+
+**Pago huérfano:** Pago recibido que no se corresponde con ninguna factura emitida en el cruce; suele indicar un anticipo, un cobro duplicado o un error de imputación.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -255,7 +280,13 @@ El otro consejo importante es **no sobrecargar el gráfico**. Si la tabla tiene 
 
 **Error 5 — Presentar el análisis de la IA directamente.** El análisis es un punto de partida, no el producto final. Revisa las conclusiones, añade tu criterio profesional y adapta el lenguaje a tu audiencia.
 
+**Error 6 — No limpiar los datos antes de calcular.** Si los nombres de categoría tienen variaciones de mayúsculas, espacios o duplicados (administración / Administración / administración ), la IA tratará cada variante como una categoría diferente y los totales serán falsos con apariencia de precisión. Limpiar antes de calcular ahorra hora y media de recálculo posterior.
+
+**Error 7 — Elegir el tipo de gráfico antes de definir la pregunta.** Un gráfico de tarta para mostrar evolución temporal es ilegible, igual que un gráfico de líneas para comparar proporciones. Define primero qué pregunta concreta debe responder el gráfico y deja que la IA sugiera el formato; después conviene revisar la elección con criterio propio.
+
 **Buena práctica — Guarda los prompts de análisis que funcionan.** Un buen prompt de análisis puede reutilizarse cada mes con los nuevos datos. Guárdalo en tu Google Doc de biblioteca de prompts.
+
+**Buena práctica — Pide a la IA que explique las fórmulas que te genera.** Aprovecha cada fórmula complicada para aprender: "Explícame qué hace cada parte en lenguaje sencillo." Así, la próxima vez podrás modificarla sin volver a pedirla.
 
 ---
 
