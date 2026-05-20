@@ -33,8 +33,10 @@ Edicion 01-26/
 ├── Logos/
 │   └── 00_FULL COLOR (1).png          ← logo AllWomen (esquina superior derecha, 1.2")
 └── Scripts/
+    ├── generar_deck.py                ← brief → PPTX completo del formador (parser + planner + renderer)
     ├── pipeline_ia_oficina.py         ← pipeline completo: brief → NotebookLM → PPTX
-    └── process_decks.py               ← solo fase 2: añade logo + speaker notes a PPTX
+    ├── process_decks.py               ← solo fase 2: añade logo + speaker notes a PPTX
+    └── requirements.txt               ← dependencias Python (python-pptx, Pillow)
 ```
 
 ---
@@ -59,12 +61,23 @@ El brief `DXX_Brief_NotebookLM.md` es la **fuente única** de cada notebook. Con
 
 ### Paso 3 — Procesado del deck (en el Mac)
 ```bash
-# Procesar un deck con logo AllWomen + speaker notes:
+# Instalar dependencias una vez:
+pip install -r Scripts/requirements.txt
+
+# Generar el PPTX completo desde el brief (sin pasar por NotebookLM):
+python3 Scripts/generar_deck.py D05
+python3 Scripts/generar_deck.py --all                  # los 17 días
+python3 Scripts/generar_deck.py D05 --validate         # solo validar
+python3 Scripts/generar_deck.py D05 --dump-ir D05.json # guardar IR para snapshot
+
+# Procesar un deck ya existente con logo AllWomen + speaker notes:
 python3 Scripts/process_decks.py Decks/D05_raw.pptx
 
 # Pipeline completo (crea notebook + genera deck + procesa):
 python3 Scripts/pipeline_ia_oficina.py D05 D06 D07
 ```
+
+El comando `generar_deck.py` produce el deck del formador directamente desde el brief, respetando la regla de oro: **todo el contenido textual viene del brief**. El script no inventa pedagogía, ejemplos, prompts, datos, glosario ni notas del orador.
 
 ---
 
