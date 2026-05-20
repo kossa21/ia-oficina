@@ -20,7 +20,7 @@
 
 ## 3. RESUMEN DE LA SESIÓN
 
-Las reuniones son el gran consumidor de tiempo en la oficina moderna: sin acta, los acuerdos se olvidan; sin seguimiento, las tareas delegadas vuelven sin haberse hecho; sin instrucciones claras, la delegación se convierte en una fuente de malentendidos y trabajo doble. Hoy cerramos el módulo de organización aprendiendo a convertir notas caóticas de reunión en actas estructuradas en tres prompts, a crear tableros de seguimiento visuales sin herramientas de gestión de proyectos, y a redactar instrucciones de delegación que eliminen la ambigüedad. Estos tres flujos son inmediatamente aplicables al día siguiente de terminar la sesión. Hoy, además, es el punto de inflexión del curso: cada alumno revisará el mapa de oportunidades creado en D01 y elegirá la idea que desarrollará como proyecto final en D16 y D17.
+Las reuniones son el gran consumidor de tiempo en la oficina moderna: sin acta, los acuerdos se olvidan; sin seguimiento, las tareas delegadas vuelven sin haberse hecho; sin instrucciones claras, la delegación se convierte en una fuente de malentendidos y trabajo doble. Hoy cerramos el módulo de organización aprendiendo a convertir notas caóticas de reunión en actas estructuradas en tres prompts, a crear tableros de seguimiento visuales sin herramientas de gestión de proyectos, y a redactar instrucciones de delegación que eliminen la ambigüedad. La segunda mitad de la sesión profundiza en el seguimiento: cómo redactar recordatorios profesionales que mantienen la presión sin deteriorar la relación, cómo escalar cuando una tarea no avanza, y cómo cerrar el ciclo de delegación documentando el resultado cuando la tarea se completa. El conjunto de flujos de hoy —acta → tablero → delegación → seguimiento → cierre— forma un sistema completo y autosuficiente que cualquier perfil administrativo puede aplicar desde el día siguiente sin aprender ninguna herramienta nueva. Estos tres flujos son inmediatamente aplicables al día siguiente de terminar la sesión. Hoy, además, es el punto de inflexión del curso: cada alumno revisará el mapa de oportunidades creado en D01 y elegirá la idea que desarrollará como proyecto final en D16 y D17.
 
 ---
 
@@ -47,7 +47,7 @@ Las reuniones son el gran consumidor de tiempo en la oficina moderna: sin acta, 
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### Por qué el acta es el documento más infravalorado de la oficina
 
@@ -63,6 +63,11 @@ El prompt para convertir notas en acta es directo y funciona con notas de cualqu
 
 Si las notas son muy escuetas, se puede añadir un segundo prompt: *"¿Hay algún punto de las notas del que no quede claro si fue una decisión o solo una conversación? Señálalo para que yo lo confirme."* La IA identifica las ambigüedades que tú podrías haber pasado por alto.
 
+> **Puntos clave:**
+> - Un acta útil NO es una transcripción: contiene solo decisiones + tabla de acciones (Acción/Responsable/Plazo)
+> - El prompt incluye las 5 secciones fijas: encabezado, contexto, decisiones, acciones, próxima reunión
+> - Segundo prompt de ambigüedad: pide a la IA que señale qué notas son decisiones y cuáles conversación sin resolver
+
 ### Tableros de seguimiento sin herramientas de gestión de proyectos
 
 Muchos equipos no tienen acceso a herramientas como Jira, Trello o Asana, o simplemente no quieren añadir otra herramienta al día. La IA permite crear tableros de seguimiento funcionales en formato texto dentro de un correo, un Google Doc o un mensaje de Teams, sin necesidad de ninguna aplicación adicional.
@@ -77,6 +82,11 @@ Para el seguimiento semanal, el sistema de semáforo RAG (Rojo/Ámbar/Verde) es 
 
 Marta usa este formato cada lunes para el correo semanal de su equipo. En lugar de redactar el resumen de estado tarea por tarea, actualiza la tabla de la semana anterior y pide a la IA que redacte el párrafo de seguimiento. Lo que antes le llevaba cuarenta minutos ahora son diez.
 
+> **Puntos clave:**
+> - Kanban en texto: 4 columnas (Pendiente/En curso/Bloqueado/Completado), sin necesidad de herramientas externas
+> - Sistema RAG: 🔴 intervención urgente, 🟡 atención, 🟢 en plazo; hace el riesgo visible de un vistazo
+> - Actualizar el tablero: pegar la tabla anterior en el chat + cambios de estado = nueva tabla en segundos
+
 ### Instrucciones de delegación que se entienden a la primera
 
 El 80 % de los malentendidos en delegación no provienen de que la persona delegada sea incompetente, sino de que las instrucciones eran incompletas. Una buena instrucción de delegación tiene cinco elementos que la IA puede ayudarte a estructurar:
@@ -88,6 +98,11 @@ El prompt para generar una instrucción de delegación completa:
 > "Redacta una instrucción de delegación clara y completa para la siguiente tarea: [DESCRIPCIÓN]. La persona que la recibirá tiene el siguiente perfil: [PERFIL]. Plazo de entrega: [FECHA]. Recursos disponibles: [LISTA]. Restricciones: [LISTA]. Resultado esperado: [DESCRIPCIÓN DETALLADA]. Incluye un punto sobre cómo y cuándo quiero que me mantenga informado del progreso."
 
 El resultado es un texto que elimina las preguntas de seguimiento y los malentendidos antes de que ocurran. Marta calcula que con instrucciones bien redactadas reduce a la mitad el número de correos de aclaración que recibe después de delegar.
+
+> **Puntos clave:**
+> - Los 5 elementos: qué (resultado concreto, no actividad), por qué, cuándo (hitos + entrega final), cómo (recursos + restricciones + autonomía), cómo informar
+> - El 80 % de los malentendidos en delegación vienen de instrucciones sin resultado esperado concreto
+> - Una instrucción completa elimina las 3 preguntas de seguimiento más probables antes de que ocurran
 
 ### Recordatorios automatizados: cómo seguir sin parecer pesado
 
@@ -101,6 +116,47 @@ Para el segundo seguimiento, si no ha habido respuesta:
 
 > "Redacta un segundo mensaje de seguimiento sobre [TEMA] para alguien que no ha respondido al primer recordatorio. Profesional, sin presión excesiva, pero dejando claro que necesito una respuesta o una actualización de estado antes del [FECHA]."
 
+> **Puntos clave:**
+> - Primer recordatorio: 60 palabras máximo, cordial, fecha clara
+> - Segundo seguimiento si no hubo respuesta: más directo, pide actualización de estado, sin presión excesiva
+> - El seguimiento sistemático (no reactivo) preserva la relación y multiplica la tasa de cumplimiento
+
+### El ciclo completo de la reunión: preparación → acta → seguimiento → cierre
+
+Una reunión eficaz no empieza cuando se abre el calendario y no termina cuando se cierra la videollamada. Empieza con la preparación (orden del día + briefing previo, D08) y termina cuando todas las acciones acordadas están completadas y documentadas como completadas. En el medio hay tres momentos que la IA gestiona en minutos: la generación del acta inmediatamente después de la reunión, la actualización del tablero de seguimiento una vez por semana, y el cierre formal del ciclo cuando la última acción se marca como completada. El error más frecuente es tratar cada reunión como un evento aislado en lugar de como un paso de un flujo continuo. Cuando Marta aplica el ciclo completo, descubre que el 70 % de las reuniones de seguimiento que tenía programadas desaparecen porque las acciones ya están visibles en el tablero y los responsables saben exactamente qué se espera de ellos.
+
+> **Puntos clave:**
+> - El ciclo completo es: preparación (D08) → acta → tablero de seguimiento → cierre de acciones
+> - Tratar la reunión como evento aislado (sin acta ni seguimiento) es lo que genera las reuniones de seguimiento
+> - Cuando el ciclo funciona, las reuniones de seguimiento se reducen porque la información ya es visible para todos
+
+### La ambigüedad como causa principal de los malentendidos en delegación
+
+Cuando una tarea delegada vuelve sin haberse hecho o hecha de forma incorrecta, la causa casi siempre es una de tres: el delegado no entendió el resultado esperado, no sabía qué recursos tenía disponibles, o no entendía hasta qué punto podía tomar decisiones solo. Las tres son formas de ambigüedad, y la IA ayuda a eliminarlas con dos técnicas concretas. La primera es el test de lectura desde el punto de vista del receptor: después de generar la instrucción de delegación, se le pide a la IA que la lea como si fuera el receptor y señale qué preguntas le surgirían. "Lee esta instrucción como si fuera la persona que la recibe. ¿Qué preguntas sobre el resultado, los recursos o el nivel de autonomía quedarían sin respuesta?" La IA identifica 2 o 3 gaps casi siempre. La segunda técnica es especificar el nivel de autonomía de forma explícita, que es lo que más raramente se hace: "puedes decidir sobre X sin consultarme; necesitas confirmarme antes de hacer Y; no hagas Z sin aprobación". Sin esta especificación, el delegado suele pecar de exceso de consultas (paraliza) o de exceso de autonomía (hace algo diferente a lo esperado).
+
+> **Puntos clave:**
+> - Test del receptor: pide a la IA que lea la instrucción como el destinatario y señale las preguntas que quedarían sin respuesta
+> - Especificar el nivel de autonomía explícitamente: qué puede decidir solo, qué debe consultar antes, qué no puede hacer
+> - Las 3 causas de malentendido: resultado poco claro, recursos no especificados, autonomía ambigua
+
+### Cómo escalar el seguimiento cuando una tarea no avanza
+
+Hay tareas delegadas que no avanzan por razones legítimas: la persona tiene más prioridades de las que puede gestionar, encontró un bloqueante que no sabía cómo resolver, o la tarea resultó más compleja de lo esperado. Y hay tareas que no avanzan simplemente porque no son prioritarias para quien las tiene asignadas. La diferencia importa porque cada una se gestiona de forma distinta. El primer paso siempre es preguntar, no asumir: un breve mensaje que pida una actualización de estado ("¿hay algún bloqueante en el que pueda ayudarte?") da la información necesaria para decidir cómo actuar. Si la respuesta revela un bloqueante legítimo, la acción es resolver el bloqueante o reasignar la tarea. Si la respuesta revela falta de prioridad, es el momento de una conversación directa sobre prioridades. La IA ayuda a redactar ambos tipos de mensajes sin que suenen ni como reproche ni como indiferencia. La escalada formal (comunicar a dirección o al responsable de área) se hace solo cuando la tarea tiene un impacto significativo y los intentos anteriores no han funcionado: la IA ayuda a redactar ese mensaje también, pero la decisión de escalar es siempre del usuario.
+
+> **Puntos clave:**
+> - Primer paso siempre: preguntar si hay bloqueante, no asumir falta de diligencia
+> - Bloqueante legítimo → resolver el bloqueante o reasignar; falta de prioridad → conversación directa
+> - La escalada formal es el último recurso; la IA redacta el mensaje pero la decisión de escalar es del usuario
+
+### Documentar el cierre: el último paso del ciclo de delegación
+
+Cuando una tarea delegada se completa, hay un paso que casi nadie hace: documentar el resultado. ¿Qué se entregó? ¿Cuándo? ¿Estaba completo o hubo excepciones? Este registro de cierre tiene tres funciones prácticas. La primera es el archivo: si en el futuro surge una duda sobre si esa tarea se hizo y cómo, hay un registro. La segunda es el aprendizaje: si la tarea tardó el doble de lo estimado o hubo imprevistos, esa información mejora la estimación la próxima vez que se delegue algo similar. La tercera es el reconocimiento: una nota explícita de "recibido, está completo, gracias" cierra el ciclo para la persona delegada y refuerza el hábito de cumplimiento. Marta usa un prompt de un solo párrafo para generar estas notas de cierre: "Redacta una nota de confirmación de que la tarea [DESCRIPCIÓN] ha sido completada satisfactoriamente por [PERSONA], entregada el [FECHA]. Tono: agradecido y profesional. Máximo 3 líneas." Es la forma más eficiente de cerrar el ciclo y de construir, con el tiempo, un registro de quién hace qué bien y en qué plazos.
+
+> **Puntos clave:**
+> - Documentar el cierre: qué se entregó, cuándo, si estaba completo; crea archivo, aprendizaje y reconocimiento
+> - Una nota de cierre de 3 líneas refuerza el hábito de cumplimiento en la persona delegada
+> - El registro acumulado muestra quién cumple en qué plazos: información valiosa para futuras delegaciones
+
 ---
 
 ## 7. DATOS Y CIFRAS CLAVE
@@ -112,6 +168,7 @@ Para el segundo seguimiento, si no ha habido respuesta:
 - El empleado medio pierde 31 horas al mes en reuniones no productivas (University of North Carolina); un acta bien estructurada reduce el tiempo de reuniones de seguimiento hasta un 30 %.
 - Instrucción de delegación completa con IA: 3 min. Sin IA: 10–15 min (y suele estar incompleta).
 - Equipos que sistematizan el seguimiento con tableros aumentan la tasa de cumplimiento de plazos un 35 %.
+- Documentar el cierre de una tarea delegada (nota de confirmación de 3 líneas): crea registro, aprendizaje y refuerza el hábito de cumplimiento en el equipo.
 
 ---
 
@@ -153,6 +210,19 @@ Para el segundo seguimiento, si no ha habido respuesta:
 
 ---
 
+### Caso 4 — Escalar el seguimiento de una tarea que no avanza
+
+**Situación:** Marta delegó hace 5 días la preparación de un informe comparativo de proveedores a EMPLEADO_A. El plazo era el miércoles. Es viernes y no ha recibido ninguna actualización ni el informe. Antes de escalar a dirección, quiere enviar un segundo seguimiento que sea firme pero no confrontacional.
+
+**Prompt exacto:**
+> "Redacta un segundo mensaje de seguimiento para EMPLEADO_A sobre el informe comparativo de proveedores que tenía que entregar el miércoles. Han pasado 5 días desde la delegación y 2 días desde el plazo sin que haya habido ninguna actualización. El tono debe ser firme pero profesional: necesito saber si hay un bloqueante o si el informe estará listo hoy. No usar un tono de reproche. Máximo 5 líneas."
+
+**Resultado comentado:** El mensaje generado reconoce la posibilidad de que haya un bloqueante antes de pedir explicaciones, pide una actualización de estado concreta para hoy antes de las 15:00 h, y es suficientemente directo para que el destinatario entienda la urgencia sin sentirse atacado.
+
+**Cómo iterarlo:** Si el primer seguimiento tampoco recibe respuesta y Marta necesita escalar al responsable de área: "Redacta un correo de escalada profesional al responsable de área de EMPLEADO_A informando de que el informe comparativo de proveedores, con plazo del miércoles, no ha sido entregado ni actualizado. Incluye el contexto de la delegación (fecha y plazo original) y lo que se necesita ahora (el informe hoy o una nueva fecha comprometida). Tono: informativo, sin valoraciones personales."
+
+---
+
 ## 9. GLOSARIO
 
 **Acta:** Documento que registra las decisiones, acciones y compromisos de una reunión; no es una transcripción sino un documento de acción con estructura fija.
@@ -171,6 +241,14 @@ Para el segundo seguimiento, si no ha habido respuesta:
 
 **Transcripción:** Texto generado a partir del audio de una reunión; herramienta de partida para generar el acta con IA (requiere consentimiento previo de todos los participantes).
 
+**Cierre de delegación:** Confirmación formal de que una tarea delegada se ha completado satisfactoriamente, con nota de agradecimiento; crea registro, aprendizaje y refuerza el hábito de cumplimiento.
+
+**Escalada:** Comunicación a un nivel jerárquico superior cuando una tarea no avanza y los intentos de seguimiento previos no han producido resultado; es el último recurso, no el primero.
+
+**Test del receptor:** Técnica que consiste en pedir a la IA que lea una instrucción de delegación desde el punto de vista del destinatario para identificar preguntas o ambigüedades no resueltas antes de enviarla.
+
+**Bloqueante:** Impedimento externo a la persona delegada que le impide avanzar en la tarea: falta de información, falta de acceso, dependencia de otra persona. Distinguirlo de la falta de prioridad es el primer paso antes de escalar.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -186,6 +264,10 @@ Para el segundo seguimiento, si no ha habido respuesta:
 **Error 5 — Seguimiento sin sistema.** Recordar mentalmente qué tareas has delegado y a quién agota recursos cognitivos. Un tablero kanban o RAG actualizado una vez por semana lo automatiza completamente.
 
 **Buena práctica — Comparte el acta el mismo día de la reunión.** El valor del acta cae rápidamente con el tiempo. Si la compartes el mismo día, los compromisos están frescos y la tasa de ejecución es significativamente más alta.
+
+**Buena práctica — Guarda los prompts de acta y delegación en tu biblioteca.** Los prompts de acta y de instrucción de delegación son de los más reutilizables del curso. Una vez ajustados a tu tipo de reuniones y al perfil de tu equipo, guardarlos en la biblioteca de prompts de D04 garantiza que cada acta y cada delegación tenga el mismo nivel de calidad sin tener que reinventar el prompt.
+
+**Error 6 — Escalar sin haber preguntado primero.** Comunicar a dirección que una tarea no está hecha sin antes haber pedido una actualización de estado es un error que deteriora relaciones profesionales. El primer paso siempre es preguntar si hay un bloqueante: el escalamiento se reserva para cuando ya se ha preguntado, ya se ha dado tiempo razonable y la tarea tiene un impacto significativo.
 
 ---
 
@@ -289,6 +371,30 @@ d) Señala quién revisará el resultado final
 **10. Verdadero o falso: si el primer acta que genera la IA a partir de tus notas tiene errores, es mejor empezar de cero con un prompt nuevo.**
 Respuesta: **Falso**. Es mejor iterar sobre el resultado ya generado: señala el error específico ("el responsable del punto 3 no es EMPLEADO_A sino EMPLEADO_B") y pide la corrección manteniendo el resto. Esto es más eficiente que regenerar desde cero.
 
+**11. ¿Qué hace el "test del receptor" en el proceso de delegación?**
+Respuesta abierta: Consiste en pedir a la IA que lea la instrucción de delegación desde el punto de vista de quien la recibe y señale qué preguntas quedarían sin respuesta (sobre el resultado esperado, los recursos disponibles o el nivel de autonomía). Permite detectar ambigüedades antes de enviar la instrucción, eliminando las preguntas de seguimiento más probables.
+
+**12. ¿Por qué es importante especificar el nivel de autonomía en una instrucción de delegación?**
+a) Para que la persona delegada sepa cuánto tiempo puede invertir en la tarea
+b) Para que la persona delegada sepa qué puede decidir sola, qué debe consultar y qué no puede hacer ✓
+c) Para que la IA pueda redactar la instrucción con el tono correcto
+d) No es necesario si la persona delegada tiene experiencia
+
+**13. ¿Cuál es el primer paso cuando una tarea delegada no avanza?**
+a) Escalar directamente al responsable de área
+b) Reasignar la tarea a otra persona
+c) Preguntar si hay un bloqueante antes de asumir falta de diligencia ✓
+d) Cancelar la delegación y hacerlo uno mismo
+
+**14. ¿Qué información debe incluir la nota de cierre de una delegación completada?**
+a) Solo un agradecimiento genérico
+b) Una evaluación del desempeño de la persona delegada
+c) Qué se entregó, cuándo y si estaba completo; con tono agradecido y profesional ✓
+d) Una lista de mejoras para la próxima delegación similar
+
+**15. Describe el ciclo completo de gestión de una reunión con IA, desde la preparación hasta el cierre de todas las acciones.**
+*Respuesta abierta:* (1) Preparación (D08): orden del día con tiempos y objetivos, briefing previo para participantes, preguntas clave para el moderador. (2) Acta (D09): convertir notas o transcripción en acta estructurada en ≤3 prompts, con encabezado, contexto, decisiones, acciones y próxima reunión. (3) Tablero de seguimiento: crear tabla kanban o RAG con las acciones del acta, actualizar una vez por semana. (4) Recordatorios: generar recordatorio cordial antes del plazo de cada acción. (5) Cierre: nota de confirmación cuando cada acción se completa. El ciclo completo elimina las reuniones de seguimiento porque la información siempre es visible.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -313,6 +419,15 @@ Si las preguntas son sobre el resultado esperado, el plazo o los recursos dispon
 
 **¿Puedo pedir a la IA que redacte automáticamente los recordatorios de seguimiento?**
 Sí, exactamente. Guarda el prompt de recordatorio con los datos de la tarea y úsalo cuando se acerque la fecha de entrega. La IA genera un mensaje cordial y profesional en segundos; tú solo tienes que revisarlo y enviarlo.
+
+**¿Cuándo debo considerar escalar una tarea delegada que no avanza?**
+La escalada se justifica cuando se cumplen tres condiciones: ya has enviado al menos un recordatorio directo preguntando por el estado, ha pasado un tiempo razonable desde el plazo acordado sin respuesta, y la tarea tiene un impacto real en otros procesos o personas. Si solo se cumple una de las tres, la escalada es prematura. Comunica la situación con hechos concretos (fecha de delegación, plazo acordado, intentos de seguimiento) y sin valoraciones personales sobre el delegado.
+
+**¿Sirve el ciclo acta → tablero → seguimiento para reuniones de una sola persona (sin equipo)?**
+Sí, y para muchos perfiles es donde aporta más valor. Si Marta tiene reuniones individuales con su jefa, clientes o proveedores, el acta estructurada de esas reuniones documenta los compromisos de ambas partes. El tablero de seguimiento puede ser un Google Doc personal. El ciclo completo aplica igual aunque solo haya dos personas en la reunión.
+
+**¿Puedo usar el mismo prompt de acta para reuniones de equipo grandes (10+ personas)?**
+Sí, pero con dos ajustes: (1) usa una transcripción de Tactiq o de Meet en lugar de notas manuales, porque con 10+ personas es imposible capturar todo a mano; (2) añade la instrucción "si un punto no tiene un responsable claramente identificado en la transcripción, escríbelo como '[RESPONSABLE POR CONFIRMAR]' en lugar de asignarlo por inferencia". En reuniones grandes la IA tiende a asumir responsables a partir del contexto, lo que puede producir asignaciones incorrectas.
 
 ---
 
@@ -358,6 +473,8 @@ En D16 (la penúltima sesión) tendrás una sesión completa para construirla de
 - El tablero RAG (🔴🟡🟢) hace visible el estado de las tareas de un vistazo sin necesidad de herramientas de gestión de proyectos.
 - Una instrucción de delegación sin los 5 elementos (qué, por qué, cuándo, cómo, cómo informar) genera preguntas de seguimiento que podrías haber evitado.
 - Hoy es el checkpoint: elige tu idea de proyecto final. La construirás en D16 y la presentarás en D17.
+- El ciclo completo (preparación → acta → tablero → seguimiento → cierre) elimina las reuniones de seguimiento innecesarias: la información siempre está visible.
+- Antes de escalar una tarea que no avanza, pregunta si hay un bloqueante; la escalada es el último recurso, no el primero.
 
 ---
 
