@@ -415,6 +415,21 @@ b) Escribir la sección más importante del informe
 c) Generar el índice completo antes de redactar ninguna sección ✓
 d) Definir el tono y el registro del documento
 
+**13. ¿Qué debe incluirse en el prompt de revisión de coherencia del paso 4 del flujo?**
+a) La corrección ortográfica del informe
+b) La detección de contradicciones entre secciones, cambios de tono no intencionales y datos no respaldados ✓
+c) La adaptación del informe a una nueva audiencia
+d) La generación del resumen ejecutivo
+
+**14. ¿Cuál es la ventaja de tener plantillas de índice para informes recurrentes?**
+a) La IA genera automáticamente los datos numéricos del informe
+b) No es necesario revisar los datos del informe si se usa la misma plantilla
+c) El paso 1 del flujo ya está hecho; el tiempo de inicio del informe se reduce a cero ✓
+d) El informe se puede publicar sin revisión cruzada
+
+**15. Describe el flujo completo de Marta para integrar datos de una tabla en el texto narrativo del informe.**
+*Respuesta abierta:* (1) Identificar los datos clave de la tabla que son relevantes para esa sección (no toda la tabla). (2) Construir el prompt indicando qué tendencia o variación destacar y el formato de salida (párrafo narrativo de X palabras, tono formal). (3) Añadir la instrucción "no añadas datos que no estén en los que te proporciono". (4) Pegar los datos de la tabla en el prompt y generar el párrafo. (5) Verificar manualmente que cada número del párrafo generado coincide exactamente con el dato de la tabla original. (6) Incorporar el párrafo al informe.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -442,6 +457,12 @@ Sí, y a veces es útil hacerlo así. Cada modelo tiene sus propios patrones de 
 
 **¿El banco de plantillas de correo de ayer y los informes de hoy se pueden conectar en el proyecto final?**
 Completamente. El proyecto final puede incluir ambos como evidencias de mejora en comunicación escrita: las plantillas de correo para la comunicación cotidiana y los informes adaptados a tres audiencias para la comunicación formal. Juntos demuestran un dominio completo de la comunicación profesional escrita con IA.
+
+**¿Cómo mantengo actualizada mi plantilla de índice cuando el tipo de informe evoluciona con el tiempo?**
+La plantilla de índice debe revisarse cada vez que los destinatarios piden un cambio de estructura o cuando el tipo de informe añade nuevas secciones. La señal para actualizar la plantilla es cuando el índice actual ya no refleja el informe que realmente se entrega. Tratar la plantilla como un documento vivo, no fijo, y añadir una fecha de "última revisión" en el nombre del archivo para saber cuál es la versión más reciente.
+
+**¿Puedo usar el flujo de cuatro pasos para informes muy urgentes, cuando no hay tiempo?**
+Para situaciones muy urgentes, el flujo puede comprimirse en dos pasos: índice rápido (3 secciones máximo) y redacción en un solo prompt con los datos más esenciales. El paso de resumen ejecutivo y el de revisión de coherencia pueden hacerse en una sola pasada al final. Lo que no puede omitirse es la verificación manual de los datos concretos antes de enviar: un informe urgente con un dato incorrecto causa más problemas que un retraso de cinco minutos en la verificación.
 
 ---
 
@@ -484,6 +505,8 @@ Para tu proyecto final: lo de hoy te sirve para demostrar cómo puedes construir
 - Adaptar un informe a tres audiencias (técnica, ejecutiva, cliente) con IA tarda 8–12 minutos; hacerlo sin IA puede llevar entre 45 minutos y hora y media.
 - Antes de entregar cualquier informe a externos, verificar manualmente todos los datos concretos: fechas, cifras, normativas y referencias que la IA haya podido añadir por su cuenta.
 - La revisión cruzada con un compañero antes de enviar detecta en cinco minutos lo que el autor ya no ve tras horas frente al texto.
+- Cada tipo de informe recurrente merece una plantilla de índice guardada: la segunda vez que lo prepares, el paso 1 del flujo ya está hecho.
+- La IA genera la forma del informe; el criterio profesional del autor añade el contexto, las señales débiles y los matices estratégicos que ninguna herramienta puede conocer.
 
 ---
 
