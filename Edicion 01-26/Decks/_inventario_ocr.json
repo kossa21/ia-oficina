@@ -1,0 +1,1020 @@
+{
+  "D01": {
+    "file": "The_Augmented_Desk.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "/\n\nO, IA en la Oficina:\n\nTu Nuevo Asistente\nGratuito\n\nUna guía visual sin\ntecnicismos para\nrecuperar tu tiempo."
+      },
+      {
+        "i": 2,
+        "ocr": "60-70%\n\ndel tiempo administrativo\nse dedica a tareas con\npatrones repetitivos\n(correos, informes, actas).\n\nde los trabajadores de\noficina la usa habitualmente,\naunque el 47% ya la\n\nha probado.\n\nal año recuperadas al\nautomatizar una sola tarea\nde 20 minutos que repites\n3 veces por semana.\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "Buscador IA Generativa:\nTradicional El Becario Rápido\n\nRecupera páginas que ya existen. Genera texto nuevo en el momento.\nBusca la respuesta. Calcula estadísticamente qué palabras\nencajan mejor.\n\nresume genial, pero no conoce tu empresa, puede equivocarse con datos\ny necesita instrucciones muy claras. No piensa, predice."
+      },
+      {
+        "i": 4,
+        "ocr": "Mito: La lA siempre Mito: Es demasiado\n\ntiene la razón complicado para mí\nRealidad: Falso. Sufre de Realidad: Si sabes escribir un\nalucinaciones (afirma datos mensaje de WhatsApp, sabes usar\ndatos incorrectos con total lA. La curva de aprendizaje es\nconfianza). Tú siempre verificas. mínima.\n\nMito: Va a reemplazar |. Mito: Necesito pagar\nmi puesto licencias caras\n\nRealidad: Todas las herramientas\nde este curso son gratuitas con una\ncuenta de Gmail personal.\n\nRealidad: Automatiza lo aburrido.\nTe libera para tareas que requieren\ntu criterio, empatía y contexto."
+      },
+      {
+        "i": 5,
+        "ocr": "El Espectro de Capacidades\n(4) E)\n\nY\n\n/ E Y\nSI - Delega sin miedo NO - Nunca uses lA aquí |\n\n- Redactar borradores de YN - Decisiones con juicio ético '\n\ncorreos estándar (23 genuino\n- Resumir documentos largos - Comunicaciones críticas\n\n(ej. 10 páginas en 5 puntos) donde un error sea grave\n- Extraer patrones Win Información de última hora\n\nE (3 sin verificar\n\n- Generar ideas"
+      },
+      {
+        "i": 6,
+        "ocr": "se | 1. Buscar correo anterior similar Q,\n\n2. Copiar y Pegar [[>\n\n3. Borrar datos viejos Y\n\nTiempo total: 15 - 25 minutos\n\n4. Reescribir saludo y revisar tono [4\n\n( 3. Marta sustituye las etiquetas [REF_FACTURA] [4\n] 4. Envía PX"
+      },
+      {
+        "i": 7,
+        "ocr": "Tu Ecosistema Gratuito\n\nChatGPT (OpenAlI) Google Gemini\nEl rey de la redacción, Y lA integrada con ofimática\n\nresúmenes y análisis de texto. B9 (Docs/Sheets) y búsquedas web.\nIncluye Gems (asistentes a medida).\nCuenta de\n\nGmail\n\nClaude (Anthropic) NotebookLM (Google)\n\nEl experto analítico. Ideal a Tu compañero de estudio (crea\npara documentos largos y pódcasts, vídeos, fichas y\nredacción muy cuidada. cuestionarios de tus documentos).\n\nCanva / Perplexity\nApoyo visual (infografías) e\n|\" investigación con fuentes citadas.\n\nro: En este curso nunca necesitarás pagar nada."
+      },
+      {
+        "i": 8,
+        "ocr": "..necesito redactar un correo\nrápido o resumir un texto.\n\n..necesito buscar datos actuales\nen internet o trabajar dentro de\nun Google Doc.\n\n..tengo un informe muy largo y\nnecesito un análisis preciso y\nun tono muyy profesional. Precisión y longitud\n\n¿Tienes Copilot en tu empresa?\n\nTodo lo aprendido en estas tres herramientas\nse aplica exactamente igual allí.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Privacidad: Las 3 Reglas Innegociables\n\nNunca pegues datos personales.\n\nNombres, DNI, salarios, cuentas o expedientes\njamás deben salir de tu organización.\n\nL£\n\n\"Y Usa la técnica de anonimización.\nSustituye la información confidencial por etiquetas\ngenéricas antes de hablar con la lA.\n\nAnte la duda, consulta.\nEl uso de datos de terceros sin anonimizar puede\n\ninfringir el RGPD. Consulta siempre con el\nresponsable de privacidad."
+      },
+      {
+        "i": 10,
+        "ocr": "La Máquina de Anonimización\n\nA) Zona de Peligro\n\nPor favor, resume la queja del cliente con\nDNI 128456784 sobre la factura de\n\nY) Zona Segura\nPor favor, resume la queja del cliente |, con |\nDNI sobre la factura de A | |\n\n|\n\nEl resultado de la lA será igual de útil, pero tus datos estarán protegidos. ) E\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "La Anatomía de una Instrucción (Prompt)\n\nContexto Tarea da y\n_ ono\nActúa como\neN A ... Un proveedor A\n\nii Ad pregunta por la Cordial y a\n\ndistribución factura [REF]. baoficio e\no ma Redacta una p Alcala y\n\nIn contexto, la El .\nrespuestas genéricas). respuesta...\n\nIteración: ¿No te gusta el primer intento? No empieces de cero.\nPídele: \"Reescribe con un tono más cálido y añade una disculpa\".\n\nÑ\n\nÍA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "Tu Próximo Paso: El Mapa de Oportunidades\n\nLa lA no es magia, es una herramienta. Para que funcione, debes\ndirigirla hacia tus cuellos de botella.\n\nrepetitivas de tu puesto (correos,\n\n1E Identifica las 5 tareas más\nbúsquedas, informes). _—_ |\n\n2 Crea tus cuentas gratuitas .\nE (ChatGPT, Gemini). ==\n\n3 Lanza tu primer prompt hoy\nE mismo usando un caso real 7\"\nanonimizado. j l A ee:\n\nEste mapa de 5 tareas será la semilla de tu proyecto final del curso. ¡Elige bien!"
+      }
+    ]
+  },
+  "D02": {
+    "file": "Mastering_Structured_AI_Prompts.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "La estructura que lo\ncambia todo\n\nCómo escribir instrucciones precisas para la\nlA y automatizar tus tareas de oficina."
+      },
+      {
+        "i": 2,
+        "ocr": "El problema no es la herramienta.\nEs la instrucción.\n\n07 y\n(DN\nEscribimos asumiendo que la lA sabe\n\nquiénes somos, en qué empresa\ntrabajamos y qué queremos conseguir.\n\nLa lA es como un empleado nuevo en su\nprimer día. Si le dices “haz un informe” sin\ncontexto, intentará adivinar.\n\n: Estimado proveedor, esperamos su\nRedacta un correo para mi proveedor. ñ\nrespuesta. Saludos cordiales.\n\nMor\n\nCD cosita EMAEAANAENES para\nobtener algo útil con una\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El embudo de la claridad\n\nida vaga 5\nCaz un a\n\nFormato (Moldea el aspecto visual)\n\nRestricciones (Recorta lo innecesario)\n\nES Al estructurar tu petición, el borrador\nNY O pasa de costar 15 minutos a menos\nde 2 minutos (un ahorro del 85-90 %\nInstrucción afilada de tu tiempo).\n\ny profesional\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "El sistema R-C-T-F-R\n\nCinco piezas para construir peticiones infalibles.\n\nR-Rol Qué perspectiva debe adoptar.\n(Ej: 'Actúa como administrativa...”)\n\nC - Contexto La información de fondo real.\n(Ej: 'Un cliente reclama un retraso...”')\n\n(Ej: “*Redacta un correo de disculpa...*)\n\nF - Formato Cómo quieres ver la respuesta.\n(Ej: 'Correo formal de máximo 120 palabras...”*)\n\nR - Restricciones Qué límites debe respetar.\n(Ej: 'No prometas fechas de entrega...”)\n\nT - Tarea La acción concreta a realizar.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Matriz de diagnóstico: ¿Por qué falla\n\nEl Síntoma\n\nEl tono es demasiado robótico\n\no no suena a mi departamento.\n\nLa respuesta podría ser de\ncualquier empresa del mundo.\n\nMe ha dado un ensayo de tres\npáginas y yo quería una lista.\n\nSe inventa datos, divaga o\nasume cosas que no son.\n\nHace todo a medias.\n\nEl Diagnóstico\n\nFalta el RO\nFalta el [Contexto\nFalta el [Formato\n\nFaltan las ¡Restricciones\nLa Tarea! está sobrecargada\n\n. o.\n\ntu prompt?\n\nLa Solución\nDefine quién está hablando.\n\nAñade datos de tu sector o el\nhistorial del caso.\n\nEspecifica exactamente cómo\nquieres visualizarlo.\n\nDile explícitamente qué NO\ndebe hacer.\n\nNo pidas 5 cosas a la vez.\nDivide y vencerás.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Caso 1: El correo de reclamación\n\nEl Intento Vago X\n\nPrompt: Responde a la queja de un\ncliente por un pedido incompleto.\n\nResultado: Un texto frío, genérico, que\nasume políticas de devolución inventadas.\n\nTiempo empleado: 15 minutos (escribiendo\niteraciones infinitas).\n\nLa Estructura R-C-T-F-R\nPrompt:\n\nResultado: Correo profesional, directo al grano\ny seguro para la empresa.\n\nTiempo empleado: 90 segundos (copiar,\npegar y enviar).\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Caso 2: El banco de respuestas tipo\n\nEl Intento Vago Xx La Estructura R-C-T-F-R  [S)\n\nPrompt: Escribe respuestas para\nproveedores que preguntan cosas.\n\nResultado: Una lista confusa de consejos\nsobre cómo hablar con proveedores.\n\nResultado: Cinco plantillas perfectas listas\npara guardar en Word.\n\nTiempo empleado: 90 minutos (redactando Tiempo empleado: 2 minutos (generación\nuna por una manualmente). en bloque).\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Caso 3: Elevar el tono corporativo\n\nEl Intento Vago Xx\nPrompt:\n\nHaz este correo de mi compañero más\nformal: [Texto original]\n\nResultado:\n\nLa lA reescribe el correo pero añade información\nLa lA reescribe el correo pero añade información\n\nque no estaba en el original, comprometiendo a la\nempresa.\n\nTiempo empleado:\n30 minutos (corrigiendo lo que la lA se inventó).\n\nLa Estructura R-C-T-F-R\nPrompt:\nActúa como correctora de estilo corporativo.\n\nReescribe el siguiente correo de un compañero con\nun tono más formal y ul\n\nResultado:\n\nUn tono impecable sin alteraciones de la verdad.\n\nTiempo empleado:\n3 minutos (revisión rápida).\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Regla de Oro: Anonimizar antes de pegar\n\nEl Contexto es vital, pero la privacidad de la empresa es innegociable.\n\nOriginal text with vulnerabilities\n\nEl cliente JuarrRéféz con DNI 12345684 reclama\nla factura E=8890 por importe de 3-480€.\n\n(al\n\nE)\n\nSafe Prompt text entirely highlighted with an Orange background, representing Contexto\n\nO) Nunca introduzcas nombres reales, números de cuenta, expedientes de RRHH o datos\nY sensibles en una lA pública. Practica la sustitución por etiquetas genéricas.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "De Prompts a Plantillas\n\nSolo tienes que escribir un buen prompt una vez en tu vida.\n\nPaso 1 y 2: Prompt perfecto y aislar variables\n\nEl cliente CLIENTE_B ha recibido el pedido REF_002 pero faltan 2 artículos.\nQN\n\nf\n\nSY Y\n\n[1] [1] [1]\n\nPaso 3: La plantilla permanente\n\n<>\n\nGuarda estas plantillas en un documento de texto. La próxima vez, solo rellena los corchetes.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Tu arsenal diario: 3 plantillas listas para usar\n\nLa Adaptación de\n\nEl Resumen Ejecutivo El Borrador Rápido Audiencia\n\n|"
+      },
+      {
+        "i": 12,
+        "ocr": "“Un buen prompt no es\ntalento, es técnica.”\n\nLa diferencia entre un resultado mediocre y uno excelente no\nestá en la herramienta. Está en la estructura de tu instrucción.\n\nAplica la estructura R-C-T=F-R hoy. Genera. Revisa. Usa."
+      }
+    ]
+  },
+  "D03": {
+    "file": "La_Cadena_de_Montaje_IA.pptx",
+    "n_slides": 14,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Más allá del Prompt: Flujos, Contexto e Iteración\n\nCómo pasar de solicitar milagros a construir cadenas de\ntrabajo predecibles en la oficina.\n\nMódulo 2: Maestría en lA para flujos documentales.\nDiseñado para lectura autónoma.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El Enfoque Novato El Enfoque Pro\n\nPrompt Gigante\nNS\nES\n¡NS\nEstructura Vacía /\nAlucinaciones\nPedir todo de golpe sin aportar datos reales. Documento perfecto guiado paso a paso.\n\nImpacto real: Reducción del tiempo de redacción de 3.5 horas a 35 minutos (80% de ahorro)"
+      },
+      {
+        "i": 3,
+        "ocr": "Cómo inyectar realidad a la lA: La regla del Contenedor\n\nLa Instrucción: Actúa como administrativa.\nResume este correo...\n\ny\n\nTexto de correos, notas,\ndatos crudos...\n\nLa IA no conoce tu empresa. Usar\netiquetas delimita exactamente qué\nes una instrucción (lo que quieres)\n\n: y qué es el contexto (los datos\nY reales), evitando confusiones.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "La Regla Innegociable: Anonimizar\n\nEl cliente Juan Pérez\nsolicitó la devolución del\npedido 14-A20 a la cuenta\nES45...\n\n. Paso 2: Pega el\nPaso 1: Sustituye texto seguro\nnombres reales en en el Contenedor\n< 2 minutos. [INICIO]/[FIN].\n\nEl cliente CLIENTE_A\nsolicitó la devolución del\npedido PEDIDO_X a la\ncuenta CUENTA_B.\n\n¿Documento de más de 5 páginas?\n\nUsa Claude o NotebookLM, que\nprocesan grandes volúmenes sin\nperder memoria.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "¿Qué es un Flujo de Prompts? (Divide y Vencerás)\n\nSe convierte Se convierte\nen el contexto en el contexto\nde... de...\n\nEl Valor de la Verificabilidad. Si la lA se equivoca en el Paso 2, lo corriges\n\nahí mismo. En un prompt único, el error contamina todo el documento final.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Caso Práctico: El Informe de Incidencias Mensual\n\nEl Problema El Plan de la Cadena de Montaje\n\nder Persona: Marta, Asistente [Eslabón 1] Estructurar el\n+ Administrativa.\n\nCaos (Clasificar notas)\n\n[Eslabón 2] Extraer el Valor\n(Identificar lo más grave)\n\ncaóticas del mes.\n\nE Insumo: 1 página de notas\n\nObjetivo: Informe directivo\n\nde 2 páginas con resumen,\nanálisis de casos graves y\nrecomendaciones.\n\n[Eslabón 3] Redacción Final\n(Análisis + Recomendaciones)\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Eslabón 1: Estructurar el Caos\n\nEl Prompt\n\nActúa como asistente. Te paso notas en bruto. Organízalas por categorías\n(Logística, Proveedores, etc.) usando formato de lista. Solo usa esta\ninformación. [INICIO] Notas [FIN]\n\nEl Resultado Intermedio\n\n—S\n\n] Output: Una lista ordenada y categorizada.\n\n(O) Revisión humana OK > Listo para inyectar al Paso 2.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Eslabón 2: Extraer el Valor\n\nEl Prompt\n\nA partir de la lista que acabas de hacer, identifica las 3 incidencias más\ngraves. Para cada una: qué ocurrió, impacto, y estado. Sin añadir\ninformación externa.\n\nEl Resultado Intermedio\n\nOutput: Un filtro exacto de los 3 casos críticos\nsin inventar datos.\n\n(O) Revisión humana OK > Listo para inyectar al Paso 3\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Eslabón 3: Redacción Final\n\nCon esas 3 incidencias, redacta la sección \"Análisis\" en tono formal\n(máx 200 palabras) y propón 3 \"Recomendaciones\" concretas para el\npróximo mes.\n\nEl Resultado Final\n\nOutput: Informe pulido, lógico y basado estrictamente\n\nen los datos de la empresa.\n\nTiempo total: 35 minutos (frente a 3.5 horas manuales).\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Iterar > Regenerar (El Arte de Pulir)\n\nEl Gran Error\n\n111J9\n\nBorrar y empezar de cero.\n\nEl 73% del tiempo perdido por\nprincipiantes ocurre por regenerar\nen lugar de iterar.\n\nEl Método Pro\n\nA Memoria Activa\n\nLa lA recuerda el contexto dentro de la\nmisma ventana de chat. No cambies\ntodo el prompt inicial, solo pide el\najuste sobre el resultado.\n\nA Atención: Si cierras la ventana, la lA olvida todo\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Tu Panel de Control para Iterar\n\nMatriz de Ajuste Rápido\n\nMuy largo\n\nSi el resultado tiene este problema... | ...Usa esta instrucción exacta:\n\nReduce esta respuesta a la mitad\nmanteniendo todos los puntos clave.\n\nDemasiado robótico\n\nReescribe con un tono más empático,\ncálido y menos formal.\n\nBloque de texto denso\n\nConvierte este texto en una lista de 5\npuntos numerados.\n\nUn dato es falso\n\nEl tercer punto no es correcto. Corrígelo\ncon [Dato Real] y mantén el resto.\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "El Árbol de Decisión: ¿Itero o Empiezo de Cero?\n\n¿El contenido de fondo y el\nsignificado son correctos?\n\nlterar Reiniciar\n(El problema es la forma). (La IA alucinó o entendió mal el\nAjusta el tono, la extensión o el objetivo). Abre un chat nuevo y\nformato en el mismo chat. escribe un Prompt 1 mucho más\ndetallado y estructurado."
+      },
+      {
+        "i": 13,
+        "ocr": "Criterio Humano: Cuándo NO usar la lA\n\nO A o\n\nDatos confidenciales que no Tareas de alto riesgo donde Tareas de 40 segundos (se\nse pueden anonimizar (ej. no habrá revisión humana tarda más en hacer el prompt\nexpedientes disciplinarios). posterior. que en hacer el trabajo).\n\nCf do\n\nNecesidad de datos en tiempo real Tareas que requieren juicio\no normativas de última hora (usar ético genuino o gestión de\nPerplexity o fuentes oficiales). conflictos de RRHH.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "El Playbook de la Cadena de Montaje (Resumen)\n\nETA C-2>0 O\n\nRegla de oro: Regla de oro: Regla de oro:\nAnonimi Ñ Divide la tarea en pasos. No borres el chat.\nINICIO MIEIN Verifica el resultado antes Corrige tono, formato o\nd de avanzar al siguiente errores específicos mediante\neslabón. instrucciones cortas.\n\nUn prompt no es una orden mágica, es el inicio\n\nde una cadena de trabajo predecible.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D04": {
+    "file": "AI_Efficiency_Operating_System.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "IA en la Oficina:\n\nAutomatizar lo Repetitivo\n\nUn manual práctico para delegar patrones, multiplicar\n\nresultados y recuperar tu tiempo.\n\nOptimización de Tareas\n\nAAA\n(Y) 100% Completado\n\n1\n\nRecuperación de Tiempo\n\nTiempo Ahorrado con IA\n\n<> Sistema Operativo v1.0\n\nPatrones Delegados\n\nFlujos de trabajo automatizados y\nbajo control humano.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El peso invisible de los patrones fijos\n\nROI Calculator\n\nTarea manual:\n\nin x\n60-70% del 20 min x 3 veces/semana\n\nO tiempo: Tareas\n65 % con el mismo\npatrón (diferentes Impacto anual:\n\ndatos) e a\n>50 horas al año perdidas.\n\ny Vía lA: 2a 4 minutos\n(Prompt + Revisión)\n\nRespuestas tipo  Confirmaciones Reportes Convocatorias"
+      },
+      {
+        "i": 3,
+        "ocr": "Matriz de delegación: Cuándo intervenir\n\nLA e\ny cuándo automatizar\n9 Delegar a la lA O Ejecución Humana\nPerfil: Misma estructura, distintos datos. Perfil: Criterio personal genuino y alto\nriesgo.\nEjemplos ideales: Convocatorias de Ejemplos a evitar: Decisiones estratégicas\nreunión con agenda fija, reportes de con contexto emocional, documentos con\nincidencias mensuales, correos de datos personales reales de alta\nconfirmación, respuestas a preguntas sensibilidad, tareas donde escribir el prompt\nfrecuentes (FAQ). toma más tiempo que hacer la tarea.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "El filtro de los 3 criterios para\nrecuperar tu tiempo\n\na r ¿Se repite a ¿Tiene q\n\n¿Tarda 2 a Sí\n\n2 más de 2 siempre una , ps\ndd ls veces por estructura — EA\n. semana? fija?\n\nNo > Ejecución manual No > Ejecución manual No > Ejecución manual\n\nSi respondes SÍ a las tres, esa tarea es tu prioridad absoluta de optimización para esta semana.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Generación en lote: Multiplicar el\nrendimiento del prompt\n\n5 variaciones simultáneas\n\nAl acción y y\ntiempo sabordo A\n1 Prompt A\n(El mismo esfuerzo)\n\nConcepto principal: El impacto:\nPedir todas las variaciones de una sola vez. Reduce el tiempo de redacción en un 80%.\nEn lugar de hornear un pan a la vez, El coste temporal del prompt es el mismo; la\nhorneamos toda la bandeja. salida se multiplica exponencialmente.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Caso de uso: 5 respuestas diferentes en un solo movimiento\n\n(+) El Escenario: Crear un banco de correos para 5 tipos de incidencias logísticas.\n\n5 El Prompt Maestro\n\nGenera 5 respuestas tipo: (1) en plazo, (2) retraso proveedor, (3)\n\nresuelto, (4) falta documentación, (5) escalado. Tono formal. Máximo 80\npalabras. Usa variables para nombres.\n\nLa Matemática del Tiempo\n\nManual (O) 30 minutos (redactando una a una)\n\nmin (prompt) Y 5 min (revisar) SY 7 minutos\n\nLote con IA\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Eliminar la fricción: Gemini integrado en Google Docs\n\nAntes: El problema del portapapeles\n\nBS\nQ\n\nD Copiar\n\nZn E\nLS\n\nO Navegador\n\nPegar 0 E Docs\n\nDe\n\nCopiar y pegar entre aplicaciones consume entre 15\ny 20 minutos diarios en flujos de trabajo intensivos.\n\nAhora: La solución nativa\n\nPp Soo9eooes\n\nSee Tim\n\nEliminar la fricción: en\nGoogle Docs\n\nLa asistencia ocurre donde ya estás trabajando, sin\nperder el hilo de pensamiento.\n\nNota lateral: Si no está disponible en tu cuenta, el método de copiar/pegar en ChatGPT o Claude sigue ofreciendo un resultado equivalente.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Las cinco funciones del asistente integrado\n\n£3 a - Redactar = S\n\nGenera el borrador inicial\n\nResumir directamente en la página Reescribir\nA A en blanco. o\nExtrae el resumen ejecutivo al Selecciona un texto y ajusta el tono\ninstante de un documento largo. (más formal, empático o breve).\n0\na? El )\n.—\nCompletar Reformatear\nEscribe el encabezado y Convierte una lista de puntos\ndeja que la lA siga tu | en un párrafo fluido (o\nestructura lógica. viceversa) en segundos.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "La anatomía de una plantilla a prueba de errores\n\nQA 5087 100% - L- A\nEl sistema de corchetes: Las El mecanismo: Reducen a casi Control final: Antes de enviar, usa\nvariables actúan como cerraduras cero los errores humanos de el buscador (Ctrl+F) y busca el\nde seguridad en tu texto. personalización. símbolo [ para asegurar que\n\nningún campo quedó vacío.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Construir una biblioteca para no reescribir nunca\n\nMétodo 1: El Documento Compartido Método 2: Gemini Gems\n(El método colaborativo) (El método avanzado)\nUn archivo estructurado por categorías de Asistentes personalizados gratuitos.\ntareas (correos, reportes). Ideal para Pre-configuras el rol, el contexto y las\nunificar el tono de todo el equipo. restricciones una sola vez. Solo introduces la\norden diaria.\n\nNota rápida: Guardar conversaciones con nombres claros y usar borradores de correo son estrategias alternativas de acceso rápido.\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Reglas de operación y seguridad de la información\n\nDAIIADA AAA ALTIL\n\nPrivacidad Crítica La Regla del Borrador\nRegla: Jamás introduzcas datos reales o Regla: 80% Máquina, 20% Humano.\nsensibles en un prompt.\nAcción: Acción:\nSustituye nombres, DNI, importes de La lA produce el borrador estructurado; el\nnóminas o cuentas por variables humano siempre aplica el criterio final,\ngenéricas (Ej: CLIENTE_A, IMPORTE_X). ajusta el tono y verifica los datos antes de\n\nenviar."
+      },
+      {
+        "i": 12,
+        "ocr": "El valor real de la automatización\n\nAutomatizar lo repetitivo no es trabajar\nmenos: es liberar tu tiempo para lo que\nrealmente requiere tu criterio.\n\nSiguiente paso\n\nStep 2:\n\nEE Ss) tep 3: Y\nS pr tus\n\nE una tareade > Construye tu >\n\nS tu jornada. Es primera plantilla. EN primeras dos horas\n\nesta misma semana.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D05": {
+    "file": "The_AI_Information_Prism.pptx",
+    "n_slides": 11,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "EL PRISMA DE LA lA\n\nResúmenes inteligentes y transformación 00000\nde formatos para la eficiencia administrativa.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El fin de la talla única en los documentos\n\nModo Manual\n\nEscribir un mismo documento Un solo prompt iterado con\n\npara distintos públicos. tres lentes distintos.\n45 a 60 min 5 a8 min\nde reescritura constante. (Ahorro del -85% en tiempo de revisión).\n\nEl Problema de Fondo: El 47% de los correos profesionales no reciben respuesta en\n\n24h porque el contenido genérico no deja claro qué se espera del destinatario."
+      },
+      {
+        "i": 3,
+        "ocr": "El criterio fundamental: ¿Quién lee y para qué?\n\nEl primer criterio para resumir no es la longitud del texto, sino el destinatario. Estos tres perfiles\ncubren el 90% de la comunicación interna.\n\nPerfil 1: Ejecutivo\n\nContexto: Tiene 5 minutos. Lee para tomar\ndecisiones.\n\nNecesidad: Máximo 5 puntos. Prioriza\ndecisiones y riesgos. Sin detalles de proceso.\n\nPerfil 2: Operativo\n\nContexto: Necesita saber qué hacer el\nlunes. Lee para ejecutar.\n\nNecesidad: Lista de acciones.\nFormato: Acción / Responsable / Plazo.\n\nPerfil 3: Divulgativo\n\nContexto: No conoce la jerga interna.\nLee para entender su situación.\nNecesidad: Lenguaje llano, sin siglas sin\nexplicar, frases cortas.\n\nDocumento Original\n(Denso, Técnico, Unico)\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "1 Texto, 3 Lentes: El mismo acta de reunión adaptada\n\n[Input original:\nActa densa de\nrevisión trimestral]\n\nEstructura 5 Puntos Lista Numerada\nVisual (Decisiones) (Checklist)\n\na a Extrae acciones.\nAnatomía  Méx5 puntos. Prioriza Formato: Acción /\ndel Prompt  4ecisiones y riesgos. Responsable / Plazo.\n\nLenguaje no técnico.\n\n1. Aprobada subida tarifa 1. Llamar a logística |\nResultado 3%. Marta | Viernes.\n\nReal 2. Revisión logística 2. Confirmar tarifas |\npendiente. Compras | 15 Jul.\n\nEJECUTIVO OPERATIVO '\n\nSi no hay dato: por definir.\n\nDIVULGATIVO\n\nPárrafo Fluido\n\nReescribe para alguien\najeno a la empresa.\nLenguaje cotidiano.\n\nExplica siglas.\n\nA partir de agosto,\nactualizaremos las tarifas\nun 3%. Les contactaremos\nla próxima semana para\nlos detalles de envío.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "La navaja suiza de la oficina: Conversión de Formatos\n\nLa lA no solo resume; transforma la estructura de la información en segundos sin alterar el\ncontenido real.\n\nLista a Párrafo\n\nTexto a Tabla Tabla a Texto\n\nms\n\nPara organizar datos dispersos como fechas Para redactar análisis fluidos a partir de\ne importes. Tiempo: de 15 min a<1 min. datos duros en informes.\n\nPara convertir notas internas apresuradas\nen correos externos formales y fluidos.\n\nPara extraer pasos a seguir y asegurar el Para oficializar apuntes rápidos de\ncumplimiento de compromisos ocultos. reuniones en una plantilla corporativa.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Magia en Acción: De apuntes informales a acta oficial\n\nACTA DE REUNIÓN\n. án 12\nJuan die alpaca,\nmal. Lo revis a Juan, Marta\n1] ES A\nMorto llama logí ó E vay Puntos Tratados:\nTe [Estructura: 0 a Revisión albarán 12.\n- a\nT Precio un e y Puntos, formal] || de estilo] eclsiones-\nd 3 e e 10 Sube a Incremento tarifa 3%.\nle\nCo fi Agosto. Acciones Acordadas:\nllar antes a\nll viera, + Llamar logística | Resp: Marta |\nes. Plazo: Viernes.\n\nSin invenciones: Si falta un dato (como la fecha exacta o los\napellidos), la lA escribe \"Por confirmar”, no alucina información.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Extracción Quirúrgica: Procesamiento en lotes\n\nExtraer la misma información de decenas de correos sin leerlos completos.\n\nImporte: Plazo.\n\nReclamación\n\nES\n\n250€ Urgente Rotura |\n\nl= 3\n\nTarea $, Modo Manual Modo lA\nExtraer reclamación, importe\n\n3 minutos\n(Ahorro del 90%).\n\nProduce siempre el mismo formato de salida, facilitando consolidar los resultados en una sola tabla comparativa. Bn\n\n) 30 minutos.\ny plazo de 10 correos de clientes."
+      },
+      {
+        "i": 8,
+        "ocr": "Anatomía de un Prompt de Extracción Perfecto\n\nO Extrae en formato tabla los siguientes campos:\n\nEl Formato: (1) Cliente, (2) Tipo de reclamación, (3) Importe Los Parámetros:\nFuerza a la lA a (4) Plazo solicitado, (5) Tono Define\n\norganizar los datos exactamente qué\ncopiarlos directo a (urgentej MUITO MolESto): - - buscar, limitando la\nExcel sin pasos No añadas información que no esté en el correo. Si longitud deseada\nintermedios. un campo no aparece, escribe “no especificado”. (ej. Tono).\n\nO\n\nEl Escudo Antialucinación: La regla de oro. Evita que la lA\ninvente datos para llenar celdas vacías, asegurando precisión total.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "El reto de los documentos largos\n\nLa Ventana de Contexto:\nChatGPT gratuito admite unas 15 páginas.\nSi el documento es más largo (contratos,\ninformes densos), el resultado pierde\ncoherencia o se corta. ¿Qué hacer?\n\nRecomendado\n\n+3 el\n\nTécnica de Chunking (División manual) Herramientas Especializadas (Recomendado)\n\n- Claude: Admite hasta -150 páginas de golpe\n(-200.000 tokens) con alta precisión.\n\n- Google NotebookLM: Sube el PDF entero y \"chatea\"\ndirectamente con el documento sin límite de longitud.\n\nA NotebookLM\n\n1. Procesar el texto por capítulos.\n2. Generar un resumen por cada capítulo.\n3. Pedir a la lA un \"resumen de los resúmenes\"."
+      },
+      {
+        "i": 10,
+        "ocr": "Privacidad y Ética: La regla de oro antes de pegar\n\nNunca alimentar a herramientas de lA públicas con datos\npersonales, nóminas o identificadores reales. Anonimiza siempre.\n\nO\n\n[PERSONA_A]\nEl contrato para:Carlos Pérez\nAl [IMPORTE_X] 1 | Nombres Reales | =>\nAN por untotal de144500€:debe ser bs dl\n[FECHA_Y] 2 | Cifras exactas |=»| [IMPORTE_X]\nfirmado antes del 12 d8 Mayo\n\n[REFERENCIA_2] 3 | Fechas críticas |=»>| [FECHA_Y]\npara la cuentaES9M21003\n\nDato Original Variable Segura\n\n[PERSONA_A],\n[CLIENTE_X]\n\n4 | Cuentas/DNI  |=>| [REFERENCIA_Z]\n\n| ]\n\n0 Este paso protege a las personas involucradas y asegura el cumplimiento total de las políticas corporativas de protección dam"
+      },
+      {
+        "i": 11,
+        "ocr": "-  Tunueva rutina de trabajo  :\nLos 3 pasos antes de procesar cualquier documento.\n\n[8] ¿Están los datos anonimizados? (Privacidad)\n\nSustituye nombres y cifras clave antes de empezar.\n\nGuarda tus 3\nprompts de resumen\n(Ejecutivo, Operativo,\nDivulgativo) en un\ndocumento de texto.\nA partir de hoy, tu\ntrabajo será Copiar,\npegar e iterar, no\nreescribir.\n\n¿Quién lo va a leer y qué necesita hacer?\n\nMES (Destinatario)\n|\n\n3 A A\nA ¿En qué estructura lo necesita? (Formato)\nOso Elige tu salida: Párrafo, Tabla de extracción o Checklist.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D06": {
+    "file": "Ingeniería_de_Mensajes_con_IA.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Escrita\nIcon lA\n\nLa ingeniería de un correo eficaz.\n\nión\n\nComunicac\n\nIOña\n\nProfes"
+      },
+      {
+        "i": 2,
+        "ocr": "El coste real de un correo mal escrito\n\nñ\nE El\nCorreo estructurado con IA\ne >\nAA\nv\nLS 31\n\nLa causa principal no es la falta de tiempo del destinatario, sino la falta de estructura.\nUn asunto o cierre ambiguo convierte tu correo en una tarea 'para después'.\n\nal\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "La arquitectura de un correo eficaz\n\n1\n\nES (ara) S\nPe Asunto: Concreto y accionable. ]\nAsunto: ( ] a 2\nTo Co pa = z y\nSaludo: Nivel de formalidad\nBcc ajustado a la relación.\nño 3\nfora] S\n| Contexto: Una frase para situar\nal lector, sin repetir la historia.|\nla 4\nfranca] =\nCuerpo: Brevedad estructurada\n(una acción esperada por párrafo).\nE ds\nEm 5\n< Cierre: El próximo paso específico. ]\nE 3\n(UA! =\n=> | Despedida: Proporcional al tono general. |\nPe Mi\n\na IA necesita que le pidas esta estructura. El prompt clave\n\nincluye: destinatario, objetivo, tono y extensión máxima.\n\n5]\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "El motor de la acción: Asunto y Cierre\n\nEl Cierre\n\nQuedo a tu disposición para\ncualquier duda—\n\nSolicitud de validación del Por favor, confírmame la\ninforme Q2 — plazo viernes 11 validación antes del viernes 11\nrespondiendo a este correo\n\nInsight:\nUn asunto bien formulado con IA Insight:\n\npuede duplicar la tasa de respuesta Sin un cierre claro, el lector\ninicial. pospone la decisión."
+      },
+      {
+        "i": 5,
+        "ocr": "Radiografía de las 5 situaciones difíciles\n\nSituación El Riesgo La Estrategia (Instrucción IA) Tono IA a solicitar\nReclamar Quemar cul pues / Describir meso con datos, <Firme pero cordial>\nAgresividad pedir solución sin acusar\nDar mala Ruptura de Reconocer impacto, dar la noticia A OTTOS\nnoticia confianza , Ofrecer mitigación P y\nRechazar | Explicar motivo brevemente, ;\npetición Cerrar la relación A AE <Claro y constructivo>\n20 Recordar contexto\nSeguimiento Parecer pesado pedir confirmación con <Breve y neutro>\nplazo\nAgradecer Sonar a protocolo | Especificar qué se agradece y su <Formal y genuino>\n(< 60 palabras)\n\nvacío\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "El Framework R.I.A. para incidencias\n\nValida la frustración Explica qué ha p O Cierra con una\ndel cliente. Demuestra con claridad. Cero. concreta y un plazo\nque entiendes el impacto excusas vacías O exacto de resolución.\nsin admitir culpas que tecnicismos\nno correspondan. incomprensibles.\n\n“Entiendo que esta\ndemora altera su\n\n“El siguiente paso es\n[acción]. Le confirmaremos\nantes del [fecha].”\n\n“El plazo se ha\nampliado debido a...”\n\nplanificación...”\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Caso Práctico 1: Cliente enfadado por retraso\n\nEl Problema\n\nzh —\n\nContexto:\nCliente molesto.\n\nPedido retrasado\n3 días por stock\ndel proveedor.\n\nMm\n\nEl Prompt\n\nRedacta respuesta a\ncliente ([REF]).\nUsa patrón R.I.A.\n(1) Reconoce\nfrustración,\n\n(2) Informa falta de\nstock,\n\n(3) Actúa: entrega\npasado mañana.\na |\n\nEl Resultado\n\nPara\n\nAsunto:\n\nFecha Y Reconoce)\n\nEntendemos su frustración\npor no haber recibido el\npedido...\n\n...debido a una rotura de\n\nstock puntual de nuestro A\n\nInforma)\n\nproveedor...\n\n...la entrega se realizará\n\neste jueves. Recibirá el A\n\n(Actúa)\n\nlocalizador mañana.\n\nTiempo con IA: 4 min.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Caso Práctico 2: Reclamar a proveedor sin quemar el puente\n\nProveedor clave lleva 10 días sin responder a presupuesto urgente. )\n\nEl impulso humano El Plano IA\n\nPrompt Inject: Recordar [REF] y\n< | Expresar urgencia sin amenazar. Tono firme y\ncordial. Máximo 100 palabras.\n\nPara: [Proveedor]\nAsunto: Seguimiento Presupuesto [REF]\n\nHola , te escribo para retomar la\nsolicitud del pasado [FECHA].\n\nNecesitamos avanzar con urgencia. [PRESIÓN\nAPLICADA SIN\n\nANotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Caso Práctico 3: El arte de decir \"No\"\n\n| Rechazar una petición fuera de procedimiento redactada bajo estrés. |\n\nE Prompt: Revisa el tono de este borrador. Debe ser\nReview firme pero amable, dejando la puerta abierta a\nuna alternativa. Marca cambios entre [[ ]].\n\nChanges\n\n7]\n|\n\nNo-podemos: tar-esta-devolución-porque-está fuel\nDeleted Text ¿TT => pi a aa |\n(Stressed Tone) lazo-Esimpos |\n|\n\nHA Entiendo su solicitud, pero [[actualmente no es posible]\n\nAl Suggested\nprocesar la devolución al haber expirado el plazo. [[Como “E Revision\nalternativa, podemos ae”, (Firm 8 Polite)\n\no y J\n\nTakeaway: Un rechazo bien escrito fortalece la\nrelación más que un “sí” ambiguo.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Control de Calidad: El filtro antes de enviar\n\nla [LISTA DE COMPROBACIÓN]\n\n[PROCESO EN DOS FASES] oy]\n\nAuditoría IA\n\nOrtotipografía invisi\nNombres mal escritos, 2,\nformato inconsistente.\n\n'Ambigiiedad: Frases con\ndoble interpretación,\npeticiones sin plazo.\n(Calibración de Tono: Exceso\nde urgencia, informalidad\nno deseada.\n\nAuditoría Humana\n\nFechas y Plazos: La IA no\nsabe qué día cae el\nImportes y Cifras: La IA\npuede alucinar un cero\n\nNombres y Referencias:\nVerificación contra el\n\n\"próximo martes”.\n\nextra.\n\nsistema original.\n\n[PROCESO EN DOS FASES] Y\n\nANotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Protocolo de Seguridad: La barrera de anonimización\n\ne [VARIABLE GENÉRICA] Y\n\n.. [CLIENTE_A], er sa\nanormidad es sina tcanan.\n\n[VARIABLE quf\n\nA eso ET Á entre 2300 rra cenérica] Y\n\nha pagado 12:500€. A\nal [IMPORTE] AN, =%\nle\n\nAntes de pegar cualquier correo real en ChatGPT, Gemini o Claude, sustituye datos Y\npe\n\nla [VARIABLE GENÉRICA]\ne A\n\npersonales por etiquetas genéricas. El análisis de tono y estructura funciona O\nexactamente igual, y tu información confidencial nunca sale de la empresa. 9)\n\nANotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "Construye tu arquitectura de comunicación\n\nlo al\n\n“Un correo mal escrito puede tardar 3 días\nen resolverse. Uno bien escrito, 3 horas.”\n\n[BANCO DE PLANTILLAS] > X\n\ne (2) (9)\n| Entregable El Resultado\nCrea hoy 5 plantill La lA no escribe por ti; te\nGuarda los prompts- base con [CORCHETES] ) ayuda a escribir tan bien\nque funcionan. para tus situaciones como el mejor comunicador\n\nmás repetitivas. de tu empresa, en una\nfracción del tiempo.\n\nKit de Herramientas Listo para Usar."
+      }
+    ]
+  },
+  "D07": {
+    "file": "AI_Reporting_Blueprint.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Antes: 3-4 horas Con lA: 45-60 minutos\n\nRedacción de Informes con lA:\nDe la Página en Blanco a la Decisión\n\nMetodología de 4 pasos, adaptación modular de audiencias y\ncontrol estricto de alucinaciones.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "Un informe no es solo texto; es una decisión esperando ser tomada\n\nEl Error Común\n\nmarta\ndloranao wena\nY consloiands\na\namore mica\ne ripctionalns8fa/ication\nencore psiberasa.\n\naterrision emuilty\n\ny\nAlcor simietere sin |\nnooyes - Prosdentiri\nnormeduosas\n\nParagraphs |\ntumes\n\nPedir “escríbeme un informe sobre X” genera\ntextos genéricos, desordenados y sin el nivel\nde detalle real. Es escribir por escribir.\n\nEl Enfoque lA\n\nHuman BLOCKASE,\n\nEl objetivo lo defines tú. La lA construye el\nandamiaje estructural, mantiene el tono y\nevita los bloqueos de escritura.\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "Reduce a la\nmitad el tiempo\n\nEl Flujo de 4 Pasos: La Línea de de redacción\n\nen informes de\n\nEnsamblaje de Información +2 páginas.\n\n4. Revisión de\nCoherencia\n\n3. Resumen\nEjecutivo\n\n2. Secciones\npor Partes\n\nEscribir de manera lineal es ineficiente. Este sistema\nsepara la estructura, el contexto, la síntesis y la\nauditoría para garantizar precisión clínica.\n\na"
+      },
+      {
+        "i": 4,
+        "ocr": "Pasos 1 y 2: Construir el Andamiaje y Llenar los Bloques\n\nPaso 1: Índice The Visual Concept Paso 2: Secciones\n\n+ Paso 1: Obliga a pensar\nantes de escribir. Evita\nbloqueos y descubre\nsecciones olvidadas.\n\n+ Paso 2: Redacta por\nseparado para no mezclar\ncontextos.\n\nTerminal Block\n\nRedacta la sección para un informe de . Contexto:\nTono: . No repitas información de las otras secciones.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Paso 3: El Resumen Ejecutivo es una Extracción, no una Predicción\n\n5 La Regla de Oro: Un resumen solo puede resumir lo que ya existe.\n\nQ El Gran Error: Escribir al Principio A vS B 9 El Flujo Correcto: Escribir al Final\n\nSECCIÓN. DATOS O) oaemvo\n\nÉ .\nCONCEPTO A SECCIÓN 2\nh ES / |\nZ S SUPOSICIÓN\nSECCIÓN 3 RESULTADOS\nIMAGINACIÓN\n|\nImaginación y Disonancia. La lA resume lo que imaginas Extracción y Precisión.\n\nque vas a escribir, costando 30 minutos corregir.\n\nParámetros: Máximo 150 palabras | Diseñado para un lector con 2 min. | Incluye: 1 objetivo, 3 hallazgos, 1 recomendación\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Paso 4: La Revisión de Coherencia\n\nEnsamblar secciones creadas por separado genera roces.\nUsa la IA como auditor de control de calidad.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "El Súperpoder Modular: Un Contenido, Tres Impactos\n\nAdaptar el mensaje consume horas. La lA transforma horas de reescritura en minutos de ajuste.\n\nVersión Técnica\n\nDetallada, centrada en procesos,\nespecificaciones y datos duros.\n\nSource Report\n\nInforme Completo\n\nVersión Ejecutiva\n\nConcisa, enfocada en resultados,\nKPIs y decisiones estratégicas.\n\nDatos en Bruto > Versión para Cliente\n\nAmigable, centrada en beneficios,\nsoluciones y casos de uso.\n\nRegla de Oro: Nunca pidas las 3 versiones en el mismo prompt\n\n3 LalA pierde el foco. Dedica una instrucción separada a cada audiencia.\n\n| fN NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Matriz de Adaptación de Tono y Enfoque\n\n(Ed Perfil Técnico\n\n» Foco: Procesos, detalles y\nmetodología.\n\n» Tono: Preciso, admite\njerga del sector.\n\n+ Responde a: “¿Cómo\nfunciona exactamente?”\n\nEg Perfil Ejecutivo\n\n+ Foco: Decisiones\nrequeridas y próximos\npasos.\n\n+ Tono: Directo, breve,\nomite el proceso.\n\n+ Responde a: “¿Qué hay\nque decidir y por qué?”\n\n+ Foco: Beneficios,\nsoluciones e impacto.\n\n+» Tono: Accesible, sin jerga\ninterna.\n\n» Responde a: “¿Qué\nsignifica esto para mí?”\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "La Arquitectura del Prompt de Adaptación\n\nAdapta el siguiente informe a una versión Módulos\n[técnica / ejecutiva / para cliente] Intercambiables\n\nEl destinatario es [descripción específica de quién lee]\n\nAjusta el tono, el nivel de detalle y el vocabulario para\n\nese público. MANTÉN todos los datos clave relevantes y ELIMINA\nlos que no lo sean para ellos.\n\n[PEGAR TEXTO ANONIMIZADO]\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "El Peligro Oculto: La Trampa de la Certeza (Alucinaciones)\n\nCrecimiento del ([4.2%.\n\nContexto El Riesgo\nLa lA no distingue entre los datos reales que Un informe externo con datos inventados\ntú le das y los que genera desde su cuesta confianza, genera reclamaciones y\nentrenamiento. Presenta inventos con requiere horas de reuniones para reparar.\n\nabsoluta seguridad.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Las 3 Reglas de Cuarentena de Datos\n\n1. Instrucción\nEstricta\n\nAñade siempre: \"Usa\núnicamente la\ninformación proporciona\nda. No añadas datos\nexternos, normativas\nni estadísticas.\"\n\nRh\nGua)\n\nS\n\n2. Verificación\nHumana\n\nEl 100% de cifras,\nfechas, leyes y\nnormativas concretas\ndeben validarse en la\nfuente original, sin\nexcepciones.\n\n3. Auditoría lA\n\nObliga a la IA a\nconfesar de dónde\nsacó cada número (el\nprompt de auditoría).\n\nEo\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "El Prompt de Auditoría en Acción\n\nOutput Mapping\n\n> Lista todos los datos concretos\ndel informe Gasto total de\npp 12.000€\n\nProvisto por el\n\nIndica cuáles vienen de mi\n\nUsuario\ninformación y cuáles añadiste de\ntu entrenamiento.\nMarca con un aviso los que Ley de Protección p\nnecesitan verificación. 45/2018\n1] Generado por lA\n\nAlerta Roja: Precisión Inesperada.\nN Cuanto más específico suene un dato no verificado (un número de ley\n\nexacto, un porcentaje con decimales), más sospechoso debe resultar.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "Protección de Datos desde el Origen (Anonimización)\n\no\n\n2 JuanPérez <> [ [cLIENTE_A] Ed»\n\nA\n\nB Factura 4022 2>\n\no, mm / Lo\n\n[ [DOCUMENTO_Y] > Y\n\nUB 54.000€\n\n[ [ImPORTE_Z] E»\n\nO Buena Práctica: Nunca subas datos confidenciales, reales o identificables a la lA.\n\nredacta perfectamente con etiquetas; tú devuelves los datos reales en el\n\ne El Método: Sustituye los datos sensibles por etiquetas genéricas. La lA\nO | documento final.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "La Revisión Cruzada: 5 Minutos de Seguridad\n\nLa Solución El\n\nIntercambia tu versión 5\nfinal. Un lector externo  |=\ndetecta en 5 minutos -\nincoherencias que el Al\nautor ya no ve. E\n\n_| El Problema\n\n=| Tras horas ensamblando\n—| texto, el cerebro sufre\n\n=| \"ceguera de taller\". El\n\n—| autor deja de ver frases\n|  robóticas o datos\n\ndesalineados. La lA ensambla, el -\n\nhumano valida.\n\nA NotebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "Tu Nuevo Súperpoder Administrativo\n\nFlujo de 4 pasos: Resumen al final: Adaptación modular: Auditoría de datos:\nAdiós a la página en Extracción de datos Un único contenido Cuarentena y\nblanco. Estructura reales para convertido en 3 9 verificación para una\nmodular, resultados coherencia total. impactos en 10 confianza del 100%.\nprecisos. minutos.\n\nle >\n\nLa lA te libera de la carga mecánica de la redacción, para que tú lideres el análisis y la decisi\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D08": {
+    "file": "Smart_AI_Workflows.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "IA en la Oficina:\nOrganización y Productividad\n\n(O) must-Have / URGENCIA\n\nA\npe ia\nww? LS (1) 'SHOULD-HAVE / IMPORTANCIA '\nENE? ) IA ENGINE (9) couLo-HAvE / FLUJO\nDN 4 Aia AAA\nSA\n\n(D) DELEGABLE / ALERTA\n\nDel caos al control: Matrices de priorización,\nplanificación semanal y reuniones eficaces.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El Paradigma de la Productividad\n\nEl Caos Reactivo El Control Proactivo\n\nLun Mar Mié Jue Vie\n\n9:00 AM Elamnera de\nEl Estratégica Estrategia\nENT A Correo de 10:00 AM - .\nURO H Quienes usan métodos\n| E RRA 11:00 AM formales de priorización =\ncompletan un 25% más de ps\n\n12:00 AM. trabajo de alto impacto.\n\n13:00 PM sa\no |\n\nDesarrollo de\nFlujo\n\nA\nmol 14:00 PM —\nee LRM AN Lin veedor E La lA reduce el tiempo de\nAL pro 16:00 PM planificación semanal de\n30 minutos a menos\n17:00 PM de 1 minuto.\n\nTrabajar más horas no es la solución. La clave es dedicar las horas disponibles a las tareas que generan val"
+      },
+      {
+        "i": 3,
+        "ocr": "La Matriz de Eisenhower\nPotenciada por lA\n\nImportante + No Urgente Urgente + Importante\n\nPlanificar (El cuadrante del impacto) Hacer Hoy\n\nNi Urgente + Ni Importante Urgente + No Importante\n\nImportancia (Baja > Alta)\n\nEliminar Delegar / Minimizar\n\nUrgencia (Baja > Alta)\n\nPrompt clave: Tengo estas tareas pendientes: [LISTA]. Clasifícalas en la matriz de Eisenhower (urgente+importante /\nimportante+no urgente / urgente+no importante / ni urgente ni importante) y justifica cada clasificación en una línea.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Eisenhower en Acción: Detectando Falsas Urgencias\n\nImportancia (Baja > Alta)\n\nPlanificar\n(Importante + No Urgente)\n\nÍ (E) Preparar informe mensual\n[E] Orden del día del miércoles\n\nEliminar\n(Ni Urgente + Ni Importante)\n\nHacer Hoy\n(Urgente + Importante)\n\n(3 Confirmación pedido\nLogística Sur (Plazo: Hoy)\n\nLa justificación obligatoria de la lA\nrevela la trampa: Responder a\nRRHH parece urgente porque lo\nhan pedido insistentemente, pero\nes de bajo impacto y delegable al\nauxiliar administrativo.\n\nDelegar / Minimizar\n(Urgente + No Importante)\n\nFalsa Urgencia\n(E) Duda formulario\n\nvacaciones RRHH\n\n(E) Organizar archivador\nantiguo (Sin plazo)\n\nUrgencia (Baja > Alta)\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "El Método MoSCoW: Priorización\npara Proyectos y Plazos\n\nM - Must have\n\nImprescindible. Sin S - Should have\nesto, el resultado no C - Could have ,\nexiste. Importante, pero no W - Won't have\nno crítico para el Deseable, solo si\nlanzamiento. sobra tiempo. Fuera del alcance\nen esta entrega.\n\nPrompt clave: Para el proyecto [NOMBRE], clasifica estas tareas según MoSCoW (Must/Should/Could/Won't) teniendo en\ncuenta el plazo de [FECHA] y un equipo de [N] personas. Señala si hay alguna dependencia entre tareas.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "El Súper-poder de la lA:\nDependencias Invisibles\n\nDiseñar logo A An\n(O secundario a e e | (9 IMPrimir manuales\n(Could) Al Alert\n\n(Must)\n\nAtención: Aunque 'Diseñar logo secundario' es una tarea Deseable (Could), el\nsistema detecta que debe completarse antes que la tarea Imprescindible (Must)\nde 'Imprimir manuales' por restricciones técnicas de la imprenta.\n\nE La IA cruza variables complejas que el ojo humano suele pasar por alto bajo presión.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "El Flujo de Planificación Semanal en 4\n\nPasos\n\n1 2\n\n|\n\nCON E,\n\n|\n1. Revisar 2. Clasificar 3. Asignar\nPendientes Restricciones Tiempos\n(Volcado) Definir horas | La lA agrupa tareas\nListar todo sin orden disponibles y y genera bloques.\nni jerarquía. reuniones\n\ninamovibles.\n\n4. Revisar y\n\nRefinar\n\nIteración\nconversacional.\n\nPrompt: Tengo estas tareas [LISTA + tiempos]. Mi disponibilidad es [X horas], con reuniones fijas en [Horarios].\nPropón un plan agrupando tareas similares y reserva tiempo para imprevistos. Justifica la gestión de energía.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Anatomía de un Plan Semanal Potenciado por lA\n\nLunes Martes Miércoles Jueves\nGestión de Energía: Tareas de alta\nse ES Bloques de Protección: El 20%\ngl . Omevaciena del tiempo está reservado en\ngris para absorber imprevistos\n10:00 “Reunión de Equipo | sin romper el plan.\na E\n11:00 pd\nGestión de Energía: Tareas _____5'Margen\nde alta mananea. 12:00\nAgrupación de Contexto:\n18:00 rta Comida Comida Llamadas y correos agrupados\npara evitar la fatiga por cambio\n14:00 aran de tareas.\na\n) Margen ma\n16:00 Iteración clave:\n\n17:00 MIRAN ” El borrador inicial de la lA nunca es final.\nPídele: 'Mueve la formación al viernes y\n\nsaca tiempo el martes para un imprevisto\".\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "El Agujero Negro de las Reuniones\n\nE 5-10 min\n\n40%\n\nDe las reuniones sin De los empleados salen Tiempo medio para\n\norden del día se alargan de la reunión sin saber redactar un acta\n\nmás del tiempo previsto. quién es responsable de manualmente vs. Tiempo\ncada tarea acordada. con transcripción y\n\nasistencia de lA.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Preparación Táctica (El \"Antes\")\n\nNo es una lista de temas; incluye bloques de\ntiempo asignados, responsables y objetivos\n\nIS Orden del Día\n5\nY\nY ee\nespecíficos.\n\nBriefing Previo (1 página)\n\nPROMPT DE lA Contexto enviado por adelantado. Elimina los\nprimeros 20 minutos de puesta al día.\n\n» Preguntas Clave\n\n20 5 preguntas críticas, ordenadas por importancia,\nque deben responderse antes de salir.\n\n| Prompt: |\n\n| Resume la situación actual del proyecto para lectura previa e incluye 5 preguntas críticas para avanzar en una reunión de 45 min. |\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Del Caos al Acta Estructurada (El 'Después')\n\n1. Generar: Estructura estas notas en: asistentes,\ndecisiones, acciones (tabla) y próxima reunión. Ata ne rerisada compexte a menta la\n2. Corregir: Cambia la responsabilidad de \"P.M.\" a onualizada de Contalo det Direczion.\nPedro Martínez y añade que el contrato se pospone... |\n\nPM. Alea q no llega [Acción] [Responsable] [Plazo]\n\nLlamar a logística [Pendiente] Mañana\n\npresu pospuesto\n\nRevisar presupuesto Pedro Martínez 2 días\n\n1. Elcontrato se pospone hasta nuevo aviso.\n\na —_—__—\n\nActa completa y enviada en menos de 5 minutos.\n\nllamar a logistica\nmañana\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "Matriz de Herramientas de Transcripción (Opciones Gratuitas)\n\nHerramienta Cómo Funciona Pro Contra\nGoogle Meet bd Privacidad total Depende de la\n(Subtítulos) hefivopMempo.real O (ecosistema interno) $ calidad de conexión\n] Ape\nTactiq o Totalmente 0 Límite mensual en\n\n(Extensión)\n\nTranscribe y resume\n\nautomático\n\nversión gratuita\n\n]\n\n]\n\nAudio Móvil + lA\n\nGrabación > ChatGPT\n\no Ideal para reuniones\npresenciales\n\nSubida manual del\n9 archivo\n\n2 OBLIGATORIO: El consentimiento previo de todos los participantes es un requisito legal y profesional.\n\nJamás subas transcripciones con datos personales o confidenciales a una lA externa pública; usa solo\nherramientas nativas de tu entorno seguro.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "Reglas de Oro y Errores Comunes\n\nX Evitar\n\n+ Priorizar con la lA sin darle contexto\n(fechas, dependencias).\n\n+ Planificar la semana al 100% de\n\ncapacidad sin dejar margen de maniobra.\n\n+ Transcribir reuniones de forma oculta o\nsubir datos de clientes a lAs públicas.\n\nAplicar\n\n+ Guardar y reutilizar tus propios prompts\nde planificación semanal.\n\n+ Ser implacable separando lo Urgente\nde lo Importante.\n\n+ lterar y re-planificar el miércoles con un\nprompt rápido si la realidad cambia.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "Síntesis: El Motor Organizativo\n\nTriaje Inteligente\n\n(Eisenhower / MoSCoW)\n\nLa lA actúa como el tejido\nconectivo que hace girar el\nciclo diario sin fricción,\ntransformando el estrés en\nestructura.\n\nPlanificación Semanal\n\nColaboración Eficaz\n\n(Reuniones optimizadas)\n\n(Flujo de 4 pasos)\n\nA NotebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "La persona más productiva\n\nno es la que trabaja más horas:\n\nes la que trabaja en las horas\nque importan.\n\nLa lA no te da más tiempo. Te ayuda a no desperdiciar el que ya tienes."
+      }
+    ]
+  },
+  "D09": {
+    "file": "Gestión_de_Equipos_con_IA.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Gestión de Reuniones\ny Equipos con lA\n\nEficiencia, seguimiento y claridad sin\nherramientas complejas.\n\nEl ecosistema en texto plano para eliminar el trabajo repetitivo.\nA% NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El triángulo del caos en la oficina\n31 horas al mes.\n\nEl tiempo que pierde el empleado\nmedio en reuniones no productivas.\n\nZ ,\n\n60% olvidados. Z 80% de error.\nLos malentendidos en delegación\n\nLos acuerdos de reuniones sin\nacta documentada que jamás se que nacen de instrucciones\nejecutan en plazo. humanas incompletas.\n\nSP\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El nuevo ecosistema en texto plano\n\nIN o == mE O\n\nGeneración de actas\n\nTableros Kanban\nútiles en minutos.\n\nInstrucciones a\nsin software extra.\n\nprueba de fallos.\n(Antes: 20-40 min (Antes: 15-20 min (Antes: 10-15 min\nCon lA: 2-4 min) É3 Con IA: 2 min) E3 Con lA: 3 min)\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Anatomía del acta perfecta\n\nUn acta no es una transcripción, es un documento de acción (máximo 1 página).\n\nEncabezado: Quién asistió,\ncuándo, y quién moderó.\n\nContexto: El “por qué' de la\nreunión resumido en una\nsola frase.\n\nDecisiones: Lista numerada\ncon acuerdos específicos,\nsin ambigúedad.\n\nAcciones (El motor): Tabla\nestricta de 3 columnas:\n\nG [Acción / Responsable /\n\nFecha límite].\n\nPróxima reunión: Cuándo y\n1 para qué objetivo exacto.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Flujo 1: De notas caóticas a estructura\n\nPrompt Card\n\nPrincipal: A partir de estas notas, genera\n\nmarkdown\n\nun acta con: (1) encabezado, (2) contexto\n\nen 1 frase, (3) decisiones numeradas, (4)\n\nacciones en tabla\n\n[Acción/Responsable/Plazo], (5) próxima\n\nreunión. Máximo 1 página.\n\nNotas Notas: Acta lista para\n\ndesordenadas, [PEGAR NOTAS ANONIMIZADAS] revisión humana\nviñetas sueltas. de 2 minutos.\n\nIteración: ¿Hay algún punto ambiguo que\nparezca conversación y no decisión?\nSeñálalo con [POR CONFIRMAR]\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "El tablero de seguimiento RAG en texto plano\nVisibilidad total de un vistazo. Sin Jira. Sin Trello.\n\nEn Plazo\nLa tarea avanza sin problemas hacia su fecha límite.\n\nEn Riesgo\nRiesgo leve. Requiere atención o desbloquear una dependencia.\n\nAtrasado\nRequiere intervención urgente o el plazo ya se ha incumplido.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Flujo 2: Generar y actualizar el Kanban\n\nPrompt Creación: Prompt Actualización:\n\nGenera una tabla de seguimiento semanal Actualiza la tabla: cambia la Tarea 2 a ”\nKanban. Columnas: Tarea / Responsable / y añade 'entregado el martes' en Notas.\nFecha límite / Estado (“O”) / Notas. Añade nueva tarea asignada a\n\nRellena con: a\n\nTarea Responsable Fecha límite Estado Notas\n1 Revisión fiscal EMPLEADO_A | 15 Oct [a Sin novedades\n2 Informe Q3 EMPLEADO_B | 18 Oct Falta dato proveedor\n3 Cierre mensual EMPLEADO_A — 12 Oct e Atrasado 3 días\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "La fórmula de la delegación a prueba de fallos\n\nElimina la ambigúedad incluyendo siempre estos 5 bloques.\n\n(103\nEl resultado esperado exacto y\ndetallado (no solo 'la actividad').\n\nPOR QUE\nEl contexto. Permite decisiones\nautónomas ante imprevistos.\n\nCUANDO\nFecha límite exacta e hitos\nintermedios.\n\n[10] 10)\nRecursos disponibles, restricciones\ny nivel de autonomía.\n\nCÓMO INFORMAR\nCuándo y por qué canal reportar el\nprogreso de forma proactiva.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Flujo 3: El prompt de delegación completa\n\nRedacta una instrucción de delegación clara. Tarea y\nresultado exacto: [QUÉ]. Perfil de quien la recibe:\n[EXPERIENCIA]. Importancia/Contexto: [POR QUÉ]. Plazo e\n\nhitos: [CUÁNDO]. ,\nRecursos/Restricciones: [COMO] . Incluye cómo quiero que\n\nme actualice el progreso: [CÓMO INFORMAR].\n\nElimina por adelantado las 3 preguntas de aclaración\nmás probables en menos de 3 minutos.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Flujo 4: Recordatorios automatizados\n\nHacer seguimiento estructurado sin deteriorar relaciones profesionales.\n\n> 1er Aviso - Preventivo (>\n\nFecha límite\n\npróxima /\nincumplida\n\n5 2do Aviso - Firme Y\n\nRedacta un recordatorio cordial para\nsobre\n\nque vence el\n. Tono amable pero claro. Máximo 60\npalabras.\n\nRedacta un segundo seguimiento sobre\npara alguien que no ha respondido.\n\nProfesional, sin presión excesiva, pero\nexigiendo respuesta o actualización antes\ndel\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Reglas de oro del asistente de oficina\n\nX No Hacer\n\nHacer\n\nAnonimizar siempre: Usar nombres en\nclave (EMPLEADO_A, PROYECTO_X) antes\nde pegar.\n\nY\n\nAS\n\nPegar datos reales: Nunca introducir\nnombres completos, ni cifras financieras\nsensibles.\n\nIterar sobre el resultado: Pedir\ncorrecciones específicas a la lA en vez de\nempezar de cero.\n\nON\n\nEnviar a ciegas: Jamás distribuir actas o\ninstrucciones sin una revisión humana de 2\nminutos.\n\nDistribuir el mismo día: Enviar el acta\nmientras los compromisos están frescos.\n\nNS\n\nx\n”<\n\nDelegar sin resultado: No pedir \"haz un\ninforme\" sin detallar formato, longitud y\nobjetivo.\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "El ecosistema de productividad\nen ciclo continuo\n\nReunión\n\n(Se generan notas :\nhumanas caóticas) opt\n\n> Resultados listos para\nla Siguiente Reunión.\n\nSeguimiento lA crea Acta\n(Recordatorios (Se extraen decisiones\nautomatizados 1 y 2) y responsables claros)\nES Flujo 4 yl lujoj2\nDelegación ; Actualización\ncon lA > Flujo 3 Kanban\n\n(Instrucciones con (Control visual en\nlos 5 elementos) RAGOO0O)\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D10": {
+    "file": "AI_Data_Analysis_Simplified.pptx",
+    "n_slides": 14,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Análisis de Datos sin ser Experto en Excel\n\nCómo usar la lA para pasar de los números a las decisiones en minutos.\n\n=IFERROR(VL e ¿2\n\nOOOKUP(A, Ez Po O cs\no e e a aicula el tota por\n\n2 ¡INDIRECT(\"\"- E «5 Sas | departamento\n\n\"\"B$18.\" 'EB$18\": y\n\"1A:Z\"), MATCH: ie De\n\n.s-\ne,\n\nee\nE .\nO\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "S\n\nEl Pasado: Sintaxis\nImposible\ne Memorizar fórmulas complejas y\nanidamientos.\n\ne 2a4horas para preparar un reporte\nbásico.\n\ne 68% de los errores provienen de\nfórmulas introducidas manualmente.\n\n(60)\n\nEl Presente: Lenguaje\nNatural\n(9 Describir lo que necesitas en\npalabras normales.\n\n(9 20 a 30 minutos para el mismo\nreporte (reducción radical de tiempo).\n\n(9 Generación de gráficos e insights al\ninstante.\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "PASO 0: La Regla de Oro de la lA\n\nServidor de la , Nube de la IA\nEmpresa > Ñ\n\n3 PROCESO ao) E na pe\n\nAnonimizar antes de analizar.\n\nNingún nombre real de cliente, empleado o proveedor debe salir de tu sistema hacia una\nlA externa. La anonimización es el peaje obligatorio para usar estas herramientas.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Cómo Anonimizar en la Práctica\n\nDato Original (Peligro) Acción (Proceso) Dato Seguro (Listo para lA) |\nJuan Pérez > Sustituir por etiqueta > EMPLEADO_1\nGlobal Tech Corp 3 Sustituir por etiqueta > PROVEEDOR_A\nDNI: 12345678A > Eliminar columna > [Columna borrada]\nSalario exacto: 45.321€ —>  Redondear o agrupar > Rango: 45k - 50k\n\nO) Silos datos son imposibles de anonimizar, consulta al responsable de protección de datos de tu organización.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Dos Caminos para Analizar Datos\n\nGoogle Sheets + Gemini (In-house) ChatGPT / Claude (Copia y Pega)\n\n| El Analista en tu Escritorio | T6a El Consultor Externo\n\nPrivacidad: Alta (los datos no salen de ga Privacidad: Requiere anonimización\ntu cuenta de Google). estricta (Paso 0).\n\nTamaño de datos: Ideal para hojas ia Tamaño de datos: Limitado (muestras\ncompletas (cientos/miles de filas). representativas, no miles de filas).\n\nMejor para: Crear fórmulas nativas y 16 Mejor para: Razonamiento complejo,\nlimpiar datos sin cambiar de pantalla. extraer conclusiones profundas y\n\ngenerar resúmenes ejecutivos.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Fórmulas al Instante (Sin Saber la Sintaxis)\n\nDepartamento Importe\n\nWA [E aa Calcula la suma de todos los\nimportes donde la columna\n\nAAA a Departamento sea igual a\n\"Administración\". Los datos\n\nAS SA están de la fila 2 a la 400.\n\nA] e]\n\naa] [AE]\n\nSi no entiendes la fórmula resultante, la lA te permite pedirle:\nExplícame qué hace cada parte de esta fórmula en lenguaje sencillo."
+      },
+      {
+        "i": 7,
+        "ocr": "De Tabla Caótica a Gráfico en 2 Minutos\n\n2024-01-01|Ventas|1250.50|Norte]...\n2024-01-01[Gasto|500.00|Este]...\n\n2024-01-01|Ventas]1800.00|Sur|... Crea una tabla dinámica | E\n2024-01-02|Ventas]1800.00|Sur[... y un gráfico de barras res |—os\n2024-01-02|Gasto|700.25/Oeste]... a con el gasto m nsual por y\n2024-01-03|Gasto|700.25|Oeste]... e pS\n2024-01-03|Ventas|1500.00|Centro]... 1 _ categoría\n2024-01-03|Gasto|450.00/Norte]... pS SS\n\nDatos Crudos Gráfico Automático\n\n>fw_ Antes: 15-20 minutos peleando con los menús de configuración.\n\nAhora: 1-2 minutos pidiéndolo en lenguaje natural.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Análisis Profundo con lA Externa\n\nSeleccionar y Copiar\n\nSelecciona tu rango de datos (ya\nanonimizados) y pulsa Control+C.\n\nueaP\ntablafesfinmensas\n\nPegar y Dar Contexto\n\nPega la tabla en la lA e incluye contexto: sector, qué\nrepresenta cada columna y qué estás buscando.\n\nlextraejunalmuestra\n\nsentativalde\n\nExtraer Valor\n\nLa lA leerá la estructura de la tabla y podrá responder\npreguntas de negocio instantáneamente.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Los 4 Tipos de Hallazgos de la lA\n\nEd\n\nTendencia\n\nDirección general de los datos a lo largo del\ntiempo (crecimiento, estacionalidad).\n\nComparativa\n\nDiferencias de rendimiento entre\ndepartamentos, proveedores o categorías.\n\nAnomalía\n\nUn valor atípico (outlier) que rompe el patrón\nnormal. ¿Error o evento excepcional?\n\nCorrelación\n\nRelaciones invisibles a simple vista (ej. a mayor\ngasto en categoría X, menor incidencia en Y)."
+      },
+      {
+        "i": 10,
+        "ocr": "Prompts Listos para Usar\n\nPara buscar Tendencia\n\n¿Qué patrón de crecimiento o\ndescenso observas en las ventas a\nlo largo de los [Meses]? Describe\nla tendencia principal.\n\nPara buscar Comparativa\n\nCompara el gasto del departamento\n[A] con el [B]. Dime cuáles son las\ntres principales diferencias en sus\n\npatrones de compra.\n\nPara buscar Anomalía\n\nRevisa esta columna de importes.\n¿Identificas algún valor atípico o\ngasto que parezca anómalo en\ncomparación con el resto?\n\nPara buscar Correlación\n\n¿Observas alguna relación entre\n\nla cantidad de [Incidencias] y el\n\nvolumen de [Ventas] por mes?\nJustifica tu respuesta."
+      },
+      {
+        "i": 11,
+        "ocr": "De Números a Conclusiones\n\nConclusión\nEjecutiva\n\nBasándote en este análisis,\nredacta un párrafo de\nconclusiones y una\nrecomendación concreta\npara el equipo de dirección.\nTono ejecutivo, máximo 150\npalabras.\n\nAnálisis lA\n\nNúmeros\nCrudos\n\nEl impacto en el\n“yr negocio. Decisión.\n40%\nCálculo del exceso.\nInformación.\n\nLa tabla original.\nSolo ruido."
+      },
+      {
+        "i": 12,
+        "ocr": "El Gran Peligro: Alucinaciones Numéricas\n\n¿Qué es una alucinación\nnumérica?\n\nEs cuando la lA calcula un resultado\nmatemáticamente incorrecto pero te lo\npresenta con absoluta confianza y\nformato profesional.\n\nA diferencia del texto (donde un error\nresalta), los números falsos se camuflan\nperfectamente en una tabla bien formateada.\nLa IA razona muy bien, pero calcula mal.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "La Regla Inquebrantable de Verificación\n\nNUNCA publiques un dato\n\nY da 1540049 generado por lA sin\nGr verificar la fuente.\na\n77 units.\nx esolunt, Checklist de Acción\n\nE Selecciona 2 o 3 filas al azar del resultado\nde la lA.\n\nE Calcula el resultado manualmente (con\ncalculadora o fórmula básica).\n\n( Total: €15,400 (3 Si la muestra es correcta, asume que el\n\npatrón es válido. Si falla, replantea el\nprompt."
+      },
+      {
+        "i": 14,
+        "ocr": "El Flujo Definitivo de Análisis con lA\n\nAnonimizar Preguntar Analizar Verificar Concluir\nLimpiar nombres y Pegar datos y dar Buscar tendencias, Comprobar 2-3 Pedir la\ndatos sensibles. contexto del anomalías, cálculos recomendación\nnegocio. comparativas o manualmente. ejecutiva de 150\ncorrelaciones. palabras.\n\n\"Los datos sin análisis son solo ruido. Los datos con lA son decisiones.\""
+      }
+    ]
+  },
+  "D11": {
+    "file": "AI_Research_and_Synthesis.pptx",
+    "n_slides": 14,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Investigación y Síntesis con lA\n\nDe la búsqueda infinita al informe de mercado en minutos\n\nBÚSQUEDA INFINITA (PROCESO MANUAL)\n\nRECOPILACIÓN DE\nDATOS\n\nExploración Extensa\n8 Fragmentada\n\nLECTURA 8: ANÁLISIS\n\nEvaluación Crítica\nHumana (Lenta)\n\nSÍNTESIS MANUAL\n\nCreación de Informe\nLaboriosa (Horas/Días)\n\nAl EXTRACTION 8: SYNTHESIS\n\n= INFORME DE MERCADO (PROCESO CON lA)\n\nEXTRACCIÓN\nAUTOMATIZADA\n\nBúsqueda 8. Filtrado\nPreciso con lA\n\nSÍNTESIS 8.\n\nESTRUCTURA\n\nOrganización de Datos\nAutomatizada (Rápida)\n\nGENERACIÓN DE\n\n— D INFORME\nG| informe Profesional\n=u Completo (Minutos)\n\n(0 VERIFIED Al EFFICIENCY ===>\"\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "The Analytical Blueprint\n\nEl laberinto de la búsqueda tradicional frente a la síntesis directa\n\nEl Problema: SEO, enlaces patrocinados y sobrecarga manual\n\na co / 18 ca e Y\n\nToon deca ¡le / TT Desc PO 2, TO Dec ds\n\nTEO\n\nTa 1 Progr 30 / 0 2 Pro rete 2 / Tn 1 Coto y spore 2 / TA Pl dePieció\n\ne>o\n\n) =\n\nE ADVERTISEMENT E\n\nCLICK HERE\nFOR DEALS\n\nSPONSORED LI»\n\n=\n!\n\nLIMITED TIME OFFER\n\nBúsqueda Manual:\n\n,5a 3 horas\n\nEl Cambio: Análisis estructurado directo\n\n2306 =\nexo lero Torollazo]| ES\ny ¿ i i ñ\ns E de Mejorada\nCosto sx sr z\nFuncionalidad | — Alta Media | Baja\nEsa 247 | Horario. | email Solo\ne Laboral | Email\n\n| Con !A Asistida: 20 a 40 minutos\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El nuevo ecosistema de investigación:\nQué usar y cuándo\n\nGoogle Perplexity NotebookLM\n(Búsqueda Indexada) (Búsqueda con Fuentes) (Motor Aislado)\n\n¿Cómo funciona? Lista infinita ¿Cómo funciona? Lee múltiples ¿Cómo funciona? Analiza\nde enlaces (orgánicos y webs y devuelve una síntesis exclusivamente los PDFs y\npatrocinados). con referencias numéricas en documentos que tú le\n\ntiempo real. proporcionas.\n\nRiesgo de alucinación: Medio Riesgo de alucinación: Bajo\nCaso de Uso Ideal: Encontrar\n\nwebs oficiales conocidas. Caso de Uso Ideal: Caso de Uso Ideal: Analizar\nInvestigación de mercado catálogos y contratos internos.\ngeneral.\n\nRiesgo de alucinación: N/A\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Perplexity: El fin de leer catorce pestañas\n\n ——> | Prompt del usuario\n\nReduce el tiempo de verificación\nde fuentes en un 60% frente a la\nbúsqueda manual.\n\nPerpleity sintetiza la información de múliples fuentes en una\nrespuesta coherente y estructurada, Este enfoque elimina la necesidad\nde navegar manualmente por numerosas pestañas de navegador,\n\nproporcionando un resumen directo y verificable [La plataforma 1] https://www.perplexity.ai/blog/source-verification\ncita sus fuentes numéricamente,\nO a , permitiendo al usuario verificar la a A\ns:/jwww perplexity.ai/how-it:works\ninformación con un solo lic en ls referencias proporcionada [Eto [2] htps:/Xwunvperplexiyahowitworks\n\nreduce significativamente la carga cognitiva asociada con la [8] https://research.google/pubs/pub51681\ninvestigación en lnea y asegura la trazabilidad de los datos presentados [8\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "NotebookLM: Tu propio motor de búsqueda aislado\n\nBóveda NotebookLM\n\nE Superpoder: Responde exclusivamente % Capacidad: Procesa hasta 50 fuentes\n\nbasándose en tus documentos. simultáneas sin inventar datos externos.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "El arte de detectar alucinaciones en la investigación\n\nAnatomía de un Error\n\no00o\n\nComparaciones\nDesequilibradas slo\n\nDescripción: Muestra un sesgo claro\nhacia una opción, omitiendo contrapuntos\no desventajas importantes, presentando\nuna visión unilateral.\n\nRegla: Pide a la lA que mencione\nlimitaciones, excepciones o casos donde\nla comparación no se mantenga.\n\nEl informe económico de 2023 de McKinsey\nmuestra que el\n\n2024, impulsado por la lA\n\nDatos Caducados\n\nDescripción: Cita precios o estadísticas\nobsoletas, a menudo basadas en\nproyecciones superadas o datos\nhistóricos mal interpretados.\n\nRegla: Comprueba siempre el año de\npublicación y la vigencia de las cifras.\n\n5\nCitas Inventadas e\n\nDescripción: Atribuye frases o resultados\na informes, estudios o personas\ninexistentes o a fuentes legítimas que no\ncontienen la información.\n\nRegla: Busca la frase exacta en el\ndocumento original y verifica la fuente\n\nprimaria.\n| Pr. q 0 0\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "La regla de oro: La lA facilita, pero tú verificas\n\nNo Uso como\ncontexto general\n\n¿Es crítico\npara la\ndecisión?\n\nDato clave\ngenerado por lA\n\nLa lA facilita el trabajo; no elimina la responsabilidad de verificar.\nLa responsabilidad final del documento profesional es tuya.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "El flujo de investigación de mercado en 5 pasos\n\n=\n\n1. Definir 2. Buscar\n\nEstablecer el\ncontexto y los\ncriterios clave\n(Precio,\nFuncionalidades,\nSoporte).\n\nUsar Perplexity\npara identificar\nopciones y extraer\ndatos del mercado.\n\nla\n\n3. Verificar\n\nValidar fuentes y\nactualizar precios\nobsoletos\nmanualmente.\n\n4. Sintetizar\n\nCrear la tabla\n\ncomparativa\nestructurada con\nChatGPT/Gemini.\n\n5. Recomendar\n\nRedactar el informe\nfinal basándose en\nel criterio humano.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "The Analytical Blueprint\n\nPaso 4: Anatomía de la tabla comparativa perfecta\n\nTiempo de construcción (3 proveedores x 5 criterios) > Manual: 90-120 min | Con lA: 10-15 min.\n\nRegla de Oro: Entre 4 y 6 criterios\nmáximo. Menos omiten datos decisivos;\n\nmás la hacen ilegible.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "The Analytical Blueprint\n\nPaso 4 Práctico: El prompt para sintetizar catálogos\n\n(21 Material\nA continuación te pego los textos descriptivos de tres proveedores...\n\nCriterios\nCompáralos en una tabla con los siguientes criterios en filas: precio mensual,\nfuncionalidades, soporte técnico y período de prueba.\n\nFormato\n\nLos proveedores van en columnas. Si algún dato no aparece en el texto, escribe “No\nespecificado”.\n\nPrivacidad de Datos: Elimina siempre precios negociados exclusivos o datos confidenciales\n\nde tu empresa antes de pegar texto en herramientas públicas como ChatGPT o Gemini.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Paso 5: El informe de mercado de 2 páginas\n\nPage 1 Page 2\npl age de age Al\n\n1. Contexto:\nSituación y objetivo. Y\n\n2. Metodología: Herramientas:\ny criterios definidos.\n\nPresentar este documento\nestructurado aumenta la\nprobabilidad de\n\n3. Comparativa: La tabla generada\ny los hallazgos clave.\n\nda ¿=9\n\naprobación en un\n40% frente a una\nrecomendación verbal.\n\n60%\n\n4. Recomendación: La\ndecisión humana justificada y 20%\nlas condiciones.\n\nA Notebook"
+      },
+      {
+        "i": 12,
+        "ocr": "The Analytical Blueprint\n\nEl elemento intransferible: Tu criterio profesional\n\nLa lA |\n\nE 2\nEs Procesamiento de datos brutos\n\nTú\nF mm]\n\nContexto empresarial\n\nMatices estratégicos\n\nY Decisión final justificada.\nM a\n\nChecklist\nEstructura de una recomendación fuerte:\n\n1. Opción preferida.\n\n2. Dos motivos basados en el contexto interno.\n\n3. Condiciones o reservas a verificar antes de firmar.\n\nEY Formateo estructurado en tablas\n\n(8)\n\n7 Velocidad de ejecución.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "The Analytical Blueprint\n\nResumen Visual: Tu nuevo kit de investigación\n\n>) Perplexity: Búsqueda\ninicial del mercado con\nfuentes citadas en\ntiempo real.\n\n(\n\nr\n\n| ChatGPT / Gemini:\nSíntesis rápida y\nconstrucción de tablas\ncomparativas a partir de\n_y textos,\n\nNotebookLM:\n\nAnálisis profundo y aislado\nde PDFs, catálogos y\ncontratos propios.\n\nTa (El Criterio):\nDefinición de contexto\nempresarial, verificación de\nfuentes y redacción de la\nrecomendación final.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "Buscar bien es la mitad del análisis.\n\nLa lA no solo te da las respuestas: te muestra de dónde\nvienen y te ayuda a decidir cuáles son fiables.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D12": {
+    "file": "AI_Presentation_Design.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "IMPORTANTE LEER ESTO AHORA MISMO CON\nURGENCIA!!! Mucho texto sin formato y con\nmuchos errores ortograficos. No hay espacio en\nblanco. No hay espacio en la alineacion terrible,\n\nno hay eexto contento y tranulárico, alineacion Ol\n\nS Generación de contenido con lA\n\n[mea ] : Le.\nterrible, Inmucton ortogaética. Información confusa Ea Plantillas profesionales automáticas\nde tinangía y desorganizada. texto hay ire nico en\n\n. + . an: :\nmera, spano y la cun hay encutar dima, ¿vo la H Edición y diseño inteligente\n\nmenta, disegun dehin comenta enos alinea ación\nterrible? Información rerdras en la nnimuna,\nalinea-\n\n\"Diseña ser Diseñador\n\nE Canva y la Inteligencia Artificial para el trabajo de oficina\n\nNo hay espacio en blanco en finnaligmon terrible.\nNo hay espacio en blanco en puneación de\nalineacion terrible.\n\nInformación confusa y desorganizada.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El nuevo paradigma: primero el fondo, luego la forma\n\nIntentar redactar el mensaje y diseñarlo al mismo tiempo bloquea la creatividad y\nconsume horas. La Inteligencia Artificial permite separar estas tareas por completo.\n\nEl Fondo / Lógica La Forma / Emoción\n\npe\nE\na ¡procesa la información:\n\nProducción de contenido | ' mejorvisualmente. | Diseño visual\nPasar del texto al diseño — Y Paleta de colores Y Tipografía\n¡con lA reduce el tiempo: ma. Hierografía\nde 45-90 minutos a solo O\n\n¿10-15 minutos. Y : Y Composición Y Imágenes\n\n+ Definir titulares x =-—\nES\n\ntitulares\n\nni\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El flujo de trabajo en seis pasos\n\n, Paso1: Paso 2: Texto Paso 3: Paso 4: Paso 5: Paso 6:\n: Objetivo (IA externa) Plantilla Ajuste Revisión Exportación\n\n- (Canva) - CARP\n\nGenerar base Descargar en\n\n¿Para quién es y\nqué deben Usar Gemini o visual con Magic Sustituir el texto Aplicar los 4 PDF o PPTX.\nentender? ChatGPT para Design. de prueba por tu principios básicos\nestructurar contenido real. de diseño.\n\nviñetas cortas.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Magic Design: de la idea a la presentación en segundos\n\nCanva no solo ofrece plantillas vacías; lee tu intención y construye el diseño\ncompleto, incluyendo colores, tipografía e imágenes.\n\nEl Prompt El Resultado\n\nPresentación corporativa sobre proceso\nadministrativo, estilo profesional y limpio,\npaleta azul y gris, sin imágenes de personas\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Magic Write: el fin de las diapositivas densas\n\nlors ame, conectar aiii sde cisma tempor een)\n\nLa diapositiva de la muerte\n(más de 40 palabras)\n\nText Reduction Funnel\n\n(7) Transfórmalo en 1 título\n\ny 3 puntos clave de\nCanva máximo 8 palabras.\nMagic Write\n\n“Título del Proyecto o Idea Principal?\n\ni ¿0 Punto clave conciso 1 (máx 8 palabras).\n: (Y Punto clave conciso 2 (máx 8 palabras).\n\nLa regla de los 5 segundos: si la audiel\nno puede leer la diapositiva en cinco\n\n_ ¿9 Punto clave conciso 3 (máx 8 palabras).\n\nh segundos, hay demasiado texto."
+      },
+      {
+        "i": 6,
+        "ocr": "Imágenes fotorrealistas: la fórmula del prompt\nperfecto\n\nSustituye las fotos de archivo genéricas por imágenes creadas a medida. Las\npresentaciones con imágenes relevantes retienen un 42 % más la atención.\n\n[Sujeto / Escena] -======= .\nEstantería de almacén bien |\norganizada con cajas ;\netiquetadas... »\n\n[Estilolis===ea=======0=....-.\n..fotografía profesional, luz\ncálida...\n\n[Restricciones Clave]\n\n(La IA a menudo genera letras\nincomprensibles si no se le prohíbe\nexplícitamente el texto). Ea 3\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "El método CARP: cuatro reglas que sustituyen al talento\n\nContraste Y\n\nEl texto debe destacar\nclaramente sobre su\nfondo para garantizar la\nlegibilidad.\n\nRepetición Y)\n\nMantén la jerarquía visual\nusando un máximo de\ndos tipografías y una\npaleta de colores fija.\n\n|\n\nAlineación Y)\n\nTodos los elementos deben\ncompartir un eje de\nreferencia visual; nada\ndebe colocarse al azar.\n\nProximidad Y\n\nAgrupa elementos\nrelacionados y abraza el\n\"espacio en blanco\" para\nque el ojo pueda respirar.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Principio 1: Contraste (Legibilidad ante todo)\n\nEl Error La Solución Y)\nTexto Legible\n\nCanva te avisa automáticamente cuando detecta un contraste insuficiente.\nHaz caso a esa advertencia.\n\nTexto “erdido\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Principio 2: Alineación (El orden invisible)\n\nEl Error l La Solución\n\nFw I\nSlide tide text hoat ISlide tide text hoat Y\n(El orden invisible) KEl orden invisible)\n\nLorem ipsum dolor sit amet,\n—= consectetur adipiscing elit, sed do\nLorem ipsum dolor sit amet, arastras un elemento incididunt ut\nconsectetur adipiscing elit, sed do labore et dolore magna aliquam.\núorastras un elemento incididunt ut Ut enim ad minim veniam, quis nostrud\nlabore et dolore magna aliquam ullamco laboris nisl ut aliquip ex ea\n'commido moradas para ayudarte a\nencajarlo.\n\nUtiliza las guías de alineación automáticas de Canva. Cuando arrastras\nun elemento, aparecerán líneas moradas para ayudarte a encajarlo."
+      },
+      {
+        "i": 10,
+        "ocr": "Principio 3: Repetición (Construir jerarquía visual)\n\nEl Error La Solución\n\nE XK “Mara de Functia\n\n4 fuentes El subtitle de tronrerraitav\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, distintas E ipsum dolor sit amet, consectetur adipiscing elit, se\nsed do elusmod tempor incididunt ut labore et dolore ma [do rastras un elemento incididunt ut labore et dolore magn'\naliguam. Ut enim ad minim veniem, quis nostrud ullamco: [Ut enim ad minim veniem, quis nostrud ullamcolabors nisl\nnis ut ayudare a encajarlo.\n\n+ Lorem ipsum dolor it amet ale, lo Lorem ipsum dolor sit amet, consectetur\n+ Laboret dolor magna magna 7) Larones et dolore magna aliquam\n19 Lorem ipsum dolor sit amet, consectetur\n\nLa repetición crea consistencia. El ojo debe saber inmediatamente dónde\nmirar primero (título) y dónde mirar después (detalle)."
+      },
+      {
+        "i": 11,
+        "ocr": "Principio 4: Proximidad y el poder del espacio en blanco\n\nLorem ipsum dolor sit\namet, consectetur\nadipiscing elit, sed do\nelusmod tempor...\nLorem ipsum dolorun\nvolumam, sed do\nelusmod tempor...\n\nLorem ipsum dolor sit\namet, consectetur\nadipiscing elit, sed do\nelusmod tempor...\nconsecetuns, sed do\nelusmod tempor...\n\nLorem ipsum dolor sit\namet, consectetur.\nadipiscing elit, sed do\nelusmod tempor...\nLorem ipsum dolorun\nvolumam, sed do.\nelusmod tempor...\n\nLorem ipsum dolor sit\namet, consectetur\nadipiscing elit, sed do\nelusmod tempor...\nconseceturm, sed do\neiusmod tempor...\n\nLa Solución\n\nLorem ipsum dolor sit\namet, consectetur\n\nadipiscing elit, sed do!\n\nelusmod tempor...\n\nLorem ¡psum dolor sit\namet, consectetur\n\nadipiscing elit, sed do:\n\nelusmod tempor...\n\nLorem ¡psum dolor sit\namet, consectetur\n\niscing elit, sed do\nelusmod tempor.\n\nLorem ipsum dolor sit\namet, consectetur\nadipiscing elit, sed do\nelusmod tempor...\n\nEl espacio en blanco no es espacio perdido; es respiración visual.\nAgrupa lo que va junto y deja que el resto de la diapositiva respire."
+      },
+      {
+        "i": 12,
+        "ocr": "La transformación final: La prueba del algodón\n\nEl Antes\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nfacturas sise, consectetur adipiscing elit, si coranetur\n\nedolers manuyÉbicant tisant? priise de\nSy asserifig a pit lat helgi colitzr1s nem\nAU runt facturas tipaniisno\n\nE Eficiencia\nO Flujos con lA O Tiempo récord\n9 Más productividad__________. La\n\nA NotébookLM\n\n'Optimización\n¡9 Reducción de pasos\n¡9 Menos errores\n\nES ABLA"
+      },
+      {
+        "i": 13,
+        "ocr": "Gestión de cuotas gratuitas: El plan B\n\nEl plan gratuito de Canva es generoso (aprox. 50 usos de lA al mes), pero tiene\nlímites. Si se agota tu cuota, el trabajo no se detiene.\n\n! Busca plantillas estándar de Canva por\nMagic Design (Diseño de diapositivas) palabras clave en inglés (ej: 'minimalist\n' business presentation').\n\n: A A E YA Pega tu texto en ChatGPT o Gemini de\nMagic Write (Reducción de texto) De ebodte y pide la adaptación allí.\n\nh Genera la imagen gratis en Google Gemini,\nGenerador de Imágenes lA o usa bancos sin derechos de autor como\nÑ Unsplash o Pexels.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "Consideraciones clave y privacidad en la oficina\n\nErrores Comunes\n\nCompartir enlaces públicos\n- (Solo lectura) si la presentación\n\ncontiene datos personales o\n\nfinancieros reales de clientes.\n\npa A AS\n\nLa Exportar en formato PPTX si '\nsi un compañero necesita editar\nel archivo en PowerPoint\nclásico.\n\nVerificar el diseño alejándote:\ndos metros de tu pantalla; lo\nque se lee a 30 cm puede ser\n\nUsar Magic Write para crear el\nguion desde cero (mejor usar\nChatGPT fuera de Canva para\niterar sin gastar cuota).\n\nANot tebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "Tu kit de supervivencia visual (Resumen)\n\nNo necesitas ser diseñador para comunicar con impacto. La lA se encarga de\nestructurarlo y Canva de hacerlo visual; tú solo decides el objetivo.\n\n| PEREZ\nY Flujo Separado: Construye el contenido en texto (Gemini/ChatGPT)\n\nantes de abrir Canva.\n\nMagic Design: Usa prompts precisos ('paleta azul, sin imágenes de\npersonas”) para crear la base.\n\nRegla de 40 Palabras: Si no se lee en 5 segundos, recórtalo o\ndivídelo en dos diapositivas.\n\nChecklist CARP: ¿Tiene Contraste? ¿Está Alineado? ¿Hay Repetición de\nfuentes? ¿Los elementos tienen Proximidad y espacio para respirar?\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D13": {
+    "file": "Diseño_Visual_Accesible.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Comunicación Visual y\nAccesibilidad en la Oficina\n\nEl manual práctico para crear campañas internas\ncoherentes, impactantes y para todos.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "Comunicar con impacto exige ir más allá\ndel correo electrónico\n\nDiseño Visual / / >, Mensaje Claro\nEAS A XA\nFormatos Textos\nadecuados sintetizados\n(Cartel, y lenguaje Typography\nInfografía, Impacto Real: directo.\nVídeo). El mensaje se lee, Clean specimun\ne se entiende y\nUS se recuerda.\nFormatos\na a\ncnislzados y l Í pc\nTenquaj direc y E contralrentara\nPc Inclusión total E EE\n(contraste, legibilidad, Accesibilidad ss\n\ntecnología asistiva). - ts\n\nEl diseño accesible no es un extra: es mejor diseño para todos. Ll)\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "La base de toda campaña:\nEl Micro Kit de Marca\n\n3 Colores\n\nAsegura\nLciempre\nÑ\n\n¿contraste\n\nprincipal\nSe\nCUndario\n\nFono,\n\n2 Tipografías\n\nTitulares\n\na\n\nCuerpo de texto\n\n1 Plantilla Base\n\nLOGO\n\nTITULAR\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Un mensaje,\nmúltiples puntos de contacto\n\nLa Llegada El Escritorio La Tarde\n(Cartel) (Infografía) (Banner/Post)\n% E\nMe ¡ DEDATOS o TOA RÁPIDO:\na = [FECHA] hs\nas\n[pea]\nMensaje puntual y urgente. Contexto profundo. Recordatorio rápido.\nSe lee en segundos. Transforma tablas de datos Titular, fecha y llamada\nen una narrativa visual. ala acción.\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "De 3 horas a 25 minutos: El flujo de trabajo con lA\n\nInput (El Prompt) Engine (Canva) Output (Redimensionado)\nTITULAR\nCrea una campaña sobre X.\nGenera:\n1) Email de 150 palabras, o z\n2) Titular para cartel de 10 palabras, —» o ==\n3) Post de Teams de 20 palabras. co) Cartel (A4)\nPlantilla Base MENSAJE — dls Infografía\nURGENTE e (Vertical)\n\no Banner (1200x300px)\n\nCrea el kit completo a la vez para garantizar\nla coherencia de mensaje y tono.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Transformar datos en historias visuales\n\nEl Pasado El Presente\nIncidencias de Logística\nTIEMPO DE TASA DE\nENTREGA ERROR\nREDUCIDO DISMINUIDA\nOptimización de rutas Incidencias bajaron al\nen un 15% 2% mensual\nEFICIENCIA ALERTAS\nCRÍTICAS\nrf EN ENVÍOS RESUELTAS\nSintetizar\nen titulares Más paquetes entregados Priorización de\nde máximo en menos tiempo incidencias urgentes\n8 palabras\nDatos en bruto Infografía\n(Difícil de procesar) (Fácil de digerir)\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "El vídeo corto para canales de equipo\nno requiere edición\n\nALERTAS\nCRÍTICAS\n\nDiapositivas\nanimadas en\nlugar de\ngrabaciones.\n\nSin necesidad\nde locución: el\ntexto comunica.\n\nDiapositivas animadas\nen lugar de grabaciones.\n\nMúsica de la biblioteca gratuita.\n\nUn vídeo de 30 segundos genera más impacto visual en Teams que un PDF adjunto.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "La accesibilidad previene\nla exclusión silenciosa\n\nA\n\nDaltonismo (8% de los hombres).\n\nUsuarios de lectores de pantalla. Situacional.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Regla 1: El gris estético sobre blanco\nfracasa; el alto contraste gana\n\nError Común La Solución\n\nEl diseño con un contraste bajo puede\n\nsobre blanco a toda costa.\n\nRatio 2,3:1 — INACCESSIBLE Ratio 7:1 — ACCESSIBLE (Nivel AAA)\n\n[Q | colourcontrast.cc El estándar internacional WCAG exige un ratio mínimo de 4,5:1. Verifícalo siempre.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Regla 2: Si la imagen informa,\nel lector de pantalla debe saberlo\n\nCanva .. > O+ E Lo Incorrecto\n\n“Imagen 1* 0\n“Gráfico”\n\nGastos por Departamento\n\nLo Correcto\n\nGráfico de barras\nque muestra el gasto\nPor departamento:\n\nAdministración 32%,\nLogística 28%...\n\n9 | Pro-tip Si la imagen es puramente decorativa, deja el campo vacío para que el lector de pantalla la ignore.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Regla 3: Reduce el contenido,\nnunca el tamaño de la letra\n\nOmer A rn\n\n16px - El tamaño mínimo absoluto para\ncuerpo de texto digital.\n24pt - El mínimo para presentaciones\nproyectadas en salas.\n\nUn error frecuente es reducir la fuente para encajar\nmás texto. La solución es redactar mejor."
+      },
+      {
+        "i": 12,
+        "ocr": "Regla 4: El color nunca debe ser el\núnico diferenciador\n\nVisión Estándar\n\nVisión con Daltonismo\n\nDiseño Accesible\n\nLa información se\nha perdido.\n\n09909\n\nOK OK Error Error\n\nAñade iconos, tramas\no etiquetas.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "La accesibilidad también es lingúística:\nEl lenguaje claro\n\nReescribe este texto para personal sin conocimientos técnicos. Frases\nde máximo 15 palabras. Voz activa. |\n\n- Denso y Técnico - Claro y Accionable\n\n¡Conums reosmiiss; texto na'a nenmus personal sin\n¡conocimientos técnicos y sonnozitodes:\n\nY Transisurla elgo de la vación del documente:o:de |\ninternar possble. |\n\nY Programma y rasta vonicese emepranuta:nar un\nmomento o comevtador.\n\nY Como sur nattienes para liverar minto en claro y\naccionable,\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "La autopsia visual: Evaluando una campaña real\n\nEl Cartel “Antes”\n\n(E ratio 2:1\n\nSe ha avanzado en los entregables de la fase 3,\npero persisten desafios técnicos en la integración\nde la API externa. El equipo de desarrollo está\ntrabajando a marchas forzadas para cumplir con\nlos plazos establecidos. Las métricas de e Fuente 12px\nrendimiento muestran una ligera caida en la\neficiencia de los procesos, lo cual debe ser\nabordado de inmediato para evitar retrasos en el\nlanzamiento. La próxima reunión de\n\nseguimiento se ha reprogramado para el vienes\na las 10:00 a.m. con el fin de revisar el progreso.\n\nME A <A sob cotor\n\nEl Cartel “Después”\n\nEstado del Proyecto:\nReporte Semanal Q O Ratio7:1\n\n+ Fase 3: Se avanza en los entregables.\n+» Desafios Técnicos: Integración de la\n\nAPI externa. FuENE\nñ A uel\n\n+ Acciones: El equipo de desarrollo (2)\ntrabaja para cumplir los plazos.\n\n+ Métricas de Rendimiento: Ligera caída\nen eficiencia. Requiere atención\ninmediata.\n\n+ Próxima Reul Viernes, 10:00 a.m.,\npara revisar progreso.\n\nAAAAA O 9 9 Y 0 :.-\n\nCritico Critico Critico Critico Critico Completado Compltao Completado Color\n\nA NotebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "La Auditoría de 5 Puntos\n\nKit base definido: ¿He usado la misma paleta\n(3 colores) y tipografías (2) en todas las piezas?\n\nContraste verificado: ¿El texto sobre el\nfondo supera el ratio 4,5:1 en colourcontrast.cc?\n\nTexto Alternativo: ¿Todas las imágenes\ninformativas tienen su descripción para\nlectores de pantalla?\n\nTamaño mínimo: ¿El cuerpo de texto digital\nesigual o superior a16px?\n\nDiferenciadores extra: ¿He evitado usar solo\nrojo/verde para indicar estados?\n\naña a a\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D14": {
+    "file": "The_AI_Team_Brain.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Gestión Documental con lA\n\nDe la memoria individual al Cerebro de Equipo.\n\n( [Naming Conventions] ) ( [SOPs Generativos] ) ( [NotebookLM]\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El Riesgo del Conocimiento\nConocimiento Tácito\n\n¿Qué ocurre cuando la persona enferma,\nEl 42% del conocimiento operativo se va de vacaciones o cambia de puesto?\nespecífico de un puesto vive El proceso se detiene. Documentar ya no\nexclusivamente en la memoria de una es papeleo burocrático; es pura\nsola persona. supervivencia operativa.\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El Cambio de Paradigma: Escribir vs. Revisar\n\n3 Antes (Manual) 2% Ahora con lA\nTiempo a redactando desde 1520 minutos de revisión.\n\nRedactado a partir de un audio o\n\nProceso Frente al folio en blanco. Ñ\ntexto informal.\n\nEstructura estandarizada (30% ER\n\nResultado Formatos inconsistentes. a\nmenos de errores operativos).\n\n( La lA elimina la barrera del tiempo. Ya no escribes manuales; solo revisas el trabajo de tu copiloto.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Paso 1: Mapeo de Flujos (Encontrando Cuellos de Botella)\n\nEscribe tu proceso tal cual es, en texto plano. La lA lo analiza para detectar fallos invisibles.\n\nX-ray Blueprint Diagram\n\nA Cuello de botella detectado:\nEl paso de aprobación no tiene un\nSLA (límite de tiempo) definido y\ndepende de una sola persona.\n\nENS\nJefa aprueba Se paga\n> =)\n\na\n\n(7 | Ca :\nLlega factura Marta registra\n2)\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Paso 2: El SOP Generativo en 3 Prompts\n\nPrompt 1: Contexto y Estructura\n\nConvierte este texto informal en un SOP'\n(Título, Objetivo, Pasos, Responsables).\n\nPrompt 2: Detalles y SLAs\n\nAñade plazos máximos (SLAs) de respuesta y\nnombres de sistemas internos especificos.\n\nPrompt 3: Validación y Excepciones\n\nIdentifica qué hacer si el proveedor (ej.\nSuministros García) falla o el sistema cae.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "Anatomía del SOP Perfecto\n\n1. Título\n(Qué proceso describe) A\n\n2. Objetivo ¿£——>\n(Para qué sirve y qué\n\nresultado produce) = Metadata 2% o) 3. Quién / Cuándo\n\n(Responsables y circunstancias\n1. de aplicación)\n\n4.Pasos Detallados ¿<>\n(Secuencia numerada de\nacciones)\n\nPON»\n\n5. Excepciones ¿3 O\n(Casos especiales o fallos\n\ndel camino normal) Versión y Fecha 1.01 ¿£——> 6. Versión y Fecha\n(Control de obsolescencia)\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Paso 3: Del SOP al Checklist Operativo\n\nEl SOP es para entender el proceso. El Checklist es para ejecutarlo a diario sin saltarse pasos.\n\nO Revisar bandeja de entrada\n\nO Actualizar registros de ventas\n\nGenera una checklist de uso.\n\ndiario. Máximo 10 Ítems, A hera\nO Confirmar reuniones diarias\n\nverbos en infinitivo, con\ncasillas de verificación (0).\n\nO Documentar incidencias\n\nO Enviar informe final"
+      },
+      {
+        "i": 8,
+        "ocr": "Automatización de Datos: Forms > Sheets\n\nE\nCasos de Uso: El Mecanismo: Impacto: O minutos de\n+ Solicitudes de material, Formulario (Input) > Hoja transcripción manual por\nregistro de incidencias, de Cálculo (Base de Datos registro.\nencuestas internas. Automática). ds Tip IA: Pide a tu asistente\n\nque diseñe los campos ideales\npara tu formulario."
+      },
+      {
+        "i": 9,
+        "ocr": "Paso 4: Naming Convention (El Estándar)\n\nAAAA-MM-DD_Tipo_Descripción_v1\n\nIA RA\n\n,\ntea | SOP, FORM, INF | | Breve, sin | Control de |\n\ncronológico (Permite filtrar espacios versiones estricto\n\nautomático en rápidamente por (CamelCase). (Evita el caos del\ncualquier categoría). archivo\nexplorador. Final_Definitivo).\n\nEjemplo real: 2026-07-01_SOP_PedidoMaterial_v1.pdf\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Estructura de Carpetas: La Regla de los 3 Niveles\n\nUn laberinto profundo oculta la información.\n\nDS\n\n$e Djs\nampaigns > Social Media\n\nMáximo 3 niveles de profundidad. (Ej: Departamento > Tipo de Documento > Archivo).\n\n[na\nÁS,\n2) Ventas 2) Marketing 23) Finanzas\n28) Contratos 2) Reportes E E (55) E E E\n\nao) Final\n\nLos empleados dedican de media 2,5 horas al día buscando información.\nUna estructura sin reglas es tan perjudicial como una sin estructura.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Paso 5: NotebookLM como Cerebro del Equipo\n\nRespuesta rápida...\n\nBasado en SOP-2026-07-01...\n\nbase de conocimiento\n¿Cómo consultar 20 SOPs sin conversacional.\n\nabrir un solo documento?\n\nSube tus PDFs y Docs a Respuestas en menos de 1 minuto\n\nNotebookLM. basadas exclusivamente en los\ndocumentos reales de tu equipo.\n\nA NotebookLM\n\nWN El sistema se convierte en una"
+      },
+      {
+        "i": 12,
+        "ocr": "La Interfaz en Acción (Cero Alucinaciones)\n\n¿Qué hago si Suministros García no tiene\nfolios urgentes?\n\nSegún el SOP de Pedidos (v2), debes escalar\na la Jefa de Administración para aprobación\nde un proveedor alternativa (1)\n\nInsight Clave: Solo responde en\nbase a tus documentos. La cita [1]\nte lleva directamente al párrafo\nexacto del SOP original.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "La Línea Roja: Cuándo NO Automatizar\n\nLa lA prepara, el humano dispara.\n\nY Tareas rutinarias de bajo riesgo.\n\n» Afecta directamente a personas (contratos,\ndespidos, adaptaciones de salud, empatía).\n\n+. Tiene consecuencias graves o irreversibles\n(comunicaciones oficiales, pagos).\n\nRegla de Oro: Si la pregunta '¿qué pasa si esto sale mal?' no tiene una respuesta simple y\n\nreversible, exige supervisión humana.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "Síntesis: El Ecosistema Documental Completo\n\n5 ULMEnES 2.SOP Generativo\n( pl En (Crear con 3 Prompts) EN\n5. NotebookLM Tu equipo ahora tiene un sistema 3. Checklist\n(Subir para consulta operativo a prueba de ausencias. (Extraer interfaz\ninstantánea) operativa)\n4. Naming Standard ys\n(Guardar con regla de 3\nniveles)\n\nA NotebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "Call to Action\n\npS\n\nDel Conocimiento Tácito al Escalado\n\ne Tuturno: Elige un proceso que hoy solo viva en tu cabeza.\n\ne ElEntregable: Genera tu SOP en 3 prompts, extrae su checklist\noperativa y guárdalo usando la convención de nombres estándar.\n\nEl conocimiento documentado y compartido es la única\nforma de que tu criterio profesional escale sin ti.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D15": {
+    "file": "Manual_Táctico_de_Soporte_IA.pptx",
+    "n_slides": 12,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "El Manual de Operaciones\nTáctico: Atención al Cliente\ncon lA\n\nReglas, herramientas y guiones para transformar la\ngestión de consultas, reducir tiempos y proteger la\nrelación con el usuario.\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El coste real del tiempo de respuesta\n\nSi\n5 El 45 % de los clientes espera una respuesta en menos\nde 24 horas (el 12 % en menos de una hora).\n\nSin lA\n\n2. 095\n\nRS -\n\ncaso\n\nCon lA\n\n2-3 min por caso\n\n(W) Consistencia y control de tono »\n\nLa IA no garantiza respuestas perfectas, di\n\npero sí respuestas consistentes a escala.\nA ———= 5 E\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "La regla innegociable: Privacidad por diseño\n\nNUNCA pegues datos reales en herramientas externas.\n\nDe: [EMAIL_AZURE]\nAsunto: Consulta Urgente.\n\n3 | aa\n\nHola, necesito ayuda con el caso ES E.\n\nde Juan Pérez, Exp: 45982. A /Z\nEl importe pendiente es 2008. NY\nIA,\n\nGracias.\nAl Anonymization\n\nFilter\n\nDe: [EMAIL_AZURE]\n\nAsunto: Consulta Urgente.\n\nHola, necesito ayuda con el\ncaso de [CLIENTE_A], Exp:\n[REF_X]. El importe pendiente\nes [IMPORTE_X].\n\nGracias.\n\nSustituye siempre nombres, referencias, importes y direcciones por etiquetas genéricas antes de pedir ayuda\na la lA. El nombre del trabajador sí puede mantenerse, pero la identidad del cliente se protege siempre."
+      },
+      {
+        "i": 4,
+        "ocr": "El Motor de Eficiencia: Construir un banco FAQ\n\nUn banco de 5 respuestas tipo bien construido cubre el 70-80 % de las consultas\ndiarias. El secreto está en generarlas simultáneamente.\n\nGenerar en lote\n\nPrompt Único ->\n5 respuestas base.\n\nIdentificar Organizar\n\nDocumento vivo con\netiquetas\n\n[CORCHETES] y\nreglas de uso.\n\nBandeja de entrada\n> Top 5 categorías\n\nO (Representan el 80%\ndel volumen)\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "Anatomía del prompt en lote\n\nFAmatatano)  ———— 1 Conrandor\n\n>Actúa como responsable de atención al cliente...\n\n>(...tono formal y empático, máximo 100 palabras,\ncon variables en [CORCHETES]...\n\n...(1) estado de pedido, (2) error en factura,\n(3) cambio dirección...\n\n«..«Para la opción (4) frustración, usa el patrón\nReconoce / Informa / Actúa.\n\nFlow EZ a y vd\nInstrucción específica y frameworks\n\nRol\n\nY\n\nTarea en lote\n(Categorías)\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "El engranaje de la dificultad: Patrón RIA\n\n)\nY\n\neS\nQueja Solución\nestructurada\nReconoce Informa Actúa IN\nEmpatía específica. Claridad sin excusas. Acción concreta. di V\nNo es un cliché Qué ha ocurrido y qué Quién se encarga, qué\n(“lamentamos las lo impide, basado en va a pasar y fecha\nmolestias”). Es hechos. límite real. Reduce la tasa de\nentender la fricción escalado un 40 % en\nexacta. las primeras semanas.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "RIA en acción: Desactivando el conflicto\n\nRespuesta Reactiva (Sin lA)\n\nEstimado cliente,\n\nlamentamos Áas molestias>ocasionadas\npor el retraso.\n\n——_£— Excusa\nntentaremos solucionarlo pronto\n\nSaludos. No Sin fecha\n\nRespuesta RIA (Con lA)\n\nEntiendo que llevas 3 semanas\nesperando y esto afecta a tu\n\nplanificación [RECONOCE].\n\nTu expediente\nEm ueado por un cruce de datos\n[INFORMA] .\n\nVoy a escalar esto a [[RESPONSABLE]\n\nhoy y te daré una actualización el\nKEECHAD TACTÚN-- E\n\nLa lA ayuda a estructurar la respuesta, pero tú verificas que el compromiso del 'Actúa' sea real.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "Agilidad operativa: Adaptación multicanal\n\nEmail ¡(S) Teams / WhatsApp xu Teléfono\n\nFormato Extenso (100-200 palabras) Corto (Max 3 líneas) Guion (5 puntos clave)\n\nTono Formal / Institucional Directo / Acción Conversacional\nEstimado [CLIENTE], Expediente [REF_X] - Confirmar dirección.\n\nEjemplo le informamos que su actualizado. Se envía - Explicar plazo.\nexpediente... hoy a logística. - Preguntar dudas.\n\nUn prompt ('A partir de este correo, genera vers Teams y guion telefónico')\n\nreduce el tiempo de adaptación de 15 minutos a 30 segundos.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Escalados perfectos: Pasar el testigo sin perder datos\n\nUn escalado incompleto genera llamadas innecesarias. Un prompt estructurado asegura\nque el departamento receptor tenga todo el contexto para cerrar el caso sin retroceder.\n\nEl Puente lA\n\ni Logística /\nSoporte Nivel 1 tic:\nÑ Especialista\nJ\nk Qué\ny Resumen Historial Necesidad a\ne (3 líneas) de promesas y plazo necsEido\n\n>: E E EE\nNegro a:\n\nEl cliente repite la historia\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "El límite de la automatización: Cuándo apagar la lA\n\nE,\n\nAngustia Emocional Implicaciones Legales\n(enfermedad, pérdida, urgencia vital) (requiere validación jurídica)\n\nError Grave de Empresa Relación VIP Histórica\n(requiere disculpa genuina) (esperan trato 1 a 1)\n\nLa lA no reemplaza el juicio humano. Es una herramienta de\nproductividad, no un sustituto de la empatía real y la\nresponsabilidad corporativa.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "El sistema completo: Triaje de atención\n\nUn marco mental para diagnosticar y enrutar cualquier consulta entrante en segundos.\n\nEntra consulta\n\n(Anonimizar datos)\n$ ¿Es un caso vulnerable, Í Desactivar lA.\nlegal o error a Intervención Humana.\nÓ ¿Es una consulta frecuente? [=| Usar Banco FAQ.\n- a Y\nS ¿El cliente está a Lg Aplicar Patrón RIA )\n\nNo\n\nps p Sí Generar Prompt\n$ ¿Supera mis competencias? bo] de Escalado.\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "69\n\nLa atención al cliente no es solo resolver problemas: es\nhacerlo de forma que la persona sienta que hay alguien\nque le escucha. La lA puede ayudarte con las palabras\ncorrectas; tú aportas el criterio para saber cuándo las\npalabras no son suficientes.\n\nEl criterio final es tuyo\n\nCONSTRUYE TU BANCO FAQ HOY. PROTEGE LA PRIVACIDAD. DEFIENDE LA RELACIÓN.\n\nA NotebookLM"
+      }
+    ]
+  },
+  "D16": {
+    "file": "Building_Functional_AI_Solutions.pptx",
+    "n_slides": 14,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Construcción\ndel Proyecto\nFinalcon lA\n\nDel problema real a la solución funcional.\nGuía metodológica para el diseño,\nevaluación y presentación de tu proyecto.\n\nCurso: lA en la Oficina — Eficiencia y Productividad\n\nA NotebookLM"
+      },
+      {
+        "i": 2,
+        "ocr": "El Lienzo\nDiseño y\nplanificación previa.\n\nEl Ecosistema\ndel Proyecto\n\nLa Presentación\n\nDemostración del\nimpacto.\n\nLa Rúbrica\n\nEstándares de calidad\ny funcionalidad.\n\nEl Feedback\n\nRefinamiento entre\npares.\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "El Lienzo: Tus 10 minutos más rentables\n\n1. El Problema 2. Herramientas lA\n\n+ ¿Qué tarea exactamente? Selección estratégica\n\n* ¿Frecuencia semanal? (ChatGPT, Gemini) e\n\n+ ¿Tiempo actual invertido? identificación del flujo de trabajo.\n3. Proceso y Entregable 4. Impacto y Demo\n\n+ Documentación de los Cuantificación del éxito\n\nprompts paso a paso. estimado y selección del\n+ ¿Qué produce la solución? ejemplo real a mostrar.\n\nA NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "El Problema\n\nDebe ser una tarea real y\nrecurrente. No puede ser un\n\nescenario hipotético ni abstracto.\n\nEjemplo:\nResponder 20 consultas\nsemanales de proveedores\nsobre facturas.\n\nLa regla de oro: La herramienta se elige\nen función del problema, nunca al revés.\n\nLa Herramienta\n\nLa elección justifica el dominio.\n¿Generación de texto (ChatGPT)?\n¿Asistente con contexto (Gemini\nGem)? ¿Análisis de datos\ntabulares?\n\nA NotebookLM"
+      },
+      {
+        "i": 5,
+        "ocr": "El Proceso Documentado\n\nEl Impacto Medible\n\nAntes (Horas)\n\nDespués (Minutos)\n\nRegistrar los prompts exactos.\n\nDefinir dónde empieza el flujo y\ndónde termina.\n\nLa documentación hace que sea\nreutilizable.\n\nPasar de lo abstracto a lo\nconcreto.\n\nEl objetivo medio es ahorrar entre\n1 y 3 horas semanales.\n\nEl entregable debe ser un activo\ntangible.\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "La Rúbrica: El estándar de excelencia\n\nUtilidad Real Dominio de Herramientas\nResuelve un problema S Selección adecuada y\nfrecuente y tangible. El NS justificada para el caso\n\n\"antes\" es cuantificable. concreto. Prompts optimizados.\n\nCalidad de la Solución Presentación Clara\n9) Es una solución de extremo a Se entiende sin explicaciones\n\nextremo. Funciona de extras. Está bien\n\nprincipio a fin, es estable. documentado.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "Síntesis: El plan garantiza la calidad\n\nla audi Aseguras la Utilidad Real\nProblema\nSi eliges bien la Demuestras el\nHerramienta Dominio Técnico\n\nGarantizas la Calidad\n\nSi detallas tu Proceso e.\nde la Solución\n\nFacilitas una\n\nsi midesiel Impacto Presentación Clara\n\nEl Lienzo es tu borrador de obra; la Rúbrica es la inspección técnica final."
+      },
+      {
+        "i": 8,
+        "ocr": "La Presentación: 5 minutos de alto impacto\n\nEl Problema La Demo El Impacto Preguntas\n\nMinuto 1 Minutos 2-3 Minuto 4 Minuto 5\n“Me costaba X Mostrar la solución “Ahora tardo Z. Espacio para\nhoras hacer Y funcionando en vivo He ahorrado...” resolver dudas\n\ntarea...” con un ejemplo real. del grupo.\n\n5 minutos son suficientes si hay foco.\n\nLa precisión también es parte de la evaluación.\n\nA NotebookLM"
+      },
+      {
+        "i": 9,
+        "ocr": "Por qué la Demo lo es todo\nDatos seguros\n\nUtilizar datos ficticios o\nrigurosamente anonimizados\npara proteger la\nconfidencialidad.\n\nMostrar, no contar\n\nVer el flujo en acción es\ninfinitamente más persuasivo\nque describirlo en teoría.\n80% más de adopción. a /\n\nFoco visual\n\nSeñalar explícitamente qué\nparte del trabajo realiza la lA\ny qué valida el humano.\n\nA NotebookLM"
+      },
+      {
+        "i": 10,
+        "ocr": "Revisión entre pares: La fórmula 2+1+1\n\n[(2]+[1]+(1\n\n2 Puntos Fuertes 1 Mejora 1 Pregunta\n¿Qué funciona muy bien? Un ajuste concreto Una duda que el presentador\n¿Por qué esta solución es sugerido antes de la debería aclarar proactivamente\n\nútil o ingeniosa? presentación final. en su exposición.\n\nUn compañero detecta de inmediato los puntos ciegos que\n\ntú ya no ves tras 90 minutos de construcción intensiva.\n\nA NotebookLM"
+      },
+      {
+        "i": 11,
+        "ocr": "Cómo pedir mentoría eficaz en el taller\n\nEl bloqueo pasivo El diagnóstico activo\ne Comportamiento: Llegar con el e Comportamiento: Llegar con el\nlienzo en blanco. Lienzo estructurado y un punto de\nfricción aislado.\no Frases: “No sé por dónde empezar”. e Frases: “El prompt 2 no me extrae el\ndato X”.\no Resultado: Consumo de tiempo en e Resultado: Solución técnica\nideación básica en lugar de inmediata y avance del proyecto.\n\nconstrucción.\n\nAprovecha tus 10 minutos de mentoría 1:1 trayendo\nun bloqueo exacto, no un folio en blanco.\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "Arquetipos de Proyectos de Alto Impacto\n\ny=_\ny\n\nQi\n\nBanco de Respuestas (FAQ)\n\nGeneración de respuestas a consultas frecuentes en bloque mediante plantillas en Docs.\n\nFlujo de Redacción\nEncadenamiento de 3-4 prompts documentados para crear informes periódicos\nestandarizados.\n\nAnálisis Periódico\nSistema de extracción que pasa de datos tabulares brutos a un resumen ejecutivo en\nminutos.\n\nAsistente Preconfigurado\nUn 'Gemini Gem' alimentado con el contexto y rol de la empresa, listo para tareas\nrecurrentes."
+      },
+      {
+        "i": 13,
+        "ocr": "Checklist de calibración durante la construcción\n\nDemasiado ambicioso\n\n(Automatizar todo el departamento).\n\nConstruir sin datos de prueba\n(imposibilita la demo).\n\nDejar el proyecto sin\ndocumentar.\n\ns. Buenas Prácticas\n\nBuena Práctica: Acotado y funcional\n(Hacer una sola cosa de principio a fin).\n\nBuena Práctica: Preparar un set de\ndatos ficticios listos para usar en vivo.\n\nBuena Práctica: Guardar los prompts\nen un Doc para que cualquier\ncompañero pueda replicarlo el lunes.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "La Regla de Oro\n\n¿Usaría esto en\nmi trabajo el\npróximo lunes?\n\nSi la respuesta es SÍ, tu proyecto es un éxito. El mejor proyecto\nde lA no es el más técnico ni el más complejo; es el que, de\nforma demostrable, te ahorra tiempo real. ¡A construir!"
+      }
+    ]
+  },
+  "D17": {
+    "file": "Transformación_Digital_con_IA.pptx",
+    "n_slides": 15,
+    "slides": [
+      {
+        "i": 1,
+        "ocr": "Día 17 de 17 -1A en la Ofic\n\nEl Futuro es Hoy:\nPresentaciones\nFinales y Cierre\n\nCelebrando 68 horas de transformación\ndigital, eficiencia y talento.\n\n7%\n¿\n\nLy"
+      },
+      {
+        "i": 2,
+        "ocr": "La Verdadera Transformación\n\nDía 17: La pregunta es: “¿Qué parte\n\nDía 1: La pregunta era: “¿Cómo de esta tarea puede hacer la lA\nhago esta tarea repetitiva?” para que yo me centre en lo que\n\nrequiere mi criterio profesional?”\n\nA NotebookLM"
+      },
+      {
+        "i": 3,
+        "ocr": "A\nNN\nNuestra Ruta de Hoy A\n0) | | vL7 | A\na - A\nA My a” E\nA to | M0 |\na a (+)\n1. El Escenario 2. El Espejo 3. Tu Plan de 4. La Reflexión\nPresentaciones Feedback 30 Días Cierre colectivo\nde 5 min con estructurado El mapa para y tu Cheat-\ndemo en vivo. 2+1+1 entre consolidar el Sheet.\npares. hábito.\n\ny\n\n1, A NotebookLM"
+      },
+      {
+        "i": 4,
+        "ocr": "Estructura de tu Presentación Final\n\nCómo comunicar una solución técnica a una audiencia no técnica.\n\nEy y »\n\n2 min | La Demo\n\nEl corazón del pitch. Muestra la\nsolución funcionando en tiempo real.\n\n60s | El Problema\n\nCuantificado. Ej: Perdía 3 horas\nsemanales en 20 correos iguales.\n\n60s | El Impacto\n\nQué cambia. Ej: Recuperé 2 Qué harás con esto\nhoras para revisar contratos. mañana.\n\ncorreos iguales. contratos.\n\n30s | El Próximo Paso\n\n60s | El Problema 60s | El Impacto 30s | El Próximo Paso\nCuantificado. Ej: Perdía 3 Qué cambia. Ej: Recuperé Qué harás con esto\nhoras semanales en 20 2 horas para revisar mañana."
+      },
+      {
+        "i": 5,
+        "ocr": "Protege tu Momento de Impacto\n\n(El Riesgo) (El Plan B)\n'\nLa demo en vivo Ten siempre un\npuede fallar ejemplo ya generado\n(la red es lenta, la lA se satura, los nervios). (captura de pantalla o documento abierto).\n\nA NotebookLM"
+      },
+      {
+        "i": 6,
+        "ocr": "SS\n\nCómo Evaluar a tus Compañeros Pe\n\n[2]+[1]+[1]=\n\n*e ?\n\n2 Puntos Fuertes 1 Pregunta\nQué funcionó bien. Qué quieres saber más.\n(Sé específico: \"La demo fue (Curiosidad: \"¿Cómo\nmuy fluida y el antes/después manejas los casos que no\nfue claro\"). encajan en tu prompt?\").\n\n7.\n\nFeedback de\nAlto Impacto\n\nK\n\n1 Mejora\n\nUna sugerencia accionable.\n\n(Desarrollo: \"Podrías añadir\n\nuna sección de excepciones\nal Doc\").\n\nNYY —.\n\nA NotebookLM"
+      },
+      {
+        "i": 7,
+        "ocr": "SS\n\nDe la Opinión a la Acción\n\nYX Genérico\n\nÚtil\n\nMe ha gustado mucho tu\npresentación, muy bien.\n\nEl problema estaba perfectamente\ncuantificado, me hizo entender la\nurgencia.\n\nNo me quedó claro cómo\nfunciona.\n\n¿Qué herramienta usaste\nexactamente para automatizar el\npaso final de la tabla?\n\n,\n\nDeberías automatizar toda la\nempresa con esto.\n\nTe sugiero documentar el prompt\n\nen un Google Doc para\n$ compartirlo con tu equipo.\n\nm7.\n\nA NotebookLM"
+      },
+      {
+        "i": 8,
+        "ocr": "/3 7\nEl Riesgo de la Inacción\n\nUd ——\nde | 3X\nES\n=T Aplicar una habilidad nueva en las\nSs primeras 24 horas multiplica por\n“S 50% 7 0 A tres la retención a largo plazo.\nc -\n2 O\ne Las habilidades se pierden\nen 30 días si no se aplican\n25% activamente en el trabajo.\n0% -\n\n0 1 30\nTiempo (Días)"
+      },
+      {
+        "i": 9,
+        "ocr": "Tu Plan de 30 Días\n\nEl puente definitivo entre el aula\ny tu puesto de trabajo.\n\n1 Herramienta\nNueva por Semana\n\n(Exploración continua\npara no estancarse).\n\nCero Ambigiiedad\n\n(Acciones concretas con\nfecha en tu calendario hoy).\n\n1 Proceso Mejorado\nal Mes\n\nCapportaton mejorativo:\n(Impacto profundo, medible\ny real en tu departamento)."
+      },
+      {
+        "i": 10,
+        "ocr": "Tu Escalera de a E\n\nSemana 4 A\nPAE (El Gran Impacto\nImplementación Tu Proceso Mensual\nDespliega el Proyecto\nSemanas 2 y 3 A ho en tu a (esk\n(Integración): ¡Proceso mejorado!\nDificultad Media\n\nAplica un flujo de lA a una\nSemana 1 (Victoria tarea real de tu trabajo en\nRápida): < 30 min lugar de empezar de cero.\n\nEj: Crea tu biblioteca SE\npersonal de prompts en un\n\nDoc. (Usa tu primera\nherramienta semanal)."
+      },
+      {
+        "i": 11,
+        "ocr": "Tu Asistente para\nCrear el Plan\n\nAyúdame a diseñar un plan de 30 días para implementar lo que aprendí y\nen mi curso de lA (prompts, informes, automatización). Mi proyecto final\n\nfue [TU PROYECTO].\n\nDame 3 acciones concretas de menor a mayor dificultad con fechas\nespecíficas, integrando 1 herramienta nueva por semana y 1 proceso\n\nmejorado al mes. |\n\nEjecuta este prompt hoy en clase.\nAjusta las fechas a tu calendario real.\n\nA NotebookLM"
+      },
+      {
+        "i": 12,
+        "ocr": "El Verdadero Poder\nde tu Trabajo\n\n2-5 *\nhoras\n\nAhorro estimado por\npersona semanalmente.\n\nS Si compartes tus prompts\ncon 3 compañeros,\n\nmultiplicas el impacto de\neste curso por 4... sin\nesfuerzo adicional.\n\nO\n\nSl POR\n\np\n\nEl mayor impacto no es que tú uses lA, es que\ncambies la dinámica de trabajo de todo tu equipo.\n\nA NotebookLM"
+      },
+      {
+        "i": 13,
+        "ocr": "Hoy recibes tu Cheat-Sheet\nde Herramientas Gratuitas.\nEl mapa para no perderte.\n\n[Y] Mejores Prompts y Flujos\n[Y] Casos de Uso Diarios\nAl Límites de herramientas gratuitas\n\nNo necesitas memorizar todo;\nsolo saber dónde buscar.\n\nA NotebookLM"
+      },
+      {
+        "i": 14,
+        "ocr": "La Prueba de Fuego\n\n] ón con impacto real.\nLas herramientas cal [ orma de analizar el\ntrabajo ya se ha transformado.\n\nA NotebookLM"
+      },
+      {
+        "i": 15,
+        "ocr": "¡ennorabuena por estas 1] ssneS\n\n>\n\n“La lA no va a hacer tu trabajo por ti. Pero si\nsabes usarla, nunca más tendrás que hacer solo\nlas partes que no requieren que seas tú.”\n\nSY»\n\nA\nye ¡A presentar! El escenario es vuestro.\neS\n\nFundación ONCE - Inserta Empleo - Talento Digital\n\nA NotebookLM"
+      }
+    ]
+  }
+}
