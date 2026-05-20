@@ -47,7 +47,7 @@ Hasta hace muy poco, crear una presentación profesional o una imagen de calidad
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### La revolución del diseño democrático
 
@@ -57,6 +57,12 @@ Lo que ha ocurrido en los últimos tres años en el mundo del diseño es lo que 
 
 Para alguien como Marta, esto significa que puede concentrarse en lo que sabe hacer bien (pensar el contenido, ordenar las ideas, decidir qué es lo más importante) y dejar que la herramienta se ocupe de cómo hacerlo visualmente atractivo. Ese es el principio fundamental de esta sesión: **primero el fondo, luego la forma**.
 
+> **Puntos clave:**
+> - La IA reduce la fricción entre la idea y el resultado visual.
+> - Canva democratiza el diseño con plantillas e inteligencia artificial integrada.
+> - Marta se centra en el contenido y delega la forma.
+> - Regla central de la sesión: primero el fondo, luego la forma.
+
 ### Canva gratuito: la herramienta y sus funciones de IA
 
 **Canva** (canva.com) es una plataforma de diseño gráfico accesible desde el navegador, sin necesidad de instalar nada, con una cuenta gratuita vinculada a Gmail. En su versión gratuita ofrece miles de plantillas para presentaciones, documentos, redes sociales, carteles, infografías y muchos otros formatos. El plan gratuito tiene limitaciones respecto al plan de pago (menos plantillas premium, menos almacenamiento, cuota mensual en funciones de IA), pero para las necesidades de una oficina estándar es más que suficiente.
@@ -64,6 +70,12 @@ Para alguien como Marta, esto significa que puede concentrarse en lo que sabe ha
 Las dos funciones de IA más relevantes del plan gratuito son **Magic Design** y **Magic Write**. Magic Design es la función estrella: a partir de un texto descriptivo o de un documento que subes, Canva genera automáticamente varias propuestas de presentación con diseño completo (paleta de colores, tipografía, distribución de elementos, imágenes incluidas). No es un borrador gris que hay que trabajar desde cero: es una presentación con aspecto casi terminado que puedes ajustar con ediciones menores. Magic Write, por su parte, es un asistente de texto integrado en Canva que puede ayudarte a generar titulares, puntos de bullet o textos breves para una diapositiva directamente desde el editor, sin necesidad de salir de la herramienta.
 
 Ambas funciones tienen una **cuota mensual** en el plan gratuito. Magic Design permite un número limitado de usos por mes (el límite exacto varía según las actualizaciones de Canva, pero suele estar en torno a 50 usos). Magic Write tiene igualmente un límite de palabras generadas por mes. Esto significa que hay que usarlas con criterio: producir el contenido de texto fuera de Canva (con ChatGPT o Gemini) y luego pegarlo en Canva para el diseño es una estrategia que preserva la cuota de Magic Write para los momentos en que realmente la necesitas dentro del diseño. Cuando la cuota se agota, siempre es posible trabajar con las plantillas estándar de Canva sin IA, que siguen siendo excelentes.
+
+> **Puntos clave:**
+> - Canva es gratuito, web y se vincula con Gmail.
+> - Magic Design propone diseños completos a partir de una descripción.
+> - Magic Write redacta titulares y bullets dentro del editor.
+> - Cuota mensual limitada: conviene usar ambas con criterio.
 
 ### Cuatro principios de diseño que cualquier persona puede aplicar
 
@@ -77,6 +89,12 @@ El tercero es la **jerarquía visual**. No todo en una diapositiva tiene la mism
 
 El cuarto es el **espacio en blanco** (o espacio negativo). El instinto de alguien sin formación en diseño suele ser llenar toda la diapositiva de información, por miedo a que parezca vacía o a que falte contenido. Ocurre lo contrario: una diapositiva con mucho espacio en blanco parece más profesional, más limpia y es más fácil de leer. El espacio en blanco no es espacio perdido; es respiración visual que ayuda al ojo a encontrar lo importante.
 
+> **Puntos clave:**
+> - Alineación: los elementos deben compartir un eje visual común.
+> - Contraste: texto legible sobre el fondo, sin grises sobre blanco.
+> - Jerarquía: lo importante se ve antes y más grande.
+> - Espacio en blanco: respiración visual, no espacio desperdiciado.
+
 ### Crear una presentación de cinco diapositivas desde cero
 
 El flujo de trabajo que Marta aprende hoy para crear una presentación tiene dos fases claramente separadas. La primera fase es la **producción de contenido**: qué va a decir en cada diapositiva. Para esto usa ChatGPT o Gemini, fuera de Canva. Por ejemplo: "Necesito crear una presentación de cinco diapositivas para explicar al equipo el nuevo proceso de gestión de pedidos. Las diapositivas deben ser: (1) título e introducción, (2) agenda de la presentación, (3) explicación del proceso actual y sus problemas, (4) cómo funciona el nuevo proceso paso a paso, (5) próximos pasos y contacto. Para cada diapositiva, dame un título y tres puntos clave en bullet, máximo ocho palabras por bullet." La IA produce el esqueleto completo de la presentación en un minuto.
@@ -84,6 +102,12 @@ El flujo de trabajo que Marta aprende hoy para crear una presentación tiene dos
 La segunda fase es el **diseño visual**: dar forma a ese contenido en Canva. Marta copia el texto generado, abre Canva, elige la opción "Presentación", escribe en Magic Design una descripción del tema y el tono deseado ("presentación profesional sobre proceso de gestión de pedidos, paleta azul corporativa, estilo limpio y moderno"), selecciona la propuesta que más le gusta entre las tres que genera Canva, y a continuación sustituye el texto de ejemplo de cada diapositiva con el texto que generó en ChatGPT. El resultado es una presentación de aspecto profesional en menos de quince minutos, con cero conocimiento de diseño.
 
 La clave de este flujo es la separación de responsabilidades: ChatGPT o Gemini se encargan de pensar el contenido y ordenar las ideas; Canva se encarga de que ese contenido tenga buen aspecto. Mezclar las dos tareas (intentar pensar el contenido y diseñarlo al mismo tiempo) es lo que hace que la creación de presentaciones sea lenta y frustrante para la mayoría de las personas.
+
+> **Puntos clave:**
+> - Fase 1: producir el contenido textual con ChatGPT o Gemini.
+> - Fase 2: dar forma visual al contenido en Canva.
+> - Magic Design propone tres opciones de diseño completo.
+> - Separar responsabilidades acelera el resultado y reduce frustración.
 
 ### Generación de imágenes con IA en Canva y alternativas
 
@@ -94,6 +118,12 @@ Para el contexto de oficina, los prompts más eficaces siguen un patrón: descri
 El generador de Canva tiene una cuota mensual en el plan gratuito (habitualmente entre 50 y 100 imágenes por mes). Cuando esa cuota se agota, existen dos alternativas gratuitas. La primera es **Google Gemini** (gemini.google.com), que permite generar imágenes directamente en el chat con la misma cuenta de Gmail, sin límite fijo publicado para usuarios básicos. La segunda es usar bancos de imágenes de dominio público o con licencia Creative Commons como Unsplash (unsplash.com) o Pexels (pexels.com), donde todas las imágenes son gratuitas para uso comercial sin necesidad de atribución.
 
 Sobre los **derechos de uso** de las imágenes generadas con IA: en Canva, las imágenes generadas con su herramienta de IA pueden usarse para proyectos personales y profesionales en el contexto del plan gratuito, según sus condiciones de uso. Para un uso en una presentación interna de empresa o en un documento de trabajo, no hay restricciones prácticas. Para publicaciones externas, campañas o uso comercial intensivo, conviene leer las condiciones actualizadas en el momento del uso, ya que la regulación sobre imágenes generadas con IA está evolucionando rápidamente.
+
+> **Puntos clave:**
+> - Prompts eficaces: sujeto + estilo visual + contexto de uso.
+> - Añadir "sin texto" evita textos inventados sobre la imagen.
+> - Alternativas gratuitas: Gemini, Unsplash y Pexels con licencia libre.
+> - Para uso interno habitual no hay restricciones prácticas relevantes.
 
 ### El flujo completo: contenido con IA de texto, diseño con Canva
 
@@ -112,6 +142,32 @@ Cuarto, **sustituye el texto de ejemplo** por el tuyo y ajusta los elementos vis
 Quinto, **revisa con los cuatro principios**: ¿está alineado todo? ¿Hay contraste suficiente? ¿Se ve la jerarquía de información? ¿Hay espacio para respirar?
 
 Sexto, **exporta y comparte**: Canva permite descargar en PDF de alta calidad, en PPTX (compatible con PowerPoint) o compartir directamente con un enlace.
+
+> **Puntos clave:**
+> - Texto y diseño son herramientas complementarias, no competidoras.
+> - El flujo tiene seis pasos, del objetivo hasta la exportación.
+> - Revisión final aplicando los cuatro principios de diseño.
+> - Exportar en PDF para compartir o PPTX para editar.
+
+### Gestión inteligente de la cuota gratuita
+
+Una de las preocupaciones recurrentes para alguien como Marta es agotar la cuota mensual de Magic Design o Magic Write justo cuando más la necesita, por ejemplo a mitad de mes con una presentación urgente entre manos. La clave para evitarlo es entender qué consume cuota y qué no. Cada vez que Magic Design genera propuestas de diseño, gasta uno de los usos mensuales; abrir una plantilla estándar de la biblioteca de Canva, en cambio, no consume nada. Lo mismo ocurre con Magic Write: pedirle al asistente un titular dentro del editor consume cuota; pegar un titular que ya ha escrito ChatGPT, no. En general, la estrategia recomendada según experiencia del sector es reservar Magic Design para presentaciones nuevas en las que de verdad no se tiene una idea visual previa, y trabajar con plantillas estándar cuando el formato ya es conocido. Si Marta llega al día 20 del mes con la cuota agotada, Canva sigue siendo perfectamente útil sin IA: la biblioteca de plantillas estándar es enorme y suficiente para la mayoría de proyectos de oficina.
+
+> **Puntos clave:**
+> - Las plantillas estándar no consumen cuota mensual de IA.
+> - Magic Design solo se justifica para presentaciones realmente nuevas.
+> - Pegar texto externo preserva la cuota de Magic Write.
+> - Sin cuota, Canva sigue siendo plenamente funcional con plantillas.
+
+### Accesibilidad básica en las presentaciones
+
+Una presentación profesional no solo debe verse bien, también debe ser comprensible para todas las personas del equipo, incluidas aquellas con baja visión, daltonismo o dificultades de lectura. Marta, que trabaja en un entorno con compañeros de perfiles muy distintos, descubre que aplicar accesibilidad básica no exige conocimientos técnicos: basta con cuidar el contraste entre texto y fondo (Canva lo avisa automáticamente), usar tamaños de fuente generosos (en general, no menos de 24 puntos para cuerpo de texto en proyección) y evitar transmitir información solo mediante color (por ejemplo, no usar únicamente verde y rojo para distinguir conceptos, porque buena parte de la población tiene dificultades para diferenciarlos). Añadir un texto alternativo descriptivo a las imágenes cuando se exporta a PDF también ayuda a los lectores de pantalla. Según experiencia del sector, una presentación accesible es además una presentación mejor diseñada para todos: lo legible para una persona con baja visión también es legible a distancia, en una sala con luz adversa o en una pantalla pequeña.
+
+> **Puntos clave:**
+> - Contraste y tamaño de fuente son los primeros pilares de accesibilidad.
+> - No transmitas información solo mediante el color.
+> - Texto alternativo en imágenes facilita lectores de pantalla.
+> - Lo accesible mejora la legibilidad para todos los espectadores.
 
 ---
 
@@ -176,6 +232,19 @@ La pareja busca en las plantillas de Canva una que tenga estructura de tres bull
 
 ---
 
+### Caso 4 — Cartel interno para anuncio de equipo
+
+**Situación:** Marta necesita avisar al equipo de un cambio en el horario de entrega de documentación. Un email plano se va a perder entre los correos del día y quiere un cartel sencillo, claro, que se pueda imprimir en A4 y colgar en la zona común, además de enviarse por el canal interno.
+
+**Prompt exacto en ChatGPT para el texto:**
+> "Genera el texto para un cartel A4 de oficina que anuncia un cambio de horario en la entrega de documentación. Debe incluir: un titular de máximo 5 palabras, una frase descriptiva de máximo 12 palabras, el horario nuevo en formato muy visible (de tal hora a tal hora) y una persona de contacto con email. Tono cordial y directo, sin tecnicismos."
+
+**Resultado comentado:** Marta abre Canva, busca la plantilla "Cartel A4 anuncio oficina" y selecciona una con bloques claros y mucho espacio en blanco. Pega el texto generado, ajusta la paleta a los colores corporativos y añade un icono de reloj. En diez minutos tiene un cartel imprimible que parece hecho por una agencia.
+
+**Cómo iterarlo:** Exporta dos versiones: PDF para impresión y PNG para enviar por el chat interno. Si el mes siguiente cambia otro horario, duplica el cartel en Canva y solo sustituye los datos: ahorra tiempo y mantiene coherencia visual entre comunicaciones internas.
+
+---
+
 ## 9. GLOSARIO
 
 **Canva:** Plataforma de diseño gráfico online con versión gratuita, accesible desde el navegador con cuenta de Gmail; incluye plantillas, elementos gráficos y funciones de IA como Magic Design y Magic Write.
@@ -202,6 +271,12 @@ La pareja busca en las plantillas de Canva una que tenga estructura de tres bull
 
 **Flujo contenido-diseño:** Metodología de trabajo que separa la producción de texto (con ChatGPT o Gemini) de la creación del diseño visual (con Canva), evitando la parálisis creativa de intentar hacer ambas cosas al mismo tiempo.
 
+**Plantilla:** Diseño predefinido en Canva que sirve de base para crear un documento; incluye tipografía, paleta de colores y distribución ya pensadas. Usar plantillas estándar no consume cuota mensual de Magic Design.
+
+**Paleta corporativa:** Conjunto de colores característicos de una empresa o marca; aplicarlos de forma coherente en una presentación refuerza la identidad visual y transmite profesionalidad sin esfuerzo adicional de diseño.
+
+**Texto alternativo:** Descripción textual breve que acompaña a una imagen y permite que lectores de pantalla la interpreten para personas con discapacidad visual; recomendable en exportaciones a PDF accesibles.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -219,6 +294,10 @@ La pareja busca en las plantillas de Canva una que tenga estructura de tres bull
 **Buena práctica — Privacidad en el diseño:** No incluyas en las diapositivas datos personales de clientes, empleados ni proveedores reales. Usa nombres ficticios o genéricos si necesitas ilustrar un ejemplo con datos. Una presentación de Canva compartida con un enlace es accesible para cualquier persona que tenga ese enlace, a menos que configures la privacidad correctamente.
 
 **Buena práctica — Usa una paleta de colores coherente.** Canva sugiere paletas de colores que combinan entre sí. Elige una y aplícala a toda la presentación. La coherencia cromática es uno de los factores que más contribuye a que una presentación parezca profesional, incluso si el diseño es simple.
+
+**Error 6 — Confiar ciegamente en la imagen generada con IA sin revisarla.** Los generadores de imágenes a veces producen detalles raros: manos con seis dedos, textos ilegibles superpuestos, objetos imposibles o gestos forzados. Revisa siempre la imagen antes de incluirla; si no convence, itera el prompt o cámbiala por una foto de Unsplash. En presentaciones serias, una imagen con un fallo visible resta más credibilidad de lo que aporta una imagen mediocre.
+
+**Buena práctica — Guarda una "presentación maestra" reutilizable.** Cuando consigas un diseño que funcione (paleta, tipografía, distribución), duplica el archivo en Canva y guárdalo con un nombre claro tipo "Plantilla equipo · v1". Para futuras presentaciones, parte de esa copia y solo cambia el contenido. Ganas tiempo y mantienes coherencia visual entre todos los documentos que produces.
 
 ---
 
@@ -330,6 +409,21 @@ d) No hay límite si combinan bien
 **12. ¿Por qué conviene revisar una presentación de Canva en pantalla grande antes de presentarla?**
 Respuesta abierta: Porque el contraste, el tamaño de texto y la legibilidad que se perciben en una pantalla de ordenador a 30 cm no corresponden a los que se perciben en una proyección en sala o en una pantalla grande a varios metros de distancia. Elementos que parecen legibles en el ordenador pueden ser ilegibles proyectados.
 
+**13. ¿Cuál es la forma correcta de transmitir información en una diapositiva accesible para personas con daltonismo?**
+a) Usar únicamente rojo y verde para contrastar conceptos
+b) Apoyarse solo en el color para diferenciar elementos clave
+c) Combinar color con otro indicador visual como icono, texto o forma ✓
+d) Eliminar todo el color de la presentación
+
+**14. ¿Qué prompt produce una imagen más útil para una diapositiva corporativa?**
+a) "Una imagen bonita para una presentación"
+b) "Equipo de personas en reunión de oficina moderna, estilo fotografía profesional, luz natural, sin texto" ✓
+c) "Algo profesional"
+d) "Imagen genérica de oficina con muchos colores"
+
+**15. ¿Qué ventaja tiene guardar una "presentación maestra" reutilizable en Canva?**
+Respuesta abierta: Permite ahorrar tiempo en futuras presentaciones porque ya tienes definidos la paleta, la tipografía y la estructura; solo cambias el contenido. Además mantiene coherencia visual entre los documentos que produces, lo que refuerza la profesionalidad sin esfuerzo adicional de diseño y reduce el consumo de cuota de Magic Design.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -357,6 +451,12 @@ Usa Magic Design con una descripción más detallada del estilo que buscas. Si l
 
 **¿Puedo añadir mi logotipo de empresa a las plantillas de Canva?**
 Sí. Si tienes el logotipo en formato digital (PNG, JPG o SVG), puedes subirlo a Canva y añadirlo a cualquier diseño. El plan gratuito permite subir y almacenar imágenes propias sin restricciones de cantidad.
+
+**¿Conviene usar Magic Write para todo el texto de la presentación?**
+No es la mejor estrategia. Magic Write está pensado para titulares y bullets breves dentro del editor. Para estructuras más elaboradas, conviene producir el contenido en ChatGPT o Gemini, donde puedes iterar libremente, y luego pegarlo en Canva. Así preservas la cuota mensual de Magic Write para los momentos en los que realmente la necesitas dentro del diseño.
+
+**¿Qué hago si la imagen generada con IA tiene fallos visibles como manos con seis dedos o texto raro?**
+Revisa siempre las imágenes antes de incluirlas en la presentación. Si detectas fallos, prueba a iterar el prompt añadiendo precisiones (por ejemplo, "primer plano de manos no visible" o "sin texto"), genera otra variante o sustitúyela por una foto de Unsplash. En una presentación seria, una imagen con un fallo evidente resta más credibilidad que aportar valor visual.
 
 ---
 
@@ -400,6 +500,8 @@ Para tu proyecto final: lo de hoy te sirve para diseñar la presentación con la
 - La cuota de Magic Design y Magic Write es limitada al mes: úsalas con criterio y conoce las alternativas (plantillas estándar de Canva, Gemini para imágenes, Unsplash para fotos).
 - Nunca pongas datos personales en una presentación de Canva que vayas a compartir con enlace: un enlace de Canva es accesible para cualquiera que lo tenga.
 - El mismo diseño de Canva puede reutilizarse: duplica la presentación de hoy y cámbiala de contenido para el siguiente documento que necesites; la consistencia visual también es profesionalidad.
+- Accesibilidad mínima en cada diapositiva: contraste suficiente, tamaño de fuente generoso y nunca transmitir información solo mediante color; lo accesible mejora la legibilidad para todos.
+- Revisa siempre las imágenes generadas con IA antes de incluirlas: si tienen fallos visibles (manos extrañas, textos inventados), itera el prompt o sustitúyelas por una foto de Unsplash.
 
 ---
 
