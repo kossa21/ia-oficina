@@ -47,13 +47,19 @@ La atención al cliente es una de las áreas donde la IA ofrece el mayor retorno
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El coste real de una respuesta mal gestionada
 
 Marta gestiona, entre otras cosas, las consultas y reclamaciones que llegan al departamento de administración de su empresa de distribución. Cada semana llegan entre 20 y 30 correos de clientes: algunos preguntan por el estado de sus pedidos, otros reclaman un error en la factura, otros están frustrados porque llevan tres semanas esperando una resolución. Antes de este curso, Marta redactaba cada respuesta desde cero, buscando el tono correcto, revisando qué había pasado con ese expediente y asegurándose de no hacer promesas que no podía cumplir. Cada correo le llevaba entre 8 y 15 minutos. Con un banco de respuestas tipo bien construido y los prompts adecuados, ese tiempo se reduce a 2–3 minutos por caso, y la calidad de la respuesta es consistentemente alta.
 
 El coste de una mala gestión de atención al cliente va más allá del tiempo del trabajador: una respuesta tarde, ambigua o con un tono inadecuado puede escalar una consulta menor a una reclamación formal, dañar la relación con un cliente fiel o generar trabajo adicional para otros departamentos. La IA no garantiza respuestas perfectas, pero sí respuestas consistentes, bien estructuradas y adaptadas al tono que la organización quiere proyectar, siempre que los prompts estén bien construidos y la persona que los usa mantenga el criterio profesional sobre el resultado final.
+
+> **Puntos clave:**
+> - Cada correo tipo se reduce de 8–15 min a 2–3 min con IA
+> - Una mala respuesta escala consultas menores a reclamaciones formales
+> - La IA aporta consistencia de tono y estructura, no perfección
+> - El criterio profesional sigue siendo del trabajador, no del modelo
 
 ### Construir un banco FAQ desde casos reales
 
@@ -65,6 +71,12 @@ La segunda fase es **generar las respuestas en lote** con un único prompt:
 
 La tercera fase es **organizar el banco** en un Google Doc con secciones por categoría, los campos variables claramente marcados y una nota de cuándo usar cada plantilla. Este banco se convierte en el recurso de trabajo diario: antes de redactar una respuesta desde cero, se comprueba si hay una plantilla aplicable.
 
+> **Puntos clave:**
+> - Identifica las 5–6 categorías que cubren el 80 % del volumen
+> - Genera las plantillas en un único prompt en lote
+> - Marca campos variables en [CORCHETES] para personalizar al usar
+> - Organiza el banco en Google Doc por categoría con nota de uso
+
 ### El patrón Reconoce / Informa / Actúa (RIA) en profundidad
 
 El patrón RIA, introducido en D06 para correos de clientes, cobra especial importancia en situaciones donde el cliente está frustrado, lleva tiempo esperando o percibe que no se le ha dado la atención que merece. Aplicado correctamente, este patrón transforma una respuesta defensiva en una respuesta que mantiene la relación.
@@ -75,6 +87,12 @@ El **Informa** explica con claridad y sin excusas lo que ha ocurrido, lo que est
 
 El **Actúa** es el compromiso concreto: qué va a pasar, quién es el responsable y cuándo se tendrá una respuesta. "Voy a escalar este caso a [RESPONSABLE] hoy antes de las 17:00 h y recibirás una respuesta con el estado actualizado antes del [FECHA]. Si no la recibes, puedes contactarme directamente en [CONTACTO]." La acción concreta con plazo real es lo que convierte una respuesta de atención en una solución.
 
+> **Puntos clave:**
+> - Reconoce específico, sin frases hechas ("lamentamos las molestias")
+> - Informa con honestidad: hechos, no excusas ni descargos
+> - Actúa con compromiso concreto: acción, responsable y plazo real
+> - El Actúa convierte una respuesta de atención en una solución
+
 ### Adaptación multicanal: el mismo mensaje en tres formatos
 
 Los clientes y las consultas internas llegan por múltiples canales: correo electrónico, Teams, WhatsApp corporativo, teléfono. El mismo mensaje necesita formatos completamente distintos según el canal, y la IA puede generar los tres en segundos a partir de la respuesta base:
@@ -83,11 +101,23 @@ Los clientes y las consultas internas llegan por múltiples canales: correo elec
 
 El correo formal puede tener 200 palabras con saludo, cuerpo estructurado y despedida. El mensaje de Teams necesita ser directo, sin saludo y en no más de 3 líneas. El guion de teléfono es una serie de puntos que el trabajador usa como referencia durante la llamada, no un texto que lee literalmente.
 
+> **Puntos clave:**
+> - Mismo contenido, tres formatos según canal (correo, Teams, teléfono)
+> - Correo formal: 200 palabras con saludo y despedida
+> - Teams/WhatsApp: 3 líneas, directo, sin saludo formal
+> - Guion telefónico: lista de puntos, no texto para leer literalmente
+
 ### Escalados que funcionan: pasar el caso sin perder información
 
 Uno de los mayores problemas en la gestión de reclamaciones es el escalado: cuando un caso supera las competencias de quien lo recibe y tiene que pasarse a otro departamento o a un superior, con frecuencia se pierde información o el cliente tiene que repetir todo desde el principio. La IA ayuda a estructurar el escalado para que quien lo recibe tenga todo lo que necesita sin hacer preguntas adicionales:
 
 > "Redacta un mensaje de escalado interno para [RESPONSABLE_DEL_ESCALADO] sobre el caso de [CLIENTE_ANONIMIZADO]. Incluye: (1) resumen del problema en 3 líneas, (2) historial de contactos (qué se ha dicho y qué se ha prometido), (3) qué necesita el cliente y cuándo, (4) qué tengo yo competencia para resolver y qué no, (5) qué necesito de ti para cerrar el caso."
+
+> **Puntos clave:**
+> - Un escalado mal estructurado obliga a llamar al cliente otra vez
+> - Cinco bloques: problema, historial, necesidad, competencia, petición concreta
+> - Incluye siempre lo que ya se ha prometido al cliente
+> - El receptor del escalado debe poder actuar sin pedirte aclaraciones
 
 ### Privacidad en atención al cliente: la regla más importante de hoy
 
@@ -96,6 +126,12 @@ La atención al cliente trabaja por definición con datos personales: nombre del
 Antes de pegar cualquier correo de cliente en ChatGPT, Gemini o Claude, sustituye: nombre del cliente → CLIENTE_A, número de expediente → REF_EXPEDIENTE_X, importe → IMPORTE_X, dirección → DIRECCIÓN_Y. El nombre del trabajador que responde puede dejarse si es el propio, pero los datos identificativos del cliente siempre se protegen.
 
 Si el caso es tan específico que la anonimización hace la consulta inútil, la alternativa es trabajar con una descripción genérica del problema y el patrón de respuesta, y luego personalizar manualmente con los datos reales. En ningún caso se suben expedientes, contratos o datos de clientes a herramientas de IA externas sin verificar su política de privacidad.
+
+> **Puntos clave:**
+> - Nombre → CLIENTE_A, expediente → REF_X, importe → IMPORTE_X
+> - Si la anonimización hace la consulta inútil, usa descripción genérica
+> - Nunca subir expedientes o contratos a IA externa sin verificar política
+> - La privacidad no admite excepciones, incluso bajo presión de tiempo
 
 ### Cuándo no usar IA en atención al cliente
 
@@ -107,6 +143,26 @@ La IA no reemplaza el juicio humano ni la empatía real. Hay situaciones donde l
 - Clientes con los que hay una relación de mucho tiempo y que esperan un trato personal
 
 La IA es una herramienta de productividad, no un sustituto de la relación humana. Saber cuándo no usarla es tan importante como saber cómo usarla bien.
+
+> **Puntos clave:**
+> - Angustia grave del cliente requiere respuesta humana genuina
+> - Casos legales o contractuales necesitan validación jurídica previa
+> - Errores graves de la organización merecen disculpa personal, no plantilla
+> - Saber cuándo no usar IA es tan importante como saber cómo usarla
+
+### Aprender de cada caso: el ciclo de mejora del banco FAQ
+
+Un banco FAQ no es un documento estático: es un sistema vivo que mejora cada semana con la experiencia real de su uso. Marta descubre, después de tres semanas usando su banco, que algunas plantillas necesitan ajustes: la respuesta a "cambio de dirección" omitía un dato que el cliente siempre pregunta después, la respuesta al cliente frustrado se sentía demasiado formal cuando el cliente había escrito con tono coloquial, y faltaba una categoría completamente nueva (clientes que preguntan por el plazo de devolución).
+
+El ciclo de mejora tiene cuatro pasos. Primero, **etiquetar** cada respuesta que se envía indicando qué plantilla del banco se usó como base (puede ser una nota al final del correo en la carpeta de enviados). Segundo, **revisar semanalmente** qué respuestas generaron una segunda consulta del cliente: si el cliente vuelve a preguntar algo que la plantilla ya cubría, la plantilla no estaba siendo clara. Tercero, **actualizar la plantilla** con la información que faltaba o el tono que conectaba mejor. Cuarto, **documentar el cambio** con una breve nota en el Google Doc del banco para que el equipo entienda por qué se modificó.
+
+Este ciclo de mejora convierte el banco FAQ de una herramienta inicial en un activo del equipo que mejora con el tiempo. La diferencia entre un banco mantenido y un banco abandonado es lo que separa una herramienta útil durante seis meses de una herramienta útil durante años.
+
+> **Puntos clave:**
+> - Etiqueta cada envío con la plantilla base usada para trazabilidad
+> - Revisa semanalmente qué respuestas generaron una segunda consulta
+> - Actualiza plantillas según la experiencia real de uso
+> - Documenta el cambio en el Doc compartido para todo el equipo
 
 ---
 
@@ -157,6 +213,23 @@ La IA es una herramienta de productividad, no un sustituto de la relación human
 
 **Resultado comentado:** El escalado tiene toda la información necesaria para que logística actúe sin hacer preguntas adicionales. Marta solo tiene que personalizar los nombres reales antes de enviarlo.
 
+**Cómo iterarlo:** "Adapta el mismo mensaje a una versión más corta para Teams (máximo 3 líneas) que sirva como aviso inmediato a logística antes del correo oficial."
+
+---
+
+### Caso 4 — Respuesta al cliente frustrado con patrón RIA
+
+**Situación:** Marta recibe un correo de un cliente que lleva 3 semanas esperando la resolución de una incidencia de facturación. El cliente está visiblemente molesto y dice que va a cancelar su contrato si no recibe respuesta hoy. Marta tiene que responder en menos de 1 hora.
+
+**Paso 1 — Anonimizar antes de pegar el correo en la IA:** Marta sustituye el nombre del cliente por CLIENTE_A, el número de expediente por REF_X y el importe disputado por IMPORTE_X. El nombre de su propia empresa también lo sustituye por EMPRESA si va a aparecer en el prompt.
+
+**Prompt exacto:**
+> "Responde a este correo de cliente frustrado usando el patrón Reconoce / Informa / Actúa. Tono: empático pero profesional. Máximo 150 palabras. El cliente CLIENTE_A lleva 3 semanas esperando respuesta sobre el expediente REF_X. La realidad es que el caso se quedó atascado por un cambio interno de departamento que no le comunicamos. Hoy hemos verificado que su reclamación es válida y procede el ajuste por IMPORTE_X. Mi compromiso: confirmación oficial del ajuste antes del viernes a las 17h, con justificante por email. Si no recibe nada, mi contacto directo es ext. 234."
+
+**Resultado comentado:** La IA genera una respuesta de 140 palabras. El Reconoce evita la frase hecha y nombra específicamente las tres semanas y el silencio. El Informa explica el cambio interno sin descargar responsabilidad en el cliente. El Actúa incluye fecha concreta, formato del justificante y vía de contacto directo. Marta solo personaliza con el nombre real, revisa que el tono sea coherente con la cultura de la empresa, y envía en menos de 15 minutos.
+
+**Cómo iterarlo:** "Ahora reescribe el primer párrafo con un tono más cálido — el cliente lleva 4 años con nosotros y es importante que sienta que valoramos esa relación, no solo que resolvemos su incidencia."
+
 ---
 
 ## 9. GLOSARIO
@@ -177,6 +250,14 @@ La IA es una herramienta de productividad, no un sustituto de la relación human
 
 **Empatía en la respuesta:** Reconocimiento genuino y específico de la situación y las emociones del cliente; diferente de las frases hechas ("lamentamos las molestias") y difícil de conseguir sin pensar en el caso concreto.
 
+**Campo variable:** Marca tipo [NOMBRE_CLIENTE] o [FECHA] dentro de una plantilla, que se sustituye por el valor real antes de enviar el mensaje; permite reutilizar la misma plantilla con personalización mínima.
+
+**Ciclo de mejora del banco:** Proceso continuo de etiquetar, revisar, actualizar y documentar las plantillas a partir de la experiencia real de uso; convierte el banco FAQ en un activo del equipo que mejora con el tiempo.
+
+**Cliente frustrado:** Cliente que ha experimentado un retraso, error o silencio prolongado por parte de la organización y cuya prioridad emocional es sentirse escuchado antes que recibir la solución técnica.
+
+**Tono institucional:** Estilo de comunicación adoptado por una organización (formal, cercano, técnico, accesible); definirlo y pegarlo como ejemplo en el prompt es la mejor forma de que la IA respete el tono de la empresa.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -192,6 +273,10 @@ La IA es una herramienta de productividad, no un sustituto de la relación human
 **Error 5 — Escalado sin toda la información.** Un escalado incompleto obliga a quien lo recibe a llamar al cliente para pedir datos que ya tenías. El prompt de escalado debe incluir siempre el historial de contactos y lo que se ha prometido.
 
 **Buena práctica — Revisa el banco FAQ cada trimestre.** Las consultas más frecuentes cambian con las temporadas, los productos o los procesos. Dedica 15 minutos al trimestre a añadir las nuevas categorías y actualizar las plantillas obsoletas.
+
+**Error 6 — No coincidir el tono de la respuesta con el del cliente.** Si el cliente escribe con tono cercano y coloquial y la IA produce una respuesta extremadamente formal, el cliente percibe distancia. Pide explícitamente: "Adapta el registro al tono del correo del cliente, manteniendo la profesionalidad pero sin sonar institucional."
+
+**Buena práctica — Etiqueta tus envíos con la plantilla utilizada.** Una breve nota mental ("usé plantilla 2 con cambio en el Actúa") permite revisar después qué funcionó y qué no. Esa información alimenta el ciclo de mejora del banco FAQ semana a semana.
 
 ---
 
@@ -295,6 +380,30 @@ d) Usando solo el resumen del caso, no el expediente completo
 **10. Verdadero o falso: un banco FAQ bien construido elimina la necesidad de personalizar las respuestas antes de enviarlas.**
 Respuesta: **Falso**. Las plantillas tienen campos variables en [CORCHETES] que siempre deben completarse. Además, algunos casos tienen elementos específicos que merecen una línea personalizada. Enviar una plantilla sin personalizar suena a plantilla y el cliente lo percibe.
 
+**11. ¿Cuáles son los cuatro pasos del ciclo de mejora del banco FAQ?**
+a) Crear, enviar, archivar, olvidar
+b) Etiquetar el envío, revisar las respuestas que generaron segunda consulta, actualizar la plantilla, documentar el cambio ✓
+c) Imprimir, distribuir, firmar, archivar
+d) Aprobar, traducir, publicar, mantener
+
+**12. ¿Cómo se le indica a la IA que adapte el tono al cliente sin perder profesionalidad?**
+Respuesta abierta: Se le pide explícitamente: "Adapta el registro al tono del correo del cliente, manteniendo la profesionalidad pero sin sonar institucional." Si se quiere reforzar, se puede pegar un ejemplo del tono deseado en el prompt: "Aquí tienes una respuesta nuestra previa que nos parece bien: [PEGAR EJEMPLO]." La IA ajusta su estilo al ejemplo.
+
+**13. ¿Qué es un "pago huérfano" en la atención al cliente? (concepto del flujo de cruce de tablas)**
+a) Un pago duplicado del mismo cliente
+b) Un pago recibido sin factura emitida que se le corresponda ✓
+c) Una factura emitida sin pago
+d) Un pago aprobado pero sin cobro efectivo
+
+**14. ¿Cuál es la principal ventaja de etiquetar cada envío con la plantilla usada?**
+a) Permite cobrar comisiones internas por uso de plantillas
+b) Sirve para reportar al cliente qué plantilla se le envió
+c) Permite revisar después qué plantillas funcionan mejor y mejorar el banco ✓
+d) Es un requisito legal de protección de datos
+
+**15. Verdadero o falso: si el cliente lleva 4 años con la empresa, conviene mencionarlo explícitamente en el Reconoce de una respuesta a una queja.**
+Respuesta: **Verdadero**. Mencionar la relación de largo plazo en el Reconoce ("Después de cuatro años con nosotros, entiendo que esta situación te afecta especialmente") refuerza el sentido de continuidad de la relación y diferencia la respuesta de una plantilla genérica. La IA puede incorporarlo cuando se incluye en el prompt como dato del contexto.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -316,6 +425,15 @@ Ajusta el prompt inicial con ejemplos del tono que usa tu empresa: "El tono que 
 
 **¿Qué pasa si el cliente responde a la plantilla con algo que no cubre ninguna de mis respuestas tipo?**
 Las plantillas cubren los casos frecuentes, no todos los casos. Para los casos atípicos, usa el flujo normal de prompt con contexto: describe la situación específica del cliente y pide a la IA una respuesta a medida. No intentes forzar una plantilla donde no encaja.
+
+**¿Cómo enseño a un compañero a usar el banco FAQ que he construido?**
+Documenta junto al banco una breve guía de uso: cuándo aplica cada plantilla, qué campos variables hay que completar siempre y qué tipo de casos requieren respuesta a medida en lugar de plantilla. La propia IA puede generar esa guía a partir del banco con un prompt: "Genera una guía de uso de 1 página para este banco de respuestas, dirigida a una persona nueva en el equipo."
+
+**¿Qué hago si percibo que la respuesta generada suena demasiado fría o demasiado formal?**
+Pide a la IA un ajuste de tono explícito: "Reescribe esta respuesta con un tono más cálido, manteniendo el contenido pero haciendo que el cliente sienta que hay una persona detrás del mensaje, no una plantilla." Si el problema persiste, pega un ejemplo del tono que usa tu empresa en otras comunicaciones para que la IA lo replique.
+
+**¿El patrón RIA sirve también para situaciones internas (compañeros, jefes) y no solo para clientes externos?**
+Sí, y de hecho funciona excepcionalmente bien internamente. Reconoce ("entiendo que necesitas el dato para hoy"), Informa ("estoy esperando confirmación de logística para validarlo") y Actúa ("te lo envío antes de las 14:00 con la confirmación o, si no llega, con la mejor estimación que tenga"). Es el mismo patrón con el mismo efecto: convierte una respuesta en una solución.
 
 ---
 
@@ -358,6 +476,8 @@ Para tu proyecto final: si tu solución implica atención a consultas (de client
 - El patrón RIA (Reconoce específicamente / Informa con claridad / Actúa con plazo concreto) transforma una respuesta defensiva en una que mantiene la relación.
 - La misma respuesta necesita tres formatos distintos: correo formal, Teams/WhatsApp en 3 líneas, guion de teléfono.
 - Saber cuándo NO usar IA es tan importante como saber usarla: hay situaciones que requieren respuesta humana genuina.
+- El banco FAQ es un sistema vivo: etiqueta cada envío, revisa semanalmente y actualiza las plantillas según la experiencia real de uso.
+- El patrón RIA funciona también con compañeros y jefes, no solo con clientes externos: convierte cualquier respuesta en una solución con plazo.
 
 ---
 
