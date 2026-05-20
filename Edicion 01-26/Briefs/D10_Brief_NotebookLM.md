@@ -47,7 +47,7 @@ Los datos están en todas partes en la oficina: hojas de gastos, registros de in
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El problema de los datos en la oficina
 
@@ -58,6 +58,12 @@ El análisis de datos ha sido históricamente el dominio exclusivo de personas c
 La primera opción es **Google Sheets con Gemini**. Desde 2024, Google ha integrado Gemini directamente en Google Sheets. Esto significa que puedes seleccionar un rango de datos, abrir el panel lateral de Gemini y escribirle en lenguaje normal lo que necesitas: "Genera una fórmula para calcular el total por departamento", "Crea una tabla dinámica con el gasto mensual por categoría", "¿Hay valores atípicos en la columna de importes?". Gemini genera la fórmula o la tabla directamente en la hoja, sin que tengas que saber la sintaxis. Esta opción es ideal cuando los datos están ya en Google Sheets y no quieres sacarlos de ahí, lo que también garantiza mayor control sobre la privacidad.
 
 La segunda opción es **copiar la tabla y pegarla en ChatGPT o Claude**. Si tienes una hoja en Excel o Sheets, puedes seleccionar el rango, copiarlo y pegarlo directamente en el chat de cualquier IA como texto. La IA leerá la estructura de la tabla y podrá responder preguntas, calcular totales, identificar tendencias o sugerir visualizaciones. Esta opción es más flexible porque funciona con cualquier formato de tabla, y el modelo puede hacer razonamientos más complejos sobre los datos. La limitación es que la tabla tiene que ser de tamaño moderado (no miles de filas) y, sobre todo, hay que **anonimizar antes de pegar**: ningún nombre de cliente, empleado o proveedor real debe salir de tu sistema.
+
+> **Puntos clave:**
+> - Dos caminos accesibles: Gemini en Sheets o tabla pegada en ChatGPT/Claude
+> - Gemini en Sheets mantiene los datos dentro de tu cuenta Google
+> - Pegar en chat externo exige anonimizar previamente
+> - La IA elimina la barrera de Excel para perfiles no técnicos
 
 ### Fórmulas en lenguaje natural: el fin de la sintaxis imposible
 
@@ -70,6 +76,12 @@ El flujo es simple: describes en palabras lo que quieres calcular, y la IA te da
 
 Y si no entiendes la fórmula que te ha dado, puedes pedirle: "Explícame qué hace cada parte de esta fórmula en lenguaje sencillo." Esto es aprendizaje y productividad a la vez.
 
+> **Puntos clave:**
+> - Describes el cálculo en palabras, la IA devuelve la fórmula lista
+> - Indica rango exacto (columnas y filas) para que la fórmula compile
+> - Pídele que explique la fórmula resultante para aprender la sintaxis
+> - Sirve para SUMIF, BUSCARV, condicionales anidadas y fórmulas complejas
+
 ### Cómo interpretar los resultados: de números a conclusiones
 
 Obtener números es solo el primer paso. Lo valioso es saber qué significan esos números para tu organización. La IA también ayuda aquí:
@@ -78,6 +90,12 @@ Una vez que tienes los datos calculados, puedes pegar el resumen (ya anonimizado
 
 El paso siguiente es convertir ese análisis en una recomendación accionable para tu equipo. El prompt para eso es: "Basándote en este análisis, redacta un párrafo de conclusiones y una recomendación concreta para el equipo de gestión. Tono ejecutivo, máximo 150 palabras."
 
+> **Puntos clave:**
+> - Calcular es el primer paso; interpretar es lo que aporta valor real
+> - Pídele patrones, anomalías y posibles causas, no solo cifras
+> - Cierra con párrafo ejecutivo: conclusión + recomendación accionable
+> - Tu criterio profesional revisa y adapta el análisis a tu audiencia
+
 ### La regla de oro: anonimiza antes de analizar
 
 Este punto no puede repetirse suficiente: **antes de pegar cualquier tabla en ChatGPT, Claude o cualquier herramienta de IA externa, debes anonimizar los datos**. Sustituye los nombres de clientes por CLIENTE_A, CLIENTE_B; los nombres de proveedores por PROVEEDOR_X; los nombres de empleados por EMPLEADO_1; los importes exactos puedes mantenerlos si son públicos o redondearlos a aproximaciones si son confidenciales.
@@ -85,6 +103,68 @@ Este punto no puede repetirse suficiente: **antes de pegar cualquier tabla en Ch
 Si los datos son muy sensibles y no puedes anonimizarlos suficientemente, la opción segura es trabajar únicamente con Gemini dentro de Google Sheets (los datos no salen de tu cuenta de Google) o consultar con el responsable de protección de datos de tu organización antes de proceder.
 
 Además del riesgo de privacidad, hay un riesgo técnico específico para el análisis de datos: las **alucinaciones numéricas**. A diferencia de los textos, donde una alucinación es difícil de detectar, en los números es más frecuente y grave que la IA "calcule" un total incorrecto con total confianza. La regla es siempre verificar los cálculos de la IA con una muestra: comprueba manualmente 2 o 3 de los resultados que te ha dado para confirmar que la fórmula o el análisis es correcto.
+
+> **Puntos clave:**
+> - Sustituye nombres reales por etiquetas (CLIENTE_A, PROVEEDOR_X) antes de pegar
+> - Datos muy sensibles → trabaja solo en Gemini dentro de Sheets
+> - Las alucinaciones numéricas son más frecuentes que las de texto
+> - Verifica manualmente 2–3 cálculos antes de presentar el análisis
+
+### Limpiar los datos sucios: el paso previo invisible
+
+En la oficina real, las hojas de datos rara vez llegan limpias. Marta abre el extracto de gastos y se encuentra con tres versiones del mismo proveedor (con espacios, con mayúsculas, con guiones), fechas en cuatro formatos distintos (dd/mm, mes en texto, fecha completa) y celdas vacías mezcladas con ceros literales. Un análisis hecho sobre datos sucios genera totales falsos. La limpieza es el paso previo invisible que distingue el análisis útil del análisis equivocado.
+
+La IA simplifica drásticamente esa limpieza. Pegas una muestra de las 20 primeras filas en el chat y le pides: "Esta es una muestra de los datos. Detecta inconsistencias en los nombres de proveedor, en los formatos de fecha y en los importes. Sugiere reglas de normalización para unificarlos." La IA identifica las duplicaciones por mayúsculas, los formatos heterogéneos y las celdas problemáticas. Después, con Gemini en Sheets, puedes pedir directamente: "Crea una columna nueva que normalice los valores de la columna B convirtiéndolos todos a minúsculas y eliminando espacios al principio y al final." Lo que antes era una tarde con buscar-reemplazar, hoy son tres prompts.
+
+La regla de oro aquí es **limpiar antes de calcular**, no después. Si Marta hace el análisis con los datos sucios y luego intenta corregirlo, los totales por departamento estarán mezclados entre "Administración" y "administración " (con espacio) como si fueran dos departamentos diferentes. Limpiar lleva 10 minutos; recalcular después de detectar el problema lleva una hora.
+
+> **Puntos clave:**
+> - Datos sucios producen totales falsos con apariencia de precisión
+> - Pide a la IA detectar inconsistencias en una muestra de 20 filas
+> - Normaliza con Gemini en Sheets: minúsculas, sin espacios, formato único
+> - Limpia primero, calcula después — al revés cuesta seis veces más
+
+### Comparar dos tablas: cruces, diferencias y duplicados
+
+Una de las tareas más recurrentes para perfiles administrativos es cruzar dos listas: pedidos cobrados frente a pedidos pendientes, asistentes registrados frente a asistentes reales, facturas emitidas frente a facturas pagadas. Antes, esto requería un BUSCARV bien construido o una macro. Con IA, es una instrucción en lenguaje natural que casi cualquiera puede formular.
+
+El planteamiento es siempre el mismo: dos tablas, una columna común que sirve de identificador (número de pedido, código de cliente anonimizado, referencia de factura) y una pregunta concreta. Por ejemplo, Marta tiene una hoja con todas las facturas emitidas en mayo y otra con los pagos recibidos. Pega ambas tablas en ChatGPT y le pide: "Cruza estas dos tablas por el campo 'referencia'. Dime qué facturas emitidas no tienen pago registrado (impagos), qué pagos no se corresponden con ninguna factura (pagos huérfanos) y si hay alguna referencia duplicada en cualquiera de las dos tablas." La IA produce tres listas separadas y un resumen breve.
+
+Si las tablas son grandes, el mismo cruce se puede hacer con Gemini en Sheets pidiendo una fórmula de tipo BUSCARV o COINCIDIR. La IA construye la fórmula y la pega en la columna que indiques. Lo importante es nombrar bien lo que buscas (impagos, duplicados, faltantes) para que la IA estructure la respuesta de forma útil.
+
+> **Puntos clave:**
+> - Cruce de tablas con una columna común: pega las dos y pide los desajustes
+> - Nombra explícitamente los tres resultados: faltantes, huérfanos, duplicados
+> - Para tablas grandes, pide la fórmula y aplícala en Sheets
+> - Útil para conciliación de pagos, control de asistentes y revisión de listas
+
+### Detectar tendencias y estacionalidad en series temporales
+
+Cuando los datos tienen una columna de fecha, aparece un análisis adicional que es enormemente valioso para la oficina: las **series temporales**. Las series temporales son simplemente datos ordenados por momento (mes, semana, día) que permiten detectar tres cosas: si el dato crece o decrece de forma sostenida (tendencia), si se repite con un patrón periódico (estacionalidad) y si hay momentos puntuales fuera de la curva (picos o caídas).
+
+Marta tiene los gastos de los últimos doce meses agrupados por mes. Pega la tabla en el chat y le pregunta: "Analiza esta serie temporal de doce meses de gasto. ¿Hay una tendencia general (al alza, a la baja, plana)? ¿Se observa estacionalidad (algún mes que se repita con valores altos cada año)? ¿Hay picos o caídas puntuales que merezca la pena investigar?" La IA identifica el patrón estacional (los gastos suben en julio y diciembre), señala el pico de mayo como anomalía y describe la tendencia general como ligeramente creciente.
+
+Esta capacidad transforma reuniones operativas. En vez de presentar números aislados de un mes, Marta presenta el contexto: "Mayo es un 40 % superior a la media, pero esto coincide con dos meses anteriores de subida. Hay que comprobar si es estacional o si responde a una causa específica." La interpretación es la diferencia entre un informe que se lee y un informe sobre el que se decide.
+
+> **Puntos clave:**
+> - Una columna de fecha permite analizar tendencia, estacionalidad y picos
+> - Pide los tres patrones en una sola instrucción para no fragmentar
+> - La estacionalidad explica anomalías aparentes y evita falsos positivos
+> - Una tendencia contextualiza un número aislado y orienta la decisión
+
+### El gráfico correcto para cada tipo de pregunta
+
+Un error frecuente es elegir el tipo de gráfico antes de tener clara la pregunta que se quiere responder. La IA puede ayudar también aquí. La regla básica es: **barras** para comparar categorías (qué departamento gasta más), **líneas** para mostrar evolución en el tiempo (cómo varía el gasto mes a mes), **sectores** (tartas) para mostrar proporción sobre un total (qué porcentaje representa cada categoría sobre el gasto total) y **dispersión** para mostrar relación entre dos variables (ingresos frente a horas trabajadas, por ejemplo).
+
+Cuando Marta no está segura, pega los datos en el chat y le pregunta: "Estos son los datos. La pregunta que quiero responder es: ¿qué departamento gasta más por mes? ¿Qué tipo de gráfico es el más adecuado y por qué?" La IA elige (en este caso, gráfico de barras agrupadas por mes) y explica el razonamiento. Después puede pedir a Gemini en Sheets que cree el gráfico directamente, o seguir los pasos manuales que la IA le ha indicado.
+
+El otro consejo importante es **no sobrecargar el gráfico**. Si la tabla tiene cinco años de datos y veinte categorías, un gráfico que incluya todo es ilegible. La IA puede ayudar a filtrar: "Quédate con los últimos doce meses y con las cinco categorías de mayor volumen; las demás agrúpalas en 'Otras'." Un gráfico legible vale más que un gráfico exhaustivo.
+
+> **Puntos clave:**
+> - Barras comparan; líneas muestran evolución; tartas reparten; dispersión relaciona
+> - Define primero la pregunta, después elige el tipo de gráfico
+> - Pídele a la IA que justifique la elección antes de generar el gráfico
+> - Un gráfico legible filtra y agrupa; no busca mostrar todos los datos
 
 ---
 
