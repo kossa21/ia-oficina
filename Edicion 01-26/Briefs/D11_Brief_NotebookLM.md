@@ -220,6 +220,26 @@ Un consejo final: guarda en un Google Doc el listado de prompts de búsqueda y s
 
 ---
 
+### Caso 4 — Flujo combinado: descubrir con Perplexity, profundizar con NotebookLM
+
+**Situación:** Marta recibe el encargo de evaluar herramientas de firma digital para contratos con proveedores. No sabe qué opciones existen en el mercado español ni cuáles son las más usadas en pymes.
+
+**Paso 1 — Descubrir con Perplexity:**
+> "¿Cuáles son las tres herramientas de firma digital más usadas por pequeñas y medianas empresas en España en 2026? Incluye precio aproximado, integraciones más comunes y valoración de usuarios. Cita fuentes."
+
+Perplexity devuelve tres opciones (Signaturit, Docusign, Adobe Sign) con datos comparativos y fuentes citadas. Marta hace clic en dos referencias para verificar que los precios están actualizados al año en curso.
+
+**Paso 2 — Descargar y subir a NotebookLM:** Marta visita las tres webs oficiales y descarga las páginas de "Planes y precios" y "Funcionalidades" en formato PDF (o las guarda como "imprimir a PDF" desde el navegador). Sube los seis PDFs a un nuevo cuaderno de NotebookLM.
+
+**Paso 3 — Profundizar con preguntas precisas:**
+> "Compara las tres herramientas en los siguientes criterios: (1) precio del plan más barato adecuado para 5 usuarios, (2) número de firmas mensuales incluidas, (3) integraciones con Google Workspace, (4) cumplimiento eIDAS, (5) opciones de almacenamiento de los contratos firmados. Indica claramente cuándo un dato no aparece en los documentos subidos."
+
+**Resultado comentado:** NotebookLM responde citando el párrafo exacto de cada PDF. Detecta que dos de las tres herramientas no especifican el límite mensual de firmas en el plan básico, así que Marta sabe que tiene que consultarlo antes de la recomendación final. El resultado es mucho más fiable que pedírselo directamente a ChatGPT desde memoria.
+
+**Cómo iterarlo:** "Con la información que tienes en estos documentos, redacta el párrafo de recomendación final para mi informe. Contexto: empresa de distribución de 25 personas, 50 contratos mensuales, ya usa Google Workspace, presupuesto máximo 150 €/mes. Tono profesional."
+
+---
+
 ## 9. GLOSARIO
 
 **Perplexity:** Motor de búsqueda con IA que devuelve respuestas sintetizadas con fuentes citadas en lugar de una lista de enlaces; disponible de forma gratuita en perplexity.ai.
@@ -242,6 +262,12 @@ Un consejo final: guarda en un Google Doc el listado de prompts de búsqueda y s
 
 **SEO (posicionamiento en buscadores):** Conjunto de técnicas que permiten a las páginas web aparecer en las primeras posiciones de Google, independientemente de la calidad o actualidad de su contenido; uno de los motivos por los que los resultados de Google no siempre son los más fiables.
 
+**Flujo combinado:** Investigación que usa Perplexity para descubrir opciones del mercado y NotebookLM para profundizar en los documentos oficiales descargados; cubre descubrimiento y verificación documental sin perder fiabilidad.
+
+**Verificación de fuente:** Acción de hacer clic en la referencia citada por la IA y leer el párrafo original para confirmar que el dato existe y es actual; práctica obligatoria antes de incluir cualquier dato en un informe.
+
+**Pyme:** Pequeña y mediana empresa según la clasificación europea (hasta 250 empleados); el contexto habitual del público de este curso y de muchas decisiones de compra ágiles.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -259,6 +285,10 @@ Un consejo final: guarda en un Google Doc el listado de prompts de búsqueda y s
 **Buena práctica — Define el contexto de tu empresa antes de pedir la recomendación.** "Para una empresa de distribución de 25 personas, con presupuesto de 200 €/mes y sin equipo IT propio" es el tipo de contexto que permite a la IA dar una recomendación realmente útil, en lugar de una genérica.
 
 **Buena práctica — Guarda los informes generados con IA en una carpeta compartida del equipo.** Un buen informe de mercado puede ser útil para otras personas del equipo meses después; documentarlo y compartirlo multiplica el valor del tiempo invertido.
+
+**Error 6 — Confundir Perplexity con NotebookLM.** Pedirle a Perplexity que analice un PDF concreto de tu disco no funciona (no tiene acceso). Pedirle a NotebookLM que busque información reciente en internet tampoco funciona (no busca fuera de los documentos que subes). Cada herramienta tiene un dominio claro; usar la equivocada produce respuestas decepcionantes o, peor, inventadas.
+
+**Buena práctica — Documenta tu metodología en el informe.** Una frase como "La investigación se ha realizado con Perplexity para identificar opciones y NotebookLM con los catálogos oficiales para verificar funcionalidades y precios" hace que tu informe sea defendible si alguien cuestiona la recomendación.
 
 ---
 
@@ -367,6 +397,24 @@ d) Incluye todos los datos de la tabla en formato de texto
 **11. ¿Por qué los primeros resultados de Google no siempre son los más fiables para una investigación de mercado?**
 Respuesta abierta: Porque el posicionamiento en Google depende de técnicas de SEO y de inversión publicitaria, no necesariamente de la calidad o actualidad del contenido. Un artículo puede aparecer el primero porque está optimizado para buscadores, aunque sea de hace tres años o esté escrito con intereses comerciales.
 
+**12. En el flujo combinado de investigación, ¿qué orden lógico tiene usar Perplexity y NotebookLM?**
+a) Primero NotebookLM, después Perplexity
+b) Solo Perplexity, NotebookLM no es necesario
+c) Primero Perplexity para descubrir, después NotebookLM con los documentos oficiales para profundizar ✓
+d) Da igual el orden, son intercambiables
+
+**13. ¿Qué pasa si pides a NotebookLM un dato que no aparece en los documentos que has subido?**
+Respuesta abierta: NotebookLM indicará que la información no está disponible en las fuentes proporcionadas, en lugar de inventarse una respuesta. Esa es precisamente su ventaja frente a ChatGPT o Gemini para investigación documental: no añade información externa que no puedas verificar.
+
+**14. ¿Cuál de estas prácticas reduce más el riesgo de incluir datos incorrectos en un informe?**
+a) Pedir el informe en formato extenso
+b) Hacer clic en al menos dos fuentes citadas y verificar los datos antes de cerrar el informe ✓
+c) Pedir el informe a tres IAs distintas y promediar las respuestas
+d) Aumentar el número de criterios de la tabla comparativa
+
+**15. Verdadero o falso: una vez generado un informe de mercado con IA, no es necesario revisarlo si los datos provienen de fuentes citadas.**
+Respuesta: **Falso.** La revisión humana sigue siendo imprescindible. La IA puede malinterpretar fuentes, omitir matices importantes o presentar información desactualizada como vigente. La firma del informe implica responsabilidad profesional sobre su contenido.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -394,6 +442,12 @@ Busca el título del artículo o el nombre del estudio directamente en Google pa
 
 **¿Puedo subir a NotebookLM una propuesta comercial que he recibido de un proveedor?**
 Sí, siempre que la propuesta no contenga cláusulas de confidencialidad que lo prohíban. Si el documento incluye precios negociados especiales o condiciones marcadas como confidenciales, consulta con tu responsable antes de subirlo a cualquier herramienta en la nube.
+
+**¿Qué hago si Perplexity y NotebookLM dan respuestas distintas sobre el mismo proveedor?**
+Es una señal útil, no un problema: probablemente Perplexity está usando información pública y posiblemente desactualizada, mientras que NotebookLM está leyendo el catálogo oficial. Prioriza la respuesta de NotebookLM (si los documentos son recientes y oficiales) y, si la discrepancia es grande, verifica directamente con el proveedor antes de cerrar el informe.
+
+**¿Cuántas fuentes mínimas debería tener una tabla comparativa para considerarse rigurosa?**
+La práctica habitual son al menos dos fuentes por proveedor: una oficial (página de la herramienta o catálogo) y una independiente (review en Capterra, G2, Trustpilot o artículo de prensa especializada). Si solo te basas en fuentes oficiales, la tabla repetirá el lenguaje de marketing; si solo te basas en reviews, puedes perder información sobre funcionalidades reales.
 
 ---
 
@@ -437,6 +491,8 @@ Para tu proyecto final: lo de hoy te sirve para documentar la fase de investigac
 - NotebookLM trabaja solo con tus documentos: úsalo cuando necesites precisión y no quieras que la IA invente información externa.
 - La tabla es de la IA; la recomendación es tuya: el criterio profesional no puede delegarse en el modelo.
 - Un informe de mercado de dos páginas con tabla comparativa y recomendación es el formato mínimo para documentar una decisión de compra y compartirla con tu equipo.
+- Flujo combinado: Perplexity para descubrir, NotebookLM para profundizar — cubre el ciclo completo de la investigación.
+- Documenta tu metodología en el informe: la frase "se usó Perplexity para identificar opciones y NotebookLM para verificar el catálogo" hace tu recomendación defendible.
 
 ---
 
