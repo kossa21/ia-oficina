@@ -47,7 +47,7 @@ Buscar información en internet siempre ha sido un proceso lento y poco fiable: 
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El problema con la búsqueda tradicional
 
@@ -56,6 +56,12 @@ Marta recibe el lunes un encargo de su jefa: antes de final de mes, necesita eva
 Este escenario es el pan de cada día en las oficinas. La búsqueda de información se ha convertido en una actividad consumidora de tiempo y productora de confusión. Los motores de búsqueda tradicionales muestran páginas patrocinadas mezcladas con resultados orgánicos, el SEO hace que los artículos mejor posicionados no sean necesariamente los más rigurosos, y el usuario queda con la tarea de leer, filtrar, comparar y sintetizar por su cuenta. Cuando el objetivo es tomar una decisión (elegir un proveedor, redactar un informe, preparar una propuesta) esta forma de buscar es ineficiente y frustrante.
 
 La IA cambia la ecuación de forma radical, y lo hace en dos niveles distintos: el de la búsqueda en tiempo real con fuentes citadas, y el de la síntesis a partir de documentos que el propio usuario aporta. Comprender la diferencia entre estos dos niveles es clave para usarlos bien.
+
+> **Puntos clave:**
+> - Google mezcla SEO, anuncios y resultados orgánicos sin distinción
+> - La búsqueda manual termina con catorce pestañas y ninguna conclusión
+> - IA opera en dos niveles: búsqueda en tiempo real y síntesis de fuentes propias
+> - Distinguir esos dos niveles es la clave para usarlos bien
 
 ### Perplexity: búsqueda con fuentes citadas
 
@@ -67,6 +73,12 @@ Hay varias habilidades importantes para usar Perplexity bien. La primera es **le
 
 La tercera habilidad, y la más crítica, es saber **cuándo confiar**: Perplexity puede citar fuentes inexactas, puede sintetizar mal un artículo, puede presentar como actual una información que ya ha cambiado. Siempre que una cifra o afirmación sea importante para una decisión, hay que hacer clic en la fuente y leer el párrafo original. La IA facilita el trabajo; no elimina la responsabilidad de verificar.
 
+> **Puntos clave:**
+> - Perplexity devuelve respuesta sintetizada con fuentes numeradas
+> - Revisa siempre fuente, fecha y tipo (corporativa vs independiente)
+> - Estrecha el foco con preguntas de seguimiento en modo conversación
+> - La verificación de fuentes es responsabilidad tuya, no del modelo
+
 ### Sintetizar varias fuentes con ChatGPT o Gemini
 
 El segundo enfoque, complementario al anterior, es aportar tú mismo las fuentes y pedirle a la IA que las sintetice. Esto es especialmente útil cuando ya tienes catálogos de proveedores en PDF, artículos que has guardado, o correos electrónicos con propuestas comerciales. En lugar de leerlos todos y tomar notas manualmente, puedes copiar los textos relevantes (o subir los PDFs en el caso de Claude o ChatGPT) y pedir a la IA que los compare.
@@ -74,6 +86,12 @@ El segundo enfoque, complementario al anterior, es aportar tú mismo las fuentes
 El prompt estándar para esta tarea tiene tres componentes: presentar el material ("Aquí tienes tres textos que describen tres proveedores distintos de software"), definir el criterio de análisis ("Compáralos en función de precio, funcionalidades principales, soporte técnico y opiniones de usuarios"), y pedir el formato de salida ("Presenta el resultado en una tabla con estos cuatro criterios en filas y los tres proveedores en columnas. Bajo la tabla, añade un párrafo con tu valoración de cuál encaja mejor para una empresa de distribución mediana").
 
 El resultado que obtiene Marta en menos de dos minutos es una tabla estructurada que le habría llevado media mañana construir manualmente. Y lo más valioso no es la tabla en sí, sino que el proceso la obliga a definir con precisión cuáles son los criterios de evaluación que realmente importan: precio, funcionalidades, soporte, reseñas. Esa precisión es la que transforma una búsqueda vaga en una comparación profesional.
+
+> **Puntos clave:**
+> - Prompt de síntesis: material + criterios + formato de salida explícito
+> - Define los criterios antes de pedir la tabla, no después
+> - La síntesis estructurada obliga a precisar qué importa para la decisión
+> - Para textos confidenciales, prefiere NotebookLM antes que ChatGPT abierto
 
 ### Verificar la información: el arte de detectar alucinaciones en la investigación
 
@@ -85,6 +103,12 @@ El tercer error son las **comparaciones desequilibradas**: si le pides a la IA q
 
 La pregunta de verificación más útil que puedes hacerle a cualquier IA después de una búsqueda o síntesis es: **"¿De qué fuente sacaste este dato concreto?"** Si la respuesta es vaga o la fuente no se puede comprobar, trata ese dato con escepticismo.
 
+> **Puntos clave:**
+> - Tres errores típicos: datos caducados, citas inventadas y comparaciones desequilibradas
+> - Pregunta siempre el año del dato y verifica en la fuente original
+> - Pide explícitamente objetividad y mención de limitaciones de cada opción
+> - La pregunta "¿de qué fuente?" detecta la mayoría de las alucinaciones
+
 ### Investigar proveedores y competidores: la tabla comparativa
 
 Una de las aplicaciones más inmediatas y valiosas de esta sesión es la construcción de una **tabla comparativa de proveedores o competidores**. Para Marta, esto significa poder evaluar tres opciones de software en la misma página, con los mismos criterios, en lugar de tener que recordar de memoria qué decía la propuesta de cada uno.
@@ -92,6 +116,12 @@ Una de las aplicaciones más inmediatas y valiosas de esta sesión es la constru
 La estructura de una buena tabla comparativa tiene entre cuatro y seis criterios. Más de seis criterios hace la tabla difícil de leer y de comparar; menos de cuatro puede dejar fuera información decisiva. Para un proveedor de software o servicio, los criterios habituales son: precio (con detalles del modelo de pago), funcionalidades principales, facilidad de implementación, soporte técnico disponible, y valoración de usuarios (media de reseñas en plataformas independientes como Capterra o G2).
 
 El flujo de trabajo es el siguiente: primero, Marta hace una búsqueda en Perplexity para identificar las tres opciones más relevantes para su contexto. Después, busca las páginas de precios oficiales de cada una y copia el texto relevante. Añade también algunos fragmentos de reseñas de usuarios de una plataforma independiente. Con todo ese material en el portapapeles, abre ChatGPT o Gemini y pega el texto precedido del prompt de comparación. En tres minutos tiene una tabla que podría haberle llevado dos horas construir manualmente.
+
+> **Puntos clave:**
+> - Una tabla comparativa tiene entre 4 y 6 criterios; menos deja huecos, más cansa
+> - Criterios habituales: precio, funcionalidades, implementación, soporte, reseñas
+> - Identifica opciones con Perplexity, copia páginas oficiales y reseñas independientes
+> - Pega todo el material junto y precédelo con el prompt de comparación
 
 ### Escribir un informe de mercado con estructura profesional
 
@@ -101,6 +131,12 @@ La estructura estándar de un informe de mercado breve tiene cuatro partes. La p
 
 Para redactar este informe, Marta no necesita escribir todo desde cero. Después de tener la tabla comparativa, puede pedir a la IA: "Con esta tabla como base, redacta un informe de mercado de máximo dos páginas con las secciones: contexto, metodología, comparativa y recomendación. El contexto es que necesitamos un software de gestión de pedidos para una empresa de distribución de 25 personas. Tono profesional pero accesible." La IA produce un borrador que Marta revisará, ajustará con su criterio y entregará con su nombre, porque el criterio profesional sigue siendo suyo.
 
+> **Puntos clave:**
+> - Estructura estándar: contexto, metodología, comparativa, recomendación
+> - El informe es una a dos páginas, no un documento largo
+> - La IA produce un borrador a partir de la tabla; tú lo revisas y firmas
+> - Documentar la metodología hace la recomendación defendible ante terceros
+
 ### NotebookLM para investigación controlada
 
 La tercera herramienta clave de esta sesión es **Google NotebookLM**, que trabaja de una forma cualitativamente diferente a Perplexity o ChatGPT: en lugar de buscar en internet o en su base de conocimiento general, NotebookLM trabaja exclusivamente con los documentos que tú le proporcionas como fuentes.
@@ -108,6 +144,26 @@ La tercera herramienta clave de esta sesión es **Google NotebookLM**, que traba
 Esto tiene una ventaja enorme para la investigación de proveedores o mercados: si Marta sube los tres catálogos en PDF de los proveedores que está evaluando, NotebookLM solo responderá basándose en esos documentos. No inventará información, no añadirá datos de su entrenamiento, no confundirá un proveedor con otro. Cuando le pregunta "¿Cuál de los tres proveedores menciona soporte 24/7?", la respuesta vendrá textualmente de los PDFs que ella ha subido.
 
 El flujo de uso es sencillo: en NotebookLM se crea un "cuaderno" para cada proyecto de investigación, se suben los documentos fuente (PDFs, Docs, páginas web copiadas), y se hacen preguntas en el chat lateral. NotebookLM cita el fragmento exacto del documento del que proviene cada respuesta, lo que hace que la verificación sea casi inmediata. Para Marta, esto es especialmente útil cuando los documentos son largos (un contrato, un catálogo extenso) y no tiene tiempo de leerlos enteros: puede hacer preguntas específicas y ir directamente al párrafo relevante.
+
+> **Puntos clave:**
+> - NotebookLM responde solo desde los documentos que tú subes
+> - Cita el fragmento exacto del PDF: verificación con un clic
+> - Útil para documentos largos donde no hay tiempo de leer todo
+> - No inventa información externa: precisión a cambio de alcance
+
+### Combinar fuentes externas y documentos propios en un mismo flujo
+
+Una buena investigación de mercado rara vez se hace solo con Perplexity o solo con NotebookLM: se hace combinando las dos herramientas en un flujo deliberado. La regla práctica es: **Perplexity para descubrir, NotebookLM para profundizar**. Marta usa Perplexity para identificar qué proveedores son relevantes en su mercado, qué herramientas se mencionan en análisis recientes y cuáles tienen mejor reputación. Después, descarga los catálogos oficiales de los tres candidatos finalistas, los sube a NotebookLM como fuentes y profundiza con preguntas detalladas sobre cláusulas, precios y condiciones.
+
+Este flujo combinado tiene dos ventajas frente a usar una sola herramienta. La primera es que **Perplexity no puede leer un PDF que solo existe en tu disco** (un catálogo descargado de un proveedor concreto), pero NotebookLM sí. La segunda es que **NotebookLM no puede buscar contexto externo** (qué dicen los analistas de mercado, qué reseñas hay de la herramienta), pero Perplexity sí. Usar las dos cubre el ciclo completo: descubrimiento abierto y profundización controlada.
+
+Un consejo final: guarda en un Google Doc el listado de prompts de búsqueda y síntesis que mejor te han funcionado para cada tipo de investigación. La próxima vez que necesites comparar tres proveedores, no partirás de cero; partirás de un flujo que ya has validado.
+
+> **Puntos clave:**
+> - Perplexity para descubrir, NotebookLM para profundizar
+> - Perplexity no lee tus PDFs locales; NotebookLM no busca en internet
+> - El flujo combinado cubre descubrimiento y verificación documental
+> - Guarda los prompts que funcionan: el próximo informe parte ya del 80 %
 
 ---
 
