@@ -215,6 +215,9 @@ RE_EXERCISE_CODE = re.compile(r"\bEJ-D(\d{2})-(\d+)\b")
 RE_ACTIVITY_HEADER = re.compile(
     r"^###\s+Actividad\s+\d+\s*[—-]\s*(.+?)\s*\[([^·]+)·\s*([^\]]+)\]\s*$"
 )
+RE_ACTIVITY_HEADER_BOLD = re.compile(
+    r"^\*\*Actividad\s+\d+\s*[—-]\s*(.+?)\s*\[([^·]+)·\s*([^\]]+)\]\*\*\s*$"
+)
 RE_FECHA = re.compile(r"^\*\*Fecha[:\*]\s*\**(.+?)\s*$")
 
 def _strip_md(s: str) -> str:
@@ -490,7 +493,7 @@ def _parse_actividades(lines: List[str]) -> List[Activity]:
         buffer = []
 
     for ln in lines:
-        m = RE_ACTIVITY_HEADER.match(ln)
+        m = RE_ACTIVITY_HEADER.match(ln) or RE_ACTIVITY_HEADER_BOLD.match(ln)
         if m:
             flush()
             if current is not None:
@@ -500,7 +503,7 @@ def _parse_actividades(lines: List[str]) -> List[Activity]:
                 modalidad=m.group(2).strip(),
                 duracion=m.group(3).strip(),
             )
-            current_field = None
+            current_field = "descripcion"  # texto suelto tras el header se trata como descripción
             continue
         if current is None:
             continue
