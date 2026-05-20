@@ -48,13 +48,18 @@ Hoy comienza el Módulo 4 del curso, dedicado a la organización y gestión del 
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### De la lista interminable al plan que funciona
 
 Marta empieza casi todos los lunes con la misma sensación: tiene entre doce y quince cosas pendientes, ninguna parece poder esperar, y antes de las diez ya ha respondido a tres urgencias que no estaban en ninguna lista. Para cuando termina el día, las tareas que realmente importaban siguen en el mismo punto. Este patrón —trabajar mucho sin avanzar en lo que de verdad genera valor— es uno de los problemas más frecuentes en los puestos administrativos, y es exactamente el tipo de problema que la IA puede ayudar a resolver de forma inmediata y sin coste alguno.
 
 La clave no está en trabajar más horas. Está en dedicar las horas disponibles a las tareas que tienen mayor impacto. Existe evidencia sólida de que los profesionales que aplican algún método formal de priorización —aunque sea sencillo— completan un 25 % más de trabajo de alto impacto que quienes trabajan por orden de llegada o por urgencia percibida. El problema es que aplicar esos métodos a mano lleva tiempo. Con IA, ese mismo análisis tarda menos de un minuto.
+
+> **Puntos clave:**
+> - El problema no es la cantidad de trabajo: es dedicar las horas disponibles a lo que más impacta
+> - Métodos formales de priorización → 25 % más trabajo de alto impacto; con IA aplicarlos tarda 1 minuto
+> - La urgencia percibida no equivale a importancia real; la IA ayuda a separar las dos dimensiones
 
 ### La matriz de Eisenhower con IA
 
@@ -68,6 +73,11 @@ El prompt para aplicar la matriz de Eisenhower es:
 
 La justificación por línea es clave: obliga a la IA a razonar, y a Marta le permite detectar cuando la clasificación no se ajusta a su contexto real y corregirla con una iteración.
 
+> **Puntos clave:**
+> - 4 cuadrantes: urgente+importante (hacer hoy), importante+no urgente (planificar), urgente+no importante (delegar/resolver rápido), ni urgente ni importante (eliminar)
+> - El prompt incluye la lista de tareas + contexto de plazos y dependencias
+> - La justificación por línea permite detectar clasificaciones incorrectas y corregirlas con una iteración
+
 ### El método MoSCoW con IA
 
 Cuando el contexto no es la semana en general sino un proyecto concreto con fecha de entrega, el método MoSCoW es más preciso. Sus cuatro categorías son Must have (imprescindible, sin esto el resultado no existe), Should have (importante pero no crítico), Could have (deseable si hay tiempo) y Won't have (fuera de alcance en esta entrega). Es el método estándar en gestión de proyectos, pero que el personal administrativo raramente usa de forma explícita, aunque sí lo aplica de forma intuitiva cuando tiene un plazo ajustado.
@@ -77,6 +87,11 @@ Con IA, el valor de MoSCoW está en la conversación: al pedirle que clasifique 
 El prompt correspondiente:
 
 > "Para el proyecto [NOMBRE], clasifica estas tareas según MoSCoW (Must/Should/Could/Won't) teniendo en cuenta plazo [FECHA] y equipo de [N] personas: [LISTA]. Señala si hay alguna dependencia entre tareas que afecte al orden de ejecución."
+
+> **Puntos clave:**
+> - Must: sin esto el resultado no existe; Should: importante pero no bloqueante; Could: deseable si hay margen; Won't: fuera de alcance en esta entrega
+> - El valor de MoSCoW con IA está en detectar dependencias ocultas que el autor no había visto
+> - MoSCoW es más preciso que Eisenhower cuando hay un proyecto concreto con fecha de entrega
 
 ### Planificar la semana con IA: el método de 4 pasos
 
@@ -89,6 +104,11 @@ El prompt de planificación semanal:
 > "Tengo estas tareas para la semana del [fechas]: [LISTA con estimaciones de tiempo]. Mi disponibilidad es [horas/día], con reuniones fijas en [horarios]. Propón un plan semanal realista, agrupando tareas similares y reservando tiempo para imprevistos. Justifica brevemente por qué pones las tareas más exigentes en los bloques de mayor energía."
 
 La última parte del prompt —pedir justificación— es especialmente útil porque introduce la idea de gestión de energía, no solo de tiempo: las tareas que requieren concentración profunda van a las mañanas; las mecánicas y rutinarias, a las horas de menor rendimiento.
+
+> **Puntos clave:**
+> - 4 pasos: volcado total → restricciones (horas disponibles, reuniones fijas, dependencias) → plan → refinamiento iterativo
+> - Reservar al menos un 20 % del tiempo como bloque de protección para imprevistos
+> - Gestión de energía: tareas de concentración a las mañanas; mecánicas y rutinarias a horas de menor rendimiento
 
 ### Reuniones más eficaces: tres herramientas de IA para antes de entrar
 
@@ -105,6 +125,11 @@ El briefing previo para participantes es uno de los usos de la IA que más impac
 Y las preguntas clave son el tercer elemento: no las preguntas que habrá que responder algún día, sino las que deben quedar respondidas en esa reunión concreta para que haya valido la pena. Tenerlas por escrito antes de entrar evita que la reunión divague y sirve de guía al moderador para reconducir cuando el grupo se dispersa. El prompt:
 
 > "Para la reunión sobre [tema], genera 5 preguntas que deben quedar respondidas antes de que acabe si queremos avanzar. Ordénalas de más a menos crítica."
+
+> **Puntos clave:**
+> - Orden del día eficaz: bloques de tiempo + objetivo específico + responsable de cada punto
+> - Briefing previo: elimina los 15-20 min iniciales de "ponerse al día" en la reunión
+> - Preguntas clave: guión del moderador para no desviar la reunión; escritas antes de entrar
 
 ### Transcribir reuniones con herramientas gratuitas: tres opciones reales
 
@@ -124,6 +149,29 @@ Cualquiera de estas tres opciones produce en minutos un texto que la IA puede co
 
 **Privacidad en el procesamiento.** Si la reunión incluye datos confidenciales de clientes, datos personales de empleados o información estratégica de la empresa, no se debe subir la transcripción a herramientas externas sin verificar primero su política de privacidad y sin autorización interna. En ese caso, la opción más segura es trabajar únicamente con los subtítulos de Meet (que quedan en el ecosistema Google de la organización) o tomar notas manuales anonimizadas. Una transcripción subida a una IA externa sin las debidas precauciones puede constituir una infracción del RGPD.
 
+> **Puntos clave:**
+> - 3 opciones gratuitas: subtítulos de Google Meet, Tactiq (extensión Chrome), grabar audio + transcribir con IA
+> - Consentimiento explícito de todos los participantes antes de iniciar cualquier grabación o transcripción
+> - Datos sensibles en reuniones: no subir a herramientas externas; usar solo subtítulos de Meet o notas anonimizadas
+
+### La revisión de mitad de semana: ajustar el plan cuando la realidad cambia
+
+La planificación semanal no es un documento estático: es un punto de partida. Entre el lunes y el miércoles inevitablemente cambian cosas: una reunión se alarga, llega una urgencia que no estaba en la lista, un colega tiene que pedir ayuda con algo que era responsabilidad suya. Si el plan no se revisa, deja de reflejar la realidad y pierde su utilidad como guía. La revisión de mitad de semana es una práctica que tarda menos de cinco minutos y consiste en un prompt muy sencillo: se le cuenta a la IA qué ha cambiado respecto al plan original y se le pide que regenere el plan para el resto de la semana. "La tarea X no está hecha porque el jueves cancelé. La reunión del miércoles se alargó una hora. ¿Cómo reorganizo lo que queda del jueves y el viernes?" El plan resultante es un plan actualizado, no una crítica al plan original: la imprevisibilidad del trabajo de oficina no es un fracaso de planificación, es su condición normal.
+
+> **Puntos clave:**
+> - La revisión de mitad de semana (miércoles) actualiza el plan con la realidad acumulada desde el lunes
+> - Prompt de revisión: "Esto ha cambiado esta semana: [cambios]. Reorganiza el plan para el resto de la semana."
+> - La imprevisibilidad no es fracaso de planificación; el valor está en revisarla, no en seguirla a ciegas
+
+### Documentar acuerdos y decisiones fuera de reuniones formales
+
+Muchos acuerdos importantes en el trabajo de oficina no ocurren en reuniones formales: ocurren en conversaciones de pasillo, en un hilo de correo electrónico largo, en un mensaje de chat grupal o en una llamada rápida de cinco minutos. Estos acuerdos son igual de vinculantes que los de una reunión formal, pero a menudo no quedan documentados en ningún lugar y luego generan confusión ("yo entendí que tú lo ibas a hacer") o simplemente se olvidan. La IA puede ayudar a documentarlos en 30 segundos: se le describe de forma informal el acuerdo alcanzado —con las personas implicadas, la acción acordada y el plazo— y la herramienta genera un párrafo formal listo para enviarse por correo como confirmación, o para guardarse en el documento de seguimiento del proyecto. El prompt es tan sencillo como: "Hemos acordado por teléfono que [persona] va a [acción] antes del [fecha]. Redacta un párrafo formal para confirmar este acuerdo por correo. Tono: cordial y concreto." Documentar los acuerdos informales de forma inmediata, antes de que se enfríe la memoria, es uno de los hábitos profesionales que más problemas previene.
+
+> **Puntos clave:**
+> - Los acuerdos informales (pasillo, chat, llamada) son tan vinculantes como los formales pero a menudo no quedan documentados
+> - Documentar en 30 s: describir el acuerdo a la IA y generar un párrafo de confirmación por correo
+> - Enviarlo de inmediato al acordarse, antes de que se enfríe la memoria: previene malentendidos y olvidos
+
 ---
 
 ## 7. DATOS Y CIFRAS CLAVE
@@ -135,6 +183,7 @@ Cualquiera de estas tres opciones produce en minutos un texto que la IA puede co
 - Antes / Después — Preparar una reunión: antes, preparar el orden del día, el briefing previo y las preguntas clave lleva entre 30 y 60 minutos; con IA, los tres documentos se generan en menos de 10 minutos.
 - Antes / Después — Acta de reunión: antes, redactar el acta desde notas puede llevar más de una hora; con transcripción gratuita y dos prompts de IA, el acta completa está lista en menos de 10 minutos.
 - El **67 % de los trabajadores de oficina** reconoce que alguna vez ha salido de una reunión sin tener claro quién era responsable de cada tarea acordada.
+- Documentar un acuerdo informal tomado por teléfono o en pasillo tarda **30 segundos con IA**; sin IA raramente se documenta y genera malentendidos días después.
 
 ---
 
@@ -182,6 +231,19 @@ Cualquiera de estas tres opciones produce en minutos un texto que la IA puede co
 
 ---
 
+### Caso 4 — Documentar un acuerdo tomado en una llamada informal
+
+**Situación:** Marta ha hablado por teléfono con el responsable de logística de un proveedor. Han acordado que el proveedor entregará el pedido pendiente antes del viernes 18 a las 12:00, y que si hay algún retraso avisará antes de las 9:00 de ese mismo día. Nadie ha tomado notas formales. Marta quiere dejar constancia escrita antes de que se enfríe el acuerdo.
+
+**Prompt exacto:**
+> "He acordado por teléfono con el responsable de logística de PROVEEDOR_X lo siguiente: entrega del pedido [REF_PEDIDO] antes del viernes 18 a las 12:00 h, y aviso por su parte antes de las 9:00 h del viernes si hay cualquier retraso. Redacta un correo breve de confirmación del acuerdo. Tono: cordial y concreto. Máximo 5 líneas más asunto. No añadas compromisos o condiciones adicionales."
+
+**Resultado comentado:** La IA genera un correo con asunto ("Confirmación del acuerdo: entrega pedido [REF] viernes 18"), dos frases que recapitulan los dos compromisos acordados, y una frase de cierre que invita a confirmar por escrito. Marta lo revisa, rellena el nombre real del proveedor, lo envía y guarda la copia como registro del acuerdo.
+
+**Cómo iterarlo:** Si quiere añadir una consecuencia implícita en caso de incumplimiento: "Añade al final una frase informativa (no amenazante) que mencione que en caso de retraso no comunicado, Marta necesitará escalar el asunto a la dirección de compras. Tono neutro y profesional."
+
+---
+
 ## 9. GLOSARIO
 
 **Matriz de Eisenhower:** Herramienta de priorización que clasifica las tareas en cuatro cuadrantes según su urgencia (necesita hacerse ahora) e importancia (impacta en los objetivos a largo plazo). Creada por el presidente estadounidense Dwight D. Eisenhower y popularizada por el libro "Los 7 hábitos de la gente altamente efectiva".
@@ -206,6 +268,8 @@ Cualquiera de estas tres opciones produce en minutos un texto que la IA puede co
 
 **Iteración de prompt:** Refinamiento del resultado de la IA mediante un segundo o tercer prompt que ajusta, corrige o amplía el primer resultado, sin necesidad de empezar desde cero.
 
+**Acuerdo informal documentado:** Confirmación escrita (por correo o en el sistema de seguimiento) de un acuerdo tomado en una conversación no formal (llamada, pasillo, chat), generada con IA a partir de una descripción verbal de los compromisos acordados.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -221,6 +285,8 @@ Cualquiera de estas tres opciones produce en minutos un texto que la IA puede co
 **Error 5 — Subir transcripciones con datos sensibles a herramientas externas.** Si la reunión ha tratado datos personales de empleados, información de clientes o datos financieros confidenciales, la transcripción no debe subirse a ninguna herramienta de IA externa sin verificar su política de privacidad y sin autorización interna. En esos casos, trabaja con los subtítulos de Google Meet (que quedan dentro del ecosistema) o con notas anonimizadas.
 
 **Buena práctica — Guarda los prompts de planificación que funcionan.** Una vez que Marta encuentra el prompt de planificación semanal que se ajusta a su forma de trabajar, lo guarda en su banco de prompts (construido en D04). Cada lunes tarda menos de tres minutos en tener el plan de la semana.
+
+**Error 6 — No documentar los acuerdos informales.** Una decisión tomada en una llamada rápida que no queda documentada por escrito deja a las dos partes con versiones distintas del acuerdo. En el trabajo administrativo, la frase "yo entendí que lo hacías tú" es una de las fuentes más frecuentes de conflictos y retrasos. Documentar al instante con un correo de confirmación de 5 líneas previene ese problema sin ningún esfuerzo real.
 
 **Buena práctica — Itera el plan a mitad de semana.** El miércoles, Marta hace un mini-repaso: ¿qué ha cambiado? ¿qué no se ha podido hacer según lo planificado? Un prompt de cinco líneas le regenera el plan para el resto de la semana en función de lo que realmente ha ocurrido.
 
@@ -340,6 +406,21 @@ b) Tactiq (versión gratuita con límite mensual)
 c) Copilot en Microsoft Teams ✓
 d) Grabar el audio y transcribir con ChatGPT o Gemini
 
+**13. ¿Qué prompt se usa en la revisión de mitad de semana para regenerar el plan?**
+a) Volver a escribir el plan desde cero con todas las tareas
+b) "Esto ha cambiado esta semana: [cambios]. Reorganiza el plan para el resto de la semana." ✓
+c) Repetir el prompt de planificación del lunes con los mismos datos
+d) Pedir a la IA una lista de prioridades nueva para los días restantes
+
+**14. ¿Por qué es importante incluir en el prompt de la matriz de Eisenhower plazos y dependencias, además de la lista de tareas?**
+a) Para que la IA pueda calcular el tiempo total de trabajo
+b) Porque sin ese contexto la IA prioriza por inferencia y puede equivocarse ✓
+c) Para que la IA evite clasificar tareas en el cuadrante de "no urgente"
+d) Es opcional; la IA clasifica igual de bien sin ese contexto
+
+**15. Describe el flujo completo de Marta para documentar un acuerdo telefónico con un proveedor antes de que se olvide.**
+*Respuesta abierta:* Inmediatamente después de colgar, Marta describe a la IA los compromisos acordados: quién va a hacer qué y antes de cuándo. Añade la instrucción de no incluir compromisos adicionales. La IA genera en segundos un correo de confirmación con asunto claro, los compromisos enumerados y un cierre que invita al proveedor a confirmar. Marta revisa que refleja exactamente el acuerdo (sin añadidos ni omisiones), sustituye los nombres genéricos por los reales, lo envía y guarda la copia como registro. Tiempo total: menos de 2 minutos.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -367,6 +448,12 @@ Para la planificación semanal, ambas herramientas funcionan de forma similar. G
 
 **¿Tengo que hacer la planificación el lunes por la mañana?**
 No necesariamente. Muchos profesionales prefieren hacer la planificación de la semana siguiente el viernes por la tarde, cuando ya saben qué ha quedado pendiente y qué va a llegar la semana siguiente. Lo importante es hacerla una vez por semana con la información más actualizada disponible.
+
+**¿Puedo usar los métodos de priorización de hoy para gestionar correo electrónico además de tareas?**
+Sí. La lógica de Eisenhower aplica perfectamente a la bandeja de entrada: los correos que requieren acción inmediata (urgente+importante), los que hay que responder pero no hoy (importante+no urgente), los que se pueden resolver en 2 minutos sin pensar mucho (urgente+no importante) y los que realmente no requieren respuesta (ni urgente ni importante). Un prompt de Eisenhower aplicado a los asuntos de los correos del día puede reducir el tiempo de gestión de bandeja de entrada a la mitad.
+
+**¿Qué hago si alguien en la reunión se niega a que se transcriba?**
+Respeta su negativa sin condiciones. No hay forma de transcribir a algunas personas y no a otras cuando están en la misma reunión. Si hay un participante que no da su consentimiento, la reunión no se transcribe. En ese caso, la opción es tomar notas manuales y usarlas —ya anonimizadas si es necesario— como base para el acta con IA. La transcripción es una herramienta de eficiencia, no un derecho que se impone sobre los participantes.
 
 ---
 
@@ -412,6 +499,8 @@ Los métodos de priorización y planificación que has practicado hoy no son sol
 - Una reunión bien preparada con orden del día, briefing previo y preguntas clave dura menos y produce más.
 - Para transcribir reuniones gratis: subtítulos de Meet, Tactiq o grabar + ChatGPT/Gemini. Siempre con consentimiento previo de todos los participantes.
 - La planificación no es rígida: el verdadero valor está en revisarla y ajustarla a mitad de semana cuando la realidad ya ha modificado el punto de partida.
+- Un acuerdo informal no documentado es un malentendido esperando a ocurrir: documentarlo por correo en 2 minutos con IA previene conflictos y olvidos.
+- La gestión de energía importa tanto como la gestión del tiempo: pon las tareas de concentración en los bloques de mayor rendimiento, no en los huecos que sobran.
 
 ---
 
