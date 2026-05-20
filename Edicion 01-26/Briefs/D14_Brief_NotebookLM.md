@@ -47,7 +47,7 @@ En casi todas las oficinas existe una categoría de conocimiento que no está en
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El problema de la documentación en la oficina
 
@@ -56,6 +56,12 @@ Marta lleva cuatro años en el departamento de administración de su empresa y g
 Este escenario es más frecuente que la excepción en las organizaciones medianas y pequeñas. La información está dispersa entre correos electrónicos, mensajes de Teams, documentos sin versionar, notas adhesivas y la memoria de las personas. Cuando alguien falta, se va o cambia de puesto, una parte del funcionamiento de la empresa se va con ellas. No es que nadie quiera que esto sea así: es que documentar se percibe como una tarea adicional que "ya haré cuando tenga tiempo", y ese tiempo nunca llega porque la prioridad siempre la tienen las tareas urgentes del día.
 
 La IA cambia esta ecuación de forma significativa porque **elimina la parte más costosa de documentar: la escritura**. Si Marta puede describir oralmente (o por escrito en párrafos informales) cómo funciona el proceso de pedido de material, la IA puede convertir esa descripción en un SOP estructurado, con secciones, pasos numerados y un formato homogéneo, en menos de dos minutos. Lo que antes requería una o dos horas de escritura cuidadosa ahora requiere una revisión de diez minutos. La barrera del tiempo desaparece.
+
+> **Puntos clave:**
+> - El conocimiento tácito es frágil cuando depende de una sola persona.
+> - La información dispersa en correos y memoria detiene equipos.
+> - La IA elimina el coste mayor: redactar desde cero.
+> - Revisar diez minutos sustituye a escribir una hora.
 
 ### Nombrar y clasificar documentos con criterio
 
@@ -66,6 +72,12 @@ Una **convención de nombrado** es un conjunto de reglas acordadas para nombrar 
 La IA puede ayudar a diseñar una convención de nombrado personalizada para el equipo. El prompt es: "Soy responsable de administración de una empresa distribuidora de tamaño medio. Nuestra carpeta de documentos está desorganizada. Diseña una convención de nombrado para archivos y carpetas que sea simple, consistente y fácil de aplicar sin formación previa. Incluye ejemplos de los tipos de documentos más frecuentes: contratos, facturas, informes, formularios, procedimientos, plantillas." La IA devuelve una propuesta con ejemplos concretos que el equipo puede adaptar y adoptar en una reunión breve.
 
 La **estructura de carpetas** sigue la misma lógica: unas pocas carpetas de primer nivel claras (Procedimientos, Plantillas, Informes, Proveedores, Clientes, Proyectos) y nunca más de tres niveles de profundidad. Una estructura demasiado profunda es tan difícil de navegar como una sin estructura.
+
+> **Puntos clave:**
+> - Una convención coherente convierte la búsqueda en algo predecible.
+> - Usar área, tipo, descripción y fecha AAAA-MM-DD.
+> - La IA puede proponer la convención adaptada al equipo.
+> - Nunca pasar de tres niveles de carpetas de profundidad.
 
 ### Escribir SOPs con IA: de la descripción caótica al procedimiento claro
 
@@ -81,6 +93,12 @@ La IA devuelve un SOP estructurado que Marta revisa en diez minutos: comprueba q
 
 Un caso especialmente útil es cuando ya existe un documento de instrucciones, pero está redactado de forma caótica o incompleta: un correo de "cómo se hace esto" que alguien mandó hace dos años, una lista de pasos a medias, un PDF escaneado. La IA puede tomar ese material y estructurarlo como SOP con el mismo prompt: "Convierte este texto en un SOP con las siguientes secciones... [PEGAR TEXTO ORIGINAL]"
 
+> **Puntos clave:**
+> - Un buen SOP tiene seis secciones bien diferenciadas.
+> - Describir primero el proceso en lenguaje informal y completo.
+> - La IA estructura; tú revisas nombres y matices internos.
+> - También sirve para reestructurar documentos antiguos caóticos.
+
 ### De SOP a checklist de uso diario
 
 Un SOP es el documento de referencia: explica el proceso completo con todos sus matices. Pero para el uso cotidiano, lo que más se necesita es una **checklist**: una lista de verificación breve que permite confirmar que no se ha saltado ningún paso sin tener que releer el SOP completo cada vez.
@@ -89,6 +107,12 @@ La conversión es instantánea con IA: una vez que tienes el SOP, añades un pro
 
 La IA devuelve una checklist lista para imprimir o compartir en Google Docs. Esta checklist puede convertirse en una plantilla reutilizable: cada vez que alguien ejecuta el proceso, imprime o abre una copia nueva, marca los pasos realizados y la archiva o descarta. En sectores donde hay obligación de trazabilidad o auditoría, la checklist completada y firmada es también evidencia de que el proceso se siguió correctamente.
 
+> **Puntos clave:**
+> - El SOP es referencia; la checklist es uso diario.
+> - Máximo diez ítems, verbo en infinitivo, casillas marcables.
+> - Un prompt de seguimiento convierte el SOP en checklist.
+> - Sirve como evidencia de trazabilidad cuando se firma.
+
 ### Mapear flujos de trabajo con texto
 
 Antes de documentar un proceso como SOP, a veces es útil entender primero cómo funciona realmente el proceso de principio a fin, identificar si hay pasos redundantes, cuellos de botella o decisiones que nadie ha definido formalmente. Esta es la fase de **mapeo de flujo**.
@@ -96,6 +120,12 @@ Antes de documentar un proceso como SOP, a veces es útil entender primero cómo
 El mapeo de flujo con IA no requiere ningún software de diagramas. Basta con describir el proceso como una secuencia de acciones y decisiones en texto plano, usando una notación simple: "A → B → si C, entonces D; si no, E → F". Por ejemplo: "Recepción de pedido → Comprobación de existencias → Si hay existencias: confirmar al cliente y preparar envío → Si no hay: contactar proveedor → Si proveedor puede servir en 3 días: hacer pedido → Si no: buscar alternativa o escalar a responsable → Recepción de mercancía → Aviso al cliente → Archivo del albarán."
 
 Una vez descrito el flujo en texto, se puede pedir a la IA que lo analice: "Este es el flujo de un proceso de gestión de pedidos de material. ¿Identificas algún cuello de botella, paso redundante o situación donde no hay responsable definido? ¿Qué mejorarías?" La IA suele identificar puntos donde el proceso depende de una sola persona, pasos donde no hay tiempo máximo definido o situaciones de excepción que no están contempladas. Esa análisis es la base para mejorar el proceso antes de documentarlo definitivamente.
+
+> **Puntos clave:**
+> - Antes de documentar, conviene entender el proceso real.
+> - Bastan flechas y condicionales en texto plano.
+> - La IA detecta cuellos de botella y responsabilidades difusas.
+> - Mejorar el flujo antes de fijarlo como SOP definitivo.
 
 ### Google Forms → Sheets: automatización sin código
 
@@ -109,6 +139,12 @@ Marta aplica esto al registro de incidencias de su departamento: antes, cada inc
 
 La IA también puede ayudar a diseñar el formulario: "Voy a crear un formulario de Google para registrar incidencias en el departamento de logística. ¿Qué campos debería incluir para que los datos sean útiles para el análisis posterior? Incluye el tipo de campo recomendado para cada uno (texto libre, desplegable, fecha, etc.)."
 
+> **Puntos clave:**
+> - Forms recoge datos; Sheets los acumula automáticamente como filas.
+> - Cero transcripción manual desde el primer registro.
+> - Útil para incidencias, solicitudes, encuestas y registros internos.
+> - La IA puede sugerir los campos y sus tipos.
+
 ### NotebookLM como base de conocimiento del equipo
 
 Una vez que el equipo tiene varios SOPs documentados, surge una pregunta práctica: ¿cómo consulta un compañero un procedimiento sin tener que buscar el documento correcto entre decenas de archivos? La respuesta puede ser **NotebookLM** usado como base de conocimiento consultable.
@@ -119,6 +155,12 @@ Esto tiene dos ventajas importantes. La primera es que la consulta es inmediata 
 
 Una limitación importante a tener en cuenta: NotebookLM solo puede responder sobre lo que está en los documentos subidos. Si un procedimiento no está documentado, NotebookLM no puede inventarlo. Esta es, en realidad, una ventaja indirecta: incentiva a documentar más, porque cuanto más completa es la base de conocimiento, más útil es la herramienta.
 
+> **Puntos clave:**
+> - Subir SOPs convierte un notebook en consulta colectiva.
+> - Las respuestas se fundamentan en los documentos reales del equipo.
+> - Solo responde sobre lo subido: no inventa procedimientos.
+> - Esa limitación incentiva a documentar más y mejor.
+
 ### Cuándo NO automatizar
 
 Ninguna herramienta tecnológica es la respuesta correcta a todos los problemas, y la IA no es una excepción. Hay tareas que no deben automatizarse ni delegarse en un proceso mecánico, y es importante que el equipo pueda identificarlas.
@@ -128,6 +170,32 @@ Las decisiones que afectan directamente a personas de forma significativa —si 
 Del mismo modo, cualquier tarea donde un error tiene consecuencias graves e irreversibles —el envío de una comunicación oficial a un organismo público, la firma de un contrato, la baja de un proveedor del sistema, la modificación de datos salariales— debe tener siempre una persona responsable que revise y confirme antes de ejecutar. La automatización puede preparar los datos, redactar el borrador y verificar que la información es completa, pero el "enviar" o "confirmar" final debe ser siempre un acto humano consciente.
 
 Una buena regla práctica: si la pregunta "¿qué pasa si esto sale mal?" no tiene una respuesta simple y reversible, no se automatiza sin supervisión humana en el paso final.
+
+> **Puntos clave:**
+> - Decisiones con impacto en personas requieren criterio humano siempre.
+> - Acciones irreversibles necesitan confirmación humana consciente al final.
+> - La IA prepara y revisa; la persona decide y firma.
+> - Regla: si el error no es reversible, supervisar manualmente.
+
+### Mantenimiento y revisión periódica de los SOPs
+
+Un SOP útil hoy puede quedar obsoleto en pocos meses si el proceso cambia y la documentación no se actualiza. Marta lo experimentó cuando el proveedor de material cambió de plataforma de pedidos: el SOP seguía describiendo el flujo antiguo y los compañeros que lo consultaron en agosto cometieron errores. Por eso, cada SOP necesita un **responsable de mantenimiento** explícito y un **ritmo de revisión** definido. En general, una revisión anual basta para procesos estables; los procesos en evolución (proveedores nuevos, cambios normativos recientes) conviene revisarlos trimestralmente. La IA puede ayudar a comparar la versión vigente con una descripción actualizada y resaltar diferencias: "Este es el SOP actual. Este es cómo se hace hoy realmente. Resalta los puntos del SOP que necesitan actualizarse." Esa comparación reduce el tiempo de revisión y evita olvidos.
+
+> **Puntos clave:**
+> - Sin responsable y sin fecha, todo SOP envejece silenciosamente.
+> - Revisión anual basta para procesos estables.
+> - Procesos cambiantes piden revisión trimestral.
+> - La IA compara versión vigente con descripción actualizada.
+
+### Privacidad y datos sensibles en la documentación
+
+Documentar procesos administrativos implica, a veces, manejar información delicada: nombres de empleados, datos de proveedores, importes salariales, claves de acceso, criterios internos de aprobación. Es importante separar lo que va al SOP de lo que debe permanecer fuera. En general, el SOP describe **el proceso**, no las credenciales ni los datos personales concretos: indica "consultar el listado de proveedores autorizados" en lugar de pegar el listado completo, y "introducir las credenciales del sistema de gestión" en lugar de incluir usuarios y contraseñas. Cuando Marta usa IA para redactar un SOP, también sustituye nombres reales por marcadores ("Proveedor A", "Compañera responsable") antes de pegar la descripción en el chat. Esa higiene básica evita filtraciones y, según experiencia del sector, suele exigirlo cualquier política de protección de datos.
+
+> **Puntos clave:**
+> - El SOP describe el proceso, no las credenciales concretas.
+> - Sustituir nombres reales por marcadores antes de usar IA.
+> - Nunca pegar contraseñas ni datos personales en el chat.
+> - La higiene básica protege frente a filtraciones accidentales.
 
 ---
 
@@ -191,6 +259,19 @@ Una buena regla práctica: si la pregunta "¿qué pasa si esto sale mal?" no tie
 
 ---
 
+### Caso 4 — Consulta de procedimientos con NotebookLM en el equipo
+
+**Situación:** El departamento ha documentado cinco SOPs (pedidos de material, gestión de incidencias, aprobación de facturas, alta de proveedores y solicitud de vacaciones). Marta quiere convertirlos en una base de conocimiento consultable para que cualquier compañero pueda preguntar dudas sin interrumpirla.
+
+**Prompt exacto (dentro del notebook de NotebookLM, con los cinco SOPs como fuentes):**
+> "Eres el asistente de procedimientos del departamento de administración. Responde solo con la información que aparece en los SOPs subidos. Si la respuesta no está en los documentos, di exactamente: 'Este punto no está documentado todavía; consulta con la persona responsable'. Cita siempre el SOP de origen al final de cada respuesta. Pregunta de prueba: ¿qué hago si un proveedor habitual no puede servir el material en el plazo previsto?"
+
+**Resultado comentado:** NotebookLM responde con los pasos del SOP de pedidos de material (buscar proveedor alternativo, escalar a responsable si el importe supera 500 euros) y cita el documento de origen. Cuando Marta pregunta algo no documentado ("¿qué pasa si el solicitante quiere material no incluido en el catálogo aprobado?"), responde con la frase de fallback acordada, lo que revela un hueco en la documentación que merece un nuevo SOP o un anexo.
+
+**Cómo iterarlo:** Tras dos semanas de uso, Marta pide a NotebookLM: "Lista todas las preguntas que no has podido responder por falta de documentación en las últimas conversaciones." Esa lista se convierte en la agenda de la siguiente sesión de documentación del equipo: cada hueco identificado se transforma en un SOP nuevo o en una sección añadida a un SOP existente. Así, el uso real del notebook guía la mejora continua de la base de conocimiento.
+
+---
+
 ## 9. GLOSARIO
 
 **SOP (Standard Operating Procedure / Procedimiento Operativo Estándar):** Documento estructurado que describe cómo ejecutar un proceso de principio a fin de forma que cualquier persona competente pueda realizarlo sin depender de quien lo diseñó; incluye título, objetivo, responsable, pasos, excepciones y versión.
@@ -234,6 +315,10 @@ Una buena regla práctica: si la pregunta "¿qué pasa si esto sale mal?" no tie
 **Error 6 — Intentar automatizar decisiones que requieren criterio humano.** La automatización es adecuada para tareas repetitivas y predecibles. Las decisiones que tienen un impacto significativo en personas, las situaciones de excepción complejas y cualquier paso con consecuencias irreversibles deben mantenerse bajo supervisión humana.
 
 **Buena práctica — Asignar un responsable de mantenimiento a cada SOP.** Un SOP sin responsable no se actualiza nunca. Asignar explícitamente quién revisa y actualiza cada procedimiento, y con qué frecuencia (por ejemplo, una revisión anual o cuando cambia el proceso).
+
+**Buena práctica — Sustituir datos sensibles por marcadores antes de usar la IA.** Cuando se pega una descripción de proceso en ChatGPT, Claude o Gemini, conviene reemplazar nombres reales de personas, proveedores, importes y credenciales por marcadores genéricos ("Proveedor A", "Compañera responsable", "[IMPORTE]"). El SOP resultante se completa con los datos reales en local, dentro del Google Doc, sin que esa información haya pasado nunca por el chat.
+
+**Buena práctica — Probar el SOP con un compañero antes de publicarlo.** Antes de subir el SOP a la base de conocimiento del equipo, conviene que una persona que no haya intervenido en su redacción lo siga paso a paso para ejecutar el proceso. Los huecos detectados en esa prueba (instrucciones ambiguas, pasos implícitos, decisiones no documentadas) se corrigen antes de la publicación oficial, evitando errores en el uso real.
 
 ---
 
@@ -340,6 +425,24 @@ Respuesta: **Falso.** La IA genera la estructura y el formato del SOP a partir d
 **11. ¿Por qué es importante asignar un responsable de mantenimiento a cada SOP?**
 Respuesta abierta: Un SOP sin responsable asignado no se actualiza cuando cambia el proceso, lo que hace que quede obsoleto y deje de ser útil —o peor, que induzca a errores al seguir instrucciones desactualizadas. El responsable de mantenimiento revisa el procedimiento periódicamente y lo actualiza cuando el proceso cambia.
 
+**12. ¿Cuál de estas convenciones de nombrado es más recomendable para una carpeta compartida de oficina?**
+a) "Informe final v2 DEFINITIVO (1).docx"
+b) "ADM_SOP_PedidoMaterial_2026-07-01.docx" ✓
+c) "el documento de Marta nuevo.docx"
+d) "Documento 7 - copia (3).docx"
+
+**13. ¿Qué ventaja indirecta tiene la limitación de NotebookLM de responder solo sobre lo que está en sus fuentes?**
+a) Hace que el equipo use más Google Drive
+b) Reduce el coste de la herramienta para el equipo
+c) Incentiva a documentar más y mejor, porque cada hueco detectado se convierte en un procedimiento por escribir ✓
+d) Permite a la IA inventar respuestas cuando no encuentra información
+
+**14. Marta quiere actualizar un SOP porque ha cambiado el sistema de pedidos. ¿Cuál es la forma correcta de proceder?**
+Respuesta abierta: Abrir el SOP vigente en Google Docs, modificar los pasos afectados, actualizar la fecha y el número de versión en el pie de página y comunicar el cambio al responsable de mantenimiento y al resto del equipo. Si se usa IA, el prompt es: "Este SOP necesita actualización. El cambio es: [DESCRIBIR]. Modifica el SOP y actualiza la versión a la fecha de hoy."
+
+**15. Verdadero o falso: para crear un SOP con IA es seguro pegar la descripción del proceso con los nombres reales de proveedores, importes y credenciales.**
+Respuesta: **Falso.** En general, conviene sustituir nombres reales, importes concretos y credenciales por marcadores genéricos antes de pegar la descripción en el chat. Los datos reales se completan después, en local, dentro del Google Doc del SOP. Esa práctica evita filtraciones de información interna y suele estar exigida por la política de protección de datos de la organización.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -367,6 +470,12 @@ Puede usarse en cualquier formato. Para tareas de verificación rápida en entor
 
 **¿Cómo actualizo un SOP cuando cambia el proceso?**
 La forma más eficiente es volver al SOP en Google Docs, hacer los cambios necesarios (añadir, eliminar o modificar pasos) y actualizar la fecha de versión en el pie de página. Si usas IA para la actualización, el prompt es: "Este SOP necesita actualización. El cambio es: [DESCRIBIR EL CAMBIO]. Modifica el SOP para reflejar el nuevo procedimiento y actualiza la versión a la fecha de hoy."
+
+**¿Por dónde empiezo si en mi oficina no hay nada documentado todavía?**
+Empezar por el proceso que más te cuesta delegar cuando te ausentas, o el que más errores genera en el equipo. Documentar uno solo, con detalle y revisión, y comprobar en uso real que funciona. A partir de ese primer SOP, en general resulta más fácil convencer al equipo de seguir documentando porque ya hay un ejemplo concreto del beneficio. Crear veinte SOPs a la vez suele acabar con veinte documentos a medio terminar.
+
+**¿Puedo usar la IA para escribir el SOP sobre un proceso que aún no domino del todo?**
+Es posible, pero no recomendable como flujo principal. La IA solo puede estructurar y ordenar lo que tú le describes; no puede inventar conocimiento que tú no tienes. Si describes un proceso que entiendes a medias, el SOP resultante tendrá huecos o errores que la IA no detectará. Mejor entrevistar primero a quien sí domina el proceso, tomar notas y luego usar la IA para estructurarlas en formato SOP.
 
 ---
 
@@ -412,6 +521,8 @@ Para tu proyecto final: si tu solución implica sistematizar un proceso, el SOP 
 - Google Forms + Sheets es la automatización de bajo código más accesible para cualquier persona de oficina: sin programación, sin costes, con datos organizados desde el primer registro.
 - Un SOP sin fecha ni responsable de mantenimiento se vuelve obsoleto en meses y genera más confusión que su ausencia. Versionar siempre.
 - NotebookLM como base de conocimiento convierte los SOPs en una asistencia consultable: cualquier compañero puede preguntar "¿cómo se hace X?" y obtener la respuesta de los documentos del equipo, no de la memoria de nadie.
+- Antes de pegar una descripción en la IA, sustituye nombres reales, importes y credenciales por marcadores: el SOP se completa con los datos reales en local, dentro del documento del equipo.
+- No se automatizan las decisiones con impacto en personas ni las acciones irreversibles: si la pregunta "¿qué pasa si esto sale mal?" no tiene respuesta simple y reversible, el paso final lo confirma siempre una persona.
 
 ---
 
