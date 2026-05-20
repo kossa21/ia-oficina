@@ -47,7 +47,7 @@ Hoy es el último día del curso y el más memorable. Cada alumno presenta su pr
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El arte de presentar una solución técnica en 5 minutos
 
@@ -61,11 +61,23 @@ El tercer bloque, de 60 segundos, es el **impacto**: qué cambia con la solució
 
 El cuarto bloque, de 30 segundos, es el **próximo paso**: qué va a hacer el alumno con la solución a partir de mañana. "Mi próximo paso es documentar los prompts para compartirlos con mi equipo de tres personas." Esto demuestra que el proyecto no termina con la presentación.
 
+> **Puntos clave:**
+> - Estructura de 5 minutos en cuatro bloques: problema, demo, impacto, próximo paso.
+> - El problema se cuantifica con datos concretos para hacerlo visible.
+> - La demo es el bloque de mayor impacto: debe estar ensayada.
+> - El próximo paso muestra que el proyecto continúa tras presentar.
+
 ### Cómo dar feedback constructivo
 
 El feedback entre compañeros es uno de los momentos más valiosos del curso y uno de los más difíciles de hacer bien. El feedback útil tiene cuatro características: es específico (no "muy bien" sino "la demo fue muy clara porque mostraste el antes y el después"), es orientado a la mejora (señala qué mejoraría, no solo qué falló), es respetuoso del esfuerzo (reconoce lo que funciona antes de señalar lo que no), y es accionable (el receptor puede hacer algo concreto con él).
 
 La estructura de feedback que se usa en esta sesión tiene tres partes. Primero, **dos cosas que funcionaron bien**: específicas, no genéricas. "El problema estaba muy bien cuantificado" o "la demo fue fluida y se entendió el flujo completo". Segundo, **una pregunta**: algo que no quedó claro o que el evaluador quiere saber más. "¿Cómo manejas las respuestas que no encajan en ninguna de tus 5 plantillas?" es mejor que "no me quedó claro cómo funciona". Tercero, **una sugerencia**: algo concreto que el presentador podría mejorar o explorar. "Podrías añadir al Doc una sección de cuándo no usar la plantilla y redactar desde cero."
+
+> **Puntos clave:**
+> - El feedback útil es específico, orientado a mejora y accionable.
+> - Estructura 2+1+1: dos aciertos, una pregunta, una sugerencia.
+> - Reconocer lo que funciona antes de señalar lo mejorable.
+> - Evitar valoraciones genéricas como "muy bien" o "me gustó".
 
 ### El plan de 30 días: cómo no perder lo aprendido
 
@@ -79,11 +91,89 @@ La segunda acción (semanas 2–3) es de dificultad media: aplica algo del curso
 
 La tercera acción (semana 4) es la de mayor impacto y complejidad: desplegar el proyecto final en el entorno real o compartirlo con el equipo. Por ejemplo: "Compartir las 5 plantillas de respuesta a proveedores con mis dos compañeros del área y proponerles que las usen durante un mes."
 
+> **Puntos clave:**
+> - Tres acciones concretas ordenadas por dificultad creciente, con fecha específica.
+> - La primera acción se hace en menos de 30 minutos.
+> - Aplicar lo aprendido en 7 días triplica la retención.
+> - Acción de semana 4: compartir o desplegar con el equipo.
+
 ### Reflexión colectiva: qué cambia cuando una oficina usa IA bien
 
 La IA no es una moda tecnológica ni una promesa de futuro: es una herramienta disponible hoy mismo que cambia de forma concreta la ecuación de tiempo, calidad y esfuerzo en las tareas de oficina. Las personas que aprendieron a usarla en este curso tienen ahora una ventaja real frente a quienes no la usan: no la ventaja de tener acceso a una tecnología, sino la de saber qué preguntas hacer, cómo verificar los resultados y cómo integrar la herramienta en flujos de trabajo reales.
 
 Lo más importante que ha cambiado en estas 17 sesiones no es el conocimiento de las herramientas, que evolucionarán y cambiarán con el tiempo. Lo que ha cambiado es la forma de pensar ante una tarea repetitiva o un documento complejo: la primera pregunta ya no es "¿cómo lo hago?" sino "¿qué parte puede hacer la IA para que yo me centre en lo que realmente requiere mi criterio?"
+
+> **Puntos clave:**
+> - La IA cambia hoy mismo la ecuación de tiempo, calidad y esfuerzo.
+> - La ventaja real es saber qué preguntar y cómo verificar resultados.
+> - Cambia la forma de pensar, no solo las herramientas conocidas.
+> - La pregunta clave: qué parte puede hacer la IA por mí.
+
+### Cómo gestionar preguntas difíciles durante la demo
+
+Después de cada presentación llega el turno de preguntas, y es habitual que aparezca alguna que el alumno no esperaba: "¿Y si el proveedor pregunta algo que no está en tus 5 plantillas?", "¿Cómo sabes que la respuesta de la IA es correcta?", "¿No te preocupa que la IA se equivoque?" La forma de manejar estas preguntas marca la diferencia entre una presentación que convence y otra que se queda a medias.
+
+La primera regla es **no defenderse**. Una pregunta difícil no es un ataque, es interés: significa que la persona ha entendido lo suficiente como para detectar un límite. Reconocer el límite es más fuerte que negarlo. "Esa es una buena pregunta. Cuando la consulta no encaja en las 5 plantillas, redacto desde cero porque la plantilla no aporta valor en ese caso" es una respuesta que da más credibilidad que intentar justificar que las 5 plantillas lo cubren todo.
+
+La segunda regla es **separar lo que sabes de lo que no sabes**. Si la pregunta toca algo que no has probado, dilo: "No lo he probado todavía, pero mi plan es revisarlo en la primera semana de implementación." Esto es honestidad, no debilidad. Quien presenta con honestidad transmite confianza en el resto de lo que sí ha probado.
+
+La tercera regla es **convertir la pregunta en próxima iteración**. Una pregunta que detecta un hueco es información valiosa para mejorar la solución. "Me lo apunto para incorporarlo a la versión 2" cierra la pregunta y deja al presentador en posición activa: el proyecto no es estático, evoluciona con el feedback.
+
+> **Puntos clave:**
+> - Una pregunta difícil es interés, no ataque a la solución.
+> - Reconocer límites da más credibilidad que defender lo indefendible.
+> - Separar lo probado de lo no probado transmite confianza honesta.
+> - Convertir la pregunta en próxima iteración deja al presentador activo.
+
+### Cómo seguir aprendiendo después del curso: comunidades y recursos gratuitos
+
+El curso termina hoy, pero el aprendizaje sobre IA aplicada a la oficina apenas empieza. Las herramientas evolucionan rápido y aparecen nuevas funcionalidades de forma constante. La pregunta no es si seguir aprendiendo, sino cómo hacerlo sin perder tiempo en recursos de baja calidad.
+
+Las propias herramientas son la primera fuente de aprendizaje. ChatGPT, Gemini y Claude tienen blogs oficiales donde anuncian nuevas funcionalidades con ejemplos. NotebookLM, que se ha usado durante todo el curso, puede aplicarse a cualquier nuevo material que se quiera estudiar: subir un artículo o un PDF y pedirle un resumen en audio o un cuestionario es una forma rápida de aprender un tema nuevo sin tener que leerlo entero de inicio.
+
+La segunda fuente son los **boletines y canales especializados gratuitos**, en general con periodicidad semanal. Un boletín bien elegido (uno solo, no cinco) que llegue a tu correo cada semana con dos o tres novedades comentadas mantiene el conocimiento actualizado sin esfuerzo. La clave es no acumular fuentes: una sola fuente bien filtrada vence a diez fuentes sin filtrar.
+
+La tercera fuente son las **comunidades de práctica**: grupos de personas con perfiles similares al tuyo que comparten lo que funciona en su trabajo. Una comunidad de oficina puede ser un grupo informal de excompañeros del curso, un canal interno en la propia empresa, o un grupo profesional en alguna red. El valor de una comunidad no está en aprender técnicas avanzadas, sino en ver cómo otra persona con un puesto parecido al tuyo está usando la IA hoy.
+
+> **Puntos clave:**
+> - Las herramientas mismas son la primera fuente de aprendizaje continuo.
+> - Un boletín semanal bien elegido vence a diez sin filtrar.
+> - Las comunidades de práctica muestran usos reales en puestos similares.
+> - NotebookLM permite estudiar cualquier material nuevo de forma rápida.
+
+### Cómo documentar tu proyecto para que sobreviva al tiempo
+
+Un proyecto bien documentado sobrevive a las vacaciones, a un cambio de puesto y a las actualizaciones de las herramientas. Un proyecto sin documentar muere en cuanto su autor deja de usarlo durante dos semanas, porque ni el propio autor recuerda cómo lo construyó.
+
+La documentación mínima viable de un proyecto de IA aplicada a la oficina tiene cuatro elementos. El primero es **el problema que resuelve**, redactado en una frase: "Esta solución reduce el tiempo de respuesta a consultas de proveedores de 5-10 minutos a 1-2 minutos." Sin esta frase, dentro de seis meses nadie (incluido tú) recordará por qué se construyó.
+
+El segundo elemento son **los prompts exactos**, con sus campos variables marcados y un ejemplo de uso al lado. Un prompt sin ejemplo es difícil de adaptar; un prompt con ejemplo se entiende en 30 segundos. La biblioteca de prompts en Google Doc es el formato más simple y suficiente para la mayoría de los proyectos.
+
+El tercer elemento es **el flujo paso a paso**: qué se hace primero, qué después, dónde se guarda el resultado. Tres o cuatro pasos numerados bastan. Si el flujo tiene diez pasos, probablemente sea demasiado complejo para sostenerse en el tiempo.
+
+El cuarto elemento son **las excepciones**: los casos donde la solución no se aplica y hay que volver al método anterior. "Cuando el proveedor pregunta por una factura de más de 90 días, no uso las plantillas porque la respuesta requiere verificación manual con contabilidad." Esto evita usar mal la herramienta en casos límite.
+
+> **Puntos clave:**
+> - Sin documentar, un proyecto muere tras dos semanas sin usarlo.
+> - Cuatro elementos mínimos: problema, prompts, flujo y excepciones.
+> - Cada prompt necesita un ejemplo de uso al lado.
+> - Si el flujo tiene diez pasos, probablemente sea demasiado complejo.
+
+### Cómo construir un portfolio personal de casos de uso de IA
+
+Un portfolio de casos de uso es una colección breve y ordenada de los proyectos que has hecho con IA, pensada para mostrarla en una entrevista, en una conversación con tu jefe o simplemente para tener memoria de tu propio progreso. No es un documento académico: en general bastan una o dos páginas por caso.
+
+Cada caso del portfolio sigue la misma estructura que la presentación de 5 minutos: **problema cuantificado**, **solución** (con captura o ejemplo), **impacto medido** y **aprendizaje**. La diferencia con la presentación es que aquí el aprendizaje sí ocupa espacio: qué intenté que no funcionó, qué iteración me llevó a la versión final, qué haría diferente si lo hiciera ahora.
+
+El portfolio crece con el tiempo: en general, dos o tres casos al año son suficientes si están bien documentados. La calidad importa más que la cantidad. Un portfolio con tres casos sólidos transmite más valor que uno con doce casos superficiales. Y según experiencia del sector, los perfiles administrativos con un portfolio visible de mejoras concretas en su puesto suelen tener mejores oportunidades de promoción interna que perfiles equivalentes sin ese registro.
+
+El portfolio se guarda en un Google Doc o Drive personal (no en el del trabajo, para que sea tuyo si cambias de empresa) y se actualiza después de cada proyecto importante. El esfuerzo de añadir un caso al portfolio justo después de implementarlo es mínimo; recuperarlo seis meses después por memoria es casi imposible.
+
+> **Puntos clave:**
+> - Una o dos páginas por caso, no documento académico extenso.
+> - Misma estructura que la presentación más la sección de aprendizaje.
+> - Calidad sobre cantidad: tres casos sólidos vencen a doce superficiales.
+> - Guardar en Drive personal, no en el del trabajo.
 
 ---
 
@@ -125,6 +215,34 @@ Mostrar el Google Doc con las 5 plantillas. Abrir ChatGPT con el Gem configurado
 
 **Resultado comentado:** La IA genera tres acciones con fechas. El alumno ajusta las fechas a su calendario real y añade cualquier especificidad de su puesto. En 5 minutos tiene un plan escrito.
 
+**Cómo iterarlo:** Si las acciones que devuelve la IA son demasiado genéricas ("usar IA en mis correos"), añadir al prompt la frase "Cada acción debe ser tan concreta que sepa exactamente cuándo está hecha y cuánto tiempo me lleva" para forzar especificidad.
+
+---
+
+### Caso 3 — Feedback estructurado al proyecto de Marta
+
+**Situación:** Marta acaba de presentar su proyecto de banco de respuestas a proveedores. Le toca a su compañera dar feedback con la estructura 2+1+1.
+
+**Prompt exacto:**
+> "Ayúdame a estructurar el feedback a una compañera que acaba de presentar un proyecto de IA. Su proyecto: 5 plantillas de respuesta a proveedores con un Gem que las personaliza. La demo funcionó bien, el problema estaba cuantificado, no quedó claro qué pasa cuando la consulta no encaja en ninguna plantilla. Devuélveme: dos cosas que funcionaron bien (específicas), una pregunta (no genérica) y una sugerencia (accionable)."
+
+**Resultado comentado:** La IA propone: (1) "El problema estaba muy bien cuantificado con las 15-20 consultas semanales", (2) "La demo fue fluida y mostró el antes y el después", pregunta: "¿Cómo decides cuándo una consulta no encaja en ninguna plantilla y necesitas redactar desde cero?", sugerencia: "Podrías añadir al Doc una sección de 'cuándo no usar plantilla' para guiar al equipo cuando lo compartas." La compañera lee el feedback, lo ajusta a su tono natural y lo entrega de palabra.
+
+**Cómo iterarlo:** Si la IA devuelve feedback que suena artificial, pedirle "Reescríbelo como lo diría una compañera de oficina en una conversación informal, sin jerga." La autenticidad importa más que la perfección.
+
+---
+
+### Caso 4 — Documentar el proyecto al terminar la presentación
+
+**Situación:** Después de presentar, Marta quiere dejar documentado su proyecto antes de que se le olviden los detalles. Usa la IA para generar el borrador de la documentación.
+
+**Prompt exacto:**
+> "Ayúdame a documentar un proyecto de IA aplicada a mi puesto administrativo. El proyecto es un banco de 5 plantillas de respuesta a proveedores con un Gem configurado en Gemini. Genera un documento con cuatro secciones: (1) Problema que resuelve en una frase, (2) Los 5 prompts con campos variables marcados como CORCHETES_MAYÚSCULAS y un ejemplo de uso al lado de cada uno, (3) Flujo paso a paso de cómo usarlo en 3-4 pasos, (4) Excepciones: casos donde no aplico la plantilla. Usa lenguaje claro, no técnico."
+
+**Resultado comentado:** La IA devuelve el esqueleto de la documentación. Marta rellena los prompts reales y el ejemplo de cada uno, ajusta el flujo a cómo lo hace ella en la práctica y añade dos excepciones específicas de su área. En 20 minutos tiene una documentación que cualquier compañero podría leer y usar.
+
+**Cómo iterarlo:** Si la documentación queda demasiado larga o académica, pedirle "Hazla más breve: máximo dos páginas A4 cuando se imprima, lenguaje conversacional, como si se lo explicara a un compañero nuevo de mi área."
+
 ---
 
 ## 9. GLOSARIO
@@ -143,6 +261,20 @@ Mostrar el Google Doc con las 5 plantillas. Abrir ChatGPT con el Gem configurado
 
 **Impacto cuantificado:** Expresión del resultado de una solución en términos de tiempo ahorrado, frecuencia de uso o mejora medible; convierte una solución en un argumento para toda la organización.
 
+**Rúbrica de feedback:** Pauta de evaluación con la estructura 2+1+1 (dos aciertos específicos, una pregunta, una sugerencia accionable); evita el feedback genérico.
+
+**Pregunta difícil:** Pregunta del público que toca un límite o un caso no cubierto por la solución; oportunidad para mostrar honestidad y convertirla en próxima iteración.
+
+**Portfolio de casos de uso:** Colección breve y ordenada de proyectos personales de IA aplicada al puesto, con problema, solución, impacto y aprendizaje en cada caso.
+
+**Comunidad de práctica:** Grupo informal de personas con perfiles similares que comparten cómo usan la IA en su trabajo real; recurso clave para seguir aprendiendo tras el curso.
+
+**Boletín especializado:** Publicación periódica (en general semanal) que filtra novedades de IA con comentarios prácticos; una sola fuente bien elegida vence a varias sin filtrar.
+
+**Documentación mínima viable:** Conjunto de cuatro elementos (problema, prompts, flujo, excepciones) que permite a un proyecto sobrevivir al tiempo y a cambios de puesto.
+
+**Excepción documentada:** Caso límite explícitamente marcado en la documentación donde la solución de IA no se aplica y se vuelve al método anterior; evita el mal uso de la herramienta.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -156,6 +288,14 @@ Mostrar el Google Doc con las 5 plantillas. Abrir ChatGPT con el Gem configurado
 **Error 4 — Plan de 30 días demasiado ambicioso.** "Implementar IA en todos los procesos del departamento" no es una acción para 30 días. El plan funciona cuando las tres acciones son tan concretas que no hay ambigüedad sobre cuándo están hechas.
 
 **Buena práctica — Comparte tus prompts con el equipo.** El mayor multiplicador de impacto del curso no es que tú uses IA, sino que tus compañeros también la usen gracias a lo que tú compartes. Un Google Doc compartido con los mejores prompts del curso puede cambiar la dinámica de trabajo de un equipo entero.
+
+**Error 5 — Defenderse ante una pregunta difícil.** Cuando alguien hace una pregunta que toca un límite del proyecto, intentar justificar que el límite no existe baja la credibilidad. Reconocer el límite con honestidad y convertirlo en próxima iteración transmite más confianza que defenderse.
+
+**Error 6 — No documentar el proyecto después de presentarlo.** El día de la presentación todos los detalles están frescos; dos semanas después, ni el propio autor recuerda exactamente cómo funcionaba. Dejar la documentación para "cuando tenga tiempo" es equivalente a no documentar.
+
+**Buena práctica — Apunta una sola fuente de aprendizaje continuo.** Suscribirse a cinco boletines y diez canales sobre IA garantiza que no se lea ninguno. Una sola fuente bien elegida que llegue una vez por semana mantiene el conocimiento actualizado sin abrumar.
+
+**Buena práctica — Guarda los proyectos en un Drive personal, no del trabajo.** El portfolio personal de casos de uso es tuyo y debe seguir contigo si cambias de empresa. Guardarlo en el Drive del trabajo significa perderlo el día que ya no tengas acceso a esa cuenta.
 
 ---
 
@@ -256,6 +396,30 @@ d) Porque refuerzan lo aprendido en los módulos anteriores
 **10. ¿Cuál es la "pregunta de oro" que resume el cambio de mentalidad del curso?**
 Respuesta abierta: "**¿Usaría esto el lunes?**" Esta pregunta distingue los proyectos y las soluciones que tienen impacto real de los que son solo ejercicios. Si la respuesta es sí sin condiciones, la solución es buena.
 
+**11. Ante una pregunta difícil del público durante la demo, ¿cuál es la mejor reacción?**
+a) Defender la solución demostrando que el caso planteado no es relevante
+b) Reconocer el límite con honestidad y convertir la pregunta en próxima iteración ✓
+c) Decir que se mirará después y pasar al siguiente tema
+d) Pedir al formador que conteste por ti
+
+**12. ¿Cuáles son los cuatro elementos mínimos de la documentación de un proyecto?**
+a) Portada, índice, capítulos, bibliografía
+b) Resumen ejecutivo, contexto, desarrollo, conclusiones
+c) Problema, prompts con ejemplos, flujo paso a paso, excepciones ✓
+d) Objetivo, equipo, presupuesto, calendario
+
+**13. ¿Qué caracteriza a un portfolio personal de casos de uso bien construido?**
+a) Tener doce o más casos para mostrar variedad
+b) Casos extensos y muy técnicos
+c) Calidad sobre cantidad: pocos casos sólidos bien documentados ✓
+d) Casos solo del último año para mostrar actualidad
+
+**14. Verdadero o falso: para seguir aprendiendo después del curso es mejor suscribirse a cinco boletines distintos para no perderse nada.**
+Respuesta: **Falso**. Suscribirse a varios boletines suele acabar en que no se lea ninguno. Una sola fuente bien elegida, leída cada semana, mantiene el conocimiento actualizado sin abrumar.
+
+**15. ¿Por qué conviene guardar el portfolio personal en un Drive propio y no en el del trabajo?**
+Respuesta abierta: Porque el portfolio es **tuyo** y debe seguir contigo si cambias de empresa. Si se guarda en el Drive del trabajo, se pierde el acceso el día que dejas esa cuenta. Un Drive personal garantiza que el registro de tus proyectos te acompaña a lo largo de tu carrera.
+
 ---
 
 ## 15. PREGUNTAS FRECUENTES (FAQ)
@@ -277,6 +441,18 @@ Las propias herramientas (ChatGPT, Gemini, Claude) tienen documentación y tutor
 
 **¿Puedo compartir el material del curso con mis compañeros de trabajo?**
 El material del notebook del día (briefs) y el cheat-sheet son recursos que puedes compartir con tu equipo. Compartir los prompts y flujos que has creado es incluso mejor: el impacto del curso se multiplica cuando toda la oficina trabaja con las mismas herramientas.
+
+**¿Y si me ponen una pregunta para la que no tengo respuesta durante la demo?**
+Reconocerlo es lo más fuerte que puedes hacer. "No lo he probado todavía, me lo apunto para la próxima iteración" cierra la pregunta sin perder credibilidad y deja al proyecto en posición activa. Intentar improvisar una respuesta que no controlas suele notarse y baja la confianza del público.
+
+**¿Cuánto tiempo debería dedicar a documentar mi proyecto?**
+En general, una sesión de 20-30 minutos justo después de presentarlo es suficiente para una primera versión. Documentar mientras los detalles están frescos es mucho más eficiente que intentar reconstruirlos dos semanas después por memoria. Una documentación breve hoy vale más que una documentación completa que no se hace nunca.
+
+**¿Tiene sentido construir un portfolio si solo tengo un proyecto?**
+Sí. Empezar el portfolio con un solo caso bien documentado es mejor que esperar a tener tres o cuatro. El primer caso marca el formato y la disciplina; los siguientes se añaden con mucha menos fricción. Un portfolio que crece poco a poco a lo largo de los años acaba siendo un activo profesional importante.
+
+**¿Cómo elijo qué boletín o fuente seguir entre tantas opciones que hay?**
+Prueba dos o tres durante un mes y quédate con la que **realmente lees**. La mejor fuente no es la más prestigiosa, sino la que abres cada semana porque te resulta útil para tu puesto. Si en un mes no has abierto un boletín, no es para ti; cancela la suscripción sin culpa.
 
 ---
 
@@ -315,6 +491,8 @@ Desde el mapa de oportunidades de D01, pasando por el checkpoint de D09 y la con
 - El plan de 30 días solo funciona si las tres acciones tienen fecha específica y son lo suficientemente concretas como para saber cuándo están hechas.
 - Aplicar lo aprendido en los primeros 7 días multiplica por 3 la probabilidad de retención a largo plazo.
 - El mayor multiplicador del curso es compartir los prompts con el equipo: lo que aprendiste hoy puede cambiar la forma de trabajar de toda tu oficina.
+- Una pregunta difícil del público es interés, no ataque: reconocer el límite con honestidad transmite más confianza que defenderse.
+- Documentar el proyecto el mismo día de la presentación, con cuatro elementos mínimos, es lo que decide si la solución sobrevive al tiempo.
 
 ---
 
