@@ -47,13 +47,18 @@ Hoy el grupo aprende a construir un informe completo con IA usando un flujo de c
 
 ---
 
-## 6. DESARROLLO TEÓRICO
+## 6. DESARROLLO TEÓRICO EN PROSA
 
 ### El informe como herramienta de decisión
 
 Marta tiene que preparar el informe mensual de incidencias logísticas para la reunión del comité de dirección del viernes. Normalmente empieza a escribir directamente, sección por sección, hasta que llega al resumen ejecutivo y se da cuenta de que no encaja bien con el cuerpo. Relee todo, ajusta, cambia el orden de dos párrafos y al final dedica a ese informe entre tres y cuatro horas. Esta semana ha decidido probarlo de otra manera.
 
 Un informe no es solo un documento: es una decisión esperando ser tomada. El informe de incidencias logísticas no existe para informar, existe para que dirección decida si el proveedor actual sigue siendo viable, si hay que ampliar el almacén intermedio o si la ruta de distribución norte necesita una revisión. Si el informe no lleva al lector a esa decisión de forma clara, está mal escrito aunque sea impecable gramaticalmente. La IA puede ayudar a construir el andamiaje del informe —estructura, tono, coherencia— pero el criterio sobre qué decisiones hay que facilitar sigue siendo de Marta.
+
+> **Puntos clave:**
+> - Un informe no informa: facilita una decisión concreta; si el lector no sabe qué decidir, el informe está mal enfocado
+> - La IA construye el andamiaje (estructura, tono, coherencia); el criterio sobre qué decisiones facilitar es del autor
+> - Marta pasa de 3-4 horas a 45-60 min con el flujo de 4 pasos + verificación manual
 
 ### El flujo de cuatro pasos para construir un informe con IA
 
@@ -85,6 +90,11 @@ Marta genera este resumen en el cuarto paso, no en el primero. El resultado es u
 El prompt de revisión:
 > "Revisa el siguiente informe completo para asegurar coherencia de tono y contenido. Señala: (1) contradicciones entre secciones, (2) cambios de registro o tono no intencionales, (3) datos o afirmaciones que no estén respaldados por la información proporcionada. [PEGAR INFORME ANONIMIZADO]"
 
+> **Puntos clave:**
+> - Paso 1: índice primero (nunca empezar a escribir sin estructura aprobada)
+> - Paso 2: secciones por separado, cada una con sus datos específicos en el prompt
+> - Paso 3: resumen ejecutivo al final, nunca al principio; Paso 4: revisión de coherencia
+
 ### Adaptación a tres audiencias: el mismo informe, tres versiones
 
 Una de las tareas que más tiempo consume en un perfil administrativo es adaptar el mismo informe a diferentes destinatarios. El informe técnico de incidencias logísticas que necesita el equipo de operaciones no es el mismo que necesita ver la dirección, y ninguno de los dos es adecuado para enviar al cliente externo que pregunta por sus pedidos afectados.
@@ -103,6 +113,11 @@ El prompt de adaptación:
 > "Adapta el siguiente informe a una versión [técnica / ejecutiva / para cliente]. El destinatario es [descripción]. Ajusta el tono, el nivel de detalle y el vocabulario para ese público. Mantén todos los datos relevantes para ese destinatario y elimina los que no lo sean. [PEGAR TEXTO ANONIMIZADO]"
 
 Se trabaja cada versión en un prompt separado, no todas en el mismo. Pedir las tres versiones a la vez tiende a generar resultados menos precisos porque la IA no puede ajustar el foco a las tres audiencias simultáneamente.
+
+> **Puntos clave:**
+> - Versión técnica: terminología precisa, detalles metodológicos, datos completos
+> - Versión ejecutiva: solo conclusiones + decisiones + próximos pasos (test: ¿se puede decidir en 2 min?)
+> - Versión para cliente: lenguaje accesible, cero jerga, orientado al "¿qué significa esto para mí?"
 
 ### Cómo evitar alucinaciones en informes que se entregan a externos
 
@@ -125,6 +140,47 @@ Si la IA responde que ha añadido por su cuenta una estadística, una ley o un d
 
 La señal de alarma más importante es cuando la IA cita una ley, un reglamento o una estadística con gran precisión (número de ley, porcentaje exacto, año) que Marta no recuerda haber incluido en su material. Esa precisión no es garantía de exactitud: al contrario, cuanto más específico suene el dato no verificado, más sospechoso debe resultar.
 
+> **Puntos clave:**
+> - Instrucción fija: "Usa únicamente la información que te proporciono; no añadas datos externos"
+> - Verificación manual de todos los datos concretos antes de entregar a externos
+> - Señal de alarma: cifra muy precisa (decimales, número de ley, fecha exacta) no incluida en el material de partida
+
+### La consistencia de estilo entre secciones redactadas en distintos momentos
+
+Uno de los problemas menos visibles de los informes construidos sección por sección es la inconsistencia de estilo: la introducción tiene un tono formal y académico, la sección de análisis es más coloquial, y las conclusiones vuelven a ser formales. Esto ocurre porque cada sección se redactó en un prompt distinto, a veces con días de diferencia, y sin instrucciones explícitas de tono en cada uno. El resultado es un informe que parece escrito por varias personas, o que da la sensación de que algunas partes se copió y pegó de otra fuente. La solución es doble: incluir siempre la instrucción de tono y registro en cada prompt de sección ("Tono: formal, directo, sin metáforas. Registro: técnico-administrativo"), y usar el prompt de revisión de coherencia del paso 4 para detectar y corregir las inconsistencias que hayan escapado. Marta añadió a su plantilla de índice reutilizable una nota al inicio: "Estilo unificado para todas las secciones: tono formal, frases cortas, vocabulario de administración y logística, sin tecnicismos de otros sectores." Esa nota la pega al inicio de cada prompt de sección y el informe queda homogéneo desde el primer borrador.
+
+> **Puntos clave:**
+> - Incluir la instrucción de tono en cada prompt de sección, no solo en el primero
+> - El paso 4 (revisión de coherencia) detecta los cambios de registro no intencionales entre secciones
+> - Una nota de estilo al inicio del índice reutilizable garantiza homogeneidad sin esfuerzo adicional
+
+### El criterio profesional como capa irremplazable sobre el borrador de IA
+
+La IA genera borradores de informes de alta calidad formal, pero hay una dimensión que no puede aportar: el criterio profesional de quien conoce el contexto real. Marta sabe que el proveedor logístico del norte lleva tres meses con problemas de capacidad porque contrató a un nuevo cliente grande, y que eso afecta directamente a los plazos del primer trimestre del año que viene. Ese contexto no está en ningún prompt y no lo puede saber la IA. Un informe generado sin ese contexto puede ser formalmente correcto pero estratégicamente incompleto. La regla práctica es la siguiente: después de generar cada sección con IA, releer con la pregunta "¿qué sé yo sobre esta situación que la IA no puede saber?" y añadir manualmente los matices relevantes. Esos añadidos son el valor diferenciador del informe: la experiencia, el contexto histórico y las señales débiles que ninguna herramienta de IA puede detectar porque no estuvieron en ninguna reunión, en ningún pasillo ni en ningún correo anterior.
+
+> **Puntos clave:**
+> - La IA aporta estructura y forma; el autor aporta el contexto que no está en ningún prompt
+> - Preguntar tras cada sección: "¿qué sé yo que la IA no puede saber?" y añadirlo manualmente
+> - Los matices estratégicos, las señales débiles y el historial relacional son irremplazables por IA
+
+### Informes recurrentes: plantillas de índice como activo reutilizable
+
+Muchos informes en una empresa son recurrentes: el informe mensual de incidencias, el informe trimestral de actividad, el informe de cierre de proyecto, el informe de seguimiento presupuestario. Cada uno sigue siempre la misma estructura, con variaciones solo en los datos. Una vez que se ha construido y validado el índice de un tipo de informe, ese índice se convierte en una plantilla reutilizable que elimina el paso 1 del flujo en todos los informes siguientes del mismo tipo. Marta tiene ya tres plantillas de índice guardadas en su Google Doc de biblioteca de prompts: la del informe mensual de incidencias, la del informe trimestral de actividad y la del resumen ejecutivo de reunión de proveedores. Cada vez que tiene que preparar uno de esos informes, abre la plantilla correspondiente, rellena los datos del mes actual en los prompts de sección, y el paso 1 ya está hecho. Con el tiempo, las plantillas de índice se convierten en el activo más valioso de su flujo de trabajo con IA: garantizan consistencia entre informes del mismo tipo, reducen el tiempo de inicio y producen documentos que los destinatarios reconocen y saben leer de un mes para otro.
+
+> **Puntos clave:**
+> - Cada tipo de informe recurrente debe tener su plantilla de índice guardada en la biblioteca de prompts
+> - La plantilla elimina el paso 1 del flujo en todos los informes siguientes del mismo tipo
+> - Informes con índice consistente mes a mes son más fáciles de leer: el destinatario ya sabe dónde buscar
+
+### Cómo integrar datos de tablas y hojas de cálculo en el informe
+
+Una fuente habitual de información para los informes administrativos son las hojas de cálculo: ventas por zona, incidencias por tipo, evolución de costes. Integrar esos datos en el texto narrativo del informe es una de las tareas más tediosas: pasar de una tabla de números a un párrafo que los explica e interpreta puede llevar tanto tiempo como redactar el resto del informe. La IA hace esta traducción en segundos. El flujo es el siguiente: se copian los datos clave de la hoja de cálculo (solo los relevantes para esa sección, no toda la tabla), se pegan en el prompt junto con las instrucciones de redacción, y la IA genera el párrafo narrativo que los integra. El prompt es: "Describe en prosa los siguientes datos de tabla como si fueran el párrafo de análisis de un informe mensual. Destaca la tendencia principal, la variación más significativa y el dato más relevante para la decisión. No inventes datos adicionales. [DATOS DE LA TABLA]." La clave, como siempre, es verificar que los números del párrafo generado coinciden exactamente con los de la tabla original antes de incluirlo en el informe final.
+
+> **Puntos clave:**
+> - Pegar solo los datos relevantes de la tabla, no toda la hoja: la IA trabaja mejor con foco limitado
+> - El prompt pide destacar tendencia principal, variación más significativa y dato más relevante para decidir
+> - Verificar siempre que los números del párrafo generado coinciden con los de la tabla original
+
 ---
 
 ## 7. DATOS Y CIFRAS CLAVE
@@ -136,6 +192,7 @@ La señal de alarma más importante es cuando la IA cita una ley, un reglamento 
 - Antes / Después: adaptar informe técnico a 3 versiones → antes: 45–90 min; con IA: 8–12 min.
 - El 100 % de los datos concretos de un informe externo (fechas, cifras, normativas) deben verificarse manualmente independientemente de que los haya generado la IA.
 - Un informe que llega al destinatario con un dato incorrecto requiere en promedio 2 correcciones y 1 reunión de aclaración adicional para recuperar la confianza.
+- Informes recurrentes con plantilla de índice reutilizable: el paso 1 del flujo ya está hecho; tiempo de inicio reducido a cero en el segundo informe del mismo tipo.
 
 ---
 
@@ -183,6 +240,19 @@ La señal de alarma más importante es cuando la IA cita una ley, un reglamento 
 
 ---
 
+### Caso 4 — Integrar datos de una hoja de cálculo en el texto del informe
+
+**Situación:** Marta tiene una tabla con las incidencias de entrega del mes de junio: 23 incidencias por zona norte, 8 por zona sur, 14 por zona centro. La variación respecto a mayo es del +47 % en la zona norte. Tiene que convertir estos datos en el párrafo de análisis de la sección "Distribución de incidencias por zona" del informe mensual.
+
+**Prompt exacto:**
+> "Describe en prosa los siguientes datos de tabla como si fueran el párrafo de análisis de la sección 'Distribución de incidencias por zona' de un informe mensual para el comité de dirección. Destaca la tendencia principal (zona norte), la variación más significativa respecto al mes anterior (+47 %) y lo que eso puede implicar para la gestión del mes siguiente. Tono: formal, directo. Máximo 80 palabras. No añadas datos que no estén en los que te proporciono. DATOS: Zona norte: 23 incidencias (mayo: 14, variación: +47 %); zona sur: 8 incidencias (mayo: 9, variación: -11 %); zona centro: 14 incidencias (mayo: 15, variación: -7 %)."
+
+**Resultado comentado:** La IA genera un párrafo que integra los datos, destaca que la zona norte concentra el 51 % de las incidencias del mes y que su variación del +47 % es la más significativa, y señala que merece atención prioritaria en el mes siguiente. Marta verifica que los números del párrafo coinciden exactamente con su tabla y lo incluye en el informe.
+
+**Cómo iterarlo:** Si Marta quiere añadir una hipótesis sobre la causa del incremento en la zona norte: "Añade una frase que mencione que el incremento puede estar relacionado con el cambio de proveedor de transporte en esa zona durante el mes de junio, sin presentarlo como certeza sino como hipótesis a verificar."
+
+---
+
 ## 9. GLOSARIO
 
 **Informe ejecutivo (resumen ejecutivo):** Sección inicial del informe que resume en máximo 150 palabras los hallazgos principales y la recomendación prioritaria, pensada para lectores con poco tiempo disponible. Se redacta siempre al final, cuando el cuerpo del informe ya está completo.
@@ -205,6 +275,10 @@ La señal de alarma más importante es cuando la IA cita una ley, un reglamento 
 
 **Revisión cruzada:** Proceso por el que un compañero lee el informe con ojos frescos para detectar lo que el autor ya no ve: incoherencias, frases que suenan inventadas, datos que no encajan.
 
+**Plantilla de índice:** Estructura de secciones de un tipo de informe recurrente guardada en la biblioteca de prompts, que elimina el paso 1 del flujo en todos los informes posteriores del mismo tipo.
+
+**Datos de tabla integrados en prosa:** Proceso de convertir datos numéricos de hojas de cálculo en párrafos narrativos de análisis usando IA, con verificación posterior de que los números del párrafo coinciden con los de la tabla original.
+
 ---
 
 ## 10. ERRORES COMUNES Y BUENAS PRÁCTICAS
@@ -222,6 +296,8 @@ La señal de alarma más importante es cuando la IA cita una ley, un reglamento 
 **Buena práctica — Guardar el índice como plantilla reutilizable.** Si el tipo de informe se repite (mensual, trimestral, de incidencias, de seguimiento de proyecto), guardar el índice validado como plantilla. La próxima vez, el paso 1 del flujo ya está hecho.
 
 **Buena práctica — Hacer la revisión cruzada siempre.** Un informe que se ha redactado sección por sección y luego se ha ensamblado siempre tiene al menos una incoherencia que el autor no ve porque está demasiado cerca del texto. Que un compañero lo lea en cinco minutos antes de enviarlo puede evitar un error embarazoso.
+
+**Error 6 — No incluir la instrucción de tono en cada prompt de sección.** Si el tono se especifica solo en el primer prompt y no en los siguientes, el informe queda inconsistente: secciones en distintos registros que parecen escritas por personas distintas. La instrucción "Tono: [formal/directo/técnico]. Registro: [administrativo/ejecutivo]" debe repetirse en cada prompt de sección.
 
 ---
 
